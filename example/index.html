@@ -47,19 +47,19 @@
    <li class="dropdown">
      <a href="#" class="dropdown-toggle" data-toggle="dropdown">職業 <b class="caret"></b></a>
      <ul class="dropdown-menu">
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">Bard</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">Cleric</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">Druid</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">Fighter</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">Paladin</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">Ranger</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">Thief</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard">Wizard</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">吟遊詩人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">牧師</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">德魯伊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">戰士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">聖騎士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">遊俠</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">盜賊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard">法師</a></li>
        <li class="divider"></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells">Cleric Spells</a></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells">Wizard Spells</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells">牧師法術</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells">法師法術</a></li>
        <li class="divider"></li>
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion">Discussion - Class Moves</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion">討論 - 職業動作</a></li>
      </ul>
    </li>
    <li class="dropdown">
@@ -75,7 +75,7 @@
    <li class="dropdown">
      <a href="#" class="dropdown-toggle" data-toggle="dropdown">怪物 <b class="caret"></b></a>
      <ul class="dropdown-menu">
-        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview">Overview</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview">總覽</a></li>
        <li class="divider"></li>
          <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns">Cavern Dwellers</a> </li>
          <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk">Folk of the Realm</a> </li>
@@ -88,7 +88,7 @@
          <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments">Twisted Experiments</a> </li>
      </ul>
      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">附錄 <b class="caret"></b></a>
         <ul class="dropdown-menu">
            <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion">Conversion</a></li>
            <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/teaching">Teaching the Game</a></li>
@@ -167,15 +167,20 @@
     <script>
       $("#sidemenu-topnav").addClass('currentul');
       $("#sidemenu").prepend("<h3>目錄</h3>");
-      $("h2").each(function(i) {
-         var current = $(this);
-         current.attr("id", "title" + i);
-         var tag = current.prop("tagName");
-         
+      $("h2, .MonsterName").each(function(i) {
+          var current = $(this);
+          current.attr("id", "title" + i);
+          var tag = current.prop("tagName");
+          
+          var link_text = current.html();
+          if(current.context.className=="MonsterName"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>(.*)\<\/span\>/g, "($1)");
+          }
+          
 
-         $("ul.currentul").append("<li class='currentli'><a id='link" + i + "' href='#title" +
+          $("ul.currentul").append("<li class='currentli'><a id='link" + i + "' href='#title" +
             i + "' title='" + tag + "'>" + 
-            current.html() + "</a></li>");
+            link_text + "</a></li>");
       });
     </script>
   </body>
