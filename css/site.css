@@ -92,3 +92,8 @@ h3.MonsterName span.Tags {
 #site-nav input {
    font-size:80%;
 }
+
+.anchor {
+    padding-top: 60px;
+    margin-top: -60px;
+}
