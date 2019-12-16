@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 地城世界 HTML SRD</title>
-    <link>./categories/</link>
+    <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/categories/</link>
     <description>Recent content in Categories on 地城世界 HTML SRD</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="./categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
