@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tw">
   <head>
   <title>Planar Powers | 地城世界 HTML SRD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +14,7 @@
     
   </head>
   <body data-spy="scroll" data-target="#sidemenu">
-  <div id="wrap">
-   
+  
 <nav id="site-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
  
 <div class="navbar-header">
@@ -101,14 +100,15 @@
 </div>
 </nav>
 
-    <div class="container">
-       <div class="row">
-            <nav id="sidemenu" class="col-md-3">
+  <nav id="sidemenu" class="col-md-2">
    <ul id="sidemenu-topnav" class="nav">
    </ul>
 </nav>
 
-          <div class="col-md-6 col-md-offset-1">
+  <div id="wrap">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-8 col-md-offset-1">
              
 <h1>Planar Powers</h1>
 <h3 class="MonsterName">Angel	<span class="Tags">Solitary, Terrifying, Divine, Intelligent, Organized</span></h3>
@@ -226,16 +226,22 @@
     <script>
       $("#sidemenu-topnav").addClass('currentul');
       $("#sidemenu").prepend("<h3>目錄</h3>");
-      $("h2, .MonsterName").each(function(i) {
+      $("h2, h1, .MonsterName").each(function(i) {
           var current = $(this);
-          current.attr("id", "title" + i).addClass('anchor');
+          current.attr("id", "title" + i);
           var tag = current.prop("tagName");
           
           var link_text = current.html();
           if(current.context.className=="MonsterName"){
-            link_text = link_text.replace(/\<span class=\"Tags\"\>(.*)\<\/span\>/g, "($1)");
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+          }
+
+          if(tag=="H2" || tag=="H3"){
+            link_text = " - "+link_text;
           }
           
+
+          current.addClass('anchor');
 
           $("ul.currentul").append("<li class='currentli'><a id='link" + i + "' href='#title" +
             i + "' title='" + tag + "'>" + 

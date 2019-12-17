@@ -20,10 +20,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves_discussion/</loc>
   </url>
   
@@ -49,10 +45,6 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment/</loc>
   </url>
   
   <url>
@@ -177,6 +169,14 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment/</loc>
   </url>
   
 </urlset>

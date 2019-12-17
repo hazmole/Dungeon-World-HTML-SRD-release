@@ -12,6 +12,10 @@ body {
 }
 
 nav#sidemenu {
+  padding-bottom: 50px;
+  height: 85%;
+  overflow-y: auto;
+  position: fixed;
 }
 li.active,
 li.active:hover,
@@ -51,10 +55,13 @@ p.Item,p.MagicItem {
 }
 span.Tags {
    font-weight:normal;
-   font-style:italic;
+   /* font-style:italic; */
+   font-size: 0.9em;
+   padding-left: 10px;
 }
 p.ItemDescription {
    margin-left:.5em;
+   margin-top: -15px;
 }
 
 p.Instructions {
@@ -102,3 +109,20 @@ h3.MonsterName.anchor {
     margin-top: 0em;
 }
 
+hr {
+  border-color: #aaa;
+}
+
+@media only screen and (max-width: 600px) {
+  nav#sidemenu {
+    padding-bottom: 50px;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  #footer {
+    font-size: xx-small;
+    height: 80px;
+  }
+}
