@@ -113,6 +113,21 @@ hr {
   border-color: #aaa;
 }
 
+.MonsterStats:first-of-type {
+  margin: 0 0 0.2em;
+}
+.MonsterStats:nth-of-type(2) {
+  font-size: 1.3em;
+}
+
+
+tag {
+  font-size: 0.8em;
+  margin: 3px;
+  padding: 2px;
+  background: #ddd;
+}
+
 @media only screen and (max-width: 600px) {
   nav#sidemenu {
     padding-bottom: 50px;
