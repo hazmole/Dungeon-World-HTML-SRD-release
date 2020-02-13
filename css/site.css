@@ -88,6 +88,9 @@ p.ExampleDialogue,p.ExampleDialogueFirstLine,p.ExampleDialogueLastLine {
 h3.MonsterName {
    border-top:medium solid black;
    padding-top:1em;
+   padding-bottom: 0.2em;
+   margin-bottom: 0.2em;
+   border-bottom: solid 1px black;
 }
 h3.MonsterName span.Tags {
    font-size:70%;
@@ -113,13 +116,20 @@ hr {
   border-color: #aaa;
 }
 
-.MonsterStats:first-of-type {
+.MonsterStats {
   margin: 0 0 0.2em;
 }
-.MonsterStats:nth-of-type(2) {
+.MonsterStats + .MonsterStats  {
   font-size: 1.3em;
+  padding: 0 0 0.5em;
+  border-bottom: 1px solid black;
 }
 
+.MonsterQualities {
+  margin-bottom: 0.4em;
+  padding: 0 0 0.5em;
+  border-bottom: 1px solid black;
+}
 
 tag {
   font-size: 0.8em;
