@@ -28,10 +28,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation/</loc>
   </url>
   
@@ -112,31 +108,7 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger/</loc>
   </url>
   
   <url>
@@ -164,6 +136,10 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/</loc>
   </url>
   
@@ -172,11 +148,35 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/introduction/</loc>
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger/</loc>
   </url>
   
 </urlset>

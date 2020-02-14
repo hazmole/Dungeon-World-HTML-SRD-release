@@ -64,7 +64,7 @@ p.ItemDescription {
    margin-top: -15px;
 }
 
-p.Instructions {
+p.Instructions, p.InstructionsAfterHeader {
    background-color:#eee;
    padding:.5em;
 }
@@ -116,6 +116,15 @@ hr {
   border-color: #aaa;
 }
 
+/* Tag */
+tag {
+  font-size: 0.9em;
+  margin: 2px;
+  padding: 3px;
+  background: #ddd;
+}
+
+/* Monster Block */
 .MonsterStats {
   margin: 0 0 0.2em;
 }
@@ -124,18 +133,35 @@ hr {
   padding: 0 0 0.5em;
   border-bottom: 1px solid black;
 }
-
 .MonsterQualities {
   margin-bottom: 0.4em;
   padding: 0 0 0.5em;
   border-bottom: 1px solid black;
 }
+.MonsterDescription {
+  margin-bottom: 0.4em;
+}
 
-tag {
-  font-size: 0.8em;
-  margin: 3px;
-  padding: 2px;
-  background: #ddd;
+/* Moves Block */
+#racialmoves, #alignment {
+  margin-left: 1em;
+}
+.Move {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0.5em 0 1em;
+}
+.Move h3 {
+  margin-top: 0.2em;
+}
+.Move p {
+  margin-top: 0px;
+  margin-bottom: 0.2em;
+}
+
+/* Class */
+#look li{
+  margin-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 600px) {

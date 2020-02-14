@@ -49,18 +49,6 @@ Special moves come up a little more rarely. They cover things like gaining a lev
     </item>
     
     <item>
-      <title>Cavern Dwellers</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</guid>
-      <description>Cavern Dwellers掘地蟲	Group, LargeBite (d8+1 damage), 10 HP, 3 Armor
-Close, Reach
-Special Qualities: Burrowing
-A hide like plate armor and great crushing mandibles are problematic. A stomach full of acid that can burn a hole through a stone wall makes them all the worse. They’d be bad enough if they were proper insect-sized, but these things have the gall to be as long as any given horse.</description>
-    </item>
-    
-    <item>
       <title>Character Creation</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -231,45 +219,6 @@ Pitch ItBefore you play you’ll likely be explaining the game to your new play
     </item>
     
     <item>
-      <title>The Bard</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</guid>
-      <description>The BardThe poems say an adventurer’s life is all open roads and the glory of coin and combat. The tales told in every farmhand-filled inn have to have some ring of truth to them, don’t they? The songs to inspire peasantry and royals alike—to soothe the savage beast or drive men to a frenzy—have to come from somewhere.
-Enter the bard. You, with your smooth tongue and quick wit. You teller-of-tales and singer-of-songs.</description>
-    </item>
-    
-    <item>
-      <title>The Cleric</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</guid>
-      <description>The ClericThe lands of Dungeon World are a gods-forsaken mess. They’re lousy with the walking dead, beasts of all sorts, and the vast unnatural spaces between safe and temple-blessed civilizations. It is a godless world out there. That’s why it needs you.
-Bringing the glory of your god to the heathens isn’t just in your nature—it’s your calling. It falls to you to proselytize with sword and mace and spell.</description>
-    </item>
-    
-    <item>
-      <title>The Druid</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</guid>
-      <description>The DruidCast your eyes around the fire. What has brought you to these people, stinking of the dust and sweat of the city? Perhaps it is a kindness—do you protect them as the mother bear watches over her cubs? Are they your pack, now? Strange brothers and sisters you have. Whatever your inspiration, they would certainly fail without your sharp senses and sharper claws.
-You are of the sacred spaces; you are born of soil and wear the marks of her spirits on your skin.</description>
-    </item>
-    
-    <item>
-      <title>The Fighter</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</guid>
-      <description>The FighterIt’s a thankless job—living day to day by your armor and the skill of your arm. To dive heedlessly into danger. They won’t be playing golden horns for the time you took that knife to the ribs for them in the bar in Bucksberg. No flock of angels to sing of the time you dragged them, still screaming, from the edge of the Pits of Madness, no.</description>
-    </item>
-    
-    <item>
       <title>The GM</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -277,25 +226,6 @@ You are of the sacred spaces; you are born of soil and wear the marks of her spi
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics/</guid>
       <description>The GMThere are many different fantasy genres, each with their own style or advice for GMing. Dungeon World is designed for one of those styles in particular—a world of elves, orcs, dragons and magic where dark dangers mix with lighthearted adventure. The rules in this chapter will help you run a game in that style.
 The characters have rules to follow when they roll dice and take actions. The GM has rules to follow, too.</description>
-    </item>
-    
-    <item>
-      <title>The Paladin</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin/</guid>
-      <description>The PaladinHell awaits. An eternity of torment in fire or ice or whatever best suits the sins of the damned throngs of Dungeon World. All that stands between the pits of that grim torture and salvation is you. Holy man, armored war machine, templar of the Good and the Light, right? The cleric may say his prayers at night to the gods, dwelling in their heavens. The fighter may wield his sharp sword in the name of “good” but you know.</description>
-    </item>
-    
-    <item>
-      <title>The Ranger</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger/</guid>
-      <description>The RangerThese city-born folk you travel with. Have they heard the call of the wolf? Felt the winds howl in the bleak deserts of the East? Have they hunted their prey with the bow and the knife like you? Hell no. That’s why they need you.
-Guide. Hunter. Creature of the wilds. You are these things and more. Your time in the wilderness may have been solitary until now, but the call of some greater thing—call it fate if you like—has cast your lot with these folk.</description>
     </item>
     
     <item>
@@ -365,13 +295,109 @@ An item you touch glows with arcane light, about as bright as a torch. It gives 
     </item>
     
     <item>
+      <title>吟遊詩人</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</guid>
+      <description>吟遊詩人冒險者之詩乃是不斷向前之路，是錢幣與戰鬥的榮光。在那些鄉農滿座的酒館中被傳唱的故事，總有些許真實，對吧？那些鼓舞農民與國親的歌謠──那些撫慰野獸或讓人瘋狂的歌謠──必定其來有自。
+當個詩人吧。來，帶著你的巧舌與機智。你說故事，你唱歌謠。一名尋常樂手只會複誦，而真正的吟遊詩人活在其中。繫上你的靴子吧，高貴的演說家。磨利那把小刀，接受呼喚。總得有人要與那些暴徒、惡棍與即將成為英雄的人們並肩作戰。又有誰比你更能傳誦自己的英雄故事？
+沒有別人了。來吧。
+名稱 (Names)精靈: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, Pendrell, Melliandre, Dagoliir
+人類: Baldric, Leena, Dunwick, Willem, Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra
+外觀 (Look)從每列中各自選擇一項：
+Knowing Eyes, Fiery Eyes, or Joyous EyesFancy Hair, Wild Hair, or Stylish CapFinery, Traveling Clothes, or Poor ClothesFit Body, Well-fed Body, or Thin Body屬性數值 (Stats)你的最大生命值為 6+體質。
+你的基礎傷害骰為 d6。
+起始動作 (Starting Moves)選擇一個種族並獲得相應的動作：</description>
+    </item>
+    
+    <item>
       <title>基本動作</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves/</guid>
       <description>基本動作砍劈(Hack and Slash)When you attack an enemy in melee, roll+Str. On a 10+ you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.
-射擊(Volley)When you take aim and shoot at an enemy at range, roll+Dex.</description>
+射擊(Volley)When you take aim and shoot at an enemy at range, roll+Dex.</description>
+    </item>
+    
+    <item>
+      <title>德魯伊</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</guid>
+      <description>德魯伊環視火堆周圍，這些人滿是城市的塵埃與汗味，是什麼將你帶到這些人身邊？或許是慈愛吧──你是否如同母熊照看她的幼崽保護著他們？他們現在是你這群的嗎？你可真有群奇怪的兄弟姊妹。不管你有怎樣的靈感，沒有你銳利的感官和更銳利的獠爪，他們註定不會成功。
+你屬於神聖之所；你出生於母土，你的身上戴著她的靈魂之印。你可能也曾有過凡人的生活，或許你也像他們曾居於都城，如今卻已非如此。你拋棄了停滯的定型。聆聽你盟友對他們所雕神像的祈禱，聆聽他們的宗教寓言故事，講述他們將在早已被你拋棄的破爛小鎮中找回的榮耀。
+他們的諸神只是年幼的孩童，他們的鋼鐵只是虛假的保護。你走在古老的路上，披大地為衣。你會拿取屬於你的財寶，但你是否會走上與他們相同的路呢？只有時間知道。
+NamesElf: Hycorax, Ethanwe, Sinathel, Demanor, Menoliir, Mithralan, Taeros, Aegor
+Halfling: Tanner, Dunstan, Rose, Ivy, Robard, Mab, Thistle, Puck, Anne, Serah
+Human: Elana, Obelis, Herran, Syla, Andanna, Siobhan, Aziz, Pelin, Sibel, Nils, Wei
+LookChoose one for each:
+Wise Eyes, Wild Eyes, or Haunting Eyes
+Furry Hood, Messy Hair, or Braided Hair
+Ceremonial Garb, Practical Leathers, or Weathered Hides
+StatsYour maximum HP is 6+Constitution.</description>
+    </item>
+    
+    <item>
+      <title>戰士</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</guid>
+      <description>戰士這是份爛差事－－日復一日靠著你的盔甲和手上技巧討生活，不顧一切地跳入危險之中。當你在巴爾斯伯格的酒吧為他們兩肋插刀時，沒有人為你吹奏黃金號角。當你將還在尖叫的他們從瘋狂深淵的邊緣拽出時，沒有成群天使為你合唱。什麼都沒有。
+忘了他們吧。
+你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。
+你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。
+NamesDwarf: Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq
+Elf: Elohiir, Sharaseth, Hasrith, Shevaral, Cadeus, Eldar, Kithracet, Thelian
+Halfling: Finnegan, Olive, Randolph, Bartleby, Aubrey, Baldwin, Becca
+Human: Hawke, Rudiger, Gregor, Brianne, Walton, Castor, Shanna, Ajax, Hob
+LookChoose one for each:
+Hard Eyes, Dead Eyes, or Eager Eyes
+Wild Hair, Shorn Hair, or Battered Helm
+Calloused Skin, Tanned Skin, or Scarred Skin</description>
+    </item>
+    
+    <item>
+      <title>洞穴居族</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</guid>
+      <description>洞穴居族掘地蟲 (Ankheg)集團, 大型啃咬 (d8+1 傷害), 10 HP, 3 護甲
+近身, 及遠
+特殊性質: 掘地
+彷彿金屬板甲的厚皮和能碾碎一切的強力下顎就很糟糕了，而能將石牆腐蝕出孔洞的滿腹強酸更讓一切雪上加霜。如果牠們的大小和昆蟲相當，情況就已經夠壞的了，但這些該死玩意兒竟然還有膽子長的跟馬一樣長。這絕對不是自然產物！往好處想，還好牠們傾向待在同個地方……？哇，你說的可容易──這些掘地蟲又不是住在你家玉米田底下。 本能: 挖掘坑道
+在地底下挖掘坑道從地下猛然鑽出向前方噴吐強酸，腐蝕金屬和血肉穴鼠	(Cave Rat)成群, 小型嚙咬 (d6 傷害, 1 穿透), 7 HP, 1 護甲
+近身, 破壞性
+有誰沒看過老鼠嗎？牠們就像那樣，只不過又髒又大，而且再也不會怕你了。也許牠們跟你在韃邏的骯髒酒館中用陷阱捉到、用小刀殺死的小傢伙們是親戚，而也許牠們也正在伺機展開那小小的鼠式復仇。 本能: 吞噬
+蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 智能鎖喉 (d10 傷害), 15 HP, 2 護甲
+近身, 及遠
+特殊性質: 柔韌彈性
+有人說這些鬼東西是一名殘忍巫師的家族後裔，他們因為他而被強迫居住在地底。傳說，他可怕的實驗使他變得畏懼陽光，而隨著數個世紀過去，他也拖著他的族裔們一起墮落成了不死之軀。這些怪物在某種程度上與人類相似，有著一顆頭、四肢什麼的，只不過牠們的皮膚濕滑而柔韌，雙臂瘦長，指爪緊攫。正如人們所預料的那樣，牠們憎恨所有沾染著陽光臭味的生物。這長期灌輸的嫉妒，可沒那麼容易甩掉。 本能: 拒絕亮光
+緊緊擒抱某人，扭絞止住他們的呼吸。拋扔一個被擒抱住的生物斗篷偽怪 (Cloaker)單獨, 隱匿絞纏 (d10 傷害, 無視護甲), 12 HP, 1 護甲</description>
+    </item>
+    
+    <item>
+      <title>牧師</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</guid>
+      <description>牧師地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各種的野獸、跟廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
+將神之榮光帶給異教徒不只是你的本性──更是你的使命。你持著劍、槌和咒法宣教，劈開粗野的愚蠢之心，植入神聖之籽。有人說，最好讓神常伴你心。你知道那都是狗屁。神只住在刀鋒之上。
+向這個世界證明，誰才是它的主宰。
+NamesDwarf: Durga, Aelfar, Gerda, Rurgosh, Bjorn, Drummond, Helga, Siggrun, Freya
+Human: Wesley, Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahlia, Carmine
+LookChoose one for each:
+Kind Eyes, Sharp Eyes, or Sad Eyes
+Tonsure, Strange Hair, or Bald
+Flowing Robes, Habit, or Common Garb
+Thin Body, Knobby Body, or Flabby Body
+StatsYour maximum HP is 8+Constitution.
+Your base damage is d6.</description>
     </item>
     
     <item>
@@ -407,6 +433,27 @@ The ThiefYou’ve heard them, sitting around the campfire. Bragging about this 
     </item>
     
     <item>
+      <title>聖武士</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin/</guid>
+      <description>聖武士地獄正在等候。或寒冰，或烈火，或地城世界中那些該死罪人們所應得的懲罰，構成了此地的永恆折磨。殘虐或者救贖，一切由你。神聖之士，戰爭機器，全善與光明的聖堂武士，是吧？牧師或許在夜裡向天界上蒼祈禱。戰士或許會以「善」之名揮舞利劍。但只有你知道，何謂善。
+眾神之眼，之手，之殺戮神罰，這就是你。你所賜的乃是公義與美德－－乃是正義，乃是願景。你胸懷同伴們所欠缺的，純粹之意念。
+所以引導這些愚者吧，聖武士。擔負起你的聖潔使命，將救贖帶到這個破爛世界。
+敗者毋怨悽慘，對吧？
+NamesThaddeus, Augustine, Lux, Cassius, Hadrian, Lucia, Octavia, Regulus, Valeria, Sanguinus, Titanius
+LookChoose one for each:
+Kind Eyes, Fiery Eyes, or Glowing Eyes
+Helmet, Styled Hair, or Bald
+Worn Holy Symbol or Fancy Holy Symbol
+Fit Body, Bulky Body, or Thin Body
+StatsYour maximum HP is 10+Constitution.
+Your base damage is d10.
+Starting MovesYou are human, so you get this move.</description>
+    </item>
+    
+    <item>
       <title>裝備</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -431,6 +478,27 @@ n 重量 (n weight): 計算列有重量的物品的總重，並與你的負載�
 n 使用次數 (n Uses): 它只能被使用 n 次。 武器 (Weapons)殺死怪物的並非武器，而是揮舞它們的人。這也是為什麼《地城世界》中的武器並沒有列出其傷害數據。武器的主要重點在於其標籤，用來描述這把武器的用途與特性。一把匕首的重點並不在於它能造成比其他刀劍更多或更少的傷害，而在於它的小巧靈活，且能輕易地在極近距離下重創對手。因此，法師手中匕首的威脅性，就很明顯不如技巧純熟的戰士手上的那把匕首。
 武器標籤武器可能會帶有一些主要用以幫助你描述它們的標籤（例如「生鏽」或「閃閃發光」），但以下這些標籤除了描述的用途之外，還有著其他遊戲機制上的效果。
 n 彈藥 (n Ammo): It counts as ammunition for appropriate ranged weapons.</description>
+    </item>
+    
+    <item>
+      <title>遊俠</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger/</guid>
+      <description>遊俠與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
+嚮導、獵手、荒野的造物。你遠遠不只如此。你在荒野中一向孤獨，但那偉大之物的呼喚－－或許可以稱之為命運－－將你與這些都市人的命連繫在了一起。他們或許勇敢。或許強大健壯。但只有你通曉這兩者間的秘密。
+沒有你，他們就會迷失。在鮮血與黑暗之中燒出通往前方的道路吧，神行客。
+NamesElf: Throndir, Elrosine, Aranwe, Celion, Dambrath, Lanethe
+Human: Jonah, Halek, Brandon, Emory, Shrike, Nora, Diana
+LookChoose one for each:
+Wild Eyes, Sharp Eyes, or Animal Eyes
+Hooded Head, Wild Hair, or Bald
+Cape, Camouflage, or Traveling Clothes
+Lithe Body, Wild Body, or Sharp Body
+StatsYour maximum HP is 8+Constitution.
+Your base damage is d8.
+Starting MovesChoose a race and gain the corresponding move:</description>
     </item>
     
   </channel>

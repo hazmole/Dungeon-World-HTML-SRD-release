@@ -10,18 +10,6 @@
     
     
     <item>
-      <title>Cavern Dwellers</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</guid>
-      <description>Cavern Dwellers掘地蟲	Group, LargeBite (d8+1 damage), 10 HP, 3 Armor
-Close, Reach
-Special Qualities: Burrowing
-A hide like plate armor and great crushing mandibles are problematic. A stomach full of acid that can burn a hole through a stone wall makes them all the worse. They’d be bad enough if they were proper insect-sized, but these things have the gall to be as long as any given horse.</description>
-    </item>
-    
-    <item>
       <title>Dark Woods</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -124,6 +112,26 @@ A seasoned caravan guard learns to listen for the calls of a scout or sentry wit
 Close, Reach, Forceful
 Special Qualities: Many limbs, heads, and so on
 Corpses sewn onto corpses make up the bulk of these shambling masses of dark magic. Most undead are crafted to be controlled—made to serve some purpose like building a tower or serving as guardians. Not so the abomination. The last aspect of the ritual used to grant fire to their hellish limbs invokes a hatred so severe that the abomination knows but one task: to tear and rend at the very thing it cannot have—life.</description>
+    </item>
+    
+    <item>
+      <title>洞穴居族</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</guid>
+      <description>洞穴居族掘地蟲 (Ankheg)集團, 大型啃咬 (d8+1 傷害), 10 HP, 3 護甲
+近身, 及遠
+特殊性質: 掘地
+彷彿金屬板甲的厚皮和能碾碎一切的強力下顎就很糟糕了，而能將石牆腐蝕出孔洞的滿腹強酸更讓一切雪上加霜。如果牠們的大小和昆蟲相當，情況就已經夠壞的了，但這些該死玩意兒竟然還有膽子長的跟馬一樣長。這絕對不是自然產物！往好處想，還好牠們傾向待在同個地方……？哇，你說的可容易──這些掘地蟲又不是住在你家玉米田底下。 本能: 挖掘坑道
+在地底下挖掘坑道從地下猛然鑽出向前方噴吐強酸，腐蝕金屬和血肉穴鼠	(Cave Rat)成群, 小型嚙咬 (d6 傷害, 1 穿透), 7 HP, 1 護甲
+近身, 破壞性
+有誰沒看過老鼠嗎？牠們就像那樣，只不過又髒又大，而且再也不會怕你了。也許牠們跟你在韃邏的骯髒酒館中用陷阱捉到、用小刀殺死的小傢伙們是親戚，而也許牠們也正在伺機展開那小小的鼠式復仇。 本能: 吞噬
+蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 智能鎖喉 (d10 傷害), 15 HP, 2 護甲
+近身, 及遠
+特殊性質: 柔韌彈性
+有人說這些鬼東西是一名殘忍巫師的家族後裔，他們因為他而被強迫居住在地底。傳說，他可怕的實驗使他變得畏懼陽光，而隨著數個世紀過去，他也拖著他的族裔們一起墮落成了不死之軀。這些怪物在某種程度上與人類相似，有著一顆頭、四肢什麼的，只不過牠們的皮膚濕滑而柔韌，雙臂瘦長，指爪緊攫。正如人們所預料的那樣，牠們憎恨所有沾染著陽光臭味的生物。這長期灌輸的嫉妒，可沒那麼容易甩掉。 本能: 拒絕亮光
+緊緊擒抱某人，扭絞止住他們的呼吸。拋扔一個被擒抱住的生物斗篷偽怪 (Cloaker)單獨, 隱匿絞纏 (d10 傷害, 無視護甲), 12 HP, 1 護甲</description>
     </item>
     
   </channel>
