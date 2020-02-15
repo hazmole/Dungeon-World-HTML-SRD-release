@@ -64,9 +64,8 @@ You may need to make another character during play, if yours gets killed for exa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
-      <description>RotesEvery time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
-Light	Rote
-An item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.</description>
+      <description>Cleric SpellsRotesEvery time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
+LightRoteAn item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
     </item>
     
     <item>
@@ -75,7 +74,7 @@ An item you touch glows with divine light, about as bright as a torch. It gives 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</guid>
-      <description>Dark WoodsAssassin Vine	Solitary, Stealthy, AmorphousThorns (d10 damage, 1 piercing), 15 HP, 1 Armor
+      <description>Dark Woods殺手藤 (Assassin Vine)Solitary, Stealthy, AmorphousThorns (d10 damage, 1 piercing), 15 HP, 1 Armor
 Close, Reach, Messy
 Special Qualities: Plant
 Among the animals there exists a clear division ‘tween hunter and hunted. All it takes is a glance to know—by fangs and glowing eyes or claws or venomous sting—which of the creatures of this world are meant to kill and which stand to be killed. Such a split, if you have the eyes to see it, cuts the world of leaves and flowers in twain, as well.</description>
@@ -99,16 +98,6 @@ Three of the goblin warriors—drugged on narcotic vapors—charge the fighter B
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session/</guid>
       <description>First SessionThe first session of a game of Dungeon World begins with character creation. Character creation is also world creation, the details on the character sheets and the questions that you ask establish what Dungeon World is like—who lives in it and what’s going on.
 This section is for the GM so it’s addressed to you—the GM. For the players, the first session is just like every other. They just have to play their characters like real people and explore Dungeon World.</description>
-    </item>
-    
-    <item>
-      <title>Folk of the Realm</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</guid>
-      <description>Folk of the RealmAcolyte	“Can’t all be the High Priest, they said. Can’t all wield the White Spire, they said. Scrub the floor, they told me. The Cthonic Overgod don’t want a messy floor, do he? They said it’d be enlightenment and magic. Feh. It’s bruised knees and dishpan hands. If only I’d been a cleric, instead.” Instinct: To serve dutifully
-Follow dogmaOffer eternal reward for mortal deedsAdventurer	Horde, IntelligentSword (d6 damage), 3 HP, 1 Armor</description>
     </item>
     
     <item>
@@ -277,7 +266,7 @@ A seasoned caravan guard learns to listen for the calls of a scout or sentry wit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead/</guid>
-      <description>Undead LegionsAbomination	Solitary, Large, Construct, TerrifyingSlam (d10+3 damage), 20 HP, 1 Armor
+      <description>Undead Legions憎惡屍魔 (Abomination)Solitary, Large, Construct, TerrifyingSlam (d10+3 damage), 20 HP, 1 Armor
 Close, Reach, Forceful
 Special Qualities: Many limbs, heads, and so on
 Corpses sewn onto corpses make up the bulk of these shambling masses of dark magic. Most undead are crafted to be controlled—made to serve some purpose like building a tower or serving as guardians. Not so the abomination. The last aspect of the ritual used to grant fire to their hellish limbs invokes a hatred so severe that the abomination knows but one task: to tear and rend at the very thing it cannot have—life.</description>
@@ -290,8 +279,7 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
       <description>Wizard SpellsCantripsYou prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
-Light	Cantrip
-An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
+LightCantripAn item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
     </item>
     
     <item>
@@ -330,14 +318,14 @@ Knowing Eyes, Fiery Eyes, or Joyous EyesFancy Hair, Wild Hair, or Stylish CapF
       <description>德魯伊環視火堆周圍，這些人滿是城市的塵埃與汗味，是什麼將你帶到這些人身邊？或許是慈愛吧──你是否如同母熊照看她的幼崽保護著他們？他們現在是你這群的嗎？你可真有群奇怪的兄弟姊妹。不管你有怎樣的靈感，沒有你銳利的感官和更銳利的獠爪，他們註定不會成功。
 你屬於神聖之所；你出生於母土，你的身上戴著她的靈魂之印。你可能也曾有過凡人的生活，或許你也像他們曾居於都城，如今卻已非如此。你拋棄了停滯的定型。聆聽你盟友對他們所雕神像的祈禱，聆聽他們的宗教寓言故事，講述他們將在早已被你拋棄的破爛小鎮中找回的榮耀。
 他們的諸神只是年幼的孩童，他們的鋼鐵只是虛假的保護。你走在古老的路上，披大地為衣。你會拿取屬於你的財寶，但你是否會走上與他們相同的路呢？只有時間知道。
-NamesElf: Hycorax, Ethanwe, Sinathel, Demanor, Menoliir, Mithralan, Taeros, Aegor
+名稱 (Names)Elf: Hycorax, Ethanwe, Sinathel, Demanor, Menoliir, Mithralan, Taeros, Aegor
 Halfling: Tanner, Dunstan, Rose, Ivy, Robard, Mab, Thistle, Puck, Anne, Serah
 Human: Elana, Obelis, Herran, Syla, Andanna, Siobhan, Aziz, Pelin, Sibel, Nils, Wei
-LookChoose one for each:
+外觀 (Look)從每列中各自選擇一項：
 Wise Eyes, Wild Eyes, or Haunting Eyes
 Furry Hood, Messy Hair, or Braided Hair
 Ceremonial Garb, Practical Leathers, or Weathered Hides
-StatsYour maximum HP is 6+Constitution.</description>
+屬性數值 (Stats)Your maximum HP is 6+Constitution.</description>
     </item>
     
     <item>
@@ -350,11 +338,11 @@ Ceremonial Garb, Practical Leathers, or Weathered Hides
 忘了他們吧。
 你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。
 你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。
-NamesDwarf: Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq
+名稱 (Names)Dwarf: Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq
 Elf: Elohiir, Sharaseth, Hasrith, Shevaral, Cadeus, Eldar, Kithracet, Thelian
 Halfling: Finnegan, Olive, Randolph, Bartleby, Aubrey, Baldwin, Becca
 Human: Hawke, Rudiger, Gregor, Brianne, Walton, Castor, Shanna, Ajax, Hob
-LookChoose one for each:
+外觀 (Look)從每列中各自選擇一項：
 Hard Eyes, Dead Eyes, or Eager Eyes
 Wild Hair, Shorn Hair, or Battered Helm
 Calloused Skin, Tanned Skin, or Scarred Skin</description>
@@ -373,10 +361,10 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
 在地底下挖掘坑道從地下猛然鑽出向前方噴吐強酸，腐蝕金屬和血肉穴鼠	(Cave Rat)成群, 小型嚙咬 (d6 傷害, 1 穿透), 7 HP, 1 護甲
 近身, 破壞性
 有誰沒看過老鼠嗎？牠們就像那樣，只不過又髒又大，而且再也不會怕你了。也許牠們跟你在韃邏的骯髒酒館中用陷阱捉到、用小刀殺死的小傢伙們是親戚，而也許牠們也正在伺機展開那小小的鼠式復仇。 本能: 吞噬
-蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 智能鎖喉 (d10 傷害), 15 HP, 2 護甲
+蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 聰穎鎖喉 (d10 傷害), 15 HP, 2 護甲
 近身, 及遠
 特殊性質: 柔韌彈性
-有人說這些鬼東西是一名殘忍巫師的家族後裔，他們因為他而被強迫居住在地底。傳說，他可怕的實驗使他變得畏懼陽光，而隨著數個世紀過去，他也拖著他的族裔們一起墮落成了不死之軀。這些怪物在某種程度上與人類相似，有著一顆頭、四肢什麼的，只不過牠們的皮膚濕滑而柔韌，雙臂瘦長，指爪緊攫。正如人們所預料的那樣，牠們憎恨所有沾染著陽光臭味的生物。這長期灌輸的嫉妒，可沒那麼容易甩掉。 本能: 拒絕亮光
+有人說這些鬼東西是一名殘忍巫師的家族後裔，他們因為他而被迫居住在地底。傳說他可怕的實驗使他變得畏懼陽光，而隨著數個世紀過去，他也拖著他的族裔們一起墮落成了不死之軀。這些怪物在某種程度上與人類相似，有著一顆頭、四肢什麼的，只不過牠們的皮膚濕滑而柔韌，雙臂瘦長，指爪緊攫。正如人們所預料的那樣，牠們憎恨所有沾染著陽光臭味的生物。這長期灌輸的嫉妒，可沒那麼容易甩掉。 本能: 拒絕亮光
 緊緊擒抱某人，扭絞止住他們的呼吸。拋扔一個被擒抱住的生物斗篷偽怪 (Cloaker)單獨, 隱匿絞纏 (d10 傷害, 無視護甲), 12 HP, 1 護甲</description>
     </item>
     
@@ -389,15 +377,31 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
       <description>牧師地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各種的野獸、跟廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
 將神之榮光帶給異教徒不只是你的本性──更是你的使命。你持著劍、槌和咒法宣教，劈開粗野的愚蠢之心，植入神聖之籽。有人說，最好讓神常伴你心。你知道那都是狗屁。神只住在刀鋒之上。
 向這個世界證明，誰才是它的主宰。
-NamesDwarf: Durga, Aelfar, Gerda, Rurgosh, Bjorn, Drummond, Helga, Siggrun, Freya
+名稱 (Names)Dwarf: Durga, Aelfar, Gerda, Rurgosh, Bjorn, Drummond, Helga, Siggrun, Freya
 Human: Wesley, Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahlia, Carmine
-LookChoose one for each:
-Kind Eyes, Sharp Eyes, or Sad Eyes
-Tonsure, Strange Hair, or Bald
-Flowing Robes, Habit, or Common Garb
-Thin Body, Knobby Body, or Flabby Body
-StatsYour maximum HP is 8+Constitution.
+外觀 (Look)從每列中各自選擇一項：
+Kind Eyes, Sharp Eyes, or Sad EyesTonsure, Strange Hair, or BaldFlowing Robes, Habit, or Common GarbThin Body, Knobby Body, or Flabby Body屬性數值 (Stats)Your maximum HP is 8+Constitution.
 Your base damage is d6.</description>
+    </item>
+    
+    <item>
+      <title>王國住民</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</guid>
+      <description>王國住民侍僧 (Acolyte)「他們說，不是每個人都能當大祭司。他們說，不是每個人都能住在白色尖頂。去擦洗地板，他們告訴我，冥界至高神可不會希望看到骯髒的地板，喔是嗎？他們還說這裡將有啟蒙與魔法。呵，這裡只有瘀青的膝蓋和洗碗的雙手。唉，要是我是個牧師就好了。」 本能: 忠實地服侍
+遵循教條為凡人的行為提供永恆的獎賞冒險者 (Adventurer)成群, 聰穎利劍 (d6 傷害), 3 HP, 1 護甲
+近身
+特殊性質: 無盡的熱忱
+「地球上的渣滓，他們就是這種人。一群大搖大擺走進城鎮的武裝男女，揮舞炫耀著那總之能把這整個地方夷為平地的魔法和凡俗力量。他們那一袋又一袋的戰利品，還滴著那為此被他們所殺的可憐混蛋的鮮血。如果你問我的話，我會說一場經濟浩劫很快就要發生，整個經濟體系都將被連根拔起。這群危險，捉摸不定的要命流浪漢……噢，等等，你是個冒險者？那當我沒說。」 本能: 不冒險，毋寧死
+做一些徒勞的差事衝動行事分享過往輝煌的故事強盜 (Bandit)成群, 聰穎, 組織短劍 (d6 傷害), 3 HP, 1 護甲
+近身
+絕望，就是劫徒盜匪們的口號。當世道艱辛，除了拾起武器與一群骯髒粗鄙的男男女女一同上路之外，又能怎麼辦呢？儘管攔路搶劫、竊盜、欺詐、行騙和謀殺是如此罪大惡極，但我們都要討口飯吃，又有誰能怪罪他們的？不過話說回來，邪惡也確實存在某些人心中，而誰又能說絕望不是滿足某人低賤慾望所必須的呢？無論如何－－有時是因為這樣，有時則只是因為挨餓。 本能: 搶劫
+偷竊某物索要貢品強盜王 (Bandit King)單獨, 聰穎, 組織愛刀 (b[2d10] 傷害), 12 HP, 1 護甲
+近身
+寧在地獄為王，不在天堂稱臣。 本能: 領導
+發號施令敲詐推翻政權弄臣 (Fool)There’s not but one person in all the King’s court allowed to speak the truth.</description>
     </item>
     
     <item>
@@ -442,15 +446,15 @@ The ThiefYou’ve heard them, sitting around the campfire. Bragging about this 
 眾神之眼，之手，之殺戮神罰，這就是你。你所賜的乃是公義與美德－－乃是正義，乃是願景。你胸懷同伴們所欠缺的，純粹之意念。
 所以引導這些愚者吧，聖武士。擔負起你的聖潔使命，將救贖帶到這個破爛世界。
 敗者毋怨悽慘，對吧？
-NamesThaddeus, Augustine, Lux, Cassius, Hadrian, Lucia, Octavia, Regulus, Valeria, Sanguinus, Titanius
-LookChoose one for each:
+名稱 (Names)Thaddeus, Augustine, Lux, Cassius, Hadrian, Lucia, Octavia, Regulus, Valeria, Sanguinus, Titanius
+外觀 (Look)從每列中各自選擇一項：
 Kind Eyes, Fiery Eyes, or Glowing Eyes
 Helmet, Styled Hair, or Bald
 Worn Holy Symbol or Fancy Holy Symbol
 Fit Body, Bulky Body, or Thin Body
-StatsYour maximum HP is 10+Constitution.
+屬性數值 (Stats)Your maximum HP is 10+Constitution.
 Your base damage is d10.
-Starting MovesYou are human, so you get this move.</description>
+起始動作 (Starting Moves)You are human, so you get this move.</description>
     </item>
     
     <item>
@@ -489,16 +493,16 @@ n 彈藥 (n Ammo): It counts as ammunition for appropriate ranged weapons.</desc
       <description>遊俠與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
 嚮導、獵手、荒野的造物。你遠遠不只如此。你在荒野中一向孤獨，但那偉大之物的呼喚－－或許可以稱之為命運－－將你與這些都市人的命連繫在了一起。他們或許勇敢。或許強大健壯。但只有你通曉這兩者間的秘密。
 沒有你，他們就會迷失。在鮮血與黑暗之中燒出通往前方的道路吧，神行客。
-NamesElf: Throndir, Elrosine, Aranwe, Celion, Dambrath, Lanethe
+名稱 (Names)Elf: Throndir, Elrosine, Aranwe, Celion, Dambrath, Lanethe
 Human: Jonah, Halek, Brandon, Emory, Shrike, Nora, Diana
-LookChoose one for each:
+外觀 (Look)從每列中各自選擇一項：
 Wild Eyes, Sharp Eyes, or Animal Eyes
 Hooded Head, Wild Hair, or Bald
 Cape, Camouflage, or Traveling Clothes
 Lithe Body, Wild Body, or Sharp Body
-StatsYour maximum HP is 8+Constitution.
+屬性數值 (Stats)Your maximum HP is 8+Constitution.
 Your base damage is d8.
-Starting MovesChoose a race and gain the corresponding move:</description>
+起始動作 (Starting Moves)Choose a race and gain the corresponding move:</description>
     </item>
     
   </channel>

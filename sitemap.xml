@@ -52,10 +52,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</loc>
   </url>
   
@@ -161,6 +157,10 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</loc>
   </url>
   
   <url>

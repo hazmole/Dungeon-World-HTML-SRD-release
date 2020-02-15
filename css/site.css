@@ -92,7 +92,7 @@ h3.MonsterName {
    margin-bottom: 0.2em;
    border-bottom: solid 1px black;
 }
-h3.MonsterName span.Tags {
+h3.MonsterName span.Tags, h3.SpellName span.Tags {
    font-size:70%;
 }
 
@@ -116,6 +116,12 @@ hr {
   border-color: #aaa;
 }
 
+.pseudoTitle {
+  font-size: 41px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
 /* Tag */
 tag {
   font-size: 0.9em;
@@ -123,6 +129,10 @@ tag {
   padding: 3px;
   background: #ddd;
 }
+tag.red { background: #ecacac; }
+tag.blue { background: #bcdbf3; }
+tag.green { background: #bee0c0; }
+tag.purple { background: #cfb4ff; }
 
 /* Monster Block */
 .MonsterStats {
@@ -146,7 +156,7 @@ tag {
 #racialmoves, #alignment {
   margin-left: 1em;
 }
-.Move {
+.Move, .Spell {
   border: 1px solid black;
   padding: 5px;
   margin: 0.5em 0 1em;

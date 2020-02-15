@@ -274,13 +274,13 @@
     <script>
       $("#sidemenu-topnav").addClass('currentul');
       $("#sidemenu").prepend("<h3>目錄</h3>");
-      $("h2, h1, .MonsterName").each(function(i) {
+      $("h2, h1, .MonsterName, .SpellName").each(function(i) {
           var current = $(this);
           current.attr("id", "title" + i);
           var tag = current.prop("tagName");
           
           var link_text = current.html();
-          if(current.context.className=="MonsterName"){
+          if(current.context.className=="MonsterName" || current.context.className=="SpellName"){
             link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
           }
 
@@ -298,8 +298,30 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(tags_arr.map(tag=>"<tag>"+tag+"</tag>").join(""));
+        current.html(tags_arr.map(function(tag){
+            var className = "";
+            tag = tag.trim();
+            console.log(tag);
+            if(isRangeTag(tag))         className = "red";
+            if(isSizeTag(tag))          className = "green";
+            if(isOrganizationTag(tag))  className = "blue";
+            if(isSpellLevelTag(tag))    className = "purple";
+            return `<tag class="${className}">${tag}</tag>`;
+          }).join(""));
       });
+
+      function isSpellLevelTag(tag){
+        return (tag.match(/等級 \d+|禱念|戲法|Level \d+|Rote|Cantrip/))? true: false;
+      }
+      function isRangeTag(tag){
+        return (tag.match(/觸及|近身|及遠|短程|遠程|Hand|Close|Reach|Near|Far/))? true: false;
+      }
+      function isSizeTag(tag){
+        return (tag.match(/微型|小型|大型|巨型|Tiny|Small|Large|Huge/))? true: false;
+      }
+      function isOrganizationTag(tag){
+        return (tag.match(/成群|集團|單獨|Horde|Group|Solitary/))? true: false;
+      }
     </script>
   </body>
 </html>
