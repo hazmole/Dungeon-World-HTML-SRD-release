@@ -126,7 +126,7 @@
 <li>Fit Body, Well-fed Body, or Thin Body</li></ul></div>
 <hr/>
 <h2>屬性數值 (Stats)</h2>
-<p class="NoIndent">你的最大生命值為 6+體質。</p>
+<p class="NoIndent">你的最大生命值為 6+體質值。</p>
 <p class="NoIndent">你的基礎傷害骰為 <span id="Damage">d6</span>。</p>
 <hr/>
 <h2>起始動作 (Starting Moves)</h2>
@@ -301,13 +301,12 @@
         current.html(tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
-            console.log(tag);
             if(isRangeTag(tag))         className = "red";
             if(isSizeTag(tag))          className = "green";
             if(isOrganizationTag(tag))  className = "blue";
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
-          }).join(""));
+          }).join(" "));
       });
 
       function isSpellLevelTag(tag){

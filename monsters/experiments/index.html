@@ -267,13 +267,12 @@
         current.html(tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
-            console.log(tag);
             if(isRangeTag(tag))         className = "red";
             if(isSizeTag(tag))          className = "green";
             if(isOrganizationTag(tag))  className = "blue";
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
-          }).join(""));
+          }).join(" "));
       });
 
       function isSpellLevelTag(tag){

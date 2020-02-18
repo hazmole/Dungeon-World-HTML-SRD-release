@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</guid>
-      <description>Dark Woods殺手藤 (Assassin Vine)Solitary, Stealthy, AmorphousThorns (d10 damage, 1 piercing), 15 HP, 1 Armor
+      <description>Dark Woods殺手藤 (Assassin Vine)單獨, 隱匿, 不定型Thorns (d10 damage, 1 piercing), 15 HP, 1 Armor
 Close, Reach, Messy
 Special Qualities: Plant
 Among the animals there exists a clear division ‘tween hunter and hunted. All it takes is a glance to know—by fangs and glowing eyes or claws or venomous sting—which of the creatures of this world are meant to kill and which stand to be killed. Such a split, if you have the eyes to see it, cuts the world of leaves and flowers in twain, as well.</description>
@@ -112,14 +112,14 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</guid>
       <description>洞穴居族掘地蟲 (Ankheg)集團, 大型啃咬 (d8+1 傷害), 10 HP, 3 護甲
 近身, 及遠
-特殊性質: 掘地
+特性: 掘地
 彷彿金屬板甲的厚皮和能碾碎一切的強力下顎就很糟糕了，而能將石牆腐蝕出孔洞的滿腹強酸更讓一切雪上加霜。如果牠們的大小和昆蟲相當，情況就已經夠壞的了，但這些該死玩意兒竟然還有膽子長的跟馬一樣長。這絕對不是自然產物！往好處想，還好牠們傾向待在同個地方……？哇，你說的可容易──這些掘地蟲又不是住在你家玉米田底下。 本能: 挖掘坑道
 在地底下挖掘坑道從地下猛然鑽出向前方噴吐強酸，腐蝕金屬和血肉穴鼠	(Cave Rat)成群, 小型嚙咬 (d6 傷害, 1 穿透), 7 HP, 1 護甲
 近身, 破壞性
 有誰沒看過老鼠嗎？牠們就像那樣，只不過又髒又大，而且再也不會怕你了。也許牠們跟你在韃邏的骯髒酒館中用陷阱捉到、用小刀殺死的小傢伙們是親戚，而也許牠們也正在伺機展開那小小的鼠式復仇。 本能: 吞噬
 蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 聰穎鎖喉 (d10 傷害), 15 HP, 2 護甲
 近身, 及遠
-特殊性質: 柔韌彈性
+特性: 柔韌彈性
 有人說這些鬼東西是一名殘忍巫師的家族後裔，他們因為他而被迫居住在地底。傳說他可怕的實驗使他變得畏懼陽光，而隨著數個世紀過去，他也拖著他的族裔們一起墮落成了不死之軀。這些怪物在某種程度上與人類相似，有著一顆頭、四肢什麼的，只不過牠們的皮膚濕滑而柔韌，雙臂瘦長，指爪緊攫。正如人們所預料的那樣，牠們憎恨所有沾染著陽光臭味的生物。這長期灌輸的嫉妒，可沒那麼容易甩掉。 本能: 拒絕亮光
 緊緊擒抱某人，扭絞止住他們的呼吸。拋扔一個被擒抱住的生物斗篷偽怪 (Cloaker)單獨, 隱匿絞纏 (d10 傷害, 無視護甲), 12 HP, 1 護甲</description>
     </item>
@@ -133,7 +133,7 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
       <description>王國住民侍僧 (Acolyte)「他們說，不是每個人都能當大祭司。他們說，不是每個人都能住在白色尖頂。去擦洗地板，他們告訴我，冥界至高神可不會希望看到骯髒的地板，喔是嗎？他們還說這裡將有啟蒙與魔法。呵，這裡只有瘀青的膝蓋和洗碗的雙手。唉，要是我是個牧師就好了。」 本能: 忠實地服侍
 遵循教條為凡人的行為提供永恆的獎賞冒險者 (Adventurer)成群, 聰穎利劍 (d6 傷害), 3 HP, 1 護甲
 近身
-特殊性質: 無盡的熱忱
+特性: 無盡的熱忱
 「地球上的渣滓，他們就是這種人。一群大搖大擺走進城鎮的武裝男女，揮舞炫耀著那總之能把這整個地方夷為平地的魔法和凡俗力量。他們那一袋又一袋的戰利品，還滴著那為此被他們所殺的可憐混蛋的鮮血。如果你問我的話，我會說一場經濟浩劫很快就要發生，整個經濟體系都將被連根拔起。這群危險，捉摸不定的要命流浪漢……噢，等等，你是個冒險者？那當我沒說。」 本能: 不冒險，毋寧死
 做一些徒勞的差事衝動行事分享過往輝煌的故事強盜 (Bandit)成群, 聰穎, 組織短劍 (d6 傷害), 3 HP, 1 護甲
 近身
@@ -141,7 +141,7 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
 偷竊某物索要貢品強盜王 (Bandit King)單獨, 聰穎, 組織愛刀 (b[2d10] 傷害), 12 HP, 1 護甲
 近身
 寧在地獄為王，不在天堂稱臣。 本能: 領導
-發號施令敲詐推翻政權弄臣 (Fool)There’s not but one person in all the King’s court allowed to speak the truth.</description>
+發號施令敲詐推翻政權弄臣 (Fool)在眾臣中就只有這麼一個人被允許在王宮中說出真話：一切真實、直接而誠實的真相。弄臣將這一切藉著鈴鐺、歡躍騰跳、以及粉白妝容表達了出來，而除他之外又有誰能夠告訴國王孰是孰非？你可以信任弄臣，他們這麼說，尤其是當他把你搞得面紅耳赤，而你情願把他淹死在糞坑的時候。 本能: 嘲弄</description>
     </item>
     
   </channel>
