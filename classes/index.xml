@@ -10,16 +10,6 @@
     
     
     <item>
-      <title>Cleric Spells</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
-      <description>Cleric SpellsRotesEvery time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
-LightRoteAn item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
-    </item>
-    
-    <item>
       <title>Moves in Detail</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,16 +38,6 @@ Sure, they give you lip for all the times you’ve snuck off alone but without y
       <description>The WizardDungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?
 Oh, the things we tell ourselves to feel better about the long, dark nights.
 You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul.</description>
-    </item>
-    
-    <item>
-      <title>Wizard Spells</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
-      <description>Wizard SpellsCantripsYou prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
-LightCantripAn item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
     </item>
     
     <item>
@@ -117,6 +97,16 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
     </item>
     
     <item>
+      <title>法師法術</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
+      <description>法師法術戲法You prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
+LightCantripAn item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.</description>
+    </item>
+    
+    <item>
       <title>牧師</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -130,6 +120,16 @@ Human: Wesley, Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahli
 外觀 (Look)從每列中各自選擇一項：
 Kind Eyes, Sharp Eyes, or Sad EyesTonsure, Strange Hair, or BaldFlowing Robes, Habit, or Common GarbThin Body, Knobby Body, or Flabby Body屬性數值 (Stats)Your maximum HP is 8+Constitution.
 Your base damage is d6.</description>
+    </item>
+    
+    <item>
+      <title>牧師法術</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
+      <description>牧師法術禱念Every time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
+光亮術 (Light)禱念An item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
     </item>
     
     <item>

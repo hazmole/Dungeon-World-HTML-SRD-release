@@ -287,7 +287,7 @@ Choose one:
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(tags_arr.map(function(tag){
+        current.html(" "+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";

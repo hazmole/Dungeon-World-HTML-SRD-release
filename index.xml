@@ -59,28 +59,6 @@ You may need to make another character during play, if yours gets killed for exa
     </item>
     
     <item>
-      <title>Cleric Spells</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
-      <description>Cleric SpellsRotesEvery time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
-LightRoteAn item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
-    </item>
-    
-    <item>
-      <title>Dark Woods</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</guid>
-      <description>Dark Woods殺手藤 (Assassin Vine)單獨, 隱匿, 不定型Thorns (d10 damage, 1 piercing), 15 HP, 1 Armor
-Close, Reach, Messy
-Special Qualities: Plant
-Among the animals there exists a clear division ‘tween hunter and hunted. All it takes is a glance to know—by fangs and glowing eyes or claws or venomous sting—which of the creatures of this world are meant to kill and which stand to be killed. Such a split, if you have the eyes to see it, cuts the world of leaves and flowers in twain, as well.</description>
-    </item>
-    
-    <item>
       <title>Example of Play</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -273,16 +251,6 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
     </item>
     
     <item>
-      <title>Wizard Spells</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
-      <description>Wizard SpellsCantripsYou prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
-LightCantripAn item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
-    </item>
-    
-    <item>
       <title>吟遊詩人</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -305,8 +273,34 @@ Knowing Eyes, Fiery Eyes, or Joyous EyesFancy Hair, Wild Hair, or Stylish CapF
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves/</guid>
-      <description>基本動作砍劈(Hack and Slash)When you attack an enemy in melee, roll+Str. On a 10+ you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.
-射擊(Volley)When you take aim and shoot at an enemy at range, roll+Dex.</description>
+      <description>基本動作砍劈(Hack and Slash)當你以近戰肉搏攻擊敵人時，擲+力量。✴擲出10+時，你對敵人造成傷害並避開其攻擊。你也可以選擇造成額外+1d6傷害，但將自己暴露在敵人的攻擊之下。✴擲出7-9時，你對敵人造成傷害，且敵人對你進行攻擊。
+射擊(Volley)當你瞄準並射擊遠方的敵人時，擲+敏捷。✴擲出10+時，你成功命中目標－－造成你的傷害。✴擲出7-9時，選擇下列一項（無論選擇哪一項，你都可以對其造成傷害）：
+你必須移動位置才能射中目標，這將使你置身GM所決定的危險當中。你必須妥協：-1d6傷害。你必須射好幾箭，減少 1發彈藥。面對危險(Defy Danger)當你在迫在眉睫的威脅之下採取行動或即將遭受災難性的後果，敘述你要如何處理它並擲骰。如果你……
+……靠蠻力解決，擲+力量。……靠迅速行動或躲避開來，擲+敏捷。……靠耐力忍受，擲+體質。……藉由臨機應變，擲+智力。……透過堅毅的精神，擲+睿知。……使用魅力與社交禮儀，擲+魅力。✴擲出10時，你做出你預計執行的行動，該威脅不會應驗。✴擲出7-9時，你躊躇、猶豫、或退縮了：GM會給你一個更糟的後果、妥協，或是困難的抉擇。
+保衛(Defend)當你挺身保護一個遭受攻擊的人、物品、或地點時，擲+體質。✴擲出10+時，獲得 3掌握。✴擲出7-9時，獲得 1掌握。只要你仍維持保衛，當你或你的保衛對象遭受攻擊時，你可以消耗掌握，每消耗 1掌握就可以從下列選擇一項：
+將針對保衛對象的攻擊導向你自己。將該攻擊的效果或傷害減半。使攻擊者露出破綻，讓一名夥伴在對付他時獲得下次+1。對攻擊者造成等同於你等級的傷害。憶述見聞(Spout Lore)當你回憶自己積累下來，關於某個事物的知識時，擲+智力。✴擲出10+時，GM會就你的情況告訴你一件有趣且有用的情報。✴擲出7-9時，GM只會告訴你一件有趣的情報－－你必須自己設法讓它派上用場。GM可能會詢問你「你是怎麼知道的？」現在，陳述事實吧。
+審視現狀(Discern Realities)當你仔細地研究一個情景或人物時，擲+睿知：✴擲出10+時，從下列清單中選擇三個問題詢問GM。✴擲出7-9時，則只能詢問一個問題。當依據答案而採取行動時，獲得下次+1。
+這裡最近發生了什麼事？這裡有什麼即將發生？我應該要注意些什麼？這裡有什麼是對我有價值或派得上用場的？誰才是掌控這裡的人？這裡有什麼與其表面所見不同？談判(Parley)當你擁有籌碼以利用GM的角色，且打算操弄他們時，擲+魅力。這個籌碼必須是他們所需要或想要的事物。✴擲出10+時，他們會向你要求某件事，且若你先做出承諾，則他們將依你所言行事。✴擲出7-9時，他們將要求一些關於你承諾的具體保證，現在就要。
+援助或干擾(Aid or Interfere)當你幫助或阻撓某人時，擲+對他們的羈絆。✴擲出10+時，他們的擲骰獲得+1或-2，由你決定。✴擲出7-9時，你同時也將讓自己承擔危險、報應、或代價。</description>
+    </item>
+    
+    <item>
+      <title>幽暗森林</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</guid>
+      <description>幽暗森林殺手藤 (Assassin Vine)單獨, 隱匿, 不定型荊棘 (d10 傷害, 1 穿透), 15 HP, 1 護甲
+近身, 及遠, 毀亂
+特性: 植物
+在動物的世界中，狩獵者與獵物之間存在著明顯的區別。你只需一眼就能看穿－－透過那鋒利尖牙和發光眼瞳、或利爪、或毒刺－－這個世界上的某些生物就是注定要殺戮，而某些則是注定被獵殺。或許你能發現，這類差異也同樣將這個世界上的綠葉鮮花分成了兩半。在森林結社的德魯伊們清楚知曉這件事。遊俠們，也可能會在為時已晚前發現這種植物。然而，那些平民百姓，當他們徘徊在他們不應前往之處－－當他們深入爬藤蔓生的森林深處，忽然，啪噠一聲，這些飢餓的藤索緊緊纏勒，將這些肥美的獵物拖進了灌木叢中。注意你的腳步，旅人唷。 本能: 成長茁壯
+長出新芽攻擊粗心大意的目標閃現犬 (Blink Dog)集團, 小型, 魔法, 組織啃咬 (d8 傷害), 6 HP, 4 護甲
+近身
+特性: 幻象
+你剛才看見牠，現在就不見了。這些獵犬曾經被一名巫師領主擁有，並被灌注了某種幻術魔法構成的偽裝。牠們逃進了他領地周遭的森林，並與那做森林內的狼群和野犬繁衍後代。如果你夠幸運，你也許能透過牠們那閃閃發亮的銀色毛皮以及那怪異的嚎叫聲來找到牠們。牠們擁有一種非凡天賦，讓牠們可以不完全處在牠們看起來所在的位置，並利用這種天賦來擊倒那些遠比牠們強大的獵物。如果你發現自己必須面對一群閃現犬，不妨閉上眼睛與牠們交戰。在不被自然視覺所背叛的情況下，戰鬥可能會更輕鬆一些。正是因為這種邪佞巫術，這個世界的自然環境正逐漸被不自然的產物給玷汙。 本能: 狩獵
+讓自己看起來像是位於牠們不存在的位置假象召喚犬群以驚人的速度移動半人馬 (Centaur)成群, 大型, 組織, 聰穎弓 (d6+2 傷害, 1 穿透), 11 HP, 1 護甲
+近身, 及遠, Near
+特性: 半人半馬</description>
     </item>
     
     <item>
@@ -349,6 +343,16 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
     </item>
     
     <item>
+      <title>法師法術</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
+      <description>法師法術戲法You prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
+LightCantripAn item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.</description>
+    </item>
+    
+    <item>
       <title>洞穴居族</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -359,7 +363,7 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
 特性: 掘地
 彷彿金屬板甲的厚皮和能碾碎一切的強力下顎就很糟糕了，而能將石牆腐蝕出孔洞的滿腹強酸更讓一切雪上加霜。如果牠們的大小和昆蟲相當，情況就已經夠壞的了，但這些該死玩意兒竟然還有膽子長的跟馬一樣長。這絕對不是自然產物！往好處想，還好牠們傾向待在同個地方……？哇，你說的可容易──這些掘地蟲又不是住在你家玉米田底下。 本能: 挖掘坑道
 在地底下挖掘坑道從地下猛然鑽出向前方噴吐強酸，腐蝕金屬和血肉穴鼠	(Cave Rat)成群, 小型嚙咬 (d6 傷害, 1 穿透), 7 HP, 1 護甲
-近身, 破壞性
+近身, 毀亂
 有誰沒看過老鼠嗎？牠們就像那樣，只不過又髒又大，而且再也不會怕你了。也許牠們跟你在韃邏的骯髒酒館中用陷阱捉到、用小刀殺死的小傢伙們是親戚，而也許牠們也正在伺機展開那小小的鼠式復仇。 本能: 吞噬
 蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 聰穎鎖喉 (d10 傷害), 15 HP, 2 護甲
 近身, 及遠
@@ -382,6 +386,16 @@ Human: Wesley, Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahli
 外觀 (Look)從每列中各自選擇一項：
 Kind Eyes, Sharp Eyes, or Sad EyesTonsure, Strange Hair, or BaldFlowing Robes, Habit, or Common GarbThin Body, Knobby Body, or Flabby Body屬性數值 (Stats)Your maximum HP is 8+Constitution.
 Your base damage is d6.</description>
+    </item>
+    
+    <item>
+      <title>牧師法術</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
+      <description>牧師法術禱念Every time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
+光亮術 (Light)禱念An item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
     </item>
     
     <item>
@@ -482,7 +496,7 @@ n 重量 (n weight): 計算列有重量的物品的總重，並與你的負載�
 n 使用次數 (n Uses): 它只能被使用 n 次。 武器 (Weapons)殺死怪物的並非武器，而是揮舞它們的人。這也是為什麼《地城世界》中的武器並沒有列出其傷害數據。武器的主要重點在於其標籤，用來描述這把武器的用途與特性。一把匕首的重點並不在於它能造成比其他刀劍更多或更少的傷害，而在於它的小巧靈活，且能輕易地在極近距離下重創對手。因此，法師手中匕首的威脅性，就很明顯不如技巧純熟的戰士手上的那把匕首。
 武器標籤武器可能會帶有一些主要用以幫助你描述它們的標籤（例如「生鏽」或「閃閃發光」），但以下這些標籤除了描述的用途之外，還有著其他遊戲機制上的效果。
 n 彈藥 (n Ammo): 它被視作適當遠程武器的彈藥。數字ｎ並不代表確切的箭矢或投石數量，而是代表你手頭上還剩下什麼。
-擊退 (Forceful): 它可以迫使某人後退幾步，或甚至讓他們失足倒地。</description>
+強力 (Forceful): 它可以迫使某人後退幾步，或甚至讓他們失足倒地。</description>
     </item>
     
     <item>

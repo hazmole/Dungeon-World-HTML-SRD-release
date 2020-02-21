@@ -36,14 +36,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/example/</loc>
   </url>
   
@@ -128,10 +120,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</loc>
   </url>
   
@@ -144,6 +132,10 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid/</loc>
   </url>
   
@@ -152,11 +144,19 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</loc>
   </url>
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</loc>
   </url>
   
   <url>

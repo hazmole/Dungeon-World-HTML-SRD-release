@@ -10,18 +10,6 @@
     
     
     <item>
-      <title>Dark Woods</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</guid>
-      <description>Dark Woods殺手藤 (Assassin Vine)單獨, 隱匿, 不定型Thorns (d10 damage, 1 piercing), 15 HP, 1 Armor
-Close, Reach, Messy
-Special Qualities: Plant
-Among the animals there exists a clear division ‘tween hunter and hunted. All it takes is a glance to know—by fangs and glowing eyes or claws or venomous sting—which of the creatures of this world are meant to kill and which stand to be killed. Such a split, if you have the eyes to see it, cuts the world of leaves and flowers in twain, as well.</description>
-    </item>
-    
-    <item>
       <title>Lower Depths</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -105,6 +93,25 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
     </item>
     
     <item>
+      <title>幽暗森林</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods/</guid>
+      <description>幽暗森林殺手藤 (Assassin Vine)單獨, 隱匿, 不定型荊棘 (d10 傷害, 1 穿透), 15 HP, 1 護甲
+近身, 及遠, 毀亂
+特性: 植物
+在動物的世界中，狩獵者與獵物之間存在著明顯的區別。你只需一眼就能看穿－－透過那鋒利尖牙和發光眼瞳、或利爪、或毒刺－－這個世界上的某些生物就是注定要殺戮，而某些則是注定被獵殺。或許你能發現，這類差異也同樣將這個世界上的綠葉鮮花分成了兩半。在森林結社的德魯伊們清楚知曉這件事。遊俠們，也可能會在為時已晚前發現這種植物。然而，那些平民百姓，當他們徘徊在他們不應前往之處－－當他們深入爬藤蔓生的森林深處，忽然，啪噠一聲，這些飢餓的藤索緊緊纏勒，將這些肥美的獵物拖進了灌木叢中。注意你的腳步，旅人唷。 本能: 成長茁壯
+長出新芽攻擊粗心大意的目標閃現犬 (Blink Dog)集團, 小型, 魔法, 組織啃咬 (d8 傷害), 6 HP, 4 護甲
+近身
+特性: 幻象
+你剛才看見牠，現在就不見了。這些獵犬曾經被一名巫師領主擁有，並被灌注了某種幻術魔法構成的偽裝。牠們逃進了他領地周遭的森林，並與那做森林內的狼群和野犬繁衍後代。如果你夠幸運，你也許能透過牠們那閃閃發亮的銀色毛皮以及那怪異的嚎叫聲來找到牠們。牠們擁有一種非凡天賦，讓牠們可以不完全處在牠們看起來所在的位置，並利用這種天賦來擊倒那些遠比牠們強大的獵物。如果你發現自己必須面對一群閃現犬，不妨閉上眼睛與牠們交戰。在不被自然視覺所背叛的情況下，戰鬥可能會更輕鬆一些。正是因為這種邪佞巫術，這個世界的自然環境正逐漸被不自然的產物給玷汙。 本能: 狩獵
+讓自己看起來像是位於牠們不存在的位置假象召喚犬群以驚人的速度移動半人馬 (Centaur)成群, 大型, 組織, 聰穎弓 (d6+2 傷害, 1 穿透), 11 HP, 1 護甲
+近身, 及遠, Near
+特性: 半人半馬</description>
+    </item>
+    
+    <item>
       <title>洞穴居族</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,7 +122,7 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
 特性: 掘地
 彷彿金屬板甲的厚皮和能碾碎一切的強力下顎就很糟糕了，而能將石牆腐蝕出孔洞的滿腹強酸更讓一切雪上加霜。如果牠們的大小和昆蟲相當，情況就已經夠壞的了，但這些該死玩意兒竟然還有膽子長的跟馬一樣長。這絕對不是自然產物！往好處想，還好牠們傾向待在同個地方……？哇，你說的可容易──這些掘地蟲又不是住在你家玉米田底下。 本能: 挖掘坑道
 在地底下挖掘坑道從地下猛然鑽出向前方噴吐強酸，腐蝕金屬和血肉穴鼠	(Cave Rat)成群, 小型嚙咬 (d6 傷害, 1 穿透), 7 HP, 1 護甲
-近身, 破壞性
+近身, 毀亂
 有誰沒看過老鼠嗎？牠們就像那樣，只不過又髒又大，而且再也不會怕你了。也許牠們跟你在韃邏的骯髒酒館中用陷阱捉到、用小刀殺死的小傢伙們是親戚，而也許牠們也正在伺機展開那小小的鼠式復仇。 本能: 吞噬
 蜂擁而上將某物（或某人）撕成碎片鎖喉怪 (Choker)單獨, 隱匿, 聰穎鎖喉 (d10 傷害), 15 HP, 2 護甲
 近身, 及遠

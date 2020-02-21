@@ -135,10 +135,10 @@
 <h3>武器標籤</h3>
 <p class="NoIndent">武器可能會帶有一些主要用以幫助你描述它們的標籤（例如「生鏽」或「閃閃發光」），但以下這些標籤除了描述的用途之外，還有著其他遊戲機制上的效果。</p>
 <p><tag>n 彈藥 (n Ammo)</tag>: 它被視作適當遠程武器的彈藥。數字ｎ並不代表確切的箭矢或投石數量，而是代表你手頭上還剩下什麼。</p>
-<p><tag>擊退 (Forceful)</tag>: 它可以迫使某人後退幾步，或甚至讓他們失足倒地。</p>
+<p><tag>強力 (Forceful)</tag>: 它可以迫使某人後退幾步，或甚至讓他們失足倒地。</p>
 <p><tag>+n 傷害 (+n Damage)</tag>: 它對你的敵人而言特別危險。當你造成傷害時，你使傷害增加<em>ｎ</em>點。</p>
 <p><tag>無視護甲 (Ignores Armor)</tag>: 造成的傷害並不需要減去對方的護甲值。</p>
-<p><tag>破壞性 (Messy)</tag>: 它以特別毀滅性的方式造成傷害，將人或物撕成碎片。</p>
+<p><tag>毀亂 (Messy)</tag>: 它以特別毀滅性的方式造成傷害，將人或物撕成碎片。</p>
 <p><tag>n 穿透(n Piercing)</tag>: 它能夠穿透護甲。當你以<em>ｎ</em>穿透造成傷害時，對該攻擊而言敵人的護甲將減少<em>ｎ</em>點。</p>
 <p><tag>靈巧 (Precise)</tag>: 它將獎勵謹慎地攻擊。你以此武器進行砍劈動作時，使用敏捷進行檢定，而非力量。</p>
 <p><tag>裝填 (Reload)</tag>: 在你以它進行攻擊之後，會需要稍多一點的時間來重置裝填才能進行下一次攻擊。</p>
@@ -430,7 +430,7 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(tags_arr.map(function(tag){
+        current.html(" "+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";
