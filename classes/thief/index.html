@@ -270,6 +270,8 @@
             link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
           }
 
+          link_text = link_text.replace(/\(.*\)/, "");
+
           if(tag=="H2" || tag=="H3"){
             link_text = " - "+link_text;
           }

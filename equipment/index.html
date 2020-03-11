@@ -194,7 +194,7 @@
 <p class="Item">一桶矮人烈酒	<span class="Tags">10 金幣, 4 重量</span></p>
 <p class="ItemDescription">When you open a keg of dwarven stout and let everyone drink freely, take +1 to your Carouse roll. If you drink a whole keg yourself, you are very, very drunk.</p>
 <p class="Item">一袋書	<span class="Tags">5 使用次數, 10 金幣, 2 重量</span></p>
-<p class="ItemDescription">When your bag of books contains just the right book for the subject you’re spouting lore on, consult the book, mark off a use, and take +1 to your roll.</p>
+<p class="ItemDescription">當這袋書中剛好有本書的主題與你憶述見聞的內容有關，你可以查閱那本書，消耗 1次使用次數，並讓你的擲骰獲得 +1。</p>
 <p class="Item">解毒劑	<span class="Tags">10 金幣, 0 重量</span></p>
 <p class="ItemDescription">當你喝下解毒劑，你可以解除一種正在影響你的毒素。</p>
 <p class="Item">地城口糧	<span class="Tags">食物, 5 使用次數, 3 金幣, 1 重量</span></p>
@@ -415,6 +415,8 @@
           if(current.context.className=="MonsterName" || current.context.className=="SpellName"){
             link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
           }
+
+          link_text = link_text.replace(/\(.*\)/, "");
 
           if(tag=="H2" || tag=="H3"){
             link_text = " - "+link_text;
