@@ -73,18 +73,10 @@ p.Requirement {
    font-style:italic;
 }
 
-p.MoveOneLine {
-   text-indent:0;
-   margin-left:2em;
-   margin-right:2em;
-}
-
-p.ExampleDialogue,p.ExampleDialogueFirstLine,p.ExampleDialogueLastLine {
-   margin-left:2em;
-   margin-right:2em;
-   text-indent:0;
-   font-style:italic;
-}
+/*p.ExampleDialogue,p.ExampleDialogueFirstLine,p.ExampleDialogueLastLine {
+    font-style: italic; 
+   margin: 0 0 .5em;
+}*/
 
 h3.MonsterName {
    border-top:medium solid black;
@@ -168,12 +160,37 @@ tag.purple { background: #cfb4ff; }
 .Move p {
   margin-top: 0px;
   margin-bottom: 0.2em;
+  margin-left: 0.5em;
+}
+.Move ul:last-child {
+  margin-bottom: 0.2em;
 }
 
 /* Class */
 #look li{
   margin-bottom: 0.5em;
 }
+
+.Example {
+  background: #ddd;
+  padding: 10px 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #555;
+  font-family: 微軟正黑體;
+}
+.Example+.Example {
+  margin-top: -10px;
+}
+.Example p {
+  margin: 0 .8em .5em;
+  text-indent: -.5em;
+}
+.Example p:last-child {
+  margin-bottom: 0em;
+}
+
 
 @media only screen and (max-width: 600px) {
   nav#sidemenu {
