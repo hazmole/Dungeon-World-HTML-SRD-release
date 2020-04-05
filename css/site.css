@@ -189,7 +189,7 @@ tag.purple { background: #cfb4ff; }
   margin: 0 .2em .5em .8em;
   text-indent: -.5em;
 }
-.Example p:last-child {
+.Example p:last-child, .Spell p:last-child {
   margin-bottom: 0em;
 }
 

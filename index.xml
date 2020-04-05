@@ -332,7 +332,7 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
       <description>法師法術戲法You prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
-LightCantripAn item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.</description>
+光亮術 (Light)戲法An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
     </item>
     
     <item>
@@ -488,8 +488,21 @@ n 彈藥 (n Ammo): 它被視作適當遠程武器的彈藥。數字ｎ並不代�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation/</guid>
-      <description>角色創造Making Dungeon World characters is quick and easy. You should all create your first characters together at the beginning of your first session. Character creation is, just like play, a kind of conversation—everyone should be there for it.
-You may need to make another character during play, if yours gets killed for example. If so, no worries, the character creation process helps you make a new character that fits into the group in just a few minutes.</description>
+      <description>角色創造創造地城世界中的角色相當簡單且快速。在你們的第一次聚會開始時，每個人都會一起創造自己的第一個角色。就跟這個遊戲的進行方式一樣，角色創造的過程就是一種對話，每個人都應該在場。
+有時候，你可能會需要在遊戲期間創造一名新的角色，比如說當原本的角色被殺死的時候。如果是這樣的話，不用擔心，你只需要幾分鐘的時間就可以創造出能夠融入團隊的新角色。所有被創造出來的新角色，包括替換進來的角色，都必須從等級一開始。
+你創造角色所需要的大部分資訊都被記在角色卡上。下列的步驟將帶領你依序填妥角色卡的內容。
+1. 選擇職業 (Choose a Class)查看所有的角色職業，並從中選擇一個你感興趣的職業。讓每個玩家選擇不同的職業；一場遊戲中可不能同時出現兩名法師。如果有兩個玩家想要選擇同一個的職業，請他們像成熟大人一樣好好討論並協商。
+我和保羅以及夏農坐在一起，準備遊玩約翰所主持的遊戲。我腦中有一些關於法師的好點子，所以我表示這個職業會是我的第一選擇。沒有其他人想扮演法師，所以我直接拿走法師的角色卡。
+2. 選擇種族 (Choose a Race)有些職業會提供種族的選項。從中選擇一個。你的種族將給你一個特殊動作。
+我喜歡更靈活一些──能有更多的法術總是好的，對吧？所以我選擇人類，它可以讓我選擇一個牧師法術，並把它當作法師法術來施展。這麼一來夏農的牧師就可以放手施放那些治療法術了。
+3. 選擇角色名稱 (Choose a Name)從列表中選擇角色的名稱。
+亞文聽起來不錯。
+4. 選擇外觀 (Choose Look)外觀代表著你身體的外貌特徵，從每個列表中各自選擇一項。
+「著魔的眼神」聽起來不錯，因為每個法師都曾見識過那些凡人不應見的事物。沒有任何一個稱職的好法師會有時間整理頭髮，所以他會有一頭「雜亂的頭髮」。我的長袍非常「古怪」，我跟大家提到，我認為這件長袍或許是作為召喚儀式的一環從遙遠異界中被召喚出來的。因為埋首研究閱讀而沒有時間吃飯，所以我的角色有著「消瘦的身體」。
+5. 選擇屬性值 (Choose Stats)將以下數值分配到你的六個屬性中：16, 15, 13, 12, 9, 8。首先查看所有的基本動作和你職業的起始動作。從中選擇一個你最感興趣的動作：某個你將最常去做，或者最擅長的事情。將 16 分配到該動作所使用的屬性上。再查看一次動作列表，選擇次一個對你的角色而言最重要的動作（也許是某個輔助你第一個選擇的行動）。將你的 15 分配到該動作所使用的屬性上。重複這個過程，直到你將所有剩下的數值分配完畢。
+看起來我會需要智力屬性來施放法術，而這正是我的首選，因此我把 16 分配給智力。面對危險中跟敏捷有關的選項看起來很像是我在閃躲法術時會去做的事情，因此我把 15 分配給敏捷。13 點的睿知可以幫助我注意到重要的細節（且根據面對危險動作的效果，它或許還能幫助我保持理智）。魅力可能會在我與召喚生物打交道時派上用場，因此我把 12 分配給它。活下來永遠是件好事，因此我把9分配給體質以獲得一些額外的生命值。最後，我把 8 分配給力量屬性。
+6. 算出調整值 (Figure Out Modifiers)接下來你需要算出每個屬性的調整值。當某個動作寫著+敏捷 或+魅力 時，所使用的正是該屬性對應的調整值。如果你使用的是標準角色紙，則調整值就已經列在各數值旁邊。
+數值調整值1&amp;ndash;3-34&amp;ndash;5-26&amp;ndash;8-19&amp;ndash;12013&amp;ndash;15+116&amp;ndash;17+218+37.</description>
     </item>
     
     <item>
