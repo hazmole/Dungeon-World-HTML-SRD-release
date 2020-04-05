@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
 html {
 }
 body {
    padding-top:50px;
    color: #111111;
-   font-family: 'iABCRegular',Georgia,serif;
+   font-family: 'Noto Sans TC', sans-serif;
    font-style: normal;
    font-variant: normal;
    font-weight: normal;
@@ -159,7 +161,7 @@ tag.purple { background: #cfb4ff; }
 }
 .Move p {
   margin-top: 0px;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   margin-left: 0.5em;
 }
 .Move ul:last-child {
@@ -178,13 +180,13 @@ tag.purple { background: #cfb4ff; }
   margin-bottom: 20px;
   border-radius: 5px;
   color: #555;
-  font-family: 微軟正黑體;
+  font-family: 'cwTeXKai', serif;
 }
 .Example+.Example {
   margin-top: -10px;
 }
 .Example p {
-  margin: 0 .8em .5em;
+  margin: 0 .2em .5em .8em;
   text-indent: -.5em;
 }
 .Example p:last-child {
