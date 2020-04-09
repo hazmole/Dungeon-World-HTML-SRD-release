@@ -64,10 +64,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/playing_the_game/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</loc>
   </url>
   
@@ -169,6 +165,10 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/playing_the_game/</loc>
   </url>
   
   <url>
