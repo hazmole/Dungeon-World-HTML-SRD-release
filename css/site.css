@@ -151,12 +151,12 @@ tag.purple { background: #cfb4ff; }
 #racialmoves, #alignment {
   margin-left: 1em;
 }
-.Move, .Spell {
+.Move, .Spell, .Hireling, .Block {
   border: 1px solid black;
   padding: 5px;
   margin: 0.5em 0 1em;
 }
-.Move h3 {
+.Move h3, .Hireling h4, .Block h4 {
   margin-top: 0.2em;
 }
 .Move p {
@@ -164,7 +164,7 @@ tag.purple { background: #cfb4ff; }
   margin-bottom: 0.5em;
   margin-left: 0.5em;
 }
-.Move ul:last-child {
+.Move ul:last-child, .Hireling p:last-child {
   margin-bottom: 0.2em;
 }
 
@@ -191,6 +191,12 @@ tag.purple { background: #cfb4ff; }
 }
 .Example p:last-child, .Spell p:last-child {
   margin-bottom: 0em;
+}
+
+
+.List li {
+  text-indent: -1em;
+  margin: 0 0 1.14286em 1em;
 }
 
 
