@@ -40,6 +40,14 @@ li ul.nav li:focus a  {
     color: #FFF;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+h4 {
+  margin-top: 28px;
+}
+
+
 p {
     margin: 0 0 1.14286em;
     text-indent:1em;
