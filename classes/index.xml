@@ -49,8 +49,8 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
       <description>吟遊詩人冒險者之詩乃是不斷向前之路，是錢幣與戰鬥的榮光。在那些鄉農滿座的酒館中被傳唱的故事，總有些許真實，對吧？那些鼓舞農民與國親的歌謠──那些撫慰野獸或讓人瘋狂的歌謠──必定其來有自。
 當個詩人吧。來，帶著你的巧舌與機智。你說故事，你唱歌謠。一名尋常樂手只會複誦，而真正的吟遊詩人活在其中。繫上你的靴子吧，高貴的演說家。磨利那把小刀，接受呼喚。總得有人要與那些暴徒、惡棍與即將成為英雄的人們並肩作戰。又有誰比你更能傳誦自己的英雄故事？
 沒有別人了。來吧。
-名稱 (Names)精靈: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, Pendrell, Melliandre, Dagoliir
-人類: Baldric, Leena, Dunwick, Willem, Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra
+名稱 (Names)精靈: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, 潘卓爾(Pendrell), Melliandre, Dagoliir
+人類: Baldric, 莉娜(Leena), Dunwick, 威廉(Willem), Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra
 外觀 (Look)從每列中各自選擇一項：
 Knowing Eyes, Fiery Eyes, or Joyous EyesFancy Hair, Wild Hair, or Stylish CapFinery, Traveling Clothes, or Poor ClothesFit Body, Well-fed Body, or Thin Body屬性數值 (Stats)你的最大生命值為 6+體質值。
 你的基礎傷害骰為 d6。
@@ -86,10 +86,10 @@ Ceremonial Garb, Practical Leathers, or Weathered Hides
 忘了他們吧。
 你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。
 你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。
-名稱 (Names)Dwarf: Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq
-Elf: Elohiir, Sharaseth, Hasrith, Shevaral, Cadeus, Eldar, Kithracet, Thelian
-Halfling: Finnegan, Olive, Randolph, Bartleby, Aubrey, Baldwin, Becca
-Human: Hawke, Rudiger, Gregor, Brianne, Walton, Castor, Shanna, Ajax, Hob
+名稱 (Names)Dwarf: 歐茲魯克(Ozruk), Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, 賈爾(Jarl), 索圖庫(Xotoq)
+Elf: Elohiir, Sharaseth, Hasrith, Shevaral, 凱杜斯(Cadeus), Eldar, Kithracet, 緹里恩(Thelian)
+Halfling: Finnegan, Olive, Randolph, 巴特比(Bartleby), Aubrey, Baldwin, Becca
+Human: Hawke, Rudiger, 葛瑞格(Gregor), 布莉安娜(Brianne), Walton, Castor, Shanna, Ajax, Hob
 外觀 (Look)從每列中各自選擇一項：
 Hard Eyes, Dead Eyes, or Eager Eyes
 Wild Hair, Shorn Hair, or Battered Helm
@@ -115,8 +115,8 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
       <description>牧師地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各種的野獸、跟廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
 將神之榮光帶給異教徒不只是你的本性──更是你的使命。你持著劍、槌和咒法宣教，劈開粗野的愚蠢之心，植入神聖之籽。有人說，最好讓神常伴你心。你知道那都是狗屁。神只住在刀鋒之上。
 向這個世界證明，誰才是它的主宰。
-名稱 (Names)Dwarf: Durga, Aelfar, Gerda, Rurgosh, Bjorn, Drummond, Helga, Siggrun, Freya
-Human: Wesley, Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahlia, Carmine
+名稱 (Names)Dwarf: 杜嘉(Durga), Aelfar, Gerda, Rurgosh, Bjorn, Drummond, Helga, Siggrun, Freya
+Human: 衛斯理(Wesley), Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahlia, Carmine
 外觀 (Look)從每列中各自選擇一項：
 Kind Eyes, Sharp Eyes, or Sad EyesTonsure, Strange Hair, or BaldFlowing Robes, Habit, or Common GarbThin Body, Knobby Body, or Flabby Body屬性數值 (Stats)Your maximum HP is 8+Constitution.
 Your base damage is d6.</description>
@@ -142,7 +142,7 @@ Your base damage is d6.</description>
 眾神之眼，之手，之殺戮神罰，這就是你。你所賜的乃是公義與美德－－乃是正義，乃是願景。你胸懷同伴們所欠缺的，純粹之意念。
 所以引導這些愚者吧，聖武士。擔負起你的聖潔使命，將救贖帶到這個破爛世界。
 敗者毋怨悽慘，對吧？
-名稱 (Names)Thaddeus, Augustine, Lux, Cassius, Hadrian, Lucia, Octavia, Regulus, Valeria, Sanguinus, Titanius
+名稱 (Names)Thaddeus, Augustine, 拉克絲(Lux), Cassius, 哈德良(Hadrian), Lucia, 奧塔薇雅(Octavia), Regulus, 薇拉莉雅(Valeria), Sanguinus, Titanius
 外觀 (Look)從每列中各自選擇一項：
 Kind Eyes, Fiery Eyes, or Glowing Eyes
 Helmet, Styled Hair, or Bald
@@ -162,8 +162,8 @@ Your base damage is d10.
       <description>遊俠與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
 嚮導、獵手、荒野的造物。你遠遠不只如此。你在荒野中一向孤獨，但那偉大之物的呼喚－－或許可以稱之為命運－－將你與這些都市人的命連繫在了一起。他們或許勇敢。或許強大健壯。但只有你通曉這兩者間的秘密。
 沒有你，他們就會迷失。在鮮血與黑暗之中燒出通往前方的道路吧，神行客。
-名稱 (Names)Elf: Throndir, Elrosine, Aranwe, Celion, Dambrath, Lanethe
-Human: Jonah, Halek, Brandon, Emory, Shrike, Nora, Diana
+名稱 (Names)Elf: Throndir, Elrosine, 艾蘭威(Aranwe), Celion, Dambrath, Lanethe
+Human: Jonah, 哈利克(Halek), Brandon, 埃默里(Emory), Shrike, 諾拉(Nora), Diana
 外觀 (Look)從每列中各自選擇一項：
 Wild Eyes, Sharp Eyes, or Animal Eyes
 Hooded Head, Wild Hair, or Bald
