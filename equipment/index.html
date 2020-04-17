@@ -140,7 +140,7 @@
 <p><tag>無視護甲 (Ignores Armor)</tag>: 造成的傷害並不需要減去對方的護甲值。</p>
 <p><tag>毀亂 (Messy)</tag>: 它以特別毀滅性的方式造成傷害，將人或物撕成碎片。</p>
 <p><tag>n 穿透(n Piercing)</tag>: 它能夠穿透護甲。當你以<em>ｎ</em>穿透造成傷害時，對該攻擊而言敵人的護甲將減少<em>ｎ</em>點。</p>
-<p><tag>靈巧 (Precise)</tag>: 它將獎勵謹慎地攻擊。你以此武器進行砍劈動作時，使用敏捷進行檢定，而非力量。</p>
+<p><tag>靈巧 (Precise)</tag>: 它有助於謹慎地施加打擊。你以此武器進行砍劈動作時，使用敏捷進行檢定，而非力量。</p>
 <p><tag>裝填 (Reload)</tag>: 在你以它進行攻擊之後，會需要稍多一點的時間來重置裝填才能進行下一次攻擊。</p>
 <p><tag>暈眩 (Stun)</tag>: 當你以它進行攻擊時，它將造成暈眩傷害，而非正常的傷害。</p>
 <p><tag>投擲 (Thrown)</tag>: 把它擲向目標以造成傷害。若你以此武器進行射擊動作，你在擲出7~9時將不能選擇標記彈藥-1；一旦你把它擲出，直到你把它拾回之前都將視作失去它。</p>
@@ -453,7 +453,7 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(" "+tags_arr.map(function(tag){
+        current.html(""+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";
@@ -462,6 +462,18 @@
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
           }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1];
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\((\w+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
       });
 
       function isSpellLevelTag(tag){

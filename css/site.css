@@ -70,6 +70,9 @@ span.Tags {
    font-size: 0.9em;
    padding-left: 10px;
 }
+li span.Tags {
+   padding-left: 0px;
+}
 p.ItemDescription {
    margin-left:.5em;
    margin-top: -15px;

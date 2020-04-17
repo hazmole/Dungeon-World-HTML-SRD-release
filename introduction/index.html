@@ -122,7 +122,7 @@
 <p>當個詩人吧。來，帶著你的巧舌與機智。你說故事，你唱歌謠。一名尋常樂手只會複誦，而真正的吟遊詩人活在其中。繫上你的靴子吧，高貴的演說家。磨利那把小刀，接受呼喚。總得有人要與那些暴徒、惡棍與即將成為英雄的人們並肩作戰。又有誰比你更能傳誦自己的英雄故事？</p>
 <p>沒有別人了。來吧。</p>
 <h2>牧師 (The Cleric)</h2>
-<p class="NoIndent">地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各種的野獸、跟廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。</p>
+<p class="NoIndent">地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各類野獸、以及廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。</p>
 <p>將神之榮光帶給異教徒不只是你的本性──更是你的使命。你持著劍、槌和咒法宣教，劈開粗野的愚蠢之心，植入神聖之籽。有人說，最好讓神常伴你心。你知道那都是狗屁。神只住在刀鋒之上。</p>
 <p>向這個世界證明，誰才是它的主宰。</p>
 <h2>德魯伊 (The Druid)</h2>
@@ -225,7 +225,7 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(" "+tags_arr.map(function(tag){
+        current.html(""+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";
@@ -234,6 +234,18 @@
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
           }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1];
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\((\w+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
       });
 
       function isSpellLevelTag(tag){

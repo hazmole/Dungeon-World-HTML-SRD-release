@@ -111,10 +111,10 @@
           <div class="col-md-8 col-md-offset-1">
              
 <h1>Moves in Detail</h1>
-<h1>Multiclass Moves</h1>
-<h2>Multiclass Dabbler</h2>
-<h2>Multiclass Initiate</h2>
-<h2>Multiclass Master</h2>
+<h2>Multiclass Moves</h2>
+<h3>兼職新手 (Multiclass Dabbler)</h3>
+<h3>兼職學徒 (Multiclass Initiate)</h3>
+<h3>兼職大師 (Multiclass Master)</h3>
 <p class="NoIndent">For the purposes of these multiclass moves the cleric’s commune and cast a spell count as one move. Likewise for the wizard’s spellbook, prepare Spells, and cast a Spell.</p>
 <p>When you first select a multiclass move that grants you the ability to cast spells you prepare and cast spells as if you had one level in the casting class. Every additional time you  level up you increase the level you prepare and cast spells at by one.</p>
 <p class="Example">When Ajax gains 3rd level he takes Multiclass Dabbler to get Commune and Cast a Spell from the Cleric class. He casts and prepares spells like a first level Cleric: first level spells and rotes only, a total of 2 levels of spells prepared. When he later gains 4th level, he prepares and casts spells as a second level Cleric.</p>
@@ -225,7 +225,7 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(" "+tags_arr.map(function(tag){
+        current.html(""+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";
@@ -234,6 +234,18 @@
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
           }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1];
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\((\w+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
       });
 
       function isSpellLevelTag(tag){

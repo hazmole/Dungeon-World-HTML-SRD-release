@@ -166,7 +166,7 @@
 <p class="NoIndent">Name a person, place, or thing you want to learn about. Your deity grants you visions of the target, as clear as if you were there.</p></div>
 <div class="Spell"><h3 class="SpellName">疫病術 (Contagion)<span class="Tags">	Level 5	, 持續</span></h3>
 <p class="NoIndent">Choose a creature you can see. Until you end this spell, the target suffers from a disease of your choice. While this spell is ongoing you take -1 to cast a spell.</p></div>
-<div class="Spell"><h3 class="SpellName">無語者之語 (Words of the Unspeaking)<span class="Tags">	Level 5</span></h3>
+<div class="Spell"><h3 class="SpellName">無聲者之語 (Words of the Unspeaking)<span class="Tags">	Level 5</span></h3>
 <p class="NoIndent">With a touch you speak to the spirits within things. The non-living object you touch answers three questions you pose, as best it can.</p></div>
 <div class="Spell"><h3 class="SpellName">真知術 (True Seeing)<span class="Tags">	Level 5	, 持續</span></h3>
 <p class="NoIndent">Your vision is opened to the true nature of everything you lay your eyes on. You pierce illusions and see things that have been hidden. The GM will describe the area before you ignoring any illusions and falsehoods, magical or otherwise. While this spell is ongoing you take -1 to cast a spell.</p></div>
@@ -174,21 +174,21 @@
 <p class="NoIndent">You trap the soul of a dying creature within a gem. The trapped creature is aware of its imprisonment but can still be manipulated through spells, parley, and other effects. All moves against the trapped creature are at +1. You can free the soul at any time but it can never be recaptured once freed.</p></div>
 <hr/>
 <div><h1>等級7 法術</h1></div>
-<div class="Spell"><h3 class="SpellName">Word of Recall<span class="Tags">	Level 7</span></h3>
+<div class="Spell"><h3 class="SpellName">回返真言 (Word of Recall)<span class="Tags">	Level 7</span></h3>
 <p class="NoIndent">Choose a word. The first time after casting this spell that you speak the chosen word, you and any allies touching you when you cast the spell are immediately returned to the exact spot where you cast the spell. You can only maintain a single location; casting Word of Recall again before speaking the word replaces the earlier spell.</p></div>
 <div class="Spell"><h3 class="SpellName">治癒術 (Heal)<span class="Tags">	Level 7</span></h3>
 <p class="NoIndent">Touch an ally and you may heal their damage a number of points up to your maximum HP.</p></div>
 <div class="Spell"><h3 class="SpellName">傷害術 (Harm)<span class="Tags">	Level 7</span></h3>
 <p class="NoIndent">Touch an enemy and strike them with divine wrath—deal 2d8 damage to them and 1d6 damage to yourself. This damage ignores armor.</p></div>
-<div class="Spell"><h3 class="SpellName">Sever<span class="Tags">	Level 7	, 持續</span></h3>
+<div class="Spell"><h3 class="SpellName">斷肢術 (Sever)<span class="Tags">	Level 7	, 持續</span></h3>
 <p class="NoIndent">Choose an appendage on the target such as an arm, tentacle, or wing. The appendage is magically severed from their body, causing no damage but considerable pain. Missing an appendage may, for example, keep a winged creature from flying, or a bull from goring you on its horns. While this spell is ongoing you take -1 to cast a spell.</p></div>
-<div class="Spell"><h3 class="SpellName">Mark of Death<span class="Tags">	Level 7</span></h3>
+<div class="Spell"><h3 class="SpellName">死亡印記 (Mark of Death)<span class="Tags">	Level 7</span></h3>
 <p class="NoIndent">Choose a creature whose true name you know. This spell creates permanent runes on a target surface that will kill that creature, should they read them.</p></div>
-<div class="Spell"><h3 class="SpellName">Control Weather<span class="Tags">	Level 7</span></h3>
+<div class="Spell"><h3 class="SpellName">操控天氣 (Control Weather)<span class="Tags">	Level 7</span></h3>
 <p class="NoIndent">Pray for rain—or sun, wind, or snow. Within a day or so, your god will answer. The weather will change according to your will and last a handful of days.</p></div>
 <hr/>
 <div><h1>等級9 法術</h1></div>
-<div class="Spell"><h3 class="SpellName">Storm of Vengeance<span class="Tags">	Level 9</span></h3>
+<div class="Spell"><h3 class="SpellName">復仇風暴 (Storm of Vengeance)<span class="Tags">	Level 9</span></h3>
 <p class="NoIndent">Your deity brings the unnatural weather of your choice to pass. Rain of blood or acid, clouds of souls, wind that can carry away buildings, or any other weather you can imagine: ask and it shall come.</p></div>
 <div class="Spell"><h3 class="SpellName">Repair<span class="Tags">	Level 9</span></h3>
 <p class="NoIndent">Choose one event in the target’s past. All effects of that event, including damage, poison, disease, and magical effects, are ended and repaired. HP and diseases are healed, poisons are neutralized, magical effects are ended.</p></div>
@@ -196,7 +196,7 @@
 <p class="NoIndent">Every creature must ask your leave to enter your presence, and you must give permission aloud for them to enter. Any creature without your leave takes an extra 1d10 damage whenever they take damage in your presence. While this spell is ongoing you take -1 to cast a spell.</p></div>
 <div class="Spell"><h3 class="SpellName">Consume Unlife<span class="Tags">	Level 9</span></h3>
 <p class="NoIndent">The mindless undead creature you touch is destroyed and you steal its death energy to heal yourself or the next ally you touch. The amount of damage healed is equal to the HP that the creature had remaining before you destroyed it.</p></div>
-<div class="Spell"><h3 class="SpellName">Plague<span class="Tags">	Level 9	, 持續</span></h3>
+<div class="Spell"><h3 class="SpellName">天災 (Plague)<span class="Tags">	Level 9	, 持續</span></h3>
 <p class="NoIndent">Name a city, town, encampment, or other place where people live. As long as this spell is active that place is beset by a plague appropriate to your deity’s domains (locusts, death of the first born, etc.) While this spell is ongoing you take -1 to cast a spell.</p></div></div>
 
           </div>
@@ -246,7 +246,7 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(" "+tags_arr.map(function(tag){
+        current.html(""+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";
@@ -255,6 +255,18 @@
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
           }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1];
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\((\w+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
       });
 
       function isSpellLevelTag(tag){

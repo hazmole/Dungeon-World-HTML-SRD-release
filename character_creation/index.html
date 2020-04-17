@@ -134,7 +134,7 @@
 <h2>4. 選擇外觀</h2>
 <p>外觀代表著你身體的外貌特徵，從每個列表中各自選擇一項。</p>
 <p class="Example">
-  「著魔的眼神」聽起來不錯，因為每個法師都曾見識過那些凡人不應見的事物。沒有任何一個稱職的好法師會有時間整理頭髮，所以他會有一頭「雜亂的頭髮」。我的長袍非常「古怪」，我跟大家提到，我認為這件長袍或許是作為召喚儀式的一環從遙遠異界中被召喚出來的。因為埋首研究閱讀而沒有時間吃飯，所以我的角色有著「消瘦的身體」。</p>
+  「著魔的眼神」聽起來不錯，因為每個法師都曾見識過那些凡人不應見的事物。沒有任何一個稱職的好法師會有時間整理頭髮，所以他會有一頭「雜亂的頭髮」。我的長袍非常「古怪」，我跟大家提到，我認為這件長袍或許是作為召喚儀式的一環從遙遠異界中被召喚出來的。因為埋首研究閱讀而沒有時間吃飯，所以我的角色有著「消瘦的體型」。</p>
 
 <h2>5. 選擇屬性值</h2>
 <p>將以下數值分配到你的六個屬性中：16, 15, 13, 12, 9, 8。首先查看所有的基本動作和你職業的起始動作。從中選擇一個你最感興趣的動作：某個你將最常去做，或者最擅長的事情。將 16 分配到該動作所使用的屬性上。再查看一次動作列表，選擇次一個對你的角色而言最重要的動作（也許是某個輔助你第一個選擇的行動）。將你的 15 分配到該動作所使用的屬性上。重複這個過程，直到你將所有剩下的數值分配完畢。</p>
@@ -291,7 +291,7 @@
       $(".Tags").each(function(i) {
         var current = $(this);
         var tags_arr = current.html().split(", ");
-        current.html(" "+tags_arr.map(function(tag){
+        current.html(""+tags_arr.map(function(tag){
             var className = "";
             tag = tag.trim();
             if(isRangeTag(tag))         className = "red";
@@ -300,6 +300,18 @@
             if(isSpellLevelTag(tag))    className = "purple";
             return `<tag class="${className}">${tag}</tag>`;
           }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1];
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\((\w+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
       });
 
       function isSpellLevelTag(tag){

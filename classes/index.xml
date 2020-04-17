@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion/</guid>
-      <description>Moves in DetailMulticlass MovesMulticlass DabblerMulticlass InitiateMulticlass MasterFor the purposes of these multiclass moves the cleric’s commune and cast a spell count as one move. Likewise for the wizard’s spellbook, prepare Spells, and cast a Spell.
+      <description>Moves in DetailMulticlass Moves兼職新手 (Multiclass Dabbler)兼職學徒 (Multiclass Initiate)兼職大師 (Multiclass Master)For the purposes of these multiclass moves the cleric’s commune and cast a spell count as one move. Likewise for the wizard’s spellbook, prepare Spells, and cast a Spell.
 When you first select a multiclass move that grants you the ability to cast spells you prepare and cast spells as if you had one level in the casting class.</description>
     </item>
     
@@ -49,12 +49,17 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
       <description>吟遊詩人冒險者之詩乃是不斷向前之路，是錢幣與戰鬥的榮光。在那些鄉農滿座的酒館中被傳唱的故事，總有些許真實，對吧？那些鼓舞農民與國親的歌謠──那些撫慰野獸或讓人瘋狂的歌謠──必定其來有自。
 當個詩人吧。來，帶著你的巧舌與機智。你說故事，你唱歌謠。一名尋常樂手只會複誦，而真正的吟遊詩人活在其中。繫上你的靴子吧，高貴的演說家。磨利那把小刀，接受呼喚。總得有人要與那些暴徒、惡棍與即將成為英雄的人們並肩作戰。又有誰比你更能傳誦自己的英雄故事？
 沒有別人了。來吧。
-名稱 (Names)精靈: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, 潘卓爾(Pendrell), Melliandre, Dagoliir
-人類: Baldric, 莉娜(Leena), Dunwick, 威廉(Willem), Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra
-外觀 (Look)從每列中各自選擇一項：
-Knowing Eyes, Fiery Eyes, or Joyous EyesFancy Hair, Wild Hair, or Stylish CapFinery, Traveling Clothes, or Poor ClothesFit Body, Well-fed Body, or Thin Body屬性數值 (Stats)你的最大生命值為 6+體質值。
+名稱精靈: 艾斯卓菲(Astrafel), 戴爾溫(Daelwyn), 費莉亞娜(Feliana), 德瑪拉(Damarra), 希斯卓娜(Sistranalle), 潘卓爾(Pendrell), 梅利安卓(Melliandre), 戴格里爾(Dagoliir)
+人類: 巴德里克(Baldric), 莉娜(Leena), 敦威克(Dunwick), 威廉(Willem), 埃德溫(Edwyn), 佛羅里安(Florian), 塞拉芬(Seraphine), 柯拉(Quorra), 夏洛特(Charlotte), 莉莉(Lily), 拉蒙德(Ramonde), 卡珊卓(Cassandra)
+外觀從每列中各自選擇一項：
+世故的眼神, 熾熱的眼神, 或 歡快的眼神花俏的髮型, 狂野的髮型, 或 時尚的帽子華麗服飾, 旅行衣裝, 或 粗劣衣裝健美的體型, 肥胖的體型, 或 消瘦的體型屬性數值你的最大生命值為 6+體質值。
 你的基礎傷害骰為 d6。
-起始動作 (Starting Moves)選擇一個種族並獲得相應的動作：</description>
+起始動作選擇一個種族並獲得相應的動作：
+精靈當你來到一個重要的地點（由你決定是否重要）你可以詢問GM一個關於當地歷史的問題。
+人類當你首次進入一個文明社會的聚落時，某個遵守接待遊藝人傳統的人將會把你當作賓客款待。
+你起始還擁有以下動作：
+秘奧藝術 (Arcane Art)當你透過表演編織出基礎術法時，選擇一名同伴和一個效果：
+治療 1d8 傷害下次傷害 +1d4他從一項惑控心智的效果中掙脫清醒下一次當有人成功透過援助動作協助目標時，目標將獲得 +2 而非原本的 +1 加值然後擲+魅力：✴擲出10+時，該同伴獲得你選擇的效果。✴擲出7-9時，你的法術仍然發揮效果，但你引來了不必要的注意、或者你的魔法擴散並影響到了其他目標，由GM決定。</description>
     </item>
     
     <item>
@@ -112,14 +117,19 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</guid>
-      <description>牧師地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各種的野獸、跟廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
+      <description>牧師地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各類野獸、以及廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
 將神之榮光帶給異教徒不只是你的本性──更是你的使命。你持著劍、槌和咒法宣教，劈開粗野的愚蠢之心，植入神聖之籽。有人說，最好讓神常伴你心。你知道那都是狗屁。神只住在刀鋒之上。
 向這個世界證明，誰才是它的主宰。
-名稱 (Names)Dwarf: 杜嘉(Durga), Aelfar, Gerda, Rurgosh, Bjorn, Drummond, Helga, Siggrun, Freya
-Human: 衛斯理(Wesley), Brinton, Jon, Sara, Hawthorn, Elise, Clarke, Lenore, Piotr, Dahlia, Carmine
-外觀 (Look)從每列中各自選擇一項：
-Kind Eyes, Sharp Eyes, or Sad EyesTonsure, Strange Hair, or BaldFlowing Robes, Habit, or Common GarbThin Body, Knobby Body, or Flabby Body屬性數值 (Stats)Your maximum HP is 8+Constitution.
-Your base damage is d6.</description>
+名稱矮人: 杜嘉(Durga), 艾歐法(Aelfar), 戈達(Gerda), 洛葛許(Rurgosh), 比尤恩(Bjorn), 德拉蒙德(Drummond), 海爾格(Helga), 西格倫(Siggrun), 芙雷雅(Freya)
+人類: 衛斯理(Wesley), 布林頓(Brinton), 喬恩(Jon), 莎拉(Sara), 霍索恩(Hawthorn), 伊莉絲(Elise), 克拉克(Clarke), 萊諾蕾(Lenore), 彼得(Piotr), 達莉婭(Dahlia), 卡邁恩(Carmine)
+外觀從每列中各自選擇一項：
+和藹的眼神, 銳利的眼神, 或 憂愁的眼神修士削髮, 怪異的髮型, 或 光頭飄逸長袍, 神職服裝, 或 尋常裝束消瘦的體型, 圓潤的體型, 或 鬆弛的體型屬性數值你的最大生命值為 8+體質值。
+你的基礎傷害骰為 d6。
+起始動作選擇一個種族並獲得相應的動作：
+矮人你與岩石有如一體。當你進行通神動作時，你也同時將被授予一個特殊版本的無聲者之語法術（5級牧師法術），這個法術將被視作禱念，且只對石頭有效。
+人類你的信仰多元。選擇一個法師法術。你可以把它視作牧師法術一樣被授予並施放。
+你起始還擁有以下動作：
+神祇 (Deity)You serve and worship some deity or power which grants you spells.</description>
     </item>
     
     <item>
