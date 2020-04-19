@@ -39,6 +39,10 @@ li ul.nav li.active:hover a,
 li ul.nav li:focus a  {
     color: #FFF;
 }
+li.currentli.headli:not(.active) {
+  font-weight:bold;
+  background: #e7f5ff;
+}
 
 h1, h2, h3, h4 {
   font-weight: bold;

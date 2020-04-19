@@ -314,14 +314,18 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
       <description>德魯伊環視火堆周圍，這些人滿是城市的塵埃與汗味，是什麼將你帶到這些人身邊？或許是慈愛吧──你是否如同母熊照看她的幼崽保護著他們？他們現在是你這群的嗎？你可真有群奇怪的兄弟姊妹。不管你有怎樣的靈感，沒有你銳利的感官和更銳利的獠爪，他們註定不會成功。
 你屬於神聖之所；你出生於母土，你的身上戴著她的靈魂之印。你可能也曾有過凡人的生活，或許你也像他們曾居於都城，如今卻已非如此。你拋棄了停滯的定型。聆聽你盟友對他們所雕神像的祈禱，聆聽他們的宗教寓言故事，講述他們將在早已被你拋棄的破爛小鎮中找回的榮耀。
 他們的諸神只是年幼的孩童，他們的鋼鐵只是虛假的保護。你走在古老的路上，披大地為衣。你會拿取屬於你的財寶，但你是否會走上與他們相同的路呢？只有時間知道。
-名稱精靈: Hycorax, Ethanwe, Sinathel, Demanor, Menoliir, Mithralan, Taeros, Aegor
-半身人: Tanner, Dunstan, Rose, Ivy, Robard, Mab, Thistle, Puck, Anne, Serah
-人類: Elana, Obelis, Herran, Syla, Andanna, Siobhan, Aziz, Pelin, Sibel, Nils, Wei
+名稱精靈: 西考拉克斯(Hycorax), 伊森威(Ethanwe), 希納賽爾(Sinathel), 德馬諾(Demanor), 梅諾利爾(Menoliir), 米司瑞蘭(Mithralan), 泰洛斯(Taeros), 伊葛(Aegor)
+半身人: 坦諾(Tanner), 鄧斯坦(Dunstan), 蘿絲(Rose), 艾薇(Ivy), 羅巴特(Robard), 瑪布(Mab), 薊(Thistle), 帕克(Puck), 安妮(Anne), 賽拉(Serah)
+人類: 埃拉娜(Elana), 歐貝里斯(Obelis), 赫倫(Herran), 希拉(Syla), 安妲娜(Andanna), 西沃恩(Siobhan), 阿齊茲(Aziz), 佩琳(Pelin), 西比爾(Sibel), 尼爾斯(Nils), 韋伊(Wei)
 外觀從每列中各自選擇一項：
-Wise Eyes, Wild Eyes, or Haunting Eyes
-Furry Hood, Messy Hair, or Braided Hair
-Ceremonial Garb, Practical Leathers, or Weathered Hides
-屬性數值你的最大生命值為 6+體質值。</description>
+睿智的眼神, 狂野的眼神, 或 著魔的眼神
+毛皮兜帽, 凌亂的髮型, 或 辮子髮型
+儀式祭服, 實用革衣, 或 飽經風霜的獸皮
+屬性數值你的最大生命值為 6+體質值。
+你的基礎傷害骰為 d6。
+起始動作選擇一個種族並獲得相應的動作：
+精靈上古神樹的汁液流淌在你體內。除了你所選擇的歸屬地之外，大森林也永遠被視作你的歸屬地。
+人類當你的族人們學會將動物馴養於田地與農場之間，你也與牠們建立了聯繫。除了原本的化身選項之外，你也可以選擇化身成任何被馴化的動物。</description>
     </item>
     
     <item>
@@ -334,11 +338,11 @@ Ceremonial Garb, Practical Leathers, or Weathered Hides
 忘了他們吧。
 你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。
 你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。
-名稱 (Names)Dwarf: 歐茲魯克(Ozruk), Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, 賈爾(Jarl), 索圖庫(Xotoq)
-Elf: Elohiir, Sharaseth, Hasrith, Shevaral, 凱杜斯(Cadeus), Eldar, Kithracet, 緹里恩(Thelian)
-Halfling: Finnegan, Olive, Randolph, 巴特比(Bartleby), Aubrey, Baldwin, Becca
-Human: Hawke, Rudiger, 葛瑞格(Gregor), 布莉安娜(Brianne), Walton, Castor, Shanna, Ajax, Hob
-外觀 (Look)從每列中各自選擇一項：
+名稱矮人: 歐茲魯克(Ozruk), Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, 賈爾(Jarl), 索圖庫(Xotoq)
+精靈: Elohiir, Sharaseth, Hasrith, Shevaral, 凱杜斯(Cadeus), Eldar, Kithracet, 緹里恩(Thelian)
+半身人: Finnegan, Olive, Randolph, 巴特比(Bartleby), Aubrey, Baldwin, Becca
+人類: Hawke, Rudiger, 葛瑞格(Gregor), 布莉安娜(Brianne), Walton, Castor, Shanna, Ajax, Hob
+外觀從每列中各自選擇一項：
 Hard Eyes, Dead Eyes, or Eager Eyes
 Wild Hair, Shorn Hair, or Battered Helm
 Calloused Skin, Tanned Skin, or Scarred Skin</description>
@@ -402,8 +406,17 @@ Calloused Skin, Tanned Skin, or Scarred Skin</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
-      <description>牧師法術禱念Every time you commune, you gain access to all of your rotes without having to select them or count them toward your allotment of spells.
-光亮術 (Light)禱念An item you touch glows with divine light, about as bright as a torch. It gives off no heat or sound and requires no fuel but is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
+      <description>牧師法術禱念每當你進行通神動作時，你將獲得你的所有禱念，你無須從中選擇、也不用把它們計入你的法術分配中。
+光亮術 (Light)禱念一個你所觸碰的物品將發出聖光，其亮度與火炬相當。它並不會散發熱量或聲音，也不需要燃料，但除此之外的特性便與尋常火炬一模一樣。你可以自由控制光輝的色彩。只要你在場，這個法術便會持續發揮效果。
+聖潔淨化 (Sanctify)禱念你手中所持握的食物或飲用水都將在你施放這個法術時被祝聖。除了根據你的信仰而變得神聖或不潔之外，若被影響的物質已經產生任何非魔法導致的腐敗，則其也將被淨化。
+神導術 (Guidance)禱念你信奉神祇的象徵將出現在你面前，指示出祂要你前進的方向或要你採取的行動，並接著消失不見。這段訊息的傳達只會透過手勢進行；你透過這個法術所能達到的交流極為有限。
+等級1 法術祝福術 (Bless)等級 1	, 持續你的神祇向你所選的一名參戰者露出微笑。只要戰鬥仍在繼續，且他們仍屹立不倒，則他們在戰鬥期間將獲得持續+1。在這個法術持續期間，你施放法術的動作將獲得持續-1。
+治療輕傷 (Cure Light Wounds)等級 1在你的觸碰下，傷口將開始結痂，骨頭也將不再疼痛。治療一名你所觸碰的同伴 1d8 傷害。
+偵測陣營 (Detect Alignment)等級 1當你施放這個法術時，選擇一個陣營：善良、邪惡、守序、或混亂。你的其中一種感官將能夠短暫地偵測出該陣營。GM將會告訴你這裡有什麼東西是屬於該陣營的。
+造成恐懼 (Cause Fear)等級 1	, 持續選擇一個你能看見的目標以及一個附近的物體。只要你仍維持著這個法術，目標將會對該物體感到恐懼。他們的反應將取決於他們自己：逃跑、恐慌、求饒、戰鬥等等。你不能選擇智力比動物還低的個體做為法術的目標（像是魔法構裝體、不死生物、自動機械等等）。在這個法術持續期間，你施放法術的動作將獲得持續-1。
+魔化武器 (Magic Weapon)等級 1	, 持續你在施放這個法術時所持握的武器將能夠額外造成 +1d4 傷害，持續直到你解消這個法術。在這個法術持續期間，你施放法術的動作將獲得持續-1。
+聖域術 (Sanctuary)等級 1當你施放這個法術時，你必須繞行圈起一個區域的外緣，將它奉獻給你的神祇。只要你待在這個區域內，每當有人在聖域內帶著惡意行事（包括帶著傷害他人的意圖走進這個區域），你都會收到警報。此外，任何在聖域內接受治療的目標也都將額外恢復 +1d4 生命值。
+死者交談術 (Speak With Dead)等級 1一具屍體將能夠短暫地與你交談。它將依據它生前的知識以及死後獲得的情報，盡其所能地回答三個你所提出的問題。</description>
     </item>
     
     <item>

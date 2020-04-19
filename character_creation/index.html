@@ -275,6 +275,7 @@
             link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
           }
 
+          const eng_text = link_text.match(/\((.*)\)/)? link_text.match(/\((.*)\)/)[1]: link_text;
           link_text = link_text.replace(/\(.*\)/, "");
 
           if(tag=="H2" || tag=="H3"){
@@ -284,9 +285,8 @@
 
           current.addClass('anchor');
 
-          $("ul.currentul").append("<li class='currentli'><a id='link" + i + "' href='#title" +
-            i + "' title='" + tag + "'>" + 
-            link_text + "</a></li>");
+          var link_html = `<li class='currentli ${tag=="H1"? "headli": ""}'><a id='link${i}' href='#title${i}' title='${eng_text}'>${link_text}</a></li>`;
+          $("ul.currentul").append( link_html );
       });
       $(".Tags").each(function(i) {
         var current = $(this);
@@ -302,10 +302,10 @@
           }).join(" "));
       });
       $("#names p").each(function(i) {
-        var names_match = $(this).html().match(/(.+\: )(.+)/);
+        var names_match = $(this).html().match(/(.+\: )?(.+)/);
         if( names_match == null || names_match.length<3 ) return ;
         
-        var names_head = names_match[1];
+        var names_head = names_match[1]? names_match[1]: "";
         var names_arr = names_match[2].split(", ").map(context => {
           const name_match = context.match(/(.+)\((\w+)\)/);
           return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
