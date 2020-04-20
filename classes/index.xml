@@ -95,14 +95,17 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
 忘了他們吧。
 你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。
 你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。
-名稱矮人: 歐茲魯克(Ozruk), Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, 賈爾(Jarl), 索圖庫(Xotoq)
-精靈: Elohiir, Sharaseth, Hasrith, Shevaral, 凱杜斯(Cadeus), Eldar, Kithracet, 緹里恩(Thelian)
-半身人: Finnegan, Olive, Randolph, 巴特比(Bartleby), Aubrey, Baldwin, Becca
-人類: Hawke, Rudiger, 葛瑞格(Gregor), 布莉安娜(Brianne), Walton, Castor, Shanna, Ajax, Hob
+名稱矮人: 歐茲魯克(Ozruk), 蘇爾特(Surtur), 布倫希爾德(Brunhilda), 安妮卡(Annika), 杰諾斯(Janos), 格蕾塔(Greta), 迪姆(Dim), 蘭德里革(Rundrig), 賈爾(Jarl), 索圖庫(Xotoq)
+精靈: 以羅欣(Elohiir), 莎拉瑟斯(Sharaseth), 哈茲里(Hasrith), 夏瓦羅(Shevaral), 凱杜斯(Cadeus), 艾爾達(Eldar), 奇斯瑞瑟(Kithracet), 緹里恩(Thelian)
+半身人: 芬尼根(Finnegan), 奧麗弗(Olive), 藍道夫(Randolph), 巴特比(Bartleby), 奧布里(Aubrey), 鮑德溫(Baldwin), 貝卡(Becca)
+人類: 霍克(Hawke), 呂迪格(Rudiger), 葛瑞格(Gregor), 布莉安娜(Brianne), 沃爾頓(Walton), 卡斯托(Castor), 莎娜(Shanna), 埃阿斯(Ajax), 哈伯(Hob)
 外觀從每列中各自選擇一項：
-Hard Eyes, Dead Eyes, or Eager Eyes
-Wild Hair, Shorn Hair, or Battered Helm
-Calloused Skin, Tanned Skin, or Scarred Skin</description>
+堅毅的眼神, 死沉的眼神, 或 熱切的眼神
+狂野的髮型, 剃短的髮型, 或 破舊頭盔
+粗硬的肌膚，曬黑的肌膚，或 滿佈疤痕的肌膚
+健壯的體型，輕盈的體型，或 經過摧殘的身軀
+屬性數值你的最大生命值為 10+體質值。
+你的基礎傷害骰為 d10。</description>
     </item>
     
     <item>
