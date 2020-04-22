@@ -75,10 +75,7 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
 半身人: 坦諾(Tanner), 鄧斯坦(Dunstan), 蘿絲(Rose), 艾薇(Ivy), 羅巴特(Robard), 瑪布(Mab), 薊(Thistle), 帕克(Puck), 安妮(Anne), 賽拉(Serah)
 人類: 埃拉娜(Elana), 歐貝里斯(Obelis), 赫倫(Herran), 希拉(Syla), 安妲娜(Andanna), 西沃恩(Siobhan), 阿齊茲(Aziz), 佩琳(Pelin), 西比爾(Sibel), 尼爾斯(Nils), 韋伊(Wei)
 外觀從每列中各自選擇一項：
-睿智的眼神, 狂野的眼神, 或 著魔的眼神
-毛皮兜帽, 凌亂的髮型, 或 辮子髮型
-儀式祭服, 實用革衣, 或 飽經風霜的獸皮
-屬性數值你的最大生命值為 6+體質值。
+睿智的眼神, 狂野的眼神, 或 著魔的眼神毛皮兜帽, 凌亂的髮型, 或 辮子髮型儀式祭服, 實用革衣, 或 飽經風霜的獸皮屬性數值你的最大生命值為 6+體質值。
 你的基礎傷害骰為 d6。
 起始動作選擇一個種族並獲得相應的動作：
 精靈上古神樹的汁液流淌在你體內。除了你所選擇的歸屬地之外，大森林也永遠被視作你的歸屬地。
@@ -100,12 +97,9 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
 半身人: 芬尼根(Finnegan), 奧麗弗(Olive), 藍道夫(Randolph), 巴特比(Bartleby), 奧布里(Aubrey), 鮑德溫(Baldwin), 貝卡(Becca)
 人類: 霍克(Hawke), 呂迪格(Rudiger), 葛瑞格(Gregor), 布莉安娜(Brianne), 沃爾頓(Walton), 卡斯托(Castor), 莎娜(Shanna), 埃阿斯(Ajax), 哈伯(Hob)
 外觀從每列中各自選擇一項：
-堅毅的眼神, 死沉的眼神, 或 熱切的眼神
-狂野的髮型, 剃短的髮型, 或 破舊頭盔
-粗硬的肌膚，曬黑的肌膚，或 滿佈疤痕的肌膚
-健壯的體型，輕盈的體型，或 經過摧殘的身軀
-屬性數值你的最大生命值為 10+體質值。
-你的基礎傷害骰為 d10。</description>
+堅毅的眼神, 死沉的眼神, 或 熱切的眼神狂野的髮型, 剃短的髮型, 或 破舊頭盔粗硬的肌膚，曬黑的肌膚，或 滿佈疤痕的肌膚健壯的體型，輕盈的體型，或 經過摧殘的身軀屬性數值你的最大生命值為 10+體質值。
+你的基礎傷害骰為 d10。
+起始動作選擇一個種族並獲得相應的動作：</description>
     </item>
     
     <item>
@@ -169,15 +163,16 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
 眾神之眼，之手，之殺戮神罰，這就是你。你所賜的乃是公義與美德－－乃是正義，乃是願景。你胸懷同伴們所欠缺的，純粹之意念。
 所以引導這些愚者吧，聖武士。擔負起你的聖潔使命，將救贖帶到這個破爛世界。
 敗者毋怨悽慘，對吧？
-名稱 (Names)Thaddeus, Augustine, 拉克絲(Lux), Cassius, 哈德良(Hadrian), Lucia, 奧塔薇雅(Octavia), Regulus, 薇拉莉雅(Valeria), Sanguinus, Titanius
-外觀 (Look)從每列中各自選擇一項：
-Kind Eyes, Fiery Eyes, or Glowing Eyes
-Helmet, Styled Hair, or Bald
-Worn Holy Symbol or Fancy Holy Symbol
-Fit Body, Bulky Body, or Thin Body
-屬性數值 (Stats)Your maximum HP is 10+Constitution.
-Your base damage is d10.
-起始動作 (Starting Moves)You are human, so you get this move.</description>
+名稱塔迪厄斯(Thaddeus), 奧古斯汀(Augustine), 拉克絲(Lux), 卡西烏斯(Cassius), 哈德良(Hadrian), 露西亞(Lucia), 奧塔薇雅(Octavia), 雷古勒斯(Regulus), 薇拉莉雅(Valeria), 聖吉列斯(Sanguinus), 泰坦尼斯(Titanius)
+外觀從每列中各自選擇一項：
+仁慈的眼神, 熾熱的眼神, 或 明亮的眼神頭盔, 時尚的髮型, 或 光頭磨損的聖徽, 或 華麗的聖徽健美的體型, 魁梧的體型, 或 消瘦的體型屬性數值你的最大生命值為 10+體質值。
+你的基礎傷害骰為 d10。
+起始動作你是人類，因此你獲得這個動作：
+人類當你祈禱請示引導，並詢問「邪惡在何方？」時，GM將會據實以告。
+你起始還擁有以下動作：
+聖療(魅力) (Lay on Hands)當你觸碰某人，肌膚相觸，並為他們的健康祈禱時，擲+魅力：✴擲出10+時，你治療 1d8 傷害 或 解除一個疾病。✴擲出7-9時，他們仍然被治癒，但該傷害或疾病將轉移到你身上。
+著甲 (Armored)你可以無視你所穿戴防具的笨重標籤。
+吾即律法 (I Am the Law)當你基於自身的神聖權威向NPC下命令時，擲+魅力：✴擲出7+時，他們選擇一項：依你所言行事警戒地後退，然後逃跑攻擊你</description>
     </item>
     
     <item>
@@ -189,16 +184,17 @@ Your base damage is d10.
       <description>遊俠與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
 嚮導、獵手、荒野的造物。你遠遠不只如此。你在荒野中一向孤獨，但那偉大之物的呼喚－－或許可以稱之為命運－－將你與這些都市人的命連繫在了一起。他們或許勇敢。或許強大健壯。但只有你通曉這兩者間的秘密。
 沒有你，他們就會迷失。在鮮血與黑暗之中燒出通往前方的道路吧，神行客。
-名稱 (Names)Elf: Throndir, Elrosine, 艾蘭威(Aranwe), Celion, Dambrath, Lanethe
-Human: Jonah, 哈利克(Halek), Brandon, 埃默里(Emory), Shrike, 諾拉(Nora), Diana
-外觀 (Look)從每列中各自選擇一項：
-Wild Eyes, Sharp Eyes, or Animal Eyes
-Hooded Head, Wild Hair, or Bald
-Cape, Camouflage, or Traveling Clothes
-Lithe Body, Wild Body, or Sharp Body
-屬性數值 (Stats)Your maximum HP is 8+Constitution.
-Your base damage is d8.
-起始動作 (Starting Moves)Choose a race and gain the corresponding move:</description>
+名稱精靈: 特隆迪爾(Throndir), 艾羅辛(Elrosine), 艾蘭威(Aranwe), 席琳翁(Celion), 丹布雷斯(Dambrath), 蕾妮特(Lanethe)
+人類: 約拿(Jonah), 哈利克(Halek), 布蘭登(Brandon), 埃默里(Emory), 伯勞(Shrike), 諾拉(Nora), 黛安娜(Diana)
+外觀從每列中各自選擇一項：
+狂野的眼神, 銳利的眼神, 或 野獸的眼神兜帽, 狂野的髮型, 或 光頭斗篷, 自然偽裝, 或 旅行衣裝輕盈的體型, 野性的體型, 或 輪廓鮮明的體型屬性數值你的最大生命值為 8+體質值。
+你的基礎傷害骰為 d8。
+起始動作選擇一個種族並獲得相應的動作：
+精靈當你們踏上一段橫越荒野的危險旅程時，無論你擔任哪一個職位，該工作都將如同你擲出10+的結果一樣自動成功。
+人類當你在地城或城市中紮營時，你不需要消耗口糧。
+你起始還擁有以下動作：
+狩獵與追跡(睿知) (Hunt and Track)當你追尋路經此地的生物所留下的蹤跡時，擲+睿知：✴擲出7+時，你跟隨該生物的蹤跡前進，直到牠的方向或行進模式發生了顯著的改變。✴擲出10+時，你還可以選擇下列一項：
+你得知一些關於獵物的有用情報，GM將會告訴你內容辨明蹤跡中斷的原因瞄準射擊 (Called Shot)當你從遠距離攻擊一個毫無防備或被突襲的敵人時，你可以選擇直接造成你的傷害、或是指定攻擊的部位並擲+敏捷：</description>
     </item>
     
   </channel>

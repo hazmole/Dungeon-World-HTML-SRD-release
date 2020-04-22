@@ -117,128 +117,195 @@
 <p>所以引導這些愚者吧，聖武士。擔負起你的聖潔使命，將救贖帶到這個破爛世界。</p> 
 <p>敗者毋怨悽慘，對吧？</p></div>
 <hr/>
-<h2>名稱 (Names)</h2>
-<div id="names"><p class="NoIndent">Thaddeus, Augustine, 拉克絲(Lux), Cassius, 哈德良(Hadrian), Lucia, 奧塔薇雅(Octavia), Regulus, 薇拉莉雅(Valeria), Sanguinus, Titanius</p></div>
+<h2>名稱</h2>
+<div id="names"><p class="NoIndent">塔迪厄斯(Thaddeus), 奧古斯汀(Augustine), 拉克絲(Lux), 卡西烏斯(Cassius), 哈德良(Hadrian), 露西亞(Lucia), 奧塔薇雅(Octavia), 雷古勒斯(Regulus), 薇拉莉雅(Valeria), 聖吉列斯(Sanguinus), 泰坦尼斯(Titanius)</p></div>
 <hr/>
-<h2>外觀 (Look)</h2>
+<h2>外觀</h2>
 <div id="look"><p class="InstructionsAfterHeader">從每列中各自選擇一項：</p>
-<p class="NoIndent">Kind Eyes, Fiery Eyes, or Glowing Eyes</p>
-<p class="NoIndent">Helmet, Styled Hair, or Bald</p>
-<p class="NoIndent">Worn Holy Symbol or Fancy Holy Symbol</p>
-<p class="NoIndent">Fit Body, Bulky Body, or Thin Body</p></div>
+<ul><li>仁慈的眼神, 熾熱的眼神, 或 明亮的眼神</li>
+<li>頭盔, 時尚的髮型, 或 光頭</li>
+<li>磨損的聖徽, 或 華麗的聖徽</li>
+<li>健美的體型, 魁梧的體型, 或 消瘦的體型</li></ul></div>
 <hr/>
-<h2>屬性數值 (Stats)</h2>
-<p class="NoIndent">Your maximum HP is 10+Constitution.</p>
-<p class="NoIndent">Your base damage is <span id="Damage">d10</span>.</p>
+<h2>屬性數值</h2>
+<p class="NoIndent">你的最大生命值為 10+體質值。</p>
+<p class="NoIndent">你的基礎傷害骰為 <span id="Damage">d10</span>。</p>
 <hr/>
-<h2>起始動作 (Starting Moves)</h2>
-<div id="startingmoves"><p class="InstructionsAfterHeader">You are human, so you get this move.</p>
-<div id="racialmoves"><div class="Move"><h3 class="MoveName">Human</h3>
-<p class="NoIndent">When you <strong>pray for guidance, even for a moment, and ask, “What here is evil?”</strong> the GM will tell you, honestly.</p></div></div>
-<div id="classmoves"><p class="Instructions">You start with these moves:</p>
-<div class="Move"><h3 class="BasicMoveName">Lay on Hands (Cha)</h3>
-<p class="NoIndent">When you <strong>touch someone, skin to skin, and pray for their well-being </strong>, roll+CHA. ✴On a 10+ you heal 1d8 damage or remove one disease. ✴On a 7–9, they are healed, but the damage or disease is transferred to you.</p></div>
-<div class="Move"><h3 class="BasicMoveName">Armored</h3>
-<p class="NoIndent">You ignore the clumsy tag on armor you wear.</p></div>
-<div class="Move"><h3 class="BasicMoveName">I Am the Law</h3>
-<p class="NoIndent">When you <strong>give an NPC an order based on your divine authority</strong>, roll+Cha. ✴On a 7+, they choose one:</p>
-<ul><li>Do what you say</li>
-<li>Back away cautiously, then flee</li>
-<li>Attack you</li></ul>
-<p class="NoIndent">✴On a 10+, you also take +1 forward against them. ✴On a miss, they do as they please and you take -1 forward against them.</p></div>
-<div class="Move"><h3 class="BasicMoveName">Quest</h3>
-<p class="NoIndent">When you <strong>dedicate yourself to a mission through prayer and ritual cleansing</strong>, state what you set out to do:</p>
-<ul><li>Slay _______, a great blight on the land</li>
-<li>Defend _______ from the iniquities that beset them</li>
-<li>Discover the truth of _______</li></ul>
-<p class="NoIndent">Then choose up to two boons:</p>
-<ul><li>An unwavering sense of direction to _______.</li>
-<li>Invulnerability to _______ (e.g., edged weapons, fire, enchantment, etc.)</li>
-<li>A mark of divine authority</li>
-<li>Senses that pierce lies</li>
-<li>A voice that transcends language</li>
-<li>A freedom from hunger, thirst, and sleep</li></ul>
-<p class="NoIndent">The GM will then tell you what vow or vows is required of you to maintain your blessing:</p>
-<ul><li>Honor (forbidden: cowardly tactics and tricks)</li>
-<li>Temperance (forbidden: gluttony in food, drink, and pleasure of the flesh)</li>
-<li>Piety (required: observance of daily holy services)</li>
-<li>Valor (forbidden: suffering an evil creature to live)</li>
-<li>Truth (forbidden: lies)</li>
-<li>Hospitality (required: comfort to those in need, no matter who they are)</li></ul></div></div></div>
+<h2>起始動作</h2>
+<div id="startingmoves"><p class="InstructionsAfterHeader">你是人類，因此你獲得這個動作：</p>
+<div id="racialmoves"><div class="Move"><h3 class="MoveName">人類</h3>
+<p class="NoIndent">
+	當你<strong>祈禱請示引導，並詢問「邪惡在何方？」</strong>時，GM將會據實以告。</p></div></div>
+
+<div id="classmoves"><p class="Instructions">你起始還擁有以下動作：</p>
+<div class="Move"><h3 class="BasicMoveName">聖療(魅力) (Lay on Hands)</h3>
+<p class="NoIndent">
+	當你<strong>觸碰某人，肌膚相觸，並為他們的健康祈禱</strong>時，擲+魅力：<br/>
+	✴擲出10+時，你治療 1d8 傷害 或 解除一個疾病。<br/>
+	✴擲出7-9時，他們仍然被治癒，但該傷害或疾病將轉移到你身上。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">著甲 (Armored)</h3>
+<p class="NoIndent">
+	你可以無視你所穿戴防具的<tag>笨重</tag>標籤。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">吾即律法 (I Am the Law)</h3>
+<p class="NoIndent">
+	當你<strong>基於自身的神聖權威向NPC下命令</strong>時，擲+魅力：<br/>
+	✴擲出7+時，他們選擇一項：
+<ul>
+	<li>依你所言行事</li>
+	<li>警戒地後退，然後逃跑</li>
+	<li>攻擊你</li></ul></p>
+<p class="NoIndent">
+	✴擲出10+時，你同時獲得對他們的下次+1。<br/>
+	✴擲出失敗時，他們將隨他們的意志行事，且你獲得對他們的下次-1。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">使命 (Quest)</h3>
+<p class="NoIndent">
+	當你<strong>透過祈禱與淨化儀式將自己獻身於一項任務</strong>時，宣告你所要執行的使命：</p>
+<ul>
+	<li>殺死 _______，一個這片土地上的巨大災禍。</li>
+	<li>守護 _______ 抵擋邪惡事物的圍攻。</li>
+	<li>發掘出關於 _______ 的真相。</li></ul>
+<p class="NoIndent">接著選擇最多二項恩賜：</p>
+<ul>
+	<li>指向 _______ 的堅定方向感</li>
+	<li>免疫於 _______ （例如：利刃武器、火焰、惑控效果，等等）</li>
+	<li>代表著神聖權威的印記</li>
+	<li>看破謊言的感官</li>
+	<li>跨越語言隔閡的嗓音</li>
+	<li>免受飢餓、口渴、和睡眠需求的束縛</li></ul>
+<p class="NoIndent">GM將告訴你，若要保有你所獲得的祝福，你必須立下哪一項或哪幾項誓言：</p>
+<ul>
+	<li>榮譽 (禁忌：卑怯的戰術或技倆)</li>
+	<li>節制 (禁忌：貪圖飲食或肉體的享樂)</li>
+	<li>虔誠 (需求：遵行每日的神聖儀式)</li>
+	<li>英勇 (禁忌：容忍邪惡生物存活)</li>
+	<li>真理 (禁忌：說謊)</li>
+	<li>款待 (需求：安慰那些需要幫助的人，無論他們是誰)</li></ul></div></div></div>
 <hr/>
-<h2>陣營 (Alignment)</h2>
-<p class="InstructionsAfterHeader">Choose an alignment:</p>
-<div id="alignment"><div class="Move"><h3 class="MoveName">Lawful</h3>
-<p class="NoIndent">Deny mercy to a criminal or unbeliever.</p></div>
-<div class="Move"><h3 class="MoveName">Good</h3>
-<p class="NoIndent">Endanger yourself to protect someone weaker than you.</p></div></div>
+
+<h2>陣營</h2>
+<p class="InstructionsAfterHeader">選擇一個陣營：</p>
+<div id="alignment"><div class="Move"><h3 class="MoveName">守序</h3>
+<p class="NoIndent">拒絕寬恕罪犯或無信者。</p></div>
+<div class="Move"><h3 class="MoveName">善良</h3>
+<p class="NoIndent">為了保護弱者而將自己置身險境。</p></div></div>
 <hr/>
-<h2>裝備 (Gear)</h2>
-<div id="gear"><p class="NoIndent">Your load is 12+Str. You start with dungeon rations (5 uses, 1 weight), scale armor (2 armor, 3 weight), and some mark of faith, describe it (0 weight). Choose your weapon:</p>
-<ul><li class="Option">Halberd (reach, +1 damage, two-handed, 2 weight)</li>
-<li class="Option">Long sword (close, +1 damage, 1 weight) and shield (+1 armor, 2 weight)</li></ul>
-<p class="NoIndent">Choose one:</p>
-<ul><li class="Option">Adventuring gear (1 weight)</li>
-<li class="Option">Dungeon rations (1 weight) and healing potion (0 weight)</li></ul></div>
+
+<h2>裝備</h2>
+<div id="gear"><p class="NoIndent">
+	你的負載上限為 12+力量。<br/>
+	你起始擁有 地城口糧 (<tag>5 使用次數</tag> <tag>1 重量</tag>), 鱗甲 (<tag>2 護甲</tag> <tag>3 重量</tag>), 和一些信仰象徵，樣式由你描述 (<tag>0 重量</tag>)。</p>
+選擇你的武器：
+<ul>
+	<li class="Option">斧槍 (<span class="Tags">及遠, +1 傷害, 雙手, 2 重量</span>)</li>
+	<li class="Option">長劍 (<span class="Tags">近身, +1 傷害, 1 重量</span>) 和 盾牌 (<span class="Tags">+1 護甲, 2 重量</span>)</li></ul>
+選擇一項：
+<ul>
+	<li class="Option">探險工具組 (<span class="Tags">5 使用次數, 1 重量</span>)</li>
+	<li class="Option">地城口糧 (<span class="Tags">5 使用次數, 1 重量</span>) 和 治療藥水 (<span class="Tags">0 重量</span>)</li></ul></div>
 <hr/>
-<h2>羈絆 (Bonds)</h2>
+
+<h2>羈絆</h2>
 <div id="bonds"><p class="NoIndent">在至少一個欄位中填入你其中一名同伴的名字：</p>
-<p>_______________’s misguided behavior endangers their very soul!</p>
-<p>_______________ has stood by me in battle and can be trusted completely.</p>
-<p>I respect the beliefs of _______________ but hope they will someday see the true way.</p>
-<p>_______________ is a brave soul, I have much to learn from them.</p></div>
+<p>_______________ 的錯誤行為將會危害到他自己！</p>
+<p>_______________ 曾與我並肩作戰，他可以被完全信任。</p>
+<p>我敬重 _______________ 的信仰，但期望他有朝一日能夠看見真理。</p>
+<p>_______________ 勇敢無懼，我還有許多要向他學習。</p></div>
 <hr/>
-<h2>進階動作 (Advanced Moves)</h2>
-<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2–5, choose from these moves.</p>
-<div class="Move"><h3 class="MoveName">Divine Favor</h3>
-<p class="NoIndent">Dedicate yourself to a deity (name a new one or choose one that’s already been established). You gain the commune and cast a spell cleric moves. When you select this move, treat yourself as a cleric of level 1 for using spells. Every time you gain a level thereafter, increase your effective cleric level by 1.</p></div>
-<div class="Move"><h3 class="MoveName">Bloody Aegis</h3>
-<p class="NoIndent">When you take damage you can grit your teeth and accept the blow. If you do you take no damage but instead suffer a debility of your choice. If you already have all six debilities you can’t use this move.</p></div>
-<div class="Move"><h3 class="MoveName">Smite</h3>
-<p class="NoIndent">While on a quest you deal +1d4 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Exterminatus</h3>
-<p class="NoIndent">When you <strong>speak aloud your promise to defeat an enemy</strong>, you deal +2d4 damage against that enemy and -4 damage against anyone else. This effect lasts until the enemy is defeated. If you fail to defeat the enemy or give up the fight, you can admit your failure, but the effect continues until you find a way to redeem yourself.</p></div>
-<div class="Move"><h3 class="MoveName">Charge!</h3>
-<p class="NoIndent">When you <strong>lead the charge into combat</strong>, those you lead take +1 forward.</p></div>
-<div class="Move"><h3 class="MoveName">Staunch Defender</h3>
-<p class="NoIndent">When you defend you always get +1 hold, even on a 6-.</p></div>
-<div class="Move"><h3 class="MoveName">Setup Strike</h3>
-<p class="NoIndent">When you hack and slash, choose an ally. Their next attack against your target does +1d4 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Holy Protection</h3>
-<p class="NoIndent">You get +1 armor while on a quest.</p></div>
-<div class="Move"><h3 class="MoveName">Voice of Authority</h3>
-<p class="NoIndent">Take +1 to order hirelings.</p></div>
-<div class="Move"><h3 class="MoveName">Hospitaller</h3>
-<p class="NoIndent">When you heal an ally, you heal +1d8 damage.</p></div>
-<p class="Instructions">When you gain a level from 6–10, choose from these moves or the level 2–5 moves.</p>
-<div class="Move"><h3 class="MoveName">Evidence of Faith</h3>
-<p class="Requirement">Requires: Divine Favor</p>
-<p class="NoIndent">When you <strong>see divine magic as it happens</strong>, you can ask the GM which deity granted the spell and its effects. Take +1 when acting on the answers.</p></div>
-<div class="Move"><h3 class="MoveName">Holy Smite</h3>
-<p class="Requirement">Replaces: Smite</p>
-<p class="NoIndent">While on a quest you deal +1d8 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Ever Onward</h3>
-<p class="Requirement">Replaces: Charge!</p>
-<p class="NoIndent">When you lead the charge into combat, those you lead take +1 forward and +2 armor forward.</p></div>
-<div class="Move"><h3 class="MoveName">Impervious Defender</h3>
-<p class="Requirement">Replaces: Staunch Defender</p>
-<p class="NoIndent">When you defend you always get +1 hold, even on a 6-. When you get a 12+ to defend instead of getting hold the nearest attacking creature is stymied giving you a clear advantage, the GM will describe it.</p></div>
-<div class="Move"><h3 class="MoveName">Tandem Strike</h3>
-<p class="Requirement">Replaces: Setup Strike</p>
-<p class="NoIndent">When you hack and slash, choose an ally. Their next attack against your target does +1d4 damage and they take +1 forward against them.</p></div>
-<div class="Move"><h3 class="MoveName">Divine Protection</h3>
-<p class="Requirement">Replaces: Holy Protection</p>
-<p class="NoIndent">You get +2 armor while on a quest.</p></div>
-<div class="Move"><h3 class="MoveName">Divine Authority</h3>
-<p class="Requirement">Replaces: Voice of Authority</p>
-<p class="NoIndent">Take +1 to order hirelings. When you roll a 12+ the hireling transcends their moment of fear and doubt and carries out your order with particular effectiveness or efficiency.</p></div>
-<div class="Move"><h3 class="MoveName">Perfect Hospitaller</h3>
-<p class="Requirement">Replaces: Hospitaller</p>
-<p class="NoIndent">When you heal an ally, you heal +2d8 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Indomitable</h3>
-<p class="NoIndent">When you suffer a debility (even through Bloody Aegis) take +1 forward against whatever caused it.</p></div>
-<div class="Move"><h3 class="MoveName">Perfect Knight</h3>
-<p class="NoIndent">When you quest you choose three boons instead of two.</p></div></div>
+
+<h2>進階動作</h2>
+<div id="moves"><p class="InstructionsAfterHeader">當你的等級升至2~5，從下列動作中選擇：</p>
+
+<div class="Move"><h3 class="MoveName">神恩浩蕩 (Divine Favor)</h3>
+<p class="NoIndent">
+	將你自己奉獻給一名神祇（為一個新的神取名、或選擇一個已經存在的神祇）。你獲得牧師動作中的通神和施放法術動作。當你獲得這個動作時，你在使用法術時將把你自己視作等級 1 的牧師。在這之後，每當你升級，你的有效牧師等級也會跟著提升 1 級。</p></div>
+
+<div class="Move"><h3 class="MoveName">血紅神盾 (Bloody Aegis)</h3>
+<p class="NoIndent">
+	當你承受傷害時，你可以選擇咬緊牙關並接受打擊。若你這麼做，則你不會受到任何傷害，而是改為承受一個你所選擇的異常狀態。若你已經同時處於全部六種異常狀態，則你不能使用這個動作。</p></div>
+
+<div class="Move"><h3 class="MoveName">重斬 (Smite)</h3>
+<p class="NoIndent">
+	在執行使命的期間，你額外造成 +1d4 傷害。</p></div>
+
+<div class="Move"><h3 class="MoveName">滅絕令 (Exterminatus)</h3>
+<p class="NoIndent">
+	當你<strong>大聲說出你將要擊敗某一個敵人的承諾</strong>時，你對該敵人額外造成 +2d4 傷害，但對其他所有對象造成的傷害-4。這個效果會持續直到該敵人被擊敗。若你放棄擊敗該敵人，或放棄戰鬥，則你可以承認你的失敗，然而這個效果仍會繼續持續直到你找到一個方法來救贖自己。</p></div>
+
+<div class="Move"><h3 class="MoveName">衝鋒！ (Charge!)</h3>
+<p class="NoIndent">
+	當你<strong>率領眾人衝鋒陷陣</strong>時，你所率領的人們都將獲得下次+1。</p></div>
+
+<div class="Move"><h3 class="MoveName">堅毅防衛者 (Staunch Defender)</h3>
+<p class="NoIndent">
+	當你進行保衛動作時，你永遠可以獲得 +1 掌握，即使你擲出6-的結果也一樣。</p></div>
+
+<div class="Move"><h3 class="MoveName">預備打擊 (Setup Strike)</h3>
+<p class="NoIndent">
+	當你進行砍劈動作時，選擇一個同伴。他們下次對你攻擊目標所進行的攻擊將額外造成 +1d4 傷害。</p></div>
+
+<div class="Move"><h3 class="MoveName">聖潔守護 (Holy Protection)</h3>
+<p class="NoIndent">
+	在執行使命的期間，你獲得 +1 護甲值。</p></div>
+
+<div class="Move"><h3 class="MoveName">權威之聲 (Voice of Authority)</h3>
+<p class="NoIndent">
+	你在命令僱工時獲得 +1 加值。</p></div>
+
+<div class="Move"><h3 class="MoveName">醫院牧師 (Hospitaller)</h3>
+<p class="NoIndent">
+	當你治療一名同伴時，你額外治療 +1d8 傷害。</p></div>
+
+<p class="Instructions">當你的等級升至6~10，從下列動作或等級2~5的動作中選擇：</p>
+<div class="Move"><h3 class="MoveName">信仰之證 (Evidence of Faith)</h3>
+<p class="Requirement">需求: 神恩浩蕩</p>
+<p class="NoIndent">
+	當你<strong>目睹神聖魔法發生的瞬間</strong>，你可以詢問GM這個法術是由哪個神祇授予，以及這個法術的效果。當依據答案而採取行動時，獲得下次+1。</p></div>
+
+<div class="Move"><h3 class="MoveName">至聖斬 (Holy Smite)</h3>
+<p class="Requirement">取代: 重斬</p>
+<p class="NoIndent">
+	在執行使命的期間，你額外造成 +1d8 傷害。</p></div>
+
+<div class="Move"><h3 class="MoveName">勇往直前 (Ever Onward)</h3>
+<p class="Requirement">取代: 衝鋒！</p>
+<p class="NoIndent">
+	當你<strong>率領眾人衝鋒陷陣</strong>時，你所率領的人們都將獲得下次+1 以及 下次護甲值+2。</p></div>
+
+<div class="Move"><h3 class="MoveName">無敵防衛者 (Impervious Defender)</h3>
+<p class="Requirement">取代: 堅毅防衛者</p>
+<p class="NoIndent">
+	當你進行保衛動作時，你永遠可以獲得 +1 掌握，即使你擲出6-的結果也一樣。當你在保衛動作中擲出12+的結果時，你不獲得掌握，而是改為使最接近的攻擊者受阻，並讓你獲得一個明顯的優勢。GM將會描述這個優勢是什麼。</p></div>
+
+<div class="Move"><h3 class="MoveName">縱列打擊 (Tandem Strike)</h3>
+<p class="Requirement">取代: 預備打擊</p>
+<p class="NoIndent">
+	當你進行砍劈動作時，選擇一個同伴。他們下次對你攻擊目標所進行的攻擊將額外造成 +1d4 傷害，且他們獲得對攻擊目標的下次+1。</p></div>
+
+<div class="Move"><h3 class="MoveName">神聖守護 (Divine Protection)</h3>
+<p class="Requirement">取代: 聖潔守護</p>
+<p class="NoIndent">
+	在執行使命的期間，你獲得 +2 護甲值。</p></div>
+
+<div class="Move"><h3 class="MoveName">神聖權威 (Divine Authority)</h3>
+<p class="Requirement">取代: 權威之聲</p>
+<p class="NoIndent">
+	你在命令僱工時獲得 +1 加值。當你擲出12+時，僱工將會戰勝他們心中的恐懼和懷疑，並以特別優異的效率執行你的命令。</p></div>
+
+<div class="Move"><h3 class="MoveName">完美醫牧 (Perfect Hospitaller)</h3>
+<p class="Requirement">取代: 醫院牧師</p>
+<p class="NoIndent">
+	當你治療一名同伴時，你額外治療 +2d8 傷害。</p></div>
+
+<div class="Move"><h3 class="MoveName">不屈 (Indomitable)</h3>
+<p class="NoIndent">
+	當你承受一個異常狀態時（包括透過血紅神盾），你對任何造成該異常狀態的對象獲得下次+1。</p></div>
+
+<div class="Move"><h3 class="MoveName">完美騎士 (Perfect Knight)</h3>
+<p class="NoIndent">
+	當你進行使命動作時，你選擇三個恩賜，而非二個。</p></div></div>
 
           </div>
        </div>
