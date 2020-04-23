@@ -84,14 +84,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</loc>
   </url>
   
@@ -132,6 +124,10 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</loc>
   </url>
   
@@ -149,6 +145,10 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</loc>
   </url>
   
   <url>

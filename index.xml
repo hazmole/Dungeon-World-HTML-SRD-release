@@ -156,27 +156,6 @@ The characters have rules to follow when they roll dice and take actions. The GM
     </item>
     
     <item>
-      <title>The Thief</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</guid>
-      <description>The ThiefYou’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.
-Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap?</description>
-    </item>
-    
-    <item>
-      <title>The Wizard</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</guid>
-      <description>The WizardDungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?
-Oh, the things we tell ourselves to feel better about the long, dark nights.
-You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul.</description>
-    </item>
-    
-    <item>
       <title>The world</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -346,13 +325,32 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
     </item>
     
     <item>
+      <title>法師</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</guid>
+      <description>法師Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?
+Oh, the things we tell ourselves to feel better about the long, dark nights.
+You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul.</description>
+    </item>
+    
+    <item>
       <title>法師法術</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells/</guid>
-      <description>法師法術戲法You prepare all of your cantrips every time you prepare spells without having to select them or count them toward your allotment of spells.
-光亮術 (Light)戲法An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame.</description>
+      <description>法師法術戲法每當你進行準備法術動作時，你將獲得你的所有戲法，你無須從中選擇、也不用把它們計入你的法術分配中。
+光亮術 (Light)戲法一個被你觸碰的物品將發出祕法光輝，其亮度與火炬相當。它並不會散發熱量或聲音，也不需要燃料，但除此之外的特性便與尋常火炬一模一樣。你可以自由控制光輝的色彩。只要你在場，這個法術便會持續發揮效果。
+隱形僕役 (Unseen Servant)戲法 , 持續你召喚出一個簡單的隱形構裝體，它除了攜帶物品之外什麼事都不會做。它的負載上限為 3 重量，且會帶著任何你交給它的東西。它不會自己撿拾物品，也只能夠攜帶那些你交付給它的物品。被隱形僕役所攜帶的物品看起來就像是在你身後幾步的空中漂浮著。一個受到傷害、或者離開你面前的隱形僕役將立刻消散，並落下任何它原本攜帶的物品。除此之外的情況，它都將持續服侍你直到你終止這個法術。
+魔法技倆 (Prestidigitation)戲法你使用真正的魔法表演一些小把戲。若你觸碰一個物體做為施法環節的一部份，你可以使該物體產生裝飾性的變化：清潔它、弄髒它、冷卻它、溫暖它、改變它的味道、或是改變它的顏色。若你在施法時沒有觸碰任何物體，則你可以改為創造出一個不大於你體型的微弱幻象。魔法技倆法術所創造的幻象相當粗糙，且很明顯是幻象──它無法愚弄任何人，但也許能娛樂他們。
+等級1 法術接觸靈體 (Contact Spirits)等級 1	, 召喚系指定一個你希望與之接觸的靈體（或留給GM決定）。該靈體將穿過重重位面被你拖引而至，剛好拉近到足以讓它與你對話的距離。它將盡其所能地回答一個你所提出的問題。
+偵測魔法 (Detect Magic)等級 1	, 預言系你的其中一種感官將能夠短暫地感應到魔法。GM將會告訴你這裡有什麼東西是帶有魔法的。
+心靈感應 (Telepathy)等級 1	, 預言系, 持續你與你所觸碰的一個人物之間將建立起一道心靈感應聯繫，讓你能夠透過思想與那個人交談。你同時只能擁有一道心靈感應聯繫。
+魅惑人類 (Charm Person)等級 1	, 惑控系, 持續你在施放這個法術時所碰觸的人物（不能是野獸或怪物）將視你為摯友，持續直到他受到傷害、或你證明事實並非如此。
+隱形術 (Invisibility)等級 1	, 幻術系, 持續觸碰一名同伴：現在再也沒有人能看見他。他隱形了！這個法術的效果將持續直到目標發動攻擊、或你解消這個效果。在這個法術持續期間，你無法施放法術。
+魔法飛彈 (Magic Missile)等級 1	, 塑能系你從手指釋放出純粹的魔法彈。對一個目標造成 2d4 傷害。</description>
     </item>
     
     <item>
@@ -404,7 +402,7 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells/</guid>
       <description>牧師法術禱念每當你進行通神動作時，你將獲得你的所有禱念，你無須從中選擇、也不用把它們計入你的法術分配中。
-光亮術 (Light)禱念一個你所觸碰的物品將發出聖光，其亮度與火炬相當。它並不會散發熱量或聲音，也不需要燃料，但除此之外的特性便與尋常火炬一模一樣。你可以自由控制光輝的色彩。只要你在場，這個法術便會持續發揮效果。
+光亮術 (Light)禱念一個被你觸碰的物品將發出聖光，其亮度與火炬相當。它並不會散發熱量或聲音，也不需要燃料，但除此之外的特性便與尋常火炬一模一樣。你可以自由控制光輝的色彩。只要你在場，這個法術便會持續發揮效果。
 聖潔淨化 (Sanctify)禱念你手中所持握的食物或飲用水都將在你施放這個法術時被祝聖。除了根據你的信仰而變得神聖或不潔之外，若被影響的物質已經產生任何非魔法導致的腐敗，則其也將被淨化。
 神導術 (Guidance)禱念你信奉神祇的象徵將出現在你面前，指示出祂要你前進的方向或要你採取的行動，並接著消失不見。這段訊息的傳達只會透過手勢進行；你透過這個法術所能達到的交流極為有限。
 等級1 法術祝福術 (Bless)等級 1	, 持續你的神祇向你所選的一名參戰者露出微笑。只要戰鬥仍在繼續，且他們仍屹立不倒，則他們在戰鬥期間將獲得持續+1。在這個法術持續期間，你施放法術的動作將獲得持續-1。
@@ -434,6 +432,16 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
 近身
 寧在地獄為王，不在天堂稱臣。 本能: 領導
 發號施令敲詐推翻政權弄臣 (Fool)在眾臣中就只有這麼一個人被允許在王宮中說出真話：一切真實、直接而誠實的真相。弄臣將這一切藉著鈴鐺、歡躍騰跳、以及粉白妝容表達了出來，而除他之外又有誰能夠告訴國王孰是孰非？你可以信任弄臣，他們這麼說，尤其是當他把你搞得面紅耳赤，而你情願把他淹死在糞坑的時候。 本能: 嘲弄</description>
+    </item>
+    
+    <item>
+      <title>盜賊</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</guid>
+      <description>盜賊You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.
+Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap?</description>
     </item>
     
     <item>
@@ -534,7 +542,7 @@ n 彈藥 (n Ammo): 它被視作適當遠程武器的彈藥。數字ｎ並不代�
 3. 選擇角色名稱從列表中選擇角色的名稱。
 亞文聽起來不錯。
 4. 選擇外觀外觀代表著你身體的外貌特徵，從每個列表中各自選擇一項。
-「著魔的眼神」聽起來不錯，因為每個法師都曾見識過那些凡人不應見的事物。沒有任何一個稱職的好法師會有時間整理頭髮，所以他會有一頭「雜亂的頭髮」。我的長袍非常「古怪」，我跟大家提到，我認為這件長袍或許是作為召喚儀式的一環從遙遠異界中被召喚出來的。因為埋首研究閱讀而沒有時間吃飯，所以我的角色有著「消瘦的體型」。
+「著魔的眼神」聽起來不錯，因為每個法師都曾見識過那些凡人不應見的事物。沒有任何一個稱職的好法師會有時間整理頭髮，所以他會有一頭「狂亂的髮型」。我的長袍非常「古怪」，我跟大家提到，我認為這件長袍或許是作為召喚儀式的一環從遙遠異界中被召喚出來的。因為埋首研究閱讀而沒有時間吃飯，所以我的角色有著「消瘦的體型」。
 5. 選擇屬性值將以下數值分配到你的六個屬性中：16, 15, 13, 12, 9, 8。首先查看所有的基本動作和你職業的起始動作。從中選擇一個你最感興趣的動作：某個你將最常去做，或者最擅長的事情。將 16 分配到該動作所使用的屬性上。再查看一次動作列表，選擇次一個對你的角色而言最重要的動作（也許是某個輔助你第一個選擇的行動）。將你的 15 分配到該動作所使用的屬性上。重複這個過程，直到你將所有剩下的數值分配完畢。
 看起來我會需要智力屬性來施放法術，而這正是我的首選，因此我把 16 分配給智力。面對危險中跟敏捷有關的選項看起來很像是我在閃躲法術時會去做的事情，因此我把 15 分配給敏捷。13 點的睿知可以幫助我注意到重要的細節（且根據面對危險動作的效果，它或許還能幫助我保持理智）。魅力可能會在我與召喚生物打交道時派上用場，因此我把 12 分配給它。活下來永遠是件好事，因此我把9分配給體質以獲得一些額外的生命值。最後，我把 8 分配給力量屬性。
 6. 算出調整值接下來你需要算出每個屬性的調整值。當某個動作寫著+敏捷 或+魅力 時，所使用的正是該屬性對應的調整值。如果你使用的是標準角色紙，則調整值就已經列在各數值旁邊。

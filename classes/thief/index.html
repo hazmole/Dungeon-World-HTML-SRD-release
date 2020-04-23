@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="tw">
   <head>
-  <title>The Thief | 地城世界 HTML SRD</title>
+  <title>盜賊 | 地城世界 HTML SRD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -111,7 +111,7 @@
           <div class="col-md-8 col-md-offset-1">
              
 
-<h1>The Thief</h1>
+<h1>盜賊</h1>
 <div id="intro"><p class="NoIndent">You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.</p>
 <p>Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap? So, let them complain. When you’re done with all this delving you’ll toast their hero’s graves.</p>
 <p>From your castle. Full of gold. You rogue.</p></div>
@@ -122,10 +122,10 @@
 <hr/>
 <h2>外觀</h2>
 <div id="look"><p class="InstructionsAfterHeader">從每列中各自選擇一項：</p>
-<ul><li>Shifty Eyes or Criminal Eyes</li>
-<li>Hooded Head, Messy Hair, or Cropped Hair</li>
-<li>Dark Clothes, Fancy Clothes, or Common Clothes</li>
-<li>Lithe Body, Knobby Body, or Flabby Body</li></ul></div>
+<ul><li>詭詐的眼神 或 罪犯的眼神</li>
+<li>兜帽, 雜亂的髮型, 或 裁短的髮型</li>
+<li>暗色衣裝, 華美衣裝, 或 尋常衣裝</li>
+<li>輕盈的體型, 圓潤的體型, 或 鬆弛的體型</li></ul></div>
 <hr/>
 <h2>屬性數值</h2>
 <p class="NoIndent">你的最大生命值為 6+體質值。</p>
@@ -134,43 +134,62 @@
 
 <h2>起始動作</h2>
 <div id="startingmoves"><p class="InstructionsAfterHeader">選擇一個種族並獲得相應的動作：</p>
-<div id="racialmoves"><div class="Move"><h3 class="MoveName">Halfling</h3>
-<p class="NoIndent">When you attack with a ranged weapon, deal +2 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Human</h3>
-<p class="NoIndent">You are a professional. When you spout lore or discern realities about criminal activities, take +1.</p></div></div>
+<div id="racialmoves"><div class="Move"><h3 class="MoveName">半身人</h3>
+<p class="NoIndent">當你以遠程武器進行攻擊時，你額外造成 +2 傷害。</p></div>
+<div class="Move"><h3 class="MoveName">人類</h3>
+<p class="NoIndent">你是個專業人士。當你進行與犯罪活動有關的憶述見聞或審視現狀動作時，獲得 +1 加值﹐</p></div></div>
 
 <div id="classmoves"><p class="Instructions">你起始還擁有以下動作：</p>
 <div class="Move"><h3 class="BasicMoveName">陷阱專家 (Trap Expert)</h3>
-<p class="NoIndent">When you <strong>spend a moment to survey a dangerous area</strong>, roll+DEX. ✴On a 10+, hold 3. ✴On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:</p>
-<ul><li>Is there a trap here and if so, what activates it?</li>
-<li>What does the trap do when activated?</li>
-<li>What else is hidden here?</li></ul></div>
-<div class="Move"><h3 class="BasicMoveName">Tricks of the Trade</h3>
-<p class="NoIndent">When you <strong>pick locks or pockets or disable traps</strong>, roll+DEX. ✴On a 10+, you do it, no problem. ✴On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost.</p></div>
-<div class="Move"><h3 class="BasicMoveName">Backstab</h3>
-<p class="NoIndent">When you <strong>attack a surprised or defenseless enemy with a melee weapon</strong>, you can choose to deal your damage or roll+DEX. ✴On a 10+ choose two. ✴On a 7–9 choose one.</p>
-<ul><li>You don’t get into melee with them</li>
-<li>You deal your damage+1d6</li>
-<li>You create an advantage, +1 forward to you or an ally acting on it</li>
-<li>Reduce their armor by 1 until they repair it</li></ul></div>
-<div class="Move"><h3 class="BasicMoveName">Flexible Morals</h3>
-<p class="NoIndent">When someone tries to detect your alignment you can tell them any alignment you like.</p></div>
-<div class="Move"><h3 class="BasicMoveName">Poisoner</h3>
-<p class="NoIndent">You’ve mastered the care and use of a poison. Choose a poison from the list below; that poison is no longer dangerous for you to use. You also start with three uses of the poison you choose. Whenever you have time to gather materials and a safe place to brew you can make three uses of the poison you choose for free. Note that some poisons are applied, meaning you have to carefully apply it to the target or something they eat or drink. Touch poisons just need to touch the target, they can even be used on the blade of a weapon.</p>
-<ul><li>Oil of Tagit (applied): The target falls into a light sleep</li>
-<li>Bloodweed (touch): The target deals -1d4 damage ongoing until cured</li>
-<li>Goldenroot (applied): The target treats the next creature they see as a trusted ally, until proved otherwise</li>
-<li>Serpent’s Tears (touch): Anyone dealing damage to the target rolls twice and takes the better result.</li></ul></div></div></div>
+<p class="NoIndent">
+	當你<strong>花費片刻時間仔細調查一片危險的區域</strong>時，擲+敏捷：<br/>
+	✴擲出10+時，獲得 3掌握。<br/>
+	✴擲出7-9時，獲得 1掌握。<br/>
+	當你行經這個區域時，你可以消耗你的掌握來詢問以下問題：</p>
+<ul>
+	<li>此處是否有任何陷阱？如果有，什麼會觸發它？</li>
+	<li>這個陷阱在被觸發時會做什麼？</li>
+	<li>還有什麼藏在此處？</li></ul></div>
+
+<div class="Move"><h3 class="BasicMoveName">專業訣竅 (Tricks of the Trade)</h3>
+<p class="NoIndent">
+	當你<strong>開鎖、扒竊、或解除陷阱</strong>時，擲+敏捷：<br/>
+	✴擲出10+時，沒問題，你順利做到了。<br/>
+	✴擲出7-9時，你仍然達成目的，但GM會要你選擇：從引起懷疑、招來危險、支付代價當中選擇二個後果。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">背刺 (Backstab)</h3>
+<p class="NoIndent">
+	當你<strong>使用近戰武器攻擊一個毫無防備或被突襲的敵人</strong>時，你可以選擇直接造成你的傷害、或是擲+敏捷：<br/>
+	✴擲出10+時，選擇二項。<br/>
+	✴擲出7-9時，選擇一項。</p>
+<ul>
+	<li>你並不會與他們進入近戰距離</li>
+	<li>你額外造成 +1d6 傷害</li>
+	<li>你創造出一個優勢，使你或一個同伴獲得下次利用該優勢行動時+1</li>
+	<li>使目標的護甲值 -1，持續直到他們將之修復</li></ul></div>
+
+<div class="Move"><h3 class="BasicMoveName">彈性道德觀 (Flexible Morals)</h3>
+<p class="NoIndent">
+	當某人嘗試偵測你的陣營時，你可以告訴他們任意一個陣營。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">施毒者 (Poisoner)</h3>
+<p class="NoIndent">
+	你精通於毒藥的管理與使用。從以下列表中選擇一種毒藥；對你而言，使用該毒藥將不再<tag>危險</tag>。你起始也擁有你所選擇的毒藥，總共<tag>3 使用次數</tag>的份量。每當你花費充足的時間採集材料，並在安全場所製備毒藥時，你可以免費做出<tag>3 使用次數</tag>份量的該毒藥。注意，某些毒藥帶有<tag>內服</tag>標籤，這代表你必須小心地將毒藥灌給目標或是摻入他們的食物、飲料當中。而帶有<tag>接觸</tag>標籤的毒藥則只需要碰到目標即可生效，它甚至可以被塗抹在武器的刀刃上。</p>
+<ul>
+	<li>塔吉特之油 (內服): 目標將陷入淺層睡眠。</li>
+	<li>鮮血煙草 (接觸): 目標直到被治癒前都會持續造成 -1d4 傷害。</li>
+	<li>黃金根 (內服): 目標將把他下一個看到的生物視作值得信賴的同伴，直到有證據證明事實並非如此。</li>
+	<li>蛇之淚 (接觸): 任何人對目標造成傷害時，擲兩次傷害骰，並取用較高的結果。</li></ul></div></div></div>
 <hr/>
 
 <h2>陣營</h2>
 <p class="InstructionsAfterHeader">選擇一個陣營：</p>
 <div id="alignment"><div class="Move"><h3 class="MoveName">混亂</h3>
-<p class="NoIndent">Leap into danger without a plan.</p></div>
+<p class="NoIndent">毫無計畫就以身犯險。</p></div>
 <div class="Move"><h3 class="MoveName">中立</h3>
-<p class="NoIndent">Avoid detection or infiltrate a location.</p></div>
+<p class="NoIndent">避免被發現或滲透入侵一個場所。</p></div>
 <div class="Move"><h3 class="MoveName">邪惡</h3>
-<p class="NoIndent">Shift danger or blame from yourself to someone else.</p></div></div>
+<p class="NoIndent">把你身上的危險或責難轉嫁到他人身上。</p></div></div>
 <hr/>
 
 <h2>裝備</h2>
@@ -187,65 +206,109 @@
 <ul><li class="Option">探險工具組 (<span class="Tags">5 使用次數, 1 重量</span>)</li>
 <li class="Option">治療藥水 (<span class="Tags">0 重量</span>)</li></ul></div>
 <hr/>
-<h2>羈絆 (Bonds)</h2>
+
+<h2>羈絆</h2>
 <div id="bonds"><p class="NoIndent">在至少一個欄位中填入你其中一名同伴的名字：</p>
-<p>I stole something from _______________.</p>
-<p>_______________ has my back when things go wrong.</p>
-<p>_______________ knows incriminating details about me.</p>
-<p>_______________ and I have a con running.</p></div>
+<p>我從 _______________ 那裡偷了某樣東西。</p>
+<p>_______________ 會在出問題的時候罩我。</p>
+<p>_______________ 知道關於我犯罪的詳細證據。</p>
+<p>_______________ 和我有個正在執行的騙局。</p></div>
 <hr/>
-<h2>進階動作 (Advanced Moves)</h2>
+
+<h2>進階動作</h2>
 <div id="moves"><p class="InstructionsAfterHeader">當你的等級升至2~5，從下列動作中選擇：</p>
-<div class="Move"><h3 class="MoveName">Cheap Shot</h3>
-<p class="NoIndent">When using a precise or hand weapon, your backstab deals an extra +1d6 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Cautious</h3>
-<p class="NoIndent">When you use trap expert you always get +1 hold, even on a 6-.</p></div>
-<div class="Move"><h3 class="MoveName">Wealth and Taste</h3>
-<p class="NoIndent">When you <strong>make a show of flashing around your most valuable possession</strong>, choose someone present. They will do anything they can to obtain your item or one like it.</p></div>
-<div class="Move"><h3 class="MoveName">Shoot First</h3>
-<p class="NoIndent">You’re never caught by surprise. When an enemy would get the drop on you, you get to act first instead.</p></div>
-<div class="Move"><h3 class="MoveName">Poison Master</h3>
-<p class="NoIndent">After you’ve used a poison once it’s no longer dangerous for you to use.</p></div>
-<div class="Move"><h3 class="MoveName">Envenom</h3>
-<p class="NoIndent">You can apply even complex poisons with a pinprick. When you apply a poison that’s not dangerous for you to use to your weapon it’s touch instead of applied.</p></div>
-<div class="Move"><h3 class="MoveName">Brewer</h3>
-<p class="NoIndent">When you have time to gather materials and a safe place to brew you can create three doses of any one poison you’ve used before.</p></div>
-<div class="Move"><h3 class="MoveName">Underdog</h3>
-<p class="NoIndent">When you’re outnumbered, you have +1 armor.</p></div>
-<div class="Move"><h3 class="MoveName">Connections</h3>
-<p class="NoIndent">When you put out word to the criminal underbelly about something you want or need, roll+CHA. ✴On a 10+, someone has it, just for you. ✴On a 7–9, you’ll have to settle for something close or it comes with strings attached, your call.</p></div>
+<div class="Move"><h3 class="MoveName">卑鄙偷襲 (Cheap Shot)</h3>
+<p class="NoIndent">
+	當使用帶有<tag>靈巧</tag>或<tag class="red">觸及</tag>標籤的武器時，你的背刺動作將額外造成 +1d6 傷害。</p></div>
+
+<div class="Move"><h3 class="MoveName">謹慎 (Cautious)</h3>
+<p class="NoIndent">
+	當你進行陷阱專家動作時，你永遠獲得 +1 掌握，即使你擲出6-的結果也一樣。</p></div>
+
+<div class="Move"><h3 class="MoveName">財富與品味 (Wealth and Taste)</h3>
+<p class="NoIndent">
+	當你<strong>四處炫耀展示你最有價值的所有物</strong>，選擇一個在場的人物。他會盡其所能去得到該物品、或某個與之相似的東西。</p></div>
+
+<div class="Move"><h3 class="MoveName">搶佔先機 (Shoot First)</h3>
+<p class="NoIndent">
+	你永遠不會被突襲。當敵人要對你們先發制人時，改為由你搶先一步行動。</p></div>
+
+<div class="Move"><h3 class="MoveName">毒藥大師 (Poison Master)</h3>
+<p class="NoIndent">
+	當你使用過一種毒藥之後，使用該毒藥對你而言將不再<tag>危險</tag>。</p></div>
+
+<div class="Move"><h3 class="MoveName">劇毒化 (Envenom)</h3>
+<p class="NoIndent">
+	你可以使用針孔注射更加複雜的毒藥。當你將一種對你而言並不危險的毒藥施加在你的武器上時，該毒藥的<tag>內服</tag>標籤將被替換成<tag>接觸</tag>標籤。</p></div>
+
+<div class="Move"><h3 class="MoveName">製毒師 (Brewer)</h3>
+<p class="NoIndent">
+	當你有充足的時間採集材料並在安全場所製備毒藥時，你可以創造出任何一種你曾經使用過的毒藥，總共<tag>3 使用次數</tag>的份量。</p></div>
+
+<div class="Move"><h3 class="MoveName">敗犬掙扎 (Underdog)</h3>
+<p class="NoIndent">
+	當你寡不敵眾時，你獲得 +1 護甲值。</p></div>
+
+<div class="Move"><h3 class="MoveName">人脈網路 (Connections)</h3>
+<p class="NoIndent">
+	當你<strong>在罪犯社群散播關於你想要或需要事物的情報</strong>時，擲+魅力：<br/>
+	✴擲出10+時，某人擁有它，並會把它給你。<br/>
+	✴擲出7-9時，你決定要：將就於某個類似的替代品、或者為了得到它而滿足一些附加條件。</p></div>
+
 
 <p class="Instructions">當你的等級升至6~10，從下列動作或等級2~5的動作中選擇：</p>
-<div class="Move"><h3 class="MoveName">Dirty Fighter</h3>
-<p class="Requirement">Replaces: Cheap Shot</p>
-<p class="NoIndent">When using a precise or hand weapon, your backstab deals an extra +1d8 damage and all other attacks deal +1d4 damage.</p></div>
-<div class="Move"><h3 class="MoveName">Extremely Cautious</h3>
-<p class="Requirement">Replaces: Cautious</p>
-<p class="NoIndent">When you use trap expert you always get +1 hold, even on a 6-. On a 12+ you get 3 hold and the next time you come near a trap the GM will immediately tell you what it does, what triggers it, who set it, and how you can use it to your advantage.</p></div>
-<div class="Move"><h3 class="MoveName">Alchemist</h3>
-<p class="Requirement">Replaces: Brewer</p>
-<p class="NoIndent">When you have you have time to gather materials and a safe place to brew you can create three doses of any poison you’ve used before. Alternately you can describe the effects of a poison you’d like to create. The GM will tell you that you can create it, but with one or more caveats:</p>
-<ul><li>It will only work under specific circumstances</li>
-<li>The best you can manage is a weaker version</li>
-<li>It’ll take a while to take effect</li>
-<li>It’ll have obvious side effects</li></ul></div>
-<div class="Move"><h3 class="MoveName">Serious Underdog</h3>
-<p class="Requirement">Replaces: Underdog</p>
-<p class="NoIndent">You have +1 armor. When you’re outnumbered, you have +2 armor instead.</p></div>
-<div class="Move"><h3 class="MoveName">Evasion</h3>
-<p class="NoIndent">When you defy danger on a 12+, you transcend the danger. You not only do what you set out to, but the GM will offer you a better outcome, true beauty, or a moment of grace.</p></div>
-<div class="Move"><h3 class="MoveName">Strong Arm, True Aim</h3>
-<p class="NoIndent">You can throw any melee weapon, using it to volley. A thrown melee weapon is gone; you can never choose to reduce ammo on a 7–9.</p></div>
-<div class="Move"><h3 class="MoveName">Escape Route</h3>
-<p class="NoIndent">When you’re in too deep and need a way out, name your escape route and roll+DEX. ✴On a 10+ you’re gone. ✴On a 7–9 you can stay or go, but if you go it costs you: leave something behind or take something with you, the GM will tell you what.</p></div>
-<div class="Move"><h3 class="MoveName">Disguise</h3>
-<p class="NoIndent">When you have time and materials you can create a disguise that will fool anyone into thinking you’re another creature of about the same size and shape. Your actions can give you away but your appearance won’t.</p></div>
-<div class="Move"><h3 class="MoveName">Heist</h3>
-<p class="NoIndent">When you take time to make a plan to steal something, name the thing you want to steal and ask the GM these questions. When acting on the answers you and your allies take +1 forward.</p>
-<ul><li>Who will notice it’s missing?</li>
-<li>What’s its most powerful defense?</li>
-<li>Who will come after it?</li>
-<li>Who else wants it?</li></ul></div></div>
+
+<div class="Move"><h3 class="MoveName">卑鄙鬥士 (Dirty Fighter)</h3>
+<p class="Requirement">取代: 卑鄙偷襲</p>
+<p class="NoIndent">
+	當使用帶有<tag>靈巧</tag>或<tag class="red">觸及</tag>標籤的武器時，你的背刺動作將額外造成 +1d8 傷害，且所有其他攻擊將額外造成 +1d4 傷害。</p></div>
+
+<div class="Move"><h3 class="MoveName">極端謹慎 (Extremely Cautious)</h3>
+<p class="Requirement">取代: 謹慎</p>
+<p class="NoIndent">
+	當你進行陷阱專家動作時，你永遠獲得 +1 掌握，即使你擲出6-的結果也一樣。當你擲出12+的結果時，你獲得 3 掌握，且當你下次接近某個陷阱時，GM會立刻告訴你該陷阱會做什麼事、它的觸發條件、是誰設置了它、以及你該如何利用它做為你的優勢。</p></div>
+
+<div class="Move"><h3 class="MoveName">煉金術師 (Alchemist)</h3>
+<p class="Requirement">取代: 製毒師</p>
+<p class="NoIndent">
+	當你有充足的時間採集材料並在安全場所製備毒藥時，你可以創造出任何一種你曾經使用過的毒藥，總共<tag>3 使用次數</tag>的份量。或者，你可以描述一種你想要創造出的新毒藥的效果。GM會告訴你：你可以把它製造出來，但帶有一個或更多的缺點：</p>
+<ul>
+	<li>它只會在特定情境下發揮作用</li>
+	<li>你只能製造出一個效力較弱的版本</li>
+	<li>它會需要花上一些時間才能發揮作用</li>
+	<li>它將帶著明顯的副作用</li></ul></div>
+
+<div class="Move"><h3 class="MoveName">困獸之鬥 (Serious Underdog)</h3>
+<p class="Requirement">取代: 敗犬掙扎</p>
+<p class="NoIndent">
+	你獲得 +1 護甲值。當你寡不敵眾時，你改為獲得 +2 護甲值。</p></div>
+
+<div class="Move"><h3 class="MoveName">反射閃避 (Evasion)</h3>
+<p class="NoIndent">
+	當你在進行面對危險的動作時擲出12+的結果，你將凌駕於危險本身。你不僅僅達成了你想要做的事，GM還會為你帶來一個更好的結果、或展現風采的絕妙時刻。</p></div>
+
+<div class="Move"><h3 class="MoveName">強腕神準 (Strong Arm, True Aim)</h3>
+<p class="NoIndent">
+	你可以投擲任何近戰武器，並使用它來進行射擊動作。你將失去被投擲出去的近戰武器；因此你永遠不能選擇7-9結果中的減少彈藥選項。</p></div>
+
+<div class="Move"><h3 class="MoveName">逃生路線 (Escape Route)</h3>
+<p class="NoIndent">
+	當你深陷險境且需要逃出生天時，說明你的逃生路線，並擲+敏捷：<br/>
+	✴擲出10+時，你成功逃脫。<br/>
+	✴擲出7-9時，你可以選擇離去或留下，但若你選擇離去，你必須付出代價：你把某些事物遺留在現場、或是有某些事物跟著你出來，GM將會告訴你發生了什麼事情。</p></div>
+
+<div class="Move"><h3 class="MoveName">易容偽裝 (Disguise)</h3>
+<p class="NoIndent">
+	當你有充足的時間和材料時，你可以偽裝自己，讓別人把你誤認成另一個體型和身形大致相同的生物。你的行為舉止可能會讓你露出馬腳，但你的外表不會。</p></div>
+
+<div class="Move"><h3 class="MoveName">神鬼劫案 (Heist)</h3>
+<p class="NoIndent">
+	當你<strong>花時間籌措一個盜竊計畫</strong>時，指定一個你想要偷走的東西，並詢問GM這些問題。當依據答案而採取行動時，你和你的同伴獲得下次+1。</p>
+<ul>
+	<li>誰會注意到它不見了？</li>
+	<li>保護著它的防禦機制中最強大的是什麼？</li>
+	<li>誰會來追討它？</li>
+	<li>還有誰同樣想要它？</li></ul></div></div>
 
           </div>
        </div>
