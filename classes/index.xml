@@ -10,16 +10,6 @@
     
     
     <item>
-      <title>Moves in Detail</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion/</guid>
-      <description>Moves in DetailMulticlass Moves兼職新手 (Multiclass Dabbler)兼職學徒 (Multiclass Initiate)兼職大師 (Multiclass Master)For the purposes of these multiclass moves the cleric’s commune and cast a spell count as one move. Likewise for the wizard’s spellbook, prepare Spells, and cast a Spell.
-When you first select a multiclass move that grants you the ability to cast spells you prepare and cast spells as if you had one level in the casting class.</description>
-    </item>
-    
-    <item>
       <title>吟遊詩人</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -181,6 +171,24 @@ Sure, they give you lip for all the times you’ve snuck off alone but without y
 聖療(魅力) (Lay on Hands)當你觸碰某人，肌膚相觸，並為他們的健康祈禱時，擲+魅力：✴擲出10+時，你治療 1d8 傷害 或 解除一個疾病。✴擲出7-9時，他們仍然被治癒，但該傷害或疾病將轉移到你身上。
 著甲 (Armored)你可以無視你所穿戴防具的笨重標籤。
 吾即律法 (I Am the Law)當你基於自身的神聖權威向NPC下命令時，擲+魅力：✴擲出7+時，他們選擇一項：依你所言行事警戒地後退，然後逃跑攻擊你</description>
+    </item>
+    
+    <item>
+      <title>職業動作詳解</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion/</guid>
+      <description>職業動作詳解兼職動作兼職新手 (Multiclass Dabbler)兼職學徒 (Multiclass Initiate)兼職大師 (Multiclass Master)對於這些兼職動作而言，將牧師的通神和施放法術動作視為一個動作。同樣的，法師的法術書、準備法術、和施放法術動作也是如此。
+當你第一次選擇能讓你獲得施放法術能力的兼職動作時，你把你自己視作等級 1 的該施法職業來準備和施放法術。每當你在這之後升級時，你用來準備和施放法術的師法者等級也會跟著提升 1 級。
+當埃阿斯升到 3 級時，他選擇獲得了 兼職新手 動作，並藉此得到牧師職業中的 通神 和 施放法術 動作。他將如同等級一的牧師一樣準備和施放法術：他只能使用禱念以及等級 1 的法術，且只能夠準備等級總和為 2 級的法術。當他之後升到 4 級時，他將能夠如同等級二的牧師一樣準備和施放法術。
+吟遊詩人動作詩人逸聞 (Bardic Lore)將你逸聞的專業領域當成書本。你方才遭遇到的向上逆流瀑布是否是個重要的場所？又是否會被記載一本標題為「法術和魔法」的書本或大學課程中呢？若答案是肯定的，那麼你就可以應用「法術和魔法」的詩人逸聞領域。
+如果你對這些事物的關心足以讓你提出關於它們的問題，那麼它或許就真的很重要。不要懷疑自己：如果你你確實在意到想多知道一些關於它們的情報，那它就確實有一定的重要性。
+敞開心胸 (Charming and Open)真誠坦率地交談，意味著你必須真的對他們敞開心胸，而不只是僅有表面的虛情假意。你那從內心發出的真正誠意才是讓他人放鬆下來的主要原因，這也讓你得以從他們身上得到更多情報；若你試著在這同時維持一個謊言的話，你可沒辦法持續太久。
+超越極限 (It Goes To Eleven)當然，你所影響的生物必須要擁有能夠傷害到你所選擇目標的手段。讓野狼發狂並攻擊在高空中盤旋的鷹王並不會帶來任何好處，畢竟野狼並不具備任何攻擊鷹王的手段。
+魔法知音 (An Ear For Magic)依據答案採取行動，意味著你採取了對抗它們的行動、或者利用它們來創造優勢。無論是哪種形式，你都將獲得下次+1。
+牧師動作通神 (Commune)若你希望，你可以重複準備同一個法術超過一次。
+牧師法術神導術 (Guidance)這個法術透過你神祇象徵的動作和手勢所能傳達的情報多寡，將取決於你信奉神祇（以及GM）的創意。你並不會直接得到來自天堂的異象或聲音啟示，而只會得到一些視覺暗示，指示著神祇希望你採取的行動（即使那並不是你最感興趣的事情）。</description>
     </item>
     
     <item>

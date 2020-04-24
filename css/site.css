@@ -214,6 +214,10 @@ tag.purple { background: #cfb4ff; }
   margin: 0 0 1.14286em 1em;
 }
 
+.Inner {
+  padding-left: 15px;
+}
+
 
 @media only screen and (max-width: 600px) {
   nav#sidemenu {
