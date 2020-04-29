@@ -29,15 +29,6 @@ This section is for the GM so it’s addressed to you—the GM. For the players,
     </item>
     
     <item>
-      <title>Fronts</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</guid>
-      <description>FrontsFronts are secret tomes of GM knowledge. Each is a collection of linked dangers—threats to the characters specifically and to the people, places, and things the characters care about. It also includes one or more impending dooms, the horrible things that will happen without the characters’ intervention. “Fronts” comes, of course, from “fighting on two fronts” which is just where you want the characters to be—surrounded by threats, danger and adventure.</description>
-    </item>
-    
-    <item>
       <title>The world</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,6 +36,17 @@ This section is for the GM so it’s addressed to you—the GM. For the players,
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</guid>
       <description>The worldMuch of the adventuring life is spent in dusty, forgotten tombs or in places of terror and life-threatening danger. It’s commonplace to awaken from a short and fitful rest still deep in the belly of the world and surrounded by foes. When the time comes to emerge from these places—whether laden with the spoils of battle or beaten and bloody—an adventurer seeks out safety and solace.
 These are the comforts of civilization: a warm bath, a meal of mead and bread, the company of fellow men and elves and dwarves and halflings.</description>
+    </item>
+    
+    <item>
+      <title>前置</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</guid>
+      <description>前置 (Fronts)前置 是記載著GM知識情報的秘密典籍。每一個前置都是一系列危險的集合──它們是特別針對角色們的威脅，並同樣危害著角色們所關心的人們、地點、以及事物。它同時也包括了一個或多個逼近而至的災厄，代表著若角色們不加以阻止就會降臨的可怕慘事。「前置」源自英文中的「戰線（fronts）」一詞，代表你想讓角色們面對的處境──被你預先擺放的威脅、危險和冒險給環繞。
+Fronts are built outside of active play. They’re the solo fun that you get to have between games—rubbing your hands and cackling evilly to yourself as you craft the foes with which to challenge your PCs. You may tweak or adjust your fronts during play (who knows when inspiration will strike?) but the meat of them comes from preparation between sessions.
+Fronts are designed to help you organize your thoughts on what opposes the players.</description>
     </item>
     
     <item>

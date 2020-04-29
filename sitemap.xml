@@ -32,10 +32,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/</loc>
   </url>
   
@@ -85,6 +81,10 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts/</loc>
   </url>
   
   <url>
