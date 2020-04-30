@@ -38,16 +38,6 @@ DESIGNATION OF OPEN GAME CONTENT The following monsters are open game content: A
     </item>
     
     <item>
-      <title>First Session</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session/</guid>
-      <description>First SessionThe first session of a game of Dungeon World begins with character creation. Character creation is also world creation, the details on the character sheets and the questions that you ask establish what Dungeon World is like—who lives in it and what’s going on.
-This section is for the GM so it’s addressed to you—the GM. For the players, the first session is just like every other. They just have to play their characters like real people and explore Dungeon World.</description>
-    </item>
-    
-    <item>
       <title>Instant NPCs</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -455,6 +445,16 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</guid>
       <description>盜賊You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.
 Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap?</description>
+    </item>
+    
+    <item>
+      <title>第一次聚會</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session/</guid>
+      <description>第一次聚會The first session of a game of Dungeon World begins with character creation. Character creation is also world creation, the details on the character sheets and the questions that you ask establish what Dungeon World is like—who lives in it and what’s going on.
+This section is for the GM so it’s addressed to you—the GM. For the players, the first session is just like every other. They just have to play their characters like real people and explore Dungeon World.</description>
     </item>
     
     <item>
