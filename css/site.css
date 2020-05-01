@@ -127,6 +127,10 @@ h3.MonsterName.anchor {
     padding-top:60px;
     margin-top: 0em;
 }
+p.MagicItem.anchor {
+   padding-top: 60px;
+   margin-top: -60px;
+}
 
 hr {
   border-color: #aaa;

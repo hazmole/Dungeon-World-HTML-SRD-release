@@ -227,7 +227,7 @@
     <script>
       $("#sidemenu-topnav").addClass('currentul');
       $("#sidemenu").prepend("<h3>目錄</h3>");
-      $("h2, h1, .MonsterName, .SpellName").each(function(i) {
+      $("h2, h1, .MonsterName, .SpellName, .MagicItem").each(function(i) {
           var current = $(this);
           current.attr("id", "title" + i);
           var tag = current.prop("tagName");
@@ -236,7 +236,12 @@
           if(current.context.className=="MonsterName" || current.context.className=="SpellName"){
             link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
           }
+          if(current.context.className=="MagicItem"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+            link_text = " - "+link_text;
+          }
 
+          
           const eng_text = link_text.match(/\((.*)\)/)? link_text.match(/\((.*)\)/)[1]: link_text;
           link_text = link_text.replace(/\(.*\)/, "");
 
