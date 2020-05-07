@@ -353,7 +353,7 @@
 
 <h4>告知後果與條件，並向他們確認</h4>
 <p class="NoIndent">
-	這個動作特別適合在角色們想要某個不被任何動作涵蓋的事物、或是當他們在動作中失敗的時候使用。他們當然可以這麼做，但他們必須先為此支付一些代價。或者，他們可以這麼做，但這麼做將會帶來某些後果。或許他們打算跳進飼養著鯊魚的護城河，並趕在被吃掉之前游到對岸，但他們必須先分散這些鯊魚的注意力才能這麼做。當然，你必須讓角色們也清楚知道這一點，而不僅僅是告知玩家：比如說，告訴他們這些鯊魚正處於飢餓導致的瘋狂狀態，而牠們不可能放過任何膽敢貿然跳下的餌食。</p>
+	這個動作特別適合在角色們想要採取某個不被任何動作涵蓋的行動、或是當他們在動作中失敗的時候使用。他們當然可以這麼做，但他們必須先為此支付一些代價。或者，他們可以這麼做，但這麼做將會帶來某些後果。或許他們打算跳進飼養著鯊魚的護城河，並趕在被吃掉之前游到對岸，但他們必須先分散這些鯊魚的注意力才能這麼做。當然，你必須讓角色們也清楚知道這一點，而不僅僅是告知玩家：比如說，告訴他們這些鯊魚正處於飢餓導致的瘋狂狀態，而牠們不可能放過任何膽敢貿然跳下的餌食。</p>
 
 <hr/>
 <h2>地城動作 (Dungeon Moves)</h2>
@@ -467,7 +467,7 @@
     <script>
       $("#sidemenu-topnav").addClass('currentul');
       $("#sidemenu").prepend("<h3>目錄</h3>");
-      $("h2, h1, .MonsterName, .SpellName, .MagicItem").each(function(i) {
+      $("h2, h1, .MonsterName, .SpellName, .MagicItem, .ExtraLayer").each(function(i) {
           var current = $(this);
           current.attr("id", "title" + i);
           var tag = current.prop("tagName");
@@ -485,9 +485,15 @@
           const eng_text = link_text.match(/\((.*)\)/)? link_text.match(/\((.*)\)/)[1]: link_text;
           link_text = link_text.replace(/\(.*\)/, "");
 
-          if(tag=="H2" || tag=="H3"){
+          if(current.context.className=="ExtraLayer"){
+            link_text = " - - "+link_text;
+          }
+          else if(tag=="H2" || tag=="H3"){
             link_text = " - "+link_text;
           }
+          
+
+
           
 
           current.addClass('anchor');

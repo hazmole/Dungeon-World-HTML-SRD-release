@@ -131,6 +131,14 @@ p.MagicItem.anchor {
    padding-top: 60px;
    margin-top: -60px;
 }
+h3.BasicMoveName.anchor {
+    padding-top:60px;
+    margin-top: -60px;
+}
+h3.MoveName.anchor {
+    padding-top:60px;
+    margin-top: -60px;
+}
 
 hr {
   border-color: #aaa;
