@@ -117,16 +117,6 @@ Pitch ItBefore you play you’ll likely be explaining the game to your new play
     </item>
     
     <item>
-      <title>The world</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</guid>
-      <description>The worldMuch of the adventuring life is spent in dusty, forgotten tombs or in places of terror and life-threatening danger. It’s commonplace to awaken from a short and fitful rest still deep in the belly of the world and surrounded by foes. When the time comes to emerge from these places—whether laden with the spoils of battle or beaten and bloody—an adventurer seeks out safety and solace.
-These are the comforts of civilization: a warm bath, a meal of mead and bread, the company of fellow men and elves and dwarves and halflings.</description>
-    </item>
-    
-    <item>
       <title>Twisted Experiments</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -148,6 +138,19 @@ A seasoned caravan guard learns to listen for the calls of a scout or sentry wit
 Close, Reach, Forceful
 Special Qualities: Many limbs, heads, and so on
 Corpses sewn onto corpses make up the bulk of these shambling masses of dark magic. Most undead are crafted to be controlled—made to serve some purpose like building a tower or serving as guardians. Not so the abomination. The last aspect of the ritual used to grant fire to their hellish limbs invokes a hatred so severe that the abomination knows but one task: to tear and rend at the very thing it cannot have—life.</description>
+    </item>
+    
+    <item>
+      <title>世界</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</guid>
+      <description>世界冒險的生活大半都是在塵土飛揚的遺棄古墓、或是在充斥著恐懼和生命危險的場所中度過。從短暫而間斷的休息中醒轉，發現自己仍處於世界深處且被敵群環繞，也早已是再常見不過的風景。然而當是時候從這些險境中走出──無論是滿載戰利品、或是在浴血重傷中被擊倒敗退──冒險者們終將需要尋求安全和慰藉之所。
+這些都是文明世界帶來的舒適生活：洗個溫暖的熱水澡、享用蜂蜜酒配鬆軟麵包的一餐、與人類、精靈、矮人、和半身人為伴。渴望回到這溫暖歸宿的念頭正是讓冒險者永遠不會在危難中放棄的理由。所有人都在為金錢與榮譽奮鬥，但又有誰不希望能有個歸處，讓他們盡情揮霍金錢、在爐火邊談笑、並聆聽那些荒唐蠢事和冒險故事呢？
+這個章節涵蓋了關於更廣闊的世界──在地城外那寬廣而開闊的天地。GM前置那不斷前進發展的步伐將形塑這個世界的風貌，而另一方面，這個世界也會反映玩家們採取的行動，呈現出他們為了阻止危害、或改變故事方向時而造成的種種影響。
+聚落 (Steadings)We call all the assorted communities, holds, and so on where there’s a place to stay and some modicum of civilization steadings, as in “homestead.” Steadings are places with at least a handful of inhabitants, usually humans, and some stable structures. They can be as big as a capital city or as small as few ramshackle buildings.
+創造世界 (Creating the world)Remember how you started the first session?</description>
     </item>
     
     <item>
