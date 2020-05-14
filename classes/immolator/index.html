@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="tw">
   <head>
-  <title>吟遊詩人 | 地城世界 HTML SRD</title>
+  <title>燔祭者 | 地城世界 HTML SRD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -111,225 +111,160 @@
     <div class="container">
        <div class="row">
           <div class="col-md-8 col-md-offset-1">
-             <h1>吟遊詩人</h1>
-<div id="intro"><p class="NoIndent">冒險者之詩乃是不斷向前之路，是錢幣與戰鬥的榮光。在那些鄉農滿座的酒館中被傳唱的故事，總有些許真實，對吧？那些鼓舞農民與國親的歌謠──那些撫慰野獸或讓人瘋狂的歌謠──必定其來有自。</p>
-<p>當個詩人吧。來，帶著你的巧舌與機智。你說故事，你唱歌謠。一名尋常樂手只會複誦，而真正的吟遊詩人活在其中。繫上你的靴子吧，高貴的演說家。磨利那把小刀，接受呼喚。總得有人要與那些暴徒、惡棍與即將成為英雄的人們並肩作戰。又有誰比你更能傳誦自己的英雄故事？</p>
-<p>沒有別人了。來吧。</p></div>
+             
+<h1>燔祭者</h1>
+<div id="intro"></div>
 <hr/>
 <h2>名稱</h2>
-<div id="names"><p class="NoIndent"><b>精靈</b>: 艾斯卓菲(Astrafel), 戴爾溫(Daelwyn), 費莉亞娜(Feliana), 德瑪拉(Damarra), 希斯卓娜(Sistranalle), 潘卓爾(Pendrell), 梅利安卓(Melliandre), 戴格里爾(Dagoliir)</p> 
-<p class="NoIndent"><b>人類</b>: 巴德里克(Baldric), 莉娜(Leena), 敦威克(Dunwick), 威廉(Willem), 埃德溫(Edwyn), 佛羅里安(Florian), 塞拉芬(Seraphine), 柯拉(Quorra), 夏洛特(Charlotte), 莉莉(Lily), 拉蒙德(Ramonde), 卡珊卓(Cassandra)</p></div>
+<div id="names"><p class="NoIndent"><b>人類</b>: 所羅門(Solomon), 提摩太(Timothy), 卡利爾(Kalil), 歐夢(Omen), 約翰(Yohn), 彥(Hiko), 阿伽什(Agasha), 伊莉莎白(Elizabeth), 哈拉爾(Harald), 法蒂雅(Fatia), 卡爾瓦(Khalwa), 埃德(Adur), 伊格尼斯(Ignis), 雅吉納(Yajna), 烏姆利洛(Umlilo)</p>
+<p class="NoIndent"><b>沙拉曼達</b>: 硫心(Sulfurheart), 焰行者(Flamewalker), 燼睫(Emberlash), 煤灰爪(Cinderclaw), 炭焦魔(Charfiend), 忿脂蠟(Bittertallow), 塚熾燦(Barrowblaze), 灼焦刻(Singescale), 燭芯(Candlewick), 炭牙(Coalfang)</p></div>
 <hr/>
 <h2>外觀</h2>
 <div id="look"><p class="InstructionsAfterHeader">從每列中各自選擇一項：</p>
-<ul><li>世故的眼神, 熾熱的眼神, 或 歡快的眼神</li>
-<li>花俏的髮型, 狂野的髮型, 或 時尚的帽子</li>
-<li>華麗服飾, 旅行衣裝, 或 粗劣衣裝</li>
-<li>健美的體型, 肥胖的體型, 或 消瘦的體型</li></ul></div>
+<ul><li>燻燒的眼神, 溫暖的眼神, 或 熾熱的眼神</li>
+<li>怪異的烙印, 儀式疤痕, 或 無暇的肌膚</li>
+<li>專橫的舉止, 狂躁的態度, 毫不掩飾的憤怒</li>
+<li>劈啪爆裂的聲音, 低語的聲音, 咆哮的聲音</li></ul></div>
 <hr/>
 <h2>屬性數值</h2>
-<p class="NoIndent">你的最大生命值為 6+體質值。</p>
-<p class="NoIndent">你的基礎傷害骰為 <span id="Damage">d6</span>。</p>
+<p class="NoIndent">你的最大生命值為 4+體質值。</p>
+<p class="NoIndent">你的基礎傷害骰為 <span id="Damage">d8</span>。</p>
 <hr/>
 <h2>起始動作</h2>
 <div id="startingmoves"><p class="InstructionsAfterHeader">選擇一個種族並獲得相應的動作：</p>
 <div id="racialmoves">
-<div class="Move"><h3 class="MoveName">精靈</h3>
-<p class="NoIndent">
-	當你來到一個重要的地點（由你決定是否重要）你可以詢問GM一個關於當地歷史的問題。</p></div>
 <div class="Move"><h3 class="MoveName">人類</h3>
 <p class="NoIndent">
-	當你首次進入一個文明社會的聚落時，某個遵守接待遊藝人傳統的人將會把你當作賓客款待。</p></div></div>
+	當你在一團巨大無遮蓋的火焰旁進行紮營動作時，恢復你全部的生命值。</p></div>
+<div class="Move"><h3 class="MoveName">沙拉曼達</h3>
+<p class="NoIndent">
+	非魔法的高熱和火焰無法傷害你。</p></div></div>
+
 <div id="classmoves"><p class="Instructions">你起始還擁有以下動作：</p>
-
-<div class="Move"><h3 class="BasicMoveName">秘奧藝術 (Arcane Art)</h3>
+<div class="Move"><div id="BornoftheSoil"><h3 class="BasicMoveName">燃燒之劍 (Burning Brand)</h3>
 <p class="NoIndent">
-	當你<strong>透過表演編織出基礎術法</strong>時，選擇一名同伴和一個效果：</p>
+	當你<strong>召喚出一把由純粹火焰構成的武器</strong>時，擲+體質：<br/>
+	✴擲出10+時，從下列標籤中選擇二項。<br/>
+	✴擲出7-9時，從中選擇一項。<br/>
+	你在使用這把武器進行攻擊時，可以使用你的智力來取代你的力量或敏捷。這把武器起始帶有<tag>烈焰</tag><tag>接觸</tag><tag>危險</tag>和<tag>3 使用次數</tag>標籤。每次你使用這把武器攻擊時，它都會消耗一次使用次數。</p>
 <ul>
-	<li>治療 1d8 傷害</li>
-	<li>下次傷害 +1d4</li>
-	<li>他從一項惑控心智的效果中掙脫清醒</li>
-	<li>下一次當有人成功透過援助動作協助目標時，目標將獲得 +2 而非原本的 +1 加值</li></ul>
-<p class="NoIndent">
-	然後擲+魅力：<br/>
-	✴擲出10+時，該同伴獲得你選擇的效果。<br/>
-	✴擲出7-9時，你的法術仍然發揮效果，但你引來了不必要的注意、或者你的魔法擴散並影響到了其他目標，由GM決定。</p></div>
+<li style="margin:5px 0;"><tag class="red">觸及</tag></li>
+<li style="margin:5px 0;"><tag>投擲</tag> <tag class="red">短程</tag></li>
+<li style="margin:5px 0;"><tag>+1 傷害</tag></li>
+<li style="margin:5px 0;">移除 <tag>危險</tag> 標籤</li></ul></div></div>
 
-<div class="Move"><h3 class="BasicMoveName">詩人逸聞 (Bardic Lore)</h3>
+<div class="Move"><div id="ByNatureSustained"><h3 class="BasicMoveName">以火攻火 (Fighting Fire With Fire)</h3>
 <p class="NoIndent">
-	選擇一項專業領域：</p>
-<ul>
-	<li>法術和魔法</li>
-	<li>死者和不死生物</li>
-	<li>已知世界的宏大歷史</li>
-	<li>奇特生物的習性</li>
-	<li>異位面領域</li>
-	<li>過往英雄的傳奇</li>
-	<li>諸神與他們的僕從</li></ul>
-<p class="NoIndent">
-	當你<strong>首次遭遇與你所選詩人逸聞有關的重要生物、場所、或物品（由你決定）</strong>時，你可以詢問GM一個與之相關的問題；GM會據實以告。GM接著可能會詢問你是從什麼故事、歌謠、或傳說中聽過這些情報的。</p></div>
+	當你受到傷害時，且該傷害為奇數（在扣除護甲值後），則你體內的烈焰將湧現並助你一臂之力。擲 1d4，將其擲骰結果加到你燃燒之劍的使用次數上（若有）、讓你在下次召喚燃燒之劍時的擲骰獲得等量的加值、或減少等同該數值的傷害，由你決定。</p></div></div>
 
-<div class="Move"><h3 class="BasicMoveName">敞開心胸 (Charming and Open)</h3>
+<div class="Move"><div id="SpiritTongue"><h3 class="BasicMoveName">振火神通 (Zuko Style)</h3>
 <p class="NoIndent">
-	當你<strong>真誠坦率地與某人交談</strong>時，你可以對他們的玩家詢問下列其中一個問題。他們必須據實以告，然後，他們也可以回問你下列其中一個問題（你也必須據實回答）。</p>
-<ul>
-	<li>你為誰效力？</li>
-	<li>你希望我做什麼？</li>
-	<li>我要怎樣才能讓你去________？</li>
-	<li>你現在真正的感受是什麼？</li>
-	<li>你最渴望的是什麼？</li></ul></div>
+	當你<strong>讓烈焰屈服於你的意志</strong>時，擲+睿知：<br/>
+	✴擲出10+時，只要仍有足夠的燃料讓火焰燃燒，它就會依照你的命令行事，按你所想的的變化外型和移動。<br/>
+	✴擲出7-9時，這個效果相當短暫，只會持續片刻。</p></div></div>
 
-<div class="Move"><h3 class="BasicMoveName">避風港 (A Port in the Storm)</h3>
+<div class="Move"><div id="Shapeshifter"><h3 class="BasicMoveName">予我燃油，予我烈火 (Give Me Fuel, Give me Fire)</h3>
 <p class="NoIndent">
-	當你<strong>回到一個你曾經造訪過的文明聚落</strong>時，告訴GM你上次來到這裡是什麼時候。GM會告訴你這裡自那時以來有什麼改變。</p></div></div></div>
+	當你<strong>緊緊凝視著某人的雙眼</strong>時，你可以向他的玩家詢問：「什麼是你慾望之炎的燃料？」。他們將會回答你事實，就算該角色不知道或打算將其隱藏起來也一樣。</p></div></div>
+
+<div class="Move"><div id="StudiedEssence"><h3 class="BasicMoveName">徒手鎔鑄 (Hand Crafted)</h3>
+<p class="NoIndent">
+	你可以使用你的雙手取代工具和火焰來鍛造金屬物品。所有平凡的武器、防具、和金屬首飾都能透過這個方式從其原料鍛造而成。你也可以用同樣的方式使它們毀壞還原，但若你沒有足夠的時間或不在安全場所，則你可能會需要先進行面對危險的動作。</p></div></div></div></div>
 <hr/>
 
 <h2>陣營</h2>
 <p class="InstructionsAfterHeader">選擇一個陣營：</p>
 <div id="alignment">
-<div class="Move"><h3 class="MoveName">善良</h3>
-<p class="NoIndent">為了幫助他人而表演。</p></div>
-<div class="Move"><h3 class="MoveName">中立</h3>
-<p class="NoIndent">避免衝突或化解劍拔弩張的場面。</p></div>
+<div class="Move"><h3 class="MoveName">邪惡</h3>
+<p class="NoIndent">將非自願的犧牲者獻祭給火焰。</p></div>
 <div class="Move"><h3 class="MoveName">混亂</h3>
-<p class="NoIndent">煽動他人在沒有計畫的情況下做出重大行動。</p></div></div>
+<p class="NoIndent">散佈危險的新思想。</p></div>
+<div class="Move"><h3 class="MoveName">中立</h3>
+<p class="NoIndent">以無償的犧牲換取一項服務。</p></div></div>
 <hr/>
 
 <h2>裝備</h2>
 <div id="gear"><p class="NoIndent">
 	你的負載上限為 9+力量。<br/>
-	你起始擁有 地城口糧 (<tag>5 使用次數</tag> <tag>1 重量</tag>)。</p>
-
-選擇一項樂器，這些樂器對你來說都被視為 <tag>0 重量</tag>：
+	你未攜帶武器也不需要任何防具，只有烈火在你體內熊熊燃燒。<br/>
+	你起始擁有 一個代表你過往犧牲的象徵物，探險工具組 (<tag>5 使用次數</tag> <tag>1 重量</tag>), 和 治療藥水 (<tag>0 重量</tag>)。</p>
+接著選擇二項：
 <ul>
-	<li class="Option">你父親的曼陀林，已被修復完好</li>
-	<li class="Option">一名貴族所贈送的精美魯特琴</li>
-	<li class="Option">你用來追求初戀情人的吹笛</li>
-	<li class="Option">偷來的號角</li>
-	<li class="Option">一把從未被演奏過的小提琴</li>
-	<li class="Option">一本失傳的歌集</li></ul>
-選擇你的衣著：
-<ul>
-	<li class="Option">皮甲 (<span class="Tags">1 護甲, 1 重量</span>)</li>
-	<li class="Option">浮誇華美的衣服 (<span class="Tags">0 重量</span>)</li></ul>
-選擇你的武器：
-<ul>
-	<li class="Option">決鬥刺劍 (<span class="Tags">近身, 靈巧, 2 重量</span>)</li>
-	<li class="Option">劣質弓 (<span class="Tags">短程, 2 重量</span>), 一綑箭矢 (<span class="Tags">3 彈藥, 1 重量</span>), 和 短劍 (<span class="Tags">近身, 1 重量</span>)</li></ul>
-選擇一項：
-<ul>
-	<li>探險工具組 (<span class="Tags">5 使用次數, 1 重量</span>)</li>
-	<li>繃帶 (<span class="Tags">3 使用次數, 緩慢, 0 重量</span>)</li>
-	<li>半身人菸草 (<span class="Tags">6 使用次數, 0 重量</span>)</li>
-	<li>3 金幣</li></ul></div>
+	<li class="Option">地城口糧 (<span class="Tags">5 使用次數, 1 重量</span>)</li>
+	<li class="Option">治療藥水 (<span class="Tags">0 重量</span>)</li>
+	<li class="Option">10 金幣</li></ul></div>
 <hr/>
 
 <h2>羈絆</h2>
 <div id="bonds"><p class="NoIndent">在至少一個欄位中填入你其中一名同伴的名字：</p>
-<p>這不是我第一次與 _______________ 一起冒險了。</p>
-<p>在見過 _______________ 本人以前，我就已經傳唱過許多關於他的故事。</p>
-<p>_______________ 經常是我開玩笑的對象。</p>
-<p>我正在撰寫一首關於 _______________ 冒險的歌謠。</p>
-<p>_______________ 將一個祕密託付給我。</p>
-<p>_______________ 不信任我，且他有著充分的理由。</p></div>
+<p>____________________ 曾感受過地獄烈火，現在他知道了我所擁有的力量。</p>
+<p>我會教導 ______________ 關於犧牲的真正含意。</p>
+<p>我曾為了 ______________ 將某些東西扔進火中，且仍然欠他他所應得的事物。</p></div>
 <hr/>
 
 <h2>進階動作</h2>
 <div id="moves"><p class="InstructionsAfterHeader">當你的等級升至2~5，從下列動作中選擇：</p>
-<div class="Move"><h3 class="MoveName">治癒之歌 (Healing Song)</h3>
-<p class="NoIndent">
-	當你<strong>使用秘奧藝術來治療</strong>時，你再額外治療 +1d8 傷害。</p></div>
 
-<div class="Move"><h3 class="MoveName">惡毒噪音 (Vicious Cacophony)</h3>
+<div class="Move"><h3 class="MoveName">Lore of Flame</h3>
 <p class="NoIndent">
-	當你<strong>使用秘奧藝術來提供額外傷害</strong>時，你再提供額外的 +1d4 傷害。</p></div>
+	When you stare into a source of fire, looking for answers, roll+WIS On a hit, the GM will tell you something new and interesting about the current situation. On a 10+, the GM will give you good detail. On a 7–9, the GM will give you an impression. If you already know all there is to know, the GM will tell you that.</p></div>
 
-<div class="Move"><h3 class="MoveName">超越極限 (It Goes To Eleven)</h3>
+<div class="Move"><h3 class="MoveName">Burns Twice as Bright</h3>
 <p class="NoIndent">
-	當你<strong>釋放出一段令人瘋狂的表演</strong>時（比如說一段驚豔的魯特琴獨奏、或是充滿力量銅管音爆），選擇一個能聽見你聲音的目標，並擲+魅力：<br/>
-	✴擲出10+時，目標會攻擊距離他們範圍內最近的同伴。<br/>
-	✴擲出7-9時，他們仍然會攻擊距離他們最近的同伴，但你也同時引起他們的注意和憤怒。</p></div>
+	When you channel the flames of fate, you may treat a missed roll as a 7-9 or a 7-9 result as a 10+. This may be a roll you or another character has made. Tell the GM something you’ve lost; an emotion, a memory or some innate piece of your being. You may not use this move again until you’ve used Burns Half As Long.</p></div>
 
-<div class="Move"><h3 class="MoveName">金屬咆哮 (Metal Hurlant)</h3>
+<div class="Move"><h3 class="MoveName">Burns Half as Long</h3>
+<p>
+	You gain this move when you gain Burns Twice as Bright.</p>
 <p class="NoIndent">
-	當你<strong>充滿力量地大喊或彈奏一段驚天動地的音符</strong>，選擇一個目標並擲+體質：<br/>
-	✴擲出10+時，目標受到 1d10 傷害，且耳聾長達數分鐘。<br/>
-	✴擲出7-9時，你仍然對目標造成傷害，但聲波將失去控制：GM會額外選擇一個附近的目標受到影響。</p></div>
+	When you sacrifice a victory to the flames of fate, treat any roll of 10+ as a miss.</p></div>
 
-<div class="Move"><h3 class="MoveName">來自吾友的一點幫助 (A Little Help From My Friends)</h3>
+<div class="Move"><h3 class="MoveName">This Killing Fire</h3>
 <p class="NoIndent">
-	當你<strong>成功地援助某人</strong>，你也同樣獲得下次+1。</p></div>
+	Add the following tags to your options for Burning Brand: messy, forceful, reach, near, far</p></div>
 
-<div class="Move"><h3 class="MoveName">可怖音調 (Eldritch Tones)</h3>
+<div class="Move"><h3 class="MoveName">Firebrand</h3>
 <p class="NoIndent">
-	你的秘奧藝術是如此強大，讓你得以選擇兩個效果，而非原本的一個。</p></div>
+	When you introduce a new idea to an NPC, roll+CHA. On a 10+ They believe the idea to be their own and take to it with fervor On a 7-9, Their passion fades after a day or two. On a miss, they respond negatively, speaking out against the idea.</p></div>
 
-<div class="Move"><h3 class="MoveName">決鬥者招架 (Duelist’s Parry)</h3>
+<div class="Move"><h3 class="MoveName">Ogdru Jahad</h3>
 <p class="NoIndent">
-	當你進行砍劈動作時，你獲得下次護甲值+1。</p></div>
+	Gain the Wizard move Ritual. The GM will always tell you what you have to sacrifice to gain the effect you desire.</p></div>
 
-<div class="Move"><h3 class="MoveName">哄騙 (Bamboozle)</h3>
+<div class="Move"><h3 class="MoveName">Moth to the Flame</h3>
 <p class="NoIndent">
-	當你<strong>與某人談判</strong>時擲出7+的結果，你同時獲得對他們的下次+1。</p></div>
+	When you tempt a weak mind with your inner fire, roll+WIS. On a 10+ their will is suppressed, they’ll follow you and do as you desire, so long as nothing startles or surprises them. On a 7-9, the effect is only strong enough to distract or confuse them. On a miss, they become agitated and upset, your fire having sparked their hidden desires.</p></div>
 
-<div class="Move"><h3 class="MoveName">兼職新手 (Multiclass Dabbler)</h3>
+<div class="Move"><h3 class="MoveName">Burning Bridges</h3>
 <p class="NoIndent">
-	從另一個職業中獲得一個動作。 在選擇動作時，將你的等級視為比原本低一級。</p></div>
+	When you would take your last breath, don’t. Instead, you may erase one of your Bonds. This is permanent and lowers your total available Bonds forever. You are alive and have 1d6 hp. If you have no more Bonds, take your last breath as normal.</p></div>
 
-<div class="Move"><h3 class="MoveName">兼職學徒 (Multiclass Initiate)</h3>
-<p class="Requirement">需求: 兼職新手</p>
+<div class="Move"><h3 class="MoveName">The Enkindler</h3>
 <p class="NoIndent">
-	從另一個職業中獲得一個動作。 在選擇動作時，將你的等級視為比原本低一級。</p></div>
+	When you bolster the courage of others roll+CHA. On a 10+ they shake off all fear and doubt, becoming brave in an instant. On a 7-9, this effect is fleeting, they realize its superficiality and resort to cowardice after a moment or two. On a miss, they’re cowed or terrified by your presence.</p></div>
 
+<div class="Move"><h3 class="MoveName">Sick Burn</h3>
+<p class="NoIndent">
+	When you insult an NPC, roll + CHA. On a 10+ you leave them no room to react, they bear your insult and the scorn of all who hear it. On a 7-9 you cross a line, they will have their revenge, someday. On a miss you’ve gone too far, they blow up here and now.</p></div>
 
 <p class="Instructions">當你的等級升至6~10，從下列動作或等級2~5的動作中選擇：</p>
 
-<div class="Move"><h3 class="MoveName">治癒合唱 (Healing Chorus)</h3>
-<p class="Requirement">取代: 治癒之歌</p>
+<div class="Move"><h3 class="MoveName">From Hell’s Heart</h3>
 <p class="NoIndent">
-	當你<strong>使用秘奧藝術來治療</strong>時，你再額外治療 +2d8 傷害。</p></div>
+	Whenever you summon fire with any of your moves, you can replace it with the black fires of hell itself. This fire does not burn with heat and ignores armor, scorching the soul itself. Those creatures without souls cannot be harmed by this type of flame.</p></div>
 
-<div class="Move"><h3 class="MoveName">惡意音爆 (Vicious Blast)</h3>
-<p class="Requirement">取代: 惡毒噪音</p>
+<div class="Move"><h3 class="MoveName">Burning Ring of Fire</h3>
 <p class="NoIndent">
-	當你<strong>使用秘奧藝術來提供額外傷害</strong>時，你再提供額外的 +2d4 傷害。</p></div>
+	When you fuse a willing person’s soul to yours, roll+CHA. On a hit you are bound together, able to sense each other at any distance, as well as sharing your emotional state. On a 7-9, the connection is unstable and dangerous, when you take a debility, so do they (and vice versa). On a miss, the branding is rejected and you both erase any Bonds you have to each other. You may write new Bonds with them at the End of Session as usual. This fusion, once performed, cannot be undone by mortal means.</p></div>
 
-<div class="Move"><h3 class="MoveName">難忘面容 (Unforgettable Face)</h3>
+<div class="Move"><h3 class="MoveName">Fanning the Flames</h3>
+<p class="Requirement">需求: Firebrand</p>
 <p class="NoIndent">
-	當你<strong>遇見了某個你曾經在好一段時間之前遇過的人</strong>（由你決定），你獲得對他們的下次+1。</p></div>
+	You may apply the effects of your Firebrand move to a group of people – a dozen or so – all at once.</p></div>
 
-<div class="Move"><h3 class="MoveName">聲譽 (Reputation)</h3>
+<div class="Move"><h3 class="MoveName">Watch the World Burn</h3>
 <p class="NoIndent">
-	當你<strong>初次和某個曾聽過你歌曲的人見面</strong>時，擲+魅力。<br/>
-	✴擲出10+時，告訴GM二件他曾聽說過關於你的事情。<br/>
-	✴擲出7-9時，告訴GM一件他曾聽說過關於你的事情，且GM告訴你一件。</p></div>
-
-<div class="Move"><h3 class="MoveName">可怖和弦 (Eldritch Chord)</h3>
-<p class="Requirement">取代: 可怖音調</p>
-<p class="NoIndent">
-	當你使用秘奧藝術時，你可以選擇兩個效果。你同時還能選擇將其中一個效果變為兩倍。</p></div>
-
-<div class="Move"><h3 class="MoveName">魔法知音 (An Ear For Magic)</h3>
-<p class="NoIndent">
-	當你<strong>聽見一個敵人在施放法術</strong>時，GM會告訴你該法術的名稱以及效果。當依據答案而採取行動時，獲得下次+1。</p></div>
-
-<div class="Move"><h3 class="MoveName">精心算計 (Devious)</h3>
-<p class="NoIndent">
-	當你使用敞開心胸時，你也可以詢問「你對我有什麼弱點？」，且對方不能拿這個問題回來詢問你。</p></div>
-
-<div class="Move"><h3 class="MoveName">決鬥者格擋 (Duelist’s Block)</h3>
-<p class="Requirement">取代: 決鬥者招架</p>
-<p class="NoIndent">
-	當你進行砍劈動作時，你獲得下次護甲值+2。</p></div>
-
-<div class="Move"><h3 class="MoveName">欺詐 (Con)</h3>
-<p class="Requirement">取代: 哄騙</p>
-<p class="NoIndent">
-	當你<strong>與某人談判</strong>時擲出7+的結果，你同時獲得對他們的下次+1。你還可以向他們的玩家詢問一個問題，且對方必須據實回答。</p></div>
-
-<div class="Move"><h3 class="MoveName">兼職大師 (Multiclass Master)</h3>
-<p class="Requirement">需求: 兼職學徒</p>
-<p class="NoIndent">從另一個職業中獲得一個動作。 在選擇動作時，將你的等級視為比原本低一級。</p></div></div>
+	When you open a channel to the burning planes and call a firestorm, tell the GM what you’re sacrificing and roll+WIS. The sky opens up and fire pours like rain from it within an area about equal to a small village. Everyone and everything in the area takes damage as appropriate. On a 10+ you can extinguish the storm with a little effort. On a 7-9 the fires rage out of your control, spreading and gusting where they are carried by wind and weather. On a miss, something cruel, intelligent and hungry comes with the storm.</p></div></div>
 
           </div>
        </div>

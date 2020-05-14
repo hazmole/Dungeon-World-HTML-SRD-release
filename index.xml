@@ -398,6 +398,24 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
     </item>
     
     <item>
+      <title>燔祭者</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator/</guid>
+      <description>燔祭者名稱人類: 所羅門(Solomon), 提摩太(Timothy), 卡利爾(Kalil), 歐夢(Omen), 約翰(Yohn), 彥(Hiko), 阿伽什(Agasha), 伊莉莎白(Elizabeth), 哈拉爾(Harald), 法蒂雅(Fatia), 卡爾瓦(Khalwa), 埃德(Adur), 伊格尼斯(Ignis), 雅吉納(Yajna), 烏姆利洛(Umlilo)
+沙拉曼達: 硫心(Sulfurheart), 焰行者(Flamewalker), 燼睫(Emberlash), 煤灰爪(Cinderclaw), 炭焦魔(Charfiend), 忿脂蠟(Bittertallow), 塚熾燦(Barrowblaze), 灼焦刻(Singescale), 燭芯(Candlewick), 炭牙(Coalfang)
+外觀從每列中各自選擇一項：
+燻燒的眼神, 溫暖的眼神, 或 熾熱的眼神怪異的烙印, 儀式疤痕, 或 無暇的肌膚專橫的舉止, 狂躁的態度, 毫不掩飾的憤怒劈啪爆裂的聲音, 低語的聲音, 咆哮的聲音屬性數值你的最大生命值為 4+體質值。
+你的基礎傷害骰為 d8。
+起始動作選擇一個種族並獲得相應的動作：
+人類當你在一團巨大無遮蓋的火焰旁進行紮營動作時，恢復你全部的生命值。
+沙拉曼達非魔法的高熱和火焰無法傷害你。
+你起始還擁有以下動作：
+燃燒之劍 (Burning Brand)當你召喚出一把由純粹火焰構成的武器時，擲+體質：✴擲出10+時，從下列標籤中選擇二項。✴擲出7-9時，從中選擇一項。你在使用這把武器進行攻擊時，可以使用你的智力來取代你的力量或敏捷。這把武器起始帶有烈焰接觸危險和3 使用次數標籤。每次你使用這把武器攻擊時，它都會消耗一次使用次數。</description>
+    </item>
+    
+    <item>
       <title>牧師</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -722,6 +740,20 @@ n 彈藥 (n Ammo): 它被視作適當遠程武器的彈藥。數字ｎ並不代�
 我花了點時間看了看我的筆記和地圖，確保我給了他所有的情報。「嗯，事實上，那的確不是哥布林。那些哥布林略過了你，來到比你更靠近光亮的地方，牠們正準備從你朋友們的背後捅刀，但並沒有注意到你。而你所看見的，是一頭吻部尖端頂在碎石堆上的巨型鱷魚，那刺耳的聲音就是來自於牠。看樣子那頭白化鱷魚有個塊頭特別大的家人呢，牠的體型跟馬一樣大。如果你想要搬動石頭以從中掙脫，那牠幾乎肯定會聽見你的舉動。你打算怎麼辦呢？」
 艾薩克沉思一會。「所以，我可以嘗試掙脫離開，但很有可能會面對發出聲音的危險。或者……我撕下斗篷的一角，並將它浸泡在我一整劑的黃金根毒藥裡。這是種需要服用後才能生效的毒藥，但如果我能在這頭巨大鱷魚吞下我之前，讓牠吞下這片布料，牠就會把我當成是一名可信賴的盟友，然後我就能利用牠去對付那些哥布林。」
 「沒問題！」這聽起來是個高風險的計畫，但並沒有瘋狂到無法執行。然而也是時候切換到其他人的場景了。「所以，歐瑪爾將斗篷的碎片浸泡在毒藥中，布莉安娜正被三隻吸嗨了的哥布林砍抓，諾拉留神注意著歐瑪爾的情況，有幾隻哥布林們潛匿在陰影中，一隻哥布林弓箭手站在祭壇旁，白化鱷魚醒轉起身，而拉瑟的膝蓋剛中了一箭。呼，拉瑟，你打算為這支箭做些什麼？」</description>
+    </item>
+    
+    <item>
+      <title>野蠻人</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian/</guid>
+      <description>野蠻人名稱戈姆(Gorm), 西易(Si-Yi), 普里西拉(Priscilla), 仙(Sen), 夏(Xia), 安妮拉(Anneira), 海耶法(Haepha), 盧爾(Lur), 沙俄(Shar), 柯林(Korrin), 恩科西(Nkosi), 法夫納(Fafnir), 夸(Qua), 沙瑟(Sacer), 薇辛格托(Vercin’geto), 巴柏扎(Barbozar), 克洛維斯(Clovis), 弗萊耶(Frael), 塔雷薩斯(Thra-raxes), 希里厄斯(Sillius), 莎西納(Sha-Sheena), 卡蜜西(Khamisi)
+稱號: 光榮的, 飢餓的, 暴躁的, 無敗的, 暴食的, 破敵者, 碎骨者, 歡樂的, 憂傷的, 萬能的, 巨人, 常勝的
+外觀從每列中各自選擇一項：
+痛苦的眼神, 著魔的眼神, 狂野的眼神, 或 被遮蔽的雙眼強壯肌肉, 長腿, 骨瘦如柴的身軀, 或 柔軟的身軀怪異的刺青, 罕見珠寶裝飾, 或 未經裝飾破布, 絲綢, 拾荒者裝束, 或不合時節的衣裝屬性數值你的最大生命值為 8+體質值。
+你的基礎傷害骰為 d10。
+起始動作選擇一個種族：</description>
     </item>
     
   </channel>

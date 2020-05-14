@@ -46,10 +46,12 @@
    <li class="dropdown">
      <a href="#" class="dropdown-toggle" data-toggle="dropdown">職業 <b class="caret"></b></a>
      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian">野蠻人</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">吟遊詩人</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">牧師</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">德魯伊</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">戰士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator">燔祭者</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">聖武士</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">遊俠</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">盜賊</a></li>
@@ -277,7 +279,7 @@
 	當你<strong>負責安排守夜</strong>時，所有人在進行守夜動作時獲得 +1 加值。</p></div>
 
 <p class="Instructions">當你的等級升至6~10，從下列動作或等級2~5的動作中選擇：</p>
-<div class="Move"><h3 class="MoveName">荒野之語</h3>
+<div class="Move"><h3 class="MoveName">荒野之語 (Wild Speech)</h3>
 <p class="Requirement">取代: 荒野共感</p>
 <p class="NoIndent">
 	你能夠與任何既非魔法、也非異位面的生物交談並理解牠們的意思。</p></div>
@@ -287,7 +289,7 @@
 <p class="NoIndent">
 	當你針對怪物進行憶述見聞時，你使用睿知來取代智力。當擲出12+時，除了原本的效果外，你還能再任意詢問GM一個關於目標的問題。</p></div>
 
-<div class="Move"><h3 class="MoveName">毒蛇獠牙</h3>
+<div class="Move"><h3 class="MoveName">毒蛇獠牙 (Viper’s Fangs)</h3>
 <p class="Requirement">取代: 毒蛇雙襲</p>
 <p class="NoIndent">
 	當你使用二把武器同時襲向一個敵人時，為你副手武器的打擊額外造成 1d8 傷害。</p></div>
@@ -392,7 +394,7 @@
         
         var names_head = names_match[1]? names_match[1]: "";
         var names_arr = names_match[2].split(", ").map(context => {
-          const name_match = context.match(/(.+)\((\w+)\)/);
+          const name_match = context.match(/(.+)\(([\w-’]+)\)/);
           return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
         });
 

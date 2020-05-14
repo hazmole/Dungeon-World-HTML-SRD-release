@@ -101,6 +101,24 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
     </item>
     
     <item>
+      <title>燔祭者</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator/</guid>
+      <description>燔祭者名稱人類: 所羅門(Solomon), 提摩太(Timothy), 卡利爾(Kalil), 歐夢(Omen), 約翰(Yohn), 彥(Hiko), 阿伽什(Agasha), 伊莉莎白(Elizabeth), 哈拉爾(Harald), 法蒂雅(Fatia), 卡爾瓦(Khalwa), 埃德(Adur), 伊格尼斯(Ignis), 雅吉納(Yajna), 烏姆利洛(Umlilo)
+沙拉曼達: 硫心(Sulfurheart), 焰行者(Flamewalker), 燼睫(Emberlash), 煤灰爪(Cinderclaw), 炭焦魔(Charfiend), 忿脂蠟(Bittertallow), 塚熾燦(Barrowblaze), 灼焦刻(Singescale), 燭芯(Candlewick), 炭牙(Coalfang)
+外觀從每列中各自選擇一項：
+燻燒的眼神, 溫暖的眼神, 或 熾熱的眼神怪異的烙印, 儀式疤痕, 或 無暇的肌膚專橫的舉止, 狂躁的態度, 毫不掩飾的憤怒劈啪爆裂的聲音, 低語的聲音, 咆哮的聲音屬性數值你的最大生命值為 4+體質值。
+你的基礎傷害骰為 d8。
+起始動作選擇一個種族並獲得相應的動作：
+人類當你在一團巨大無遮蓋的火焰旁進行紮營動作時，恢復你全部的生命值。
+沙拉曼達非魔法的高熱和火焰無法傷害你。
+你起始還擁有以下動作：
+燃燒之劍 (Burning Brand)當你召喚出一把由純粹火焰構成的武器時，擲+體質：✴擲出10+時，從下列標籤中選擇二項。✴擲出7-9時，從中選擇一項。你在使用這把武器進行攻擊時，可以使用你的智力來取代你的力量或敏捷。這把武器起始帶有烈焰接觸危險和3 使用次數標籤。每次你使用這把武器攻擊時，它都會消耗一次使用次數。</description>
+    </item>
+    
+    <item>
       <title>牧師</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -211,6 +229,20 @@ Sure, they give you lip for all the times you’ve snuck off alone but without y
 你起始還擁有以下動作：
 狩獵與追跡(睿知) (Hunt and Track)當你追尋路經此地的生物所留下的蹤跡時，擲+睿知：✴擲出7+時，你跟隨該生物的蹤跡前進，直到牠的方向或行進模式發生了顯著的改變。✴擲出10+時，你還可以選擇下列一項：
 你得知一些關於獵物的有用情報，GM將會告訴你內容辨明蹤跡中斷的原因瞄準射擊 (Called Shot)當你從遠距離攻擊一個毫無防備或被突襲的敵人時，你可以選擇直接造成你的傷害、或是指定攻擊的部位並擲+敏捷：</description>
+    </item>
+    
+    <item>
+      <title>野蠻人</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian/</guid>
+      <description>野蠻人名稱戈姆(Gorm), 西易(Si-Yi), 普里西拉(Priscilla), 仙(Sen), 夏(Xia), 安妮拉(Anneira), 海耶法(Haepha), 盧爾(Lur), 沙俄(Shar), 柯林(Korrin), 恩科西(Nkosi), 法夫納(Fafnir), 夸(Qua), 沙瑟(Sacer), 薇辛格托(Vercin’geto), 巴柏扎(Barbozar), 克洛維斯(Clovis), 弗萊耶(Frael), 塔雷薩斯(Thra-raxes), 希里厄斯(Sillius), 莎西納(Sha-Sheena), 卡蜜西(Khamisi)
+稱號: 光榮的, 飢餓的, 暴躁的, 無敗的, 暴食的, 破敵者, 碎骨者, 歡樂的, 憂傷的, 萬能的, 巨人, 常勝的
+外觀從每列中各自選擇一項：
+痛苦的眼神, 著魔的眼神, 狂野的眼神, 或 被遮蔽的雙眼強壯肌肉, 長腿, 骨瘦如柴的身軀, 或 柔軟的身軀怪異的刺青, 罕見珠寶裝飾, 或 未經裝飾破布, 絲綢, 拾荒者裝束, 或不合時節的衣裝屬性數值你的最大生命值為 8+體質值。
+你的基礎傷害骰為 d10。
+起始動作選擇一個種族：</description>
     </item>
     
   </channel>

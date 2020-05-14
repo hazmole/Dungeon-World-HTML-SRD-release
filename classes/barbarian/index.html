@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="tw">
   <head>
-  <title>戰士 | 地城世界 HTML SRD</title>
+  <title>野蠻人 | 地城世界 HTML SRD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -111,232 +111,188 @@
     <div class="container">
        <div class="row">
           <div class="col-md-8 col-md-offset-1">
-             
-
-<h1>戰士</h1>
-<div id="intro"><p class="NoIndent">這是份爛差事－－日復一日靠著你的盔甲和手上技巧討生活，不顧一切地跳入危險之中。當你在巴爾斯伯格的酒吧為他們兩肋插刀時，沒有人為你吹奏黃金號角。當你將還在尖叫的他們從瘋狂深淵的邊緣拽出時，沒有成群天使為你合唱。什麼都沒有。</p>
-<p>忘了他們吧。</p>
-<p>你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。</p>
-<p>你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。</p></div>
+             <h1>野蠻人</h1>
+<div id="intro"></div>
 <hr/>
-
 <h2>名稱</h2>
-<div id="names"><p  class="NoIndent"><b>矮人</b>: 歐茲魯克(Ozruk), 蘇爾特(Surtur), 布倫希爾德(Brunhilda), 安妮卡(Annika), 杰諾斯(Janos), 格蕾塔(Greta), 迪姆(Dim), 蘭德里革(Rundrig), 賈爾(Jarl), 索圖庫(Xotoq)</p>  
-<p class="NoIndent"><b>精靈</b>: 以羅欣(Elohiir), 莎拉瑟斯(Sharaseth), 哈茲里(Hasrith), 夏瓦羅(Shevaral), 凱杜斯(Cadeus), 艾爾達(Eldar), 奇斯瑞瑟(Kithracet), 緹里恩(Thelian)</p>    
-<p class="NoIndent"><b>半身人</b>: 芬尼根(Finnegan), 奧麗弗(Olive), 藍道夫(Randolph), 巴特比(Bartleby), 奧布里(Aubrey), 鮑德溫(Baldwin), 貝卡(Becca)</p> 
-<p class="NoIndent"><b>人類</b>: 霍克(Hawke), 呂迪格(Rudiger), 葛瑞格(Gregor), 布莉安娜(Brianne), 沃爾頓(Walton), 卡斯托(Castor), 莎娜(Shanna), 埃阿斯(Ajax), 哈伯(Hob)</p></div>
+<div id="names"><p class="NoIndent">戈姆(Gorm), 西易(Si-Yi), 普里西拉(Priscilla), 仙(Sen), 夏(Xia), 安妮拉(Anneira), 海耶法(Haepha), 盧爾(Lur), 沙俄(Shar), 柯林(Korrin), 恩科西(Nkosi), 法夫納(Fafnir), 夸(Qua), 沙瑟(Sacer), 薇辛格托(Vercin’geto), 巴柏扎(Barbozar), 克洛維斯(Clovis), 弗萊耶(Frael), 塔雷薩斯(Thra-raxes), 希里厄斯(Sillius), 莎西納(Sha-Sheena), 卡蜜西(Khamisi)</p> 
+<p class="NoIndent"><b>稱號</b>: 光榮的, 飢餓的, 暴躁的, 無敗的, 暴食的, 破敵者, 碎骨者, 歡樂的, 憂傷的, 萬能的, 巨人, 常勝的</p></div>
 <hr/>
-
 <h2>外觀</h2>
 <div id="look"><p class="InstructionsAfterHeader">從每列中各自選擇一項：</p>
-<ul><li>堅毅的眼神, 死沉的眼神, 或 熱切的眼神</li>
-<li>狂野的髮型, 剃短的髮型, 或 破舊頭盔</li>
-<li>粗硬的肌膚，曬黑的肌膚，或 滿佈疤痕的肌膚</li>
-<li>健壯的體型，輕盈的體型，或 經過摧殘的身軀</li></ul></div>
+<ul><li>痛苦的眼神, 著魔的眼神, 狂野的眼神, 或 被遮蔽的雙眼</li>
+<li>強壯肌肉, 長腿, 骨瘦如柴的身軀, 或 柔軟的身軀</li>
+<li>怪異的刺青, 罕見珠寶裝飾, 或 未經裝飾</li>
+<li>破布, 絲綢, 拾荒者裝束, 或不合時節的衣裝</li></ul></div>
 <hr/>
-
 <h2>屬性數值</h2>
-<p class="NoIndent">你的最大生命值為 10+體質值。</p>
+<p class="NoIndent">你的最大生命值為 8+體質值。</p>
 <p class="NoIndent">你的基礎傷害骰為 <span id="Damage">d10</span>。</p>
 <hr/>
-
 <h2>起始動作</h2>
-<div id="startingmoves"><p class="InstructionsAfterHeader">選擇一個種族並獲得相應的動作：</p>
-<div id="racialmoves"><div class="Move"><h3 class="MoveName">矮人</h3>
+<div id="startingmoves"><p class="InstructionsAfterHeader">選擇一個種族：</p>
+<div id="racialmoves">
+<div class="Move"><h3 class="MoveName">化外之民 (Outsider)</h3>
 <p class="NoIndent">
-	當你<strong>與某人共享美酒</strong>時，你在與他談判時可以使用體質來取代魅力。</p></div>
-<div class="Move"><h3 class="MoveName">精靈</h3>
-<p class="NoIndent">
-	選擇一種武器──你永遠將該武器視為帶有<tag>靈巧</tag>標籤。</p></div>
-<div class="Move"><h3 class="MoveName">半身人</h3>
-<p class="NoIndent">
-	當你在進行面對危險動作時<strong>利用嬌小體型來取得優勢</strong>，你獲得 +1 加值。</p></div>
-<div class="Move"><h3 class="MoveName">人類</h3>
-<p class="NoIndent">
-	每場戰鬥一次，你可以重骰一次你或其他人的傷害。</p></div></div>
+	你可能是精靈、矮人、半身人或人類，但你與你的族人並非來自此地。在每次聚會開始時，GM會詢問你某件關於你故鄉的事情、你為何離開、或你把什麼遺留在了身後。若你回答這些問題，你標記經驗值。</p></div></div>
 
-<div id="classmoves"><p class="Instructions">你起始還擁有以下動作：</p>
-<div class="Move"><h3 class="BasicMoveName">彎柵破門 (Bend Bars, Lift Gates)</h3>
-<p class="NoIndent">
-	當你<strong>使用蠻力破壞無生命的障礙物</strong>時，擲+力量。<br/>
-	✴擲出10+時，選擇 3 項。<br/>
-	✴擲出7-9時，選擇 2 項。</p>
-<ul>
-	<li>這並不需要花費太長的時間</li>
-	<li>你沒有弄壞什麼有價值的東西</li>
-	<li>這沒有產生巨大的噪音</li>
-	<li>你不用花什麼功夫就能再把東西修好</li></ul></div>
-
-<div class="Move"><h3 class="BasicMoveName">著甲 (Armored)</h3>
+<p class="Instructions">你起始從以下選擇其中一項：</p>
+<div class="Move"><h3 class="BasicMoveName">重裝上陣 (Full Plate And Packing Steel)</h3>
 <p class="NoIndent">
 	你可以無視你所穿戴防具的<tag>笨重</tag>標籤。</p></div>
 
-<div class="Move"><h3 class="BasicMoveName">招牌武器 (Signature Weapon)</h3>
+<div class="Move"><h3 class="BasicMoveName">無拘無束 (Unencumbered, Unharmed)</h3>
 <p class="NoIndent">
-	這是一把屬於你的武器。儘管有許多武器和它相像，但這一把專屬於你。你的武器是你最忠實的朋友。它是你的生命。你掌握它，就如同你掌握自己的人生。沒有你，你的武器就毫無用處；而沒有你的武器，你也將毫無用處。你必須正確地使用你的武器。</p>
-<p>選擇一項基礎描述，它們全都是 <tag>2 重量</tag>：</p>
-<ul>
-	<li class="Option">劍</li>
-	<li class="Option">斧</li>
-	<li class="Option">鎚</li>
-	<li class="Option">長矛</li>
-	<li class="Option">連枷</li>
-	<li class="Option">拳頭</li></ul>
-<p class="NoIndent">選擇最符合你武器的作用範圍：</p>
-<ul>
-	<li class="Option"><tag class="red">觸及</tag></li>
-	<li class="Option"><tag class="red">近身</tag></li>
-	<li class="Option"><tag class="red">及遠</tag></li></ul>
-<p class="NoIndent">選擇二項強化效果：</p>
-<ul>
-	<li class="Option">彎鉤和尖刺。 <tag>+1 傷害</tag>，但<tag>+1 重量</tag>。</li>
-	<li class="Option">鋒利。 <tag>+2 穿透</tag>。</li>
-	<li class="Option">完美配重。 添加<tag>靈巧</tag>標籤。</li>
-	<li class="Option">鋸齒鋒刃。 <tag>+1 傷害</tag>。</li>
-	<li class="Option">會在某一種類型的生物出現時發光，生物類型由你決定。</li>
-	<li class="Option">巨大。 添加<tag>毀亂</tag>和<tag>強力</tag>標籤。</li>
-	<li class="Option">多功能。 選擇一個額外的作用範圍標籤。</li>
-	<li class="Option">製作精良。 <tag>-1 重量</tag>。</li></ul>
-<p class="NoIndent">選擇一項外觀：</p>
-<ul>
-	<li class="Option">古老</li>
-	<li class="Option">完美無瑕</li>
-	<li class="Option">裝飾華麗</li>
-	<li class="Option">染血</li>
-	<li class="Option">不祥的</li></ul></div></div></div>
-<hr/>
+	只要你的負重還沒有超過你的負載上限，且你未穿戴任何防具或攜帶盾牌時，你獲得 +1 護甲值。</p></div>
 
+<div id="classmoves"><p class="Instructions">你起始還擁有以下動作：</p>
+
+<div class="Move"><h3 class="BasicMoveName">居於上風 (The Upper Hand)</h3>
+<p class="NoIndent">
+	你在臨死一息的擲骰中獲得持續+1。當你進行臨死一息動作時，7-9的結果改為由你向死神提出交易以換回自己的性命。如果死神接受條件的話，祂會讓你重新復活；若祂拒絕，則你就此死亡。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">你還在等什麼？ (What Are You Waiting For?)</h3>
+<p class="NoIndent">
+	當你<strong>大吼著向你的敵人發起挑戰</strong>時，擲+體質：<br/>
+	✴擲出10+時，他們將你視為最需要被立即處理的顯著威脅，並因此忽略你的同伴。你在對抗他們時獲得持續 +2 傷害。<br/>
+	✴擲出7-9時，只有少數敵人（最弱小或最愚蠢的）會被你的嘲諷影響。</p></div>
+
+<div class="Move"><h3 class="BasicMoveName">豪壯欲望 (Herculean Appetites)</h3>
+<p class="NoIndent">
+	一般人可能只要稍嚐美酒滋味、支配一兩個僕從便能感到滿足，然而你總是想要更多。選擇兩項欲望，當你在追求其中一個欲望的期間需要為了進行動作而擲骰時，你擲 1d6+1d8 取代原本使用的 2d6。如果 d6 擲出的結果高於 d8 的結果，則GM將會把一個因你魯莽追求而造成的混亂或危險引進故事中。</p>
+<ul><li>純粹的破壞</li>
+<li>凌駕他人的權力</li>
+<li>凡俗享樂</li>
+<li>征服</li>
+<li>財富和領地</li>
+<li>名聲與榮耀</li></ul>
+</div>
+
+<div class="Move"><h3 class="BasicMoveName">肌肉發達 (Musclebound)</h3>
+<p class="NoIndent">
+	當你揮舞武器時，該武器獲得<tag>強力</tag>和<tag>毀亂</tag>標籤。</p></div></div></div>
+<hr/>
 
 <h2>陣營</h2>
 <p class="InstructionsAfterHeader">選擇一個陣營：</p>
-<div id="alignment"><div class="Move"><h3 class="MoveName">善良</h3>
-<p class="NoIndent">守護那些比你弱小的人們。</p></div>
+<div id="alignment">
+<div class="Move"><h3 class="MoveName">混亂</h3>
+<p class="NoIndent">你遠離文明世界的習俗常規。</p></div>
 <div class="Move"><h3 class="MoveName">中立</h3>
-<p class="NoIndent">擊敗值得一戰的對手。</p></div>
-<div class="Move"><h3 class="MoveName">邪惡</h3>
-<p class="NoIndent">殺死手無寸鐵者或投降的敵人。</p></div></div>
+<p class="NoIndent">教導他人關於你族人的生活方式。</p></div></div>
 <hr/>
-
 
 <h2>裝備</h2>
 <div id="gear"><p class="NoIndent">
-	你的負載上限為 12+力量。<br/>
-	你起始擁有 你的招牌武器 和 地城口糧 (<tag>5 使用次數</tag> <tag>1 重量</tag>)。</p>
-選擇你的防具：
-<ul>
-	<li class="Option">鏈甲 (<span class="Tags">1 護甲, 1 重量</span>) 和 探險工具組 (<span class="Tags">5 使用次數, 1 重量</span>)</li>
-	<li class="Option">鱗甲 (<span class="Tags">2 護甲, 3 重量</span>)</li></ul>
-選擇二項：
-<ul>
-	<li class="Option">2 治療藥水 (<span class="Tags">0 重量</span>)</li>
-	<li class="Option">盾牌 (<span class="Tags">+1 護甲, 2 重量</span>)</li>
-	<li class="Option">解毒劑 (<span class="Tags">0 重量</span>), 地城口糧 (<tag>5 使用次數</tag> <tag>1 重量</tag>), 和 藥膏和草藥 (<span class="Tags">2 使用次數, 緩慢, 1 重量</span>)</li>
-	<li class="Option">22 金幣</li></ul></div>
-<hr/>
+	你的負載上限為 8+力量。<br/>
+	你起始擁有 地城口糧 (<tag>5 使用次數</tag> <tag>1 重量</tag>), 匕首 (<tag class="red">觸及</tag> <tag>1 重量</tag>), 和 一些象徵你旅經之地或出身故鄉的信物。</p>
 
+選擇你的武器：
+<ul>
+	<li class="Option">斧頭 (<span class="Tags">近身, 1 重量</span>)</li>
+	<li class="Option">雙手劍 (<span class="Tags">近身, +1 傷害, 2 重量</span>)</li></ul>
+選擇一項：
+<ul>
+	<li>探險工具組 (<span class="Tags">5 使用次數, 1 重量</span>) 和 地城口糧 (<span class="Tags">5 使用次數, 1 重量</span>)</li>
+	<li>鏈甲 (<span class="Tags">1 護甲, 1 重量</span>)</li></ul></div>
+<hr/>
 
 <h2>羈絆</h2>
 <div id="bonds"><p class="NoIndent">在至少一個欄位中填入你其中一名同伴的名字：</p>
-<p>不論 _______________ 是否承認，他都欠我一條命。</p>
-<p>我發過誓要保護 _______________。</p>
-<p>我擔憂 _______________ 在地城中生存下來的能力。</p>
-<p>_______________ 相當柔弱，但我會讓他像我一樣堅強。</p></div>
+<p>_______________ 弱小而愚昧，但他也讓我覺得有趣。</p>
+<p>_______________ 的做事方法相當怪異，讓人困惑。</p>
+<p>_______________ 總是被捲入麻煩之中──我必須保護好他。</p>
+<p>_______________ 與我共享對榮耀的渴求；大地將因我們的步伐而顫抖！</p></div>
 <hr/>
+
 <h2>進階動作</h2>
 <div id="moves"><p class="InstructionsAfterHeader">當你的等級升至2~5，從下列動作中選擇：</p>
-<div class="Move"><h3 class="MoveName">殘忍無情 (Merciless)</h3>
-<p class="NoIndent">當你造成傷害時，你額外造成 +1d4 傷害。</p></div>
-
-<div class="Move"><h3 class="MoveName">傳家之寶 (Heirloom)</h3>
+<div class="Move"><h3 class="MoveName">如饑似渴 (Still Hungry)</h3>
 <p class="NoIndent">
-	當你<strong>請教寄宿在你招牌武器內的精魂</strong>時，它們將給你一個與當前情境的見解，並可能會反過來問你一些問題，擲+魅力。<br/>
-	✴擲出10+時，GM會告訴你詳細的細節。<br/>
-	✴擲出7-9時，GM只會告訴你一個大致的印象。</p></div>
+	Choose an additional appetite.</p></div>
 
-<div class="Move"><h3 class="MoveName">護甲精通 (Armor Mastery)</h3>
+<div class="Move"><h3 class="MoveName">毀滅慾望 (Appetite for Destruction)</h3>
 <p class="NoIndent">
-	當你<strong>決定利用你的護甲代為承受對你造成的衝擊傷害</strong>時，該傷害將被抵銷，但你必須同時將你盔甲或盾牌（由你決定）的護甲值減少1點。其護甲值將在你每次做出這個決定時減少。若這個減損值導致該物品的護甲值歸零，則該物品被摧毀。</p></div>
+	Take a move from the fighter, bard or thief class list. You may not take multiclass moves from those classes.</p></div>
 
-<div class="Move"><h3 class="MoveName">強化武器 (Improved Weapon)</h3>
+<div class="Move"><h3 class="MoveName">致汝吾愛狂猛如車 (My Love For You Is Like a Truck)</h3>
 <p class="NoIndent">
-	為你的招牌武器額外選擇一項強化效果。</p></div>
+	When you perform a feat of strength, name someone present whom you have impressed and take +1 forward to parley with them.</p></div>
 
-<div class="Move"><h3 class="MoveName">紅眼酣戰 (Seeing Red)</h3>
+<div class="Move"><h3 class="MoveName">生命中最棒的事 (What Is Best In Life)</h3>
 <p class="NoIndent">
-	當你在戰鬥期間進行審視現狀動作時，你獲得 +1 加值。</p></div>
+	At the end of a session, if during this session you have crushed your enemies, seen them driven before you, or have heard the lamentations of their kinfolk mark XP.</p></div>
 
-<div class="Move"><h3 class="MoveName">審問者 (Interrogator)</h3>
+<div class="Move"><h3 class="MoveName">荒野遊蕩者 (Wide Wanderer)</h3>
 <p class="NoIndent">
-	當你<strong>使用暴力威脅做為籌碼來進行談判</strong>時，你可以使用力量來取代魅力。</p></div>
+	You’ve traveled the wide world over. When you arrive someplace ask the GM about any important traditions, rituals, and so on, they’ll tell you what you need to know.</p></div>
 
-<div class="Move"><h3 class="MoveName">嗅聞血腥 (Scent of Blood)</h3>
+<div class="Move"><h3 class="MoveName">僭取者 (Usurper)</h3>
 <p class="NoIndent">
-	當你對一個敵人進行砍劈動作時，你下一次對同個敵人進行的攻擊將額外造成 +1d4 傷害。</p></div>
+	When you prove yourself superior to a person in power, take +1 forward with their followers, underlings, and hangers on.</p></div>
 
-<div class="Move"><h3 class="MoveName">兼職新手 (Multiclass Dabbler)</h3>
+<div class="Move"><h3 class="MoveName">蠻族可汗 (Khan of Khans)</h3>
 <p class="NoIndent">
-	從另一個職業中獲得一個動作。 在選擇動作時，將你的等級視為比原本低一級。</p></div>
+	Your hirelings always accept the gratuitous fulfillment of one of your appetites as payment.</p></div>
 
-<div class="Move"><h3 class="MoveName">鐵革硬皮 (Iron Hide)</h3>
+<div class="Move"><h3 class="MoveName">參孫 (Samson)</h3>
 <p class="NoIndent">
-	你獲得 +1 護甲值。</p></div>
+	You may take a debility to immediately break free of any physical or mental restraint.</p></div>
 
-<div class="Move"><h3 class="MoveName">鐵匠 (Blacksmith)</h3>
+<div class="Move"><h3 class="MoveName">粉碎！ (Smash!)</h3>
 <p class="NoIndent">
-	當你有機會使用鍛造廠時，你可以將一把武器的魔法力量移植到你的招牌武器上。這個過程將會摧毀那把魔法武器。你的招牌武器將會因此獲得被摧毀武器中原本蘊含的魔法力量。</p></div>
+	When you hack and slash, on a 12+ deal your damage and choose something physical your target has (a weapon, their position, a limb): they lose it.</p></div>
+
+<div class="Move"><h3 class="MoveName">不滅飢渴 (Indestructible Hunger)</h3>
+<p class="NoIndent">
+	When you take damage you can choose to take 1 ongoing until you sate one of your appetites instead of taking the damage. If you already have this penalty you cannot choose this option.</p></div>
+
+<div class="Move"><h3 class="MoveName">看穿弱點 (Eye For Weakness)</h3>
+<p class="NoIndent">
+	When you discern realities add “What here is weak or vulnerable?” to the list of questions you can ask.</p></div>
+
+<div class="Move"><h3 class="MoveName">勢不可當 (On The Move)</h3>
+<p class="NoIndent">
+	When you defy a danger caused by movement (maybe falling off a narrow bridge or rushing past an armed guard) take +1.</p></div>
 
 
 <p class="Instructions">當你的等級升至6~10，從下列動作或等級2~5的動作中選擇：</p>
-<div class="Move"><h3 class="MoveName">殘酷嗜血 (Bloodthirsty)</h3>
-<p class="Requirement">取代: 殘忍無情</p>
-<p class="NoIndent">當你造成傷害時，你額外造成 +1d8 傷害。</p></div>
 
-<div class="Move"><h3 class="MoveName">完美著甲 (Armored Perfection)</h3>
-<p class="Requirement">取代: 護甲精通</p>
+<div class="Move"><h3 class="MoveName">吉日赴死 (A Good Day to Die)</h3>
 <p class="NoIndent">
-	當你<strong>決定利用你的護甲代為承受對你造成的衝擊傷害</strong>時，該傷害將被抵銷，且你獲得對該攻擊者的下次+1。但你必須同時將你盔甲或盾牌（由你決定）的護甲值減少1點。其護甲值將在你每次做出這個決定時減少。若這個減損值導致該物品的護甲值歸零，則該物品被摧毀。</p></div>
+	As long as you have less than your Con in current HP (or 1, whichever is higher) take +1 ongoing.</p></div>
 
-<div class="Move"><h3 class="MoveName">邪眼 (Evil Eye)</h3>
-<p class="Requirement">需求: 紅眼酣戰</p>
+<div class="Move"><h3 class="MoveName">殺光他們 (Kill ‘em All)</h3>
+<p class="Requirement">Requires: Appetite for Destruction</p>
 <p class="NoIndent">
-	當你<strong>投身戰鬥</strong>時，擲+魅力。<br/>
-	✴擲出10+時，獲得 2掌握。<br/>
-	✴擲出7-9時，獲得 1掌握。<br/>
-	消耗你的掌握來與一位在場的NPC進行眼神接觸，他將因此僵直或退縮，且直到你中斷眼神接觸之前都無法行動。</p>
-<p class="NoIndent">
-	✴擲出6-時，你的敵人將立刻將你視作戰場上最大的威脅。</p></div>
+	Take another move from the fighter, bard or thief class list. You may not take multiclass moves from those classes.</p></div>
 
-<div class="Move"><h3 class="MoveName">品嘗鮮血 (Taste of Blood)</h3>
-<p class="Requirement">取代: 嗅聞血腥</p>
+<div class="Move"><h3 class="MoveName">戰吼 (War Cry)</h3>
 <p class="NoIndent">
-	當你對一個敵人進行砍劈動作時，你下一次對同個敵人進行的攻擊將額外造成 +1d8 傷害。</p></div>
+	When you enter battle with a show of force (a shout, a rallying cry, a battle dance) roll+Cha. On a 10+ both, On a 7–9 one or the other.</p>
+	<ul><li>Your allies are rallied and take +1 forward</li>
+	<li>Your enemies feel fear and act accordingly (avoiding you, hiding, attacking with fear driven abandon)</li></ul></p></div>
 
-<div class="Move"><h3 class="MoveName">兼職學徒 (Multiclass Initiate)</h3>
-<p class="Requirement">需求: 兼職新手</p>
+<div class="Move"><h3 class="MoveName">力量印記 (Mark of Might)</h3>
 <p class="NoIndent">
-	從另一個職業中獲得一個動作。 在選擇動作時，將你的等級視為比原本低一級。</p></div>
+	When you take this move and spend some uninterrupted time reflecting on your past glories you may mark yourself with a symbol of your power (a long braid tied with bells, ritual scars or tattoos, etc.) Any intelligent mortal creature who sees this symbol knows instinctively that you are a force to be reckoned with and treats you appropriately.</p></div>
 
-<div class="Move"><h3 class="MoveName">鋼筋鐵骨 (Steel Hide)</h3>
-<p class="Requirement">取代: 鐵革硬皮</p>
+<div class="Move"><h3 class="MoveName">更多！還要更多！ (More! Always More!)</h3>
 <p class="NoIndent">
-	你獲得 +2 護甲值。</p></div>
+	When you satisfy an appetite to the extreme (destroying something unique and significant, gaining enormous fame, riches, power, etc.) you may choose to resolve it. Cross it off the list and mark XP. While you may pursue that appetite again, you no longer feel the burning desire you once did. In its place, choose a new appetite from the list or write your own.</p></div>
 
-<div class="Move"><h3 class="MoveName">死神之眼 (Through Death’s Eyes)</h3>
+<div class="Move"><h3 class="MoveName">危險份子 (The One Who Knocks)</h3>
 <p class="NoIndent">
-	當你<strong>投身戰鬥</strong>時，擲+睿知。<br/>
-	✴擲出10+時，指名一個將會活下來的人，<strong>並</strong>指名一個將會死去的人。<br/>
-	✴擲出7-9時，指名一個將會活下來的人，<strong>或</strong>指名一個將會死去的人。<br/>
-	指名NPC，而非玩家角色。哪怕只有些微的可能性，GM也會使你預見的未來景象成真。</p>
-<p class="NoIndent">
-	✴擲出6-時，你看見了你自己的死亡，並因此在這場戰鬥期間獲得持續-1。</p></div>
+	When you defy danger, on a 12+ you turn the danger back on itself, the GM will describe how.</p></div>
 
-<div class="Move"><h3 class="MoveName">武器鑑識 (Eye for Weaponry)</h3>
+<div class="Move"><h3 class="MoveName">合理懷疑 (Healthy Distrust)</h3>
 <p class="NoIndent">
-	當你看向敵人的武器時，向GM詢問它能夠造成多少傷害。</p></div>
+	Whenever the unclean magic wielded by mortal men causes you to defy danger, treat any result of 6 as a 7–9.</p></div>
 
-<div class="Move"><h3 class="MoveName">卓越勇士 (Superior Warrior)</h3>
+<div class="Move"><h3 class="MoveName">為鮮血之神 (For the Blood God)</h3>
 <p class="NoIndent">
-	當你在砍劈動作中擲出12+的結果時，你造成你的傷害、避開敵人的攻擊，並讓你的敵人敢到驚艷、挫敗、或恐懼。</p></div></div>
+	You are initiated in the old ways, the ways of sacrifice. Choose something your gods (or the ancestor spirits, or your totem, etc) value—gold, blood, bones or the like. When you sacrifice those things as per your rites and rituals, roll+Wis. On a 10+ the GM will grant you insight into your current trouble or a boon to help you. On a 7–9 the sacrifice is not enough and your gods take of your flesh as well, but still grant you some insight or boon. On a miss, you earn the ire of the fickle spirits.</p></div>
+</div>
 
           </div>
        </div>

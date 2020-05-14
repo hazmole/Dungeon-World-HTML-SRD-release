@@ -46,10 +46,12 @@
    <li class="dropdown">
      <a href="#" class="dropdown-toggle" data-toggle="dropdown">職業 <b class="caret"></b></a>
      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian">野蠻人</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">吟遊詩人</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">牧師</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">德魯伊</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">戰士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator">燔祭者</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">聖武士</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">遊俠</a></li>
         <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">盜賊</a></li>
@@ -353,7 +355,7 @@
         
         var names_head = names_match[1]? names_match[1]: "";
         var names_arr = names_match[2].split(", ").map(context => {
-          const name_match = context.match(/(.+)\((\w+)\)/);
+          const name_match = context.match(/(.+)\(([\w-’]+)\)/);
           return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
         });
 
