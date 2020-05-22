@@ -272,8 +272,8 @@
 <div class="Move"><h3 class="MoveName">燃焰之環 (Burning Ring of Fire)</h3>
 <p class="NoIndent">
 	當你<strong>將一名自願者的靈魂與你融為一體</strong>時，擲+魅力：<br/>
-	✴擲出成功時，你們的靈魂將相連在一起，無論相隔多遠都能夠感應到彼此，並能分享你們各自的情緒狀態。<br/>
-	✴擲出7-9時，這個聯繫不穩定且危險，當你承受到任何異常狀態時，對方也將承受相同的異常狀態（反之亦然）。<br/>
+	✴擲出成功時，你們的靈魂聯繫在一起，無論相隔多遠都能感應到彼此，並能分享彼此的情緒狀態。<br/>
+	✴擲出7-9時，這道聯繫不穩定且危險，當你承受異常狀態時，對方也將承受該異常狀態（反之亦然）。<br/>
 	✴擲出失敗時，這道烙印在靈魂的連繫將被拒絕，且你們都必須消除所有對彼此的羈絆。你仍然可以在聚會結束時如常寫下對彼此的新羈絆。</p>
 <p class="NoIndent">
 	這個融合狀態一旦被完成，就無法再透過任何凡俗手段被解除。</p></div>
@@ -364,7 +364,7 @@
         
         var names_head = names_match[1]? names_match[1]: "";
         var names_arr = names_match[2].split(", ").map(context => {
-          const name_match = context.match(/(.+)\(([\w-’]+)\)/);
+          const name_match = context.match(/(.+)\(([\w-’ ]+)\)/);
           return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
         });
 
