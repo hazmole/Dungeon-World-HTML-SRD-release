@@ -8,10 +8,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</loc>
   </url>
   
@@ -41,10 +37,6 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview/</loc>
   </url>
   
   <url>
@@ -108,6 +100,10 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</loc>
   </url>
   
@@ -125,6 +121,10 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</loc>
   </url>
   
   <url>

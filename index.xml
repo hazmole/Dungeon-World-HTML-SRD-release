@@ -20,15 +20,6 @@ DESIGNATION OF OPEN GAME CONTENT The following monsters are open game content: A
     </item>
     
     <item>
-      <title>Advanced Delving</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</guid>
-      <description>Advanced DelvingDungeon World portrays a specific kind of fantasy adventure—one with elves and dwarves, heroes and villains, and characters struggling for riches and glory in a dangerous world. Maybe you’ve got an idea for something different—maybe your Dungeon World is set on a blasted desert planet, peopled by savage cannibals and ruled by haughty psychics. Or maybe you want to play a game where humans are the only race available, but they belong to clans or families as different from each other as a gnome is from a dwarf.</description>
-    </item>
-    
-    <item>
       <title>Adventure Conversion</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,17 +48,6 @@ When you need a quick NPC all you need is an instinct and some way to pursue it.
 Reach
 Special Qualities: Telepathy
 Deep below the surface of the world, in freshwater seas untouched by the sun, dwell the aboleth. Fish the size of whales, with strange growths of gelatinous feelers used to probe the lightless shores. They’re served by slaves: blind albino victims of any race unfortunate enough to stumble on them, drained of thought and life by the powers of the aboleth’s alien mind.</description>
-    </item>
-    
-    <item>
-      <title>Monsters</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview/</guid>
-      <description>MonstersGreat heroes need horrendous antagonists. This section is about how to create and play as those antagonists—from the lowly goblin warrior to the hellish demon.
-Using MonstersA monster is any living (or undead) thing that stands in the characters’ way.
-How you use these monsters follows directly from your agenda and principles. Stay true to your principles, use your moves and pursue your agenda—you can’t go wrong. Your first agenda is to portray a fantastic world.</description>
     </item>
     
     <item>
@@ -317,6 +297,32 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
     </item>
     
     <item>
+      <title>怪物</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview/</guid>
+      <description>怪物惟有駭人可怖的敵人，方能成就偉大的英雄。這個章節是關於如何創造和扮演這些敵人──從卑賤的哥布林戰士、到恐怖的煉獄惡魔。
+使用怪物怪物泛指任何阻擋在角色們面前的活物（或不死生物）。
+你運用這些怪物的方式將完全遵循你的目標事項和原則。忠於你的原則、使用你的動作、並追求達成你的目標事項──你就不會出錯。
+你的第一個目標事項是「描繪出一個奇幻世界」，而你描述怪物和任何敵手的手法也將成為幫助你達成這條目標事項的絕佳工具。透過生動地描述這些生物和人們的細節，你將賦予他們生命。最終你也會需要為這些怪物設定一些屬性和數值──本章中記載的規則將協助你輕鬆快速地填寫它們。
+怪物的存在說明了地城世界是個多麼可怕危險的場所──如果身為英雄們的玩家角色不介入其中，它也將一直是如此。儘管你不應該聲援怪物們去獲得勝利，但牠們確實會去挑戰、甚至有時候擊敗這些英雄。若你覺得你安排的怪物被擊潰的速度似乎有些太快，不用擔心。讓玩家們為他們的勝利狂歡吧，因為這裡永遠會有更多更多的怪物等著他們去挑戰。
+「構思危險」原則概括了這種思考哲學──把每個怪物都想成是一支朝著角色們射去的箭矢。這些怪物就是你安排危害中等待著被你使用的子彈。牠們有些可能比其他怪物更聰明、更迅速、或更危險，但直到一頭怪物獲得了名字、性格、或出於某些其他特殊考量之前，牠都只不過是一支箭矢。瞄準玩家並射出，就算射偏了也不用擔心。
+只有當這個世界將聚光燈照在這頭怪物身上時，這頭怪物才會脫離牠身為箭矢的身分。這可能會是因為一次憶述見聞的檢定讓你為牠添加了某些更加有趣的敘述、或者源自你提問並基於玩家回答而建立起來的結果。也許角色們在戰鬥中被擊潰，不得不選擇逃跑，並因此對這頭打敗他們的野獸產生恐懼和敬意。當這種事情發生時，你就可以隨手為這頭怪物取一個名字，並考慮創建一個代表這頭怪物的危害，賦予牠全新的存在意義。
+記住，你的目標事項和原則完全沒有提到你需要安排公平對等的戰鬥。英雄們經常會陷入寡不敵眾、或甚至需要面對勝算渺小的荒謬窘境──有時候他們必須撤退並擬定新的計畫，有時候他們會承受敗北。當你把怪物添加到前置中、把牠們放進地城裡、或在遊戲過程中臨時創造牠們時，你的首要責任就是編織出故事事實（描繪出一個奇幻世界），並讓角色們面對真正的威脅（讓角色們成為英雄），而不是營造出一場勢均力敵的戰鬥。地城世界並不在乎遭遇難度的平衡與否或經驗值的計算；它在乎的是冒險、以及不畏死亡的壯舉！
+怪物的要素 (Elements of a Monster)每個怪物都有著屬於自己的動作，用以描述牠的行為舉止和能力。和GM動作一樣，這些動作是你在行動歇止、或當玩家們提供你黃金時機時用來推進劇情的工具。就如同其他GM動作，它們同樣可以根據當下情境和動作類型而有硬動作和軟動作的分別：一個即時且不可逆的發展屬於硬動作，而一個逐漸迫近或容易對付的動作則屬於軟動作。
+每個怪物也都擁有自己的本能，說明了牠更高層次的目標追求。某些怪物活著就是為了征服、為了財寶、或只是單純渴求鮮血。怪物的本能就是用來指導你該如何在故事中使用這些怪物。
+怪物的說明文字正是牠所有其他特徵的來源。這些說明文字能夠讓你清楚知道這個怪物到底是什麼樣子，而這個怪物身上所有其他的要素，都只不過是反映出了這些說明文字所營造的事實罷了。
+傷害被用來衡量怪物一次能造成多大程度的苦痛。就跟玩家的傷害一樣，這個數值代表著要擲的骰子，或許還會再加上一些修正值。每當這個怪物導致玩家或另一頭怪物承受身體創傷時，牠就能對其造成等同其傷害數值的傷害。
+每個怪物都帶有不同的標籤，用以描述牠是如何造成傷害的，這同時也包括了定義牠攻擊手段的影響範圍。當怪物嘗試攻擊那些超出牠攻擊範圍的目標時（無論太近或太遠），那很不幸的，牠不會造成任何傷害。任何可以應用在武器上的標籤（像是毀亂或緩慢）也都同樣能被應用在怪物身上。
+除此之外還存在著其他一些只能被應用在怪物身上的特殊標籤。這些標籤（參見後述的怪物標籤段落）被用來描述怪物身上的那些關鍵特質──比方說，用來描述牠們的體型有多大、或者，若他們是集體行動的話，牠們又是如何組織成群。
+怪物的生命值(HP)被用來衡量牠在死亡之前可以承受多少的傷害。就跟玩家一樣，當怪物受到傷害時，牠的生命值將會減去等同該傷害的數值。一旦怪物的生命值歸零，牠就此死去，不需要擲骰進行臨死一息的動作。
+有些怪物可能足夠幸運去享有護甲帶來的好處。它的作用方式就跟玩家身上的護甲一樣：當擁有護甲的怪物受到傷害時，牠會先把受到的傷害減去等同護甲值的數值。
+最後，特性則被用來描述怪物身上那些與生俱來的重要特質。它們是你建構敘事情節時的指南，也是你使用動作時的依據。比如說，像「縹緲無形」這個特性就代表著字面上的意思：尋常物品將會如同穿過空氣一樣穿過它，這也同時意味著朝牠揮舞一把尋常寶劍並不會因此觸發砍劈動作──因為你無法對牠造成任何傷害。
+沒有數值的怪物 (Monsters Without Stats)Some creatures operate on a scale so far beyond the mortal that concepts like HP, armor, and damage just do not hold. Some creatures just aren’t dangerous in a fight.</description>
+    </item>
+    
+    <item>
       <title>戰士</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -417,6 +423,22 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
     </item>
     
     <item>
+      <title>深入鑽研</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</guid>
+      <description>深入鑽研地城世界描繪了一種特定風貌的奇幻冒險── 一個有著精靈和矮人、英雄和惡棍、以及在地城世界中為財富和榮耀掙扎奮鬥的人們的冒險故事。然而，你也許會有一些不太一樣的想法：或許你的地城世界想要設定在一個飽經摧殘的沙漠星球，遍布著野蠻的食人部落，且被傲慢的靈能者給統治著。又或許，你想要遊玩的故事中只有人類是唯一可選的種族，然而分屬不同部落或家族的他們，彼此之間的差異就跟地侏跟矮人之間的差異一樣大。只要稍微動點手腳，這一切皆有可能（而且實際上，我們鼓勵你這麼做）。這個章節將說明你該如何把地城世界變成屬於你的地城世界。
+創造動作 (Making Moves)要踏上你改寫地城世界的旅程，最好的開頭就是從動作下手。許多前置、危害、或其他遊戲中的元素原本就會包括自訂動作的項目，因此這是個相對較為自然且容易著手的地方。你可能會想要創造出某個動作來反映某些特定威脅的效果（「當你獨自走進褻瀆不潔的廳堂時……」）、也可能會想創造出一些能夠涵蓋你設定中特別重要事物的動作（「當你在黑暗之水中游泳時……」）。而隨著你的經驗越發豐富，你甚至可能會想編寫一些動作來擴展某個職業的能力、或者從頭打造一個屬於你自己的新職業。
+開始入門 (Getting Started)動作是怎麼來的？嗯，或許你可以從動作的觸發條件開始著手。有些行為舉止本身就是會讓你覺得它應該要是一個動作，而這也是在創造動作時最為常見的起始點。你將會預見某些行動出現在故事中，並感覺到它與已經存在的其他動作之間有足夠大的差異性，以至於它需要一個屬於它自己的規則來進行處理。
+你也可以從動作的效果下手。這特別適用於職業動作。你知道施放法術是法師會做的事情，那麼什麼情況會觸發這個效果？
+雖然較為罕見，但你也可以甚至從機制開始著手。有時候你會想到些酷炫的點子，比如說一頭被馴服的惡魔將有著一個會不斷變化的幸福屬性數值，然後以此發展下去。然而，謹慎提防那些純粹只有機制層面的點子。由於動作永遠以敘事開始，並以敘事做結，因此關於機制層面的想法可以說是動作結構中最不重要的一塊。
+你也永遠可以使用來自其他遊戲的動作。地城世界只不過是眾多使用動作機制的遊戲中的其中之一，而你也很有可能會受到這些其他遊戲的啟發。通常來說，要把另一個遊戲中的動作修改並用於地城世界並不是什麼太過困難的任務。
+動作的類型 (Types of Moves)What role the move is fulfilling determines what kind of move you’re creating.
+Moves for dealing with the environment or special features you’ve added to Dungeon World are special moves. These moves are usually the GM’s domain, a place to make parts of the world stand out. Since moves are always triggered by the players, most moves like this should be written or printed somewhere everyone can look them over unless the move covers something that the player characters wouldn’t have any idea about.</description>
+    </item>
+    
+    <item>
       <title>燔祭者</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -514,7 +536,7 @@ Sure, they give you lip for all the times you’ve snuck off alone but without y
       <description>第一次聚會地城世界這個遊戲的第一次聚會始於角色創造。角色創造的過程同時也是創造世界的過程，角色卡上的細節以及你所提出的問題都將一點一滴地建立起這個地城世界的樣貌──有誰住在這裡？這裡發生了什麼事？
 這個章節是寫給GM，也就是為了你──GM而寫的。對玩家而言，第一次聚會就如同其他聚會一樣，他們只需要扮演自己的角色，讓他們像真實存在的人們一樣，並探索這個地城世界就好。至於你，在第一次聚會要做的事情則會更多一些：你得建立這個世界以及玩家們將要面對的種種威脅。
 事前準備在第一次聚會之前，你會需要列印一些東西。印出：
-基本動作的副本數份每個職業的角色卡各一份，雙面印刷牧師和法師的法術列表各一份，雙面印刷GM參考紙你可以從這裡下載：官網連結
+基本動作和特殊動作的影印本數份每個職業的角色卡各一份，雙面印刷牧師和法師的法術列表各一份，雙面印刷GM參考紙你可以從這裡下載：官網連結
 你也需要讀過這整個網站的內容，特別是GM章節（GM動作）和基本動作的部分。熟悉各個職業的職業動作也是個好主意，這讓你能夠預先做好準備。尤其要確保你已經理解了關於「前置」的規則，但先不要創建它們。
 想想那充滿奇幻的世界、古怪的魔法、以及醜惡的野獸。回憶那些你曾玩過的遊戲以及讀過的故事。觀賞些電影、看些漫畫；讓那些英雄幻想故事進入你的腦海中。
 要把什麼樣的想法帶到第一次聚會中將完全取決於你。但至少讓你的腦袋中充滿各種各樣的靈感和想法，不要腦袋空空。
@@ -550,26 +572,26 @@ Sure, they give you lip for all the times you’ve snuck off alone but without y
 在地城世界中有形形色色的冒險者。精靈、人類、矮人與半身人都有屬於自己的英雄。他們之中有身穿鐵甲，無人能敵的戰場猛獸；有的則神秘莫測，呼喚並驅使著魔法的力量。這些尋求財寶與榮耀的，有神聖的牧師、有奸巧的盜賊、有強大的聖武士、還有更多更多。
 然而，冒險並不只有輕鬆的英雄主義與高尚的英勇行徑。每當遊俠帶著他的朋友穿越古老森林時，數以百計的危險虎視眈眈地等著咬掉他的頭顱。或許，等待著他們的是流著口水的哥布林部隊，又或許，他們行經的是居住著灰衣女巫的詛咒之森？亦或者，一整群怨靈正飢渴地尋找著用以還魂的肉身屍體。可怕嗎？當然，但是財寶也在那裏。在危險深處，無數被世人遺忘的黃金珠寶和魔法散落在你所熟悉世界的陰暗夾縫之間。除了堅定勇敢的英雄們之外，又有誰能夠取回它們？
 你和你的朋友就是那些英雄。你們踏足他人無法或不願涉足的險地。怪誕之物潛居於這個世界──你準備好面對牠們了嗎？
-吟遊詩人 (The Bard)冒險者之詩乃是不斷向前之路，是錢幣與戰鬥的榮光。在那些鄉農滿座的酒館中被傳唱的故事，總有些許真實，對吧？那些鼓舞農民與國親的歌謠──那些撫慰野獸或讓人瘋狂的歌謠──必定其來有自。
+吟遊詩人冒險者之詩乃是不斷向前之路，是錢幣與戰鬥的榮光。在那些鄉農滿座的酒館中被傳唱的故事，總有些許真實，對吧？那些鼓舞農民與國親的歌謠──那些撫慰野獸或讓人瘋狂的歌謠──必定其來有自。
 當個詩人吧。來，帶著你的巧舌與機智。你說故事，你唱歌謠。一名尋常樂手只會複誦，而真正的吟遊詩人活在其中。繫上你的靴子吧，高貴的演說家。磨利那把小刀，接受呼喚。總得有人要與那些暴徒、惡棍與即將成為英雄的人們並肩作戰。又有誰比你更能傳誦自己的英雄故事？
 沒有別人了。來吧。
-牧師 (The Cleric)地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各類野獸、以及廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
+牧師地城世界的大地就是個被神遺棄的爛攤子。在安全與被祝福的文明之間，佈滿了走動的死屍、各類野獸、以及廣袤的超自然之地。那是個神不存在的世界，而這也正是為何需要你的原因。
 將神之榮光帶給異教徒不只是你的本性──更是你的使命。你持著劍、槌和咒法宣教，劈開粗野的愚蠢之心，植入神聖之籽。有人說，最好讓神常伴你心。你知道那都是狗屁。神只住在刀鋒之上。
 向這個世界證明，誰才是它的主宰。
-德魯伊 (The Druid)環視火堆周圍，這些人滿是城市的塵埃與汗味，是什麼將你帶到這些人身邊？或許是慈愛吧──你是否如同母熊照看她的幼崽保護著他們？他們現在是你這群的嗎？你可真有群奇怪的兄弟姊妹。不管你有怎樣的靈感，沒有你銳利的感官和更銳利的獠爪，他們註定不會成功。
+德魯伊環視火堆周圍，這些人滿是城市的塵埃與汗味，是什麼將你帶到這些人身邊？或許是慈愛吧──你是否如同母熊照看她的幼崽保護著他們？他們現在是你這群的嗎？你可真有群奇怪的兄弟姊妹。不管你有怎樣的靈感，沒有你銳利的感官和更銳利的獠爪，他們註定不會成功。
 你屬於神聖之所；你出生於母土，你的身上戴著她的靈魂之印。你可能也曾有過凡人的生活，或許你也像他們曾居於都城，如今卻已非如此。你拋棄了停滯的定型。聆聽你盟友對他們所雕神像的祈禱，聆聽他們的宗教寓言故事，講述他們將在早已被你拋棄的破爛小鎮中找回的榮耀。
 他們的諸神只是年幼的孩童，他們的鋼鐵只是虛假的保護。你走在古老的路上，披大地為衣。你會拿取屬於你的財寶，但你是否會走上與他們相同的路呢？只有時間知道。
-戰士 (The Fighter)這是份爛差事－－日復一日靠著你的盔甲和手上技巧討生活，不顧一切地跳入危險之中。當你在巴爾斯伯格的酒吧為他們兩肋插刀時，沒有人為你吹奏黃金號角。當你將還在尖叫的他們從瘋狂深淵的邊緣拽出時，沒有成群天使為你合唱。什麼都沒有。忘了他們吧。
+戰士這是份爛差事－－日復一日靠著你的盔甲和手上技巧討生活，不顧一切地跳入危險之中。當你在巴爾斯伯格的酒吧為他們兩肋插刀時，沒有人為你吹奏黃金號角。當你將還在尖叫的他們從瘋狂深淵的邊緣拽出時，沒有成群天使為你合唱。什麼都沒有。忘了他們吧。
 你這麼做是為了膽識與榮耀，是為了戰鬥的呼嘯、以及那熾熱的鮮血。你是鐵打的猛獸。你的朋友或許帶著鋼鑄的鋒刃，然而，戰士，你本身就是鋼鐵。當你的旅伴在荒野營火旁抱怨著他們的傷口，你則驕傲的背起自己的傷疤。
 你即是銅牆鐵壁－－任憑所有撲向你的危險灰飛煙滅。最終，你會是站到最後的那一個。
-聖武士 (The Paladin)地獄正在等候。或寒冰，或烈火，或地城世界中那些該死罪人們所應得的懲罰，構成了此地的永恆折磨。殘虐或者救贖，一切由你。神聖之士，戰爭機器，全善與光明的聖堂武士，是吧？牧師或許在夜裡向天界上蒼祈禱。戰士或許會以「善」之名揮舞利劍。但只有你知道，何謂善。
+聖武士地獄正在等候。或寒冰，或烈火，或地城世界中那些該死罪人們所應得的懲罰，構成了此地的永恆折磨。殘虐或者救贖，一切由你。神聖之士，戰爭機器，全善與光明的聖堂武士，是吧？牧師或許在夜裡向天界上蒼祈禱。戰士或許會以「善」之名揮舞利劍。但只有你知道，何謂善。
 眾神之眼，之手，之殺戮神罰，這就是你。你所賜的乃是公義與美德－－乃是正義，乃是願景。你胸懷同伴們所欠缺的，純粹之意念。
 所以引導這些愚者吧，聖武士。擔負起你的聖潔使命，將救贖帶到這個破爛世界。
 敗者毋怨悽慘，對吧？
-遊俠 (The Ranger)與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
+遊俠與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
 嚮導、獵手、荒野的造物。你遠遠不只如此。你在荒野中一向孤獨，但那偉大之物的呼喚－－或許可以稱之為命運－－將你與這些都市人的命連繫在了一起。他們或許勇敢。或許強大健壯。但只有你通曉這兩者間的秘密。
 沒有你，他們就會迷失。在鮮血與黑暗之中燒出通往前方的道路吧，神行客。
-The ThiefYou’ve heard them, sitting around the campfire. Bragging about this battle or that, or about how their gods are smiling on your merry band.</description>
+盜賊You’ve heard them, sitting around the campfire. Bragging about this battle or that, or about how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all.</description>
     </item>
     
     <item>

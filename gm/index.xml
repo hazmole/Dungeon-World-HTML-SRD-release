@@ -10,15 +10,6 @@
     
     
     <item>
-      <title>Advanced Delving</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</guid>
-      <description>Advanced DelvingDungeon World portrays a specific kind of fantasy adventure—one with elves and dwarves, heroes and villains, and characters struggling for riches and glory in a dangerous world. Maybe you’ve got an idea for something different—maybe your Dungeon World is set on a blasted desert planet, peopled by savage cannibals and ruled by haughty psychics. Or maybe you want to play a game where humans are the only race available, but they belong to clans or families as different from each other as a gnome is from a dwarf.</description>
-    </item>
-    
-    <item>
       <title>世界</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -111,6 +102,22 @@
     </item>
     
     <item>
+      <title>深入鑽研</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving/</guid>
+      <description>深入鑽研地城世界描繪了一種特定風貌的奇幻冒險── 一個有著精靈和矮人、英雄和惡棍、以及在地城世界中為財富和榮耀掙扎奮鬥的人們的冒險故事。然而，你也許會有一些不太一樣的想法：或許你的地城世界想要設定在一個飽經摧殘的沙漠星球，遍布著野蠻的食人部落，且被傲慢的靈能者給統治著。又或許，你想要遊玩的故事中只有人類是唯一可選的種族，然而分屬不同部落或家族的他們，彼此之間的差異就跟地侏跟矮人之間的差異一樣大。只要稍微動點手腳，這一切皆有可能（而且實際上，我們鼓勵你這麼做）。這個章節將說明你該如何把地城世界變成屬於你的地城世界。
+創造動作 (Making Moves)要踏上你改寫地城世界的旅程，最好的開頭就是從動作下手。許多前置、危害、或其他遊戲中的元素原本就會包括自訂動作的項目，因此這是個相對較為自然且容易著手的地方。你可能會想要創造出某個動作來反映某些特定威脅的效果（「當你獨自走進褻瀆不潔的廳堂時……」）、也可能會想創造出一些能夠涵蓋你設定中特別重要事物的動作（「當你在黑暗之水中游泳時……」）。而隨著你的經驗越發豐富，你甚至可能會想編寫一些動作來擴展某個職業的能力、或者從頭打造一個屬於你自己的新職業。
+開始入門 (Getting Started)動作是怎麼來的？嗯，或許你可以從動作的觸發條件開始著手。有些行為舉止本身就是會讓你覺得它應該要是一個動作，而這也是在創造動作時最為常見的起始點。你將會預見某些行動出現在故事中，並感覺到它與已經存在的其他動作之間有足夠大的差異性，以至於它需要一個屬於它自己的規則來進行處理。
+你也可以從動作的效果下手。這特別適用於職業動作。你知道施放法術是法師會做的事情，那麼什麼情況會觸發這個效果？
+雖然較為罕見，但你也可以甚至從機制開始著手。有時候你會想到些酷炫的點子，比如說一頭被馴服的惡魔將有著一個會不斷變化的幸福屬性數值，然後以此發展下去。然而，謹慎提防那些純粹只有機制層面的點子。由於動作永遠以敘事開始，並以敘事做結，因此關於機制層面的想法可以說是動作結構中最不重要的一塊。
+你也永遠可以使用來自其他遊戲的動作。地城世界只不過是眾多使用動作機制的遊戲中的其中之一，而你也很有可能會受到這些其他遊戲的啟發。通常來說，要把另一個遊戲中的動作修改並用於地城世界並不是什麼太過困難的任務。
+動作的類型 (Types of Moves)What role the move is fulfilling determines what kind of move you’re creating.
+Moves for dealing with the environment or special features you’ve added to Dungeon World are special moves. These moves are usually the GM’s domain, a place to make parts of the world stand out. Since moves are always triggered by the players, most moves like this should be written or printed somewhere everyone can look them over unless the move covers something that the player characters wouldn’t have any idea about.</description>
+    </item>
+    
+    <item>
       <title>第一次聚會</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -119,7 +126,7 @@
       <description>第一次聚會地城世界這個遊戲的第一次聚會始於角色創造。角色創造的過程同時也是創造世界的過程，角色卡上的細節以及你所提出的問題都將一點一滴地建立起這個地城世界的樣貌──有誰住在這裡？這裡發生了什麼事？
 這個章節是寫給GM，也就是為了你──GM而寫的。對玩家而言，第一次聚會就如同其他聚會一樣，他們只需要扮演自己的角色，讓他們像真實存在的人們一樣，並探索這個地城世界就好。至於你，在第一次聚會要做的事情則會更多一些：你得建立這個世界以及玩家們將要面對的種種威脅。
 事前準備在第一次聚會之前，你會需要列印一些東西。印出：
-基本動作的副本數份每個職業的角色卡各一份，雙面印刷牧師和法師的法術列表各一份，雙面印刷GM參考紙你可以從這裡下載：官網連結
+基本動作和特殊動作的影印本數份每個職業的角色卡各一份，雙面印刷牧師和法師的法術列表各一份，雙面印刷GM參考紙你可以從這裡下載：官網連結
 你也需要讀過這整個網站的內容，特別是GM章節（GM動作）和基本動作的部分。熟悉各個職業的職業動作也是個好主意，這讓你能夠預先做好準備。尤其要確保你已經理解了關於「前置」的規則，但先不要創建它們。
 想想那充滿奇幻的世界、古怪的魔法、以及醜惡的野獸。回憶那些你曾玩過的遊戲以及讀過的故事。觀賞些電影、看些漫畫；讓那些英雄幻想故事進入你的腦海中。
 要把什麼樣的想法帶到第一次聚會中將完全取決於你。但至少讓你的腦袋中充滿各種各樣的靈感和想法，不要腦袋空空。
