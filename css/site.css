@@ -165,6 +165,7 @@ tag.red { background: #ecacac; }
 tag.blue { background: #bcdbf3; }
 tag.green { background: #bee0c0; }
 tag.purple { background: #cfb4ff; }
+tag.line { background: #fff; border: 1px solid #000; }
 
 /* Monster Block */
 .MonsterStats {
