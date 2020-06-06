@@ -10,75 +10,39 @@
     
     
     <item>
-      <title>Lower Depths</title>
+      <title>下界深淵</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</guid>
-      <description>Lower Depths底棲魔魚 (Aboleth)	Group, Huge, IntelligentTentacle (d10+3 damage), 18 HP, 0 Armor
-Reach
-Special Qualities: Telepathy
+      <description>下界深淵底棲魔魚 (Aboleth)	集團, 巨型, 聰穎Tentacle (d10+3 傷害), 18 HP, 0 護甲
+及遠
+特性: Telepathy
 Deep below the surface of the world, in freshwater seas untouched by the sun, dwell the aboleth. Fish the size of whales, with strange growths of gelatinous feelers used to probe the lightless shores. They’re served by slaves: blind albino victims of any race unfortunate enough to stumble on them, drained of thought and life by the powers of the aboleth’s alien mind.</description>
     </item>
     
     <item>
-      <title>Planar Powers</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</guid>
-      <description>Planar Powers天使 (Angel)	Solitary, Terrifying, Divine, Intelligent, OrganizedSword of Flames (b[2d10]+4 damage, ignores armor), 18 HP, 4 Armor
-Close, Forceful
-Special Qualities: Wings
-“So was it written that the heavens opened up to Avra’hal and did an angel from the clouds emerge to speak unto her and so did it appear to her as her firstborn daughter—beautiful, of ebon skin and golden eyes—and did Avra’hal weep to see it.</description>
-    </item>
-    
-    <item>
-      <title>Ravenous Hordes</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</guid>
-      <description>Ravenous Hordes弗米蟻工兵 (Formian Drone)	Horde, Organized, CautiousBite (d6 damage), 7 HP, 4 Armor
-Close
-Special Qualities: Hive connection, Insectoid
-With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants.</description>
-    </item>
-    
-    <item>
-      <title>Swamp Denizens</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</guid>
-      <description>Swamp Denizens巴庫納瓦 (Bakunawa)	Solitary, Large, Intelligent, Messy, ForcefulBite (d10+3 damage, 1 piercing), 16 HP, 2 Armor
-Close, Reach
-Special Qualities: Amphibious
-Dragon-Turtle’s sister is a mighty serpent queen. Ten yards of scales and muscle, they say she wakes with a hunger when the sun disappears from the sky. She is attracted by bright light in the darkness and like any snake, the Bakunawa is sneaky. She will seek first to beguile and mislead and will only strike out with violence when no other option is available.</description>
-    </item>
-    
-    <item>
-      <title>Twisted Experiments</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</guid>
-      <description>Twisted Experiments鯊蜥獸 (Bulette)	Solitary, Huge, ConstructBite (d10+5 damage, 3 piercing), 20 HP, 3 Armor
-Close, Forceful
-Special Qualities: Burrowing
-A seasoned caravan guard learns to listen for the calls of a scout or sentry with a keen ear. A few extra seconds after the alarm is raised can mean life or death. Different cries mean different responses, too—a call of “orcs!” means draw your sword and steady for blood but a call of “bandits!</description>
-    </item>
-    
-    <item>
-      <title>Undead Legions</title>
+      <title>不死軍團</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead/</guid>
-      <description>Undead Legions憎惡屍魔 (Abomination)單獨, 大型, 構裝體, 駭人Slam (d10+3 傷害), 20 HP, 1 Armor
+      <description>不死軍團憎惡屍魔 (Abomination)單獨, 大型, 構裝體, 駭人猛擊 (d10+3 傷害), 20 HP, 1 護甲
 近身, 及遠, 強力
-Special Qualities: Many limbs, heads, and so on
+特性: Many limbs, heads, and so on
 Corpses sewn onto corpses make up the bulk of these shambling masses of dark magic. Most undead are crafted to be controlled—made to serve some purpose like building a tower or serving as guardians. Not so the abomination. The last aspect of the ritual used to grant fire to their hellish limbs invokes a hatred so severe that the abomination knows but one task: to tear and rend at the very thing it cannot have—life.</description>
+    </item>
+    
+    <item>
+      <title>位面勢力</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</guid>
+      <description>位面勢力天使 (Angel)	單獨, 駭人, 神聖, 聰穎, 組織Sword of Flames (b[2d10]+4 傷害, 無視護甲), 18 HP, 4 護甲
+近身, 強力
+特性: Wings
+“So was it written that the heavens opened up to Avra’hal and did an angel from the clouds emerge to speak unto her and so did it appear to her as her firstborn daughter—beautiful, of ebon skin and golden eyes—and did Avra’hal weep to see it. ‘Be not afraid,’ it commanded her.</description>
     </item>
     
     <item>
@@ -137,6 +101,30 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
     </item>
     
     <item>
+      <title>扭曲實驗體</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</guid>
+      <description>扭曲實驗體鯊蜥獸 (Bulette)	單獨, 巨型, 構裝體Bite (d10+5 傷害, 3 穿透), 20 HP, 3 護甲
+近身, 強力
+特性: Burrowing
+A seasoned caravan guard learns to listen for the calls of a scout or sentry with a keen ear. A few extra seconds after the alarm is raised can mean life or death. Different cries mean different responses, too—a call of “orcs!” means draw your sword and steady for blood but a call of “bandits!</description>
+    </item>
+    
+    <item>
+      <title>沼澤棲物</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</guid>
+      <description>沼澤棲物巴庫納瓦 (Bakunawa)	單獨, 大型, 聰穎, 毀亂, 強力Bite (d10+3 傷害, 1 穿透), 16 HP, 2 護甲
+近身, 及遠
+特性: Amphibious
+Dragon-Turtle’s sister is a mighty serpent queen. Ten yards of scales and muscle, they say she wakes with a hunger when the sun disappears from the sky. She is attracted by bright light in the darkness and like any snake, the Bakunawa is sneaky. She will seek first to beguile and mislead and will only strike out with violence when no other option is available.</description>
+    </item>
+    
+    <item>
       <title>洞穴居族</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -174,6 +162,18 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
 近身
 寧在地獄為王，不在天堂稱臣。 本能: 領導
 發號施令敲詐推翻政權弄臣 (Fool)在眾臣中就只有這麼一個人被允許在王宮中說出真話：一切真實、直接而誠實的真相。弄臣將這一切藉著鈴鐺、歡躍騰跳、以及粉白妝容表達了出來，而除他之外又有誰能夠告訴國王孰是孰非？你可以信任弄臣，他們這麼說，尤其是當他把你搞得面紅耳赤，而你情願把他淹死在糞坑的時候。 本能: 嘲弄</description>
+    </item>
+    
+    <item>
+      <title>貪掠團夥</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</guid>
+      <description>貪掠團夥弗米蟻工兵 (Formian Drone)	成群, 組織, 謹慎Bite (d6 傷害), 7 HP, 4 護甲
+近身
+特性: Hive connection, Insectoid
+With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants.</description>
     </item>
     
   </channel>

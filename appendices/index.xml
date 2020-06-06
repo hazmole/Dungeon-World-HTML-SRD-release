@@ -10,15 +10,6 @@
     
     
     <item>
-      <title>Adventure Conversion</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</guid>
-      <description>Adventure ConversionThere isn’t always time for prep. People aren’t entirely committed to a game—you just want to test it out or you’ve got a four-hour slot at a convention that you want to fill and you’ve never met the players before in your life. Maybe prep isn’t something you care about or you think it’s more fun to just take a map and run with it. Even better, maybe you’ve got a favorite old school adventure module and you’d love to run through using the Dungeon World rules.</description>
-    </item>
-    
-    <item>
       <title>Instant NPCs</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,6 +27,19 @@ When you need a quick NPC all you need is an instinct and some way to pursue it.
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/teaching/</guid>
       <description>Teaching the GameSince you’ve read this book it’s likely at some point you’ll be teaching the game to others, either experienced roleplayers or those new to the hobby. Throughout the design process we’ve had many chances to play with lots of different gamers from different backgrounds and there are a few things we’ve found work well for teaching the game.
 Pitch ItBefore you play you’ll likely be explaining the game to your new players (don’t just spring it on them, that’s not cool).</description>
+    </item>
+    
+    <item>
+      <title>冒險模組轉換</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</guid>
+      <description>冒險模組轉換你並非總是會有時間做準備。可能你們尚未完全投入這個遊戲──你們只是想嘗試一下、又或者你們剛好在一場TRPG的大型集會中有段想填滿的四小時空檔，但你卻從未見過你面前的這群玩家。也許你並不怎麼注重事前準備，或者你覺得直接拿現成的地圖來遊玩會更加有趣，或更進一步，你手上有一個你最愛的老派冒險模組，且你興致勃勃地打算使用地城世界的規則來主持它。在這個附錄章節中，我們將介紹如何把其他遊戲系統的要素轉換並調整到地城世界中，並讓你能夠使用本站的規則，保留相同的彈性與自由度來運行你最喜愛的冒險模組。
+總覽要使用地城世界的規則來準備一場冒險模組，首先，你必須仔細閱讀該冒險模組以及地城世界的規則。就地城世界的規則來說，你會需要盡可能熟悉所有的基本規則、以及關於「前置」和「GM原則」的章節。前者將引導你調適冒險模組的框架，而後者將能幫助你專注在正確的方向上──從而使遊戲維持於符合這本書列出的風格和規則。你接著需要仔細閱讀冒險模組，並在這過程中特別留意以下四個主題。
+地圖怪物魔法物品NPC和組織翻閱冒險模組，在過程中做些筆記，但不要覺得你需要記住所有事情。特別著重在數據資料的段落最後通常都會被忽略，而你也會希望在冒險中留下一些空間讓你和玩家們在遊玩過程中進一步發掘。
+當你完成上述準備，你將會對整個冒險故事有一個廣泛的瞭解：參與其中的勢力團體、冒險中出現的特別或帥氣怪物、存在於這個世界上的威脅和危害、以及一些玩家角色們可能會感興趣的事物。現在，先把冒險模組放到一邊，並參照地城世界的前置章節：這會是你開始大部分準備的橋段。
+前置 (Fronts)The core of any standard adventure, scenario or game session in Dungeon World flows outward from the fronts to the players; the fronts have their impending dooms, the players react, and in the space between, you play the game to find out what happens. The same is true when presenting a converted adventure.</description>
     </item>
     
   </channel>

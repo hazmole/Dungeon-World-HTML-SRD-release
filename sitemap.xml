@@ -8,10 +8,6 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/</loc>
   </url>
   
@@ -32,23 +28,7 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</loc>
-  </url>
-  
-  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</loc>
   </url>
   
   <url>
@@ -60,7 +40,7 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</loc>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</loc>
   </url>
   
   <url>
@@ -69,6 +49,14 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</loc>
   </url>
   
   <url>
@@ -108,7 +96,15 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</loc>
   </url>
   
   <url>
@@ -169,6 +165,10 @@
   
   <url>
     <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</loc>
   </url>
   
   <url>

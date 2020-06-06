@@ -20,15 +20,6 @@ DESIGNATION OF OPEN GAME CONTENT The following monsters are open game content: A
     </item>
     
     <item>
-      <title>Adventure Conversion</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</guid>
-      <description>Adventure ConversionThere isn’t always time for prep. People aren’t entirely committed to a game—you just want to test it out or you’ve got a four-hour slot at a convention that you want to fill and you’ve never met the players before in your life. Maybe prep isn’t something you care about or you think it’s more fun to just take a map and run with it. Even better, maybe you’ve got a favorite old school adventure module and you’d love to run through using the Dungeon World rules.</description>
-    </item>
-    
-    <item>
       <title>Instant NPCs</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,54 +27,6 @@ DESIGNATION OF OPEN GAME CONTENT The following monsters are open game content: A
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs/</guid>
       <description>Instant NPCsSometimes the players will come across someone who becomes important in the moment. When the ritual goes wrong and a poor captive gets the power cosmic what does that villager do with it? Who were they?
 When you need a quick NPC all you need is an instinct and some way to pursue it. We call that a knack, it can be anything from a skill to a title to a debt owed.</description>
-    </item>
-    
-    <item>
-      <title>Lower Depths</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</guid>
-      <description>Lower Depths底棲魔魚 (Aboleth)	Group, Huge, IntelligentTentacle (d10+3 damage), 18 HP, 0 Armor
-Reach
-Special Qualities: Telepathy
-Deep below the surface of the world, in freshwater seas untouched by the sun, dwell the aboleth. Fish the size of whales, with strange growths of gelatinous feelers used to probe the lightless shores. They’re served by slaves: blind albino victims of any race unfortunate enough to stumble on them, drained of thought and life by the powers of the aboleth’s alien mind.</description>
-    </item>
-    
-    <item>
-      <title>Planar Powers</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</guid>
-      <description>Planar Powers天使 (Angel)	Solitary, Terrifying, Divine, Intelligent, OrganizedSword of Flames (b[2d10]+4 damage, ignores armor), 18 HP, 4 Armor
-Close, Forceful
-Special Qualities: Wings
-“So was it written that the heavens opened up to Avra’hal and did an angel from the clouds emerge to speak unto her and so did it appear to her as her firstborn daughter—beautiful, of ebon skin and golden eyes—and did Avra’hal weep to see it.</description>
-    </item>
-    
-    <item>
-      <title>Ravenous Hordes</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</guid>
-      <description>Ravenous Hordes弗米蟻工兵 (Formian Drone)	Horde, Organized, CautiousBite (d6 damage), 7 HP, 4 Armor
-Close
-Special Qualities: Hive connection, Insectoid
-With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants.</description>
-    </item>
-    
-    <item>
-      <title>Swamp Denizens</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</guid>
-      <description>Swamp Denizens巴庫納瓦 (Bakunawa)	Solitary, Large, Intelligent, Messy, ForcefulBite (d10+3 damage, 1 piercing), 16 HP, 2 Armor
-Close, Reach
-Special Qualities: Amphibious
-Dragon-Turtle’s sister is a mighty serpent queen. Ten yards of scales and muscle, they say she wakes with a hunger when the sun disappears from the sky. She is attracted by bright light in the darkness and like any snake, the Bakunawa is sneaky. She will seek first to beguile and mislead and will only strike out with violence when no other option is available.</description>
     </item>
     
     <item>
@@ -97,26 +40,26 @@ Pitch ItBefore you play you’ll likely be explaining the game to your new play
     </item>
     
     <item>
-      <title>Twisted Experiments</title>
-      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</link>
+      <title>下界深淵</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</guid>
-      <description>Twisted Experiments鯊蜥獸 (Bulette)	Solitary, Huge, ConstructBite (d10+5 damage, 3 piercing), 20 HP, 3 Armor
-Close, Forceful
-Special Qualities: Burrowing
-A seasoned caravan guard learns to listen for the calls of a scout or sentry with a keen ear. A few extra seconds after the alarm is raised can mean life or death. Different cries mean different responses, too—a call of “orcs!” means draw your sword and steady for blood but a call of “bandits!</description>
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</guid>
+      <description>下界深淵底棲魔魚 (Aboleth)	集團, 巨型, 聰穎Tentacle (d10+3 傷害), 18 HP, 0 護甲
+及遠
+特性: Telepathy
+Deep below the surface of the world, in freshwater seas untouched by the sun, dwell the aboleth. Fish the size of whales, with strange growths of gelatinous feelers used to probe the lightless shores. They’re served by slaves: blind albino victims of any race unfortunate enough to stumble on them, drained of thought and life by the powers of the aboleth’s alien mind.</description>
     </item>
     
     <item>
-      <title>Undead Legions</title>
+      <title>不死軍團</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead/</guid>
-      <description>Undead Legions憎惡屍魔 (Abomination)單獨, 大型, 構裝體, 駭人Slam (d10+3 傷害), 20 HP, 1 Armor
+      <description>不死軍團憎惡屍魔 (Abomination)單獨, 大型, 構裝體, 駭人猛擊 (d10+3 傷害), 20 HP, 1 護甲
 近身, 及遠, 強力
-Special Qualities: Many limbs, heads, and so on
+特性: Many limbs, heads, and so on
 Corpses sewn onto corpses make up the bulk of these shambling masses of dark magic. Most undead are crafted to be controlled—made to serve some purpose like building a tower or serving as guardians. Not so the abomination. The last aspect of the ritual used to grant fire to their hellish limbs invokes a hatred so severe that the abomination knows but one task: to tear and rend at the very thing it cannot have—life.</description>
     </item>
     
@@ -150,6 +93,31 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
 隨著遊戲的發展，角色們將會透過各種方式直接或間接地發現新的地點和場所，無論是在荒野中偶然撞見、或在傳聞或故事中聽聞它們的存在。當這些地點被發現或聽說時，將新的聚落、地城、或其他場所也添加到地圖上。村莊通常位於有用資源的附近；小鎮則通常建在數個村莊交匯貿易之處；要塞看守著某個重要的地點；城市則依賴於其他小規模聚落的貿易和支援。至於地城，則可能會以各種不同的形式，出現在各種不同的地方。
 每當你在地圖上添加新的聚落時，使用後述的規則決定其擁有的標籤。此外，也試著考慮在附近添加一些獨特的地貌特徵。也許是一座茂密的森林、一些古老的立石柱、一座廢棄的堡壘、或是任何對你胃口、或合理存在於此的事物。想想看，一張只畫有聚落和遺跡的地圖會有多麼的枯燥乏味；不要忽略了其他存在於這個世界上的獨特風貌。
 聚落標籤經濟 (Prosperity)荒蕪 (Dirt): 沒什麼可賣的，這裡沒有人擁有超過他們所需的物資（如果有，那他們算幸運的了）。低技術的勞工在這裡相當廉價。</description>
+    </item>
+    
+    <item>
+      <title>位面勢力</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</guid>
+      <description>位面勢力天使 (Angel)	單獨, 駭人, 神聖, 聰穎, 組織Sword of Flames (b[2d10]+4 傷害, 無視護甲), 18 HP, 4 護甲
+近身, 強力
+特性: Wings
+“So was it written that the heavens opened up to Avra’hal and did an angel from the clouds emerge to speak unto her and so did it appear to her as her firstborn daughter—beautiful, of ebon skin and golden eyes—and did Avra’hal weep to see it. ‘Be not afraid,’ it commanded her.</description>
+    </item>
+    
+    <item>
+      <title>冒險模組轉換</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion/</guid>
+      <description>冒險模組轉換你並非總是會有時間做準備。可能你們尚未完全投入這個遊戲──你們只是想嘗試一下、又或者你們剛好在一場TRPG的大型集會中有段想填滿的四小時空檔，但你卻從未見過你面前的這群玩家。也許你並不怎麼注重事前準備，或者你覺得直接拿現成的地圖來遊玩會更加有趣，或更進一步，你手上有一個你最愛的老派冒險模組，且你興致勃勃地打算使用地城世界的規則來主持它。在這個附錄章節中，我們將介紹如何把其他遊戲系統的要素轉換並調整到地城世界中，並讓你能夠使用本站的規則，保留相同的彈性與自由度來運行你最喜愛的冒險模組。
+總覽要使用地城世界的規則來準備一場冒險模組，首先，你必須仔細閱讀該冒險模組以及地城世界的規則。就地城世界的規則來說，你會需要盡可能熟悉所有的基本規則、以及關於「前置」和「GM原則」的章節。前者將引導你調適冒險模組的框架，而後者將能幫助你專注在正確的方向上──從而使遊戲維持於符合這本書列出的風格和規則。你接著需要仔細閱讀冒險模組，並在這過程中特別留意以下四個主題。
+地圖怪物魔法物品NPC和組織翻閱冒險模組，在過程中做些筆記，但不要覺得你需要記住所有事情。特別著重在數據資料的段落最後通常都會被忽略，而你也會希望在冒險中留下一些空間讓你和玩家們在遊玩過程中進一步發掘。
+當你完成上述準備，你將會對整個冒險故事有一個廣泛的瞭解：參與其中的勢力團體、冒險中出現的特別或帥氣怪物、存在於這個世界上的威脅和危害、以及一些玩家角色們可能會感興趣的事物。現在，先把冒險模組放到一邊，並參照地城世界的前置章節：這會是你開始大部分準備的橋段。
+前置 (Fronts)The core of any standard adventure, scenario or game session in Dungeon World flows outward from the fronts to the players; the fronts have their impending dooms, the players react, and in the space between, you play the game to find out what happens. The same is true when presenting a converted adventure.</description>
     </item>
     
     <item>
@@ -347,6 +315,18 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
     </item>
     
     <item>
+      <title>扭曲實驗體</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments/</guid>
+      <description>扭曲實驗體鯊蜥獸 (Bulette)	單獨, 巨型, 構裝體Bite (d10+5 傷害, 3 穿透), 20 HP, 3 護甲
+近身, 強力
+特性: Burrowing
+A seasoned caravan guard learns to listen for the calls of a scout or sentry with a keen ear. A few extra seconds after the alarm is raised can mean life or death. Different cries mean different responses, too—a call of “orcs!” means draw your sword and steady for blood but a call of “bandits!</description>
+    </item>
+    
+    <item>
       <title>擔任GM</title>
       <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -375,6 +355,18 @@ GM: OK，由於他完全無法抵抗，你一劍殺死了他，然後……嗯�
 
 原則 (Principles)畫出地圖，但適度留白對角色說話，而非對玩家擁抱奇幻進行合乎發展的動作永遠不要說出你動作的名字賦予每個怪物生命為每個人物命名詢問，並利用得到的答案成為角色們的迷弟迷妹構思危險以敘事開始，以敘事做結也要記得思考幕後你的原則就是引導你行事的指南。通常，當是時候進行動作的時候，你心中早已經有了一些關於該做些什麼的想法。參考你的原則評估它，若它符合原則的話，就放手做下去吧。
 畫出地圖，但適度留白地城世界主要存在於玩家們的想像之中；而地圖能夠確保所有人都對此有著相同的共識。你不需要每次都由自己動手，但任何時候當有一個新的地點出現在故事中時，請確保它有確實被添加到地圖上。</description>
+    </item>
+    
+    <item>
+      <title>沼澤棲物</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp/</guid>
+      <description>沼澤棲物巴庫納瓦 (Bakunawa)	單獨, 大型, 聰穎, 毀亂, 強力Bite (d10+3 傷害, 1 穿透), 16 HP, 2 護甲
+近身, 及遠
+特性: Amphibious
+Dragon-Turtle’s sister is a mighty serpent queen. Ten yards of scales and muscle, they say she wakes with a hunger when the sun disappears from the sky. She is attracted by bright light in the darkness and like any snake, the Bakunawa is sneaky. She will seek first to beguile and mislead and will only strike out with violence when no other option is available.</description>
     </item>
     
     <item>
@@ -679,6 +671,18 @@ n 彈藥 (n Ammo): 它被視作適當遠程武器的彈藥。數字ｎ並不代�
 看起來我會需要智力屬性來施放法術，而這正是我的首選，因此我把 16 分配給智力。面對危險中跟敏捷有關的選項看起來很像是我在閃躲法術時會去做的事情，因此我把 15 分配給敏捷。13 點的睿知可以幫助我注意到重要的細節（且根據面對危險動作的效果，它或許還能幫助我保持理智）。魅力可能會在我與召喚生物打交道時派上用場，因此我把 12 分配給它。活下來永遠是件好事，因此我把9分配給體質以獲得一些額外的生命值。最後，我把 8 分配給力量屬性。
 6. 算出調整值接下來你需要算出每個屬性的調整值。當某個動作寫著+敏捷 或+魅力 時，所使用的正是該屬性對應的調整值。如果你使用的是標準角色紙，則調整值就已經列在各數值旁邊。
 數值調整值1&amp;ndash;3-34&amp;ndash;5-26&amp;ndash;8-19&amp;ndash;12013&amp;ndash;15+116&amp;ndash;17+218+37.</description>
+    </item>
+    
+    <item>
+      <title>貪掠團夥</title>
+      <link>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</guid>
+      <description>貪掠團夥弗米蟻工兵 (Formian Drone)	成群, 組織, 謹慎Bite (d6 傷害), 7 HP, 4 護甲
+近身
+特性: Hive connection, Insectoid
+With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants.</description>
     </item>
     
     <item>
