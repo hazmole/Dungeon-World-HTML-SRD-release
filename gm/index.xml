@@ -113,8 +113,15 @@
 你也可以從動作的效果下手。這特別適用於職業動作。你知道施放法術是法師會做的事情，那麼什麼情況會觸發這個效果？
 雖然較為罕見，但你也可以甚至從機制開始著手。有時候你會想到些酷炫的點子，比如說一頭被馴服的惡魔將有著一個會不斷變化的幸福屬性數值，然後以此發展下去。然而，謹慎提防那些純粹只有機制層面的點子。由於動作永遠以敘事開始，並以敘事做結，因此關於機制層面的想法可以說是動作結構中最不重要的一塊。
 你也永遠可以使用來自其他遊戲的動作。地城世界只不過是眾多使用動作機制的遊戲中的其中之一，而你也很有可能會受到這些其他遊戲的啟發。通常來說，要把另一個遊戲中的動作修改並用於地城世界並不是什麼太過困難的任務。
-動作的類型 (Types of Moves)What role the move is fulfilling determines what kind of move you’re creating.
-Moves for dealing with the environment or special features you’ve added to Dungeon World are special moves. These moves are usually the GM’s domain, a place to make parts of the world stand out. Since moves are always triggered by the players, most moves like this should be written or printed somewhere everyone can look them over unless the move covers something that the player characters wouldn’t have any idea about.</description>
+動作的類型 (Types of Moves)動作所要滿足的目的將決定它所屬的動作類型。
+用來處理周遭環境或你為地城世界所添加特色的動作屬於特殊動作。這些動作通常屬於GM的領域，用來讓這個世界中的某些部分脫穎而出。由於動作永遠是由玩家們的行動所觸發，因此，除非這個動作涵蓋了某個玩家角色們尚一無所知的情報，否則大部分這類動作都應該被清楚寫下或印出，並放在所有人都能看到的地方。
+反映特殊資格、能力、以及玩家們所能採取舉動的動作，通常會被歸類為職業動作。假如該動作明顯與某個特定職業有關，將它添加到該職業中。如果該動作關聯於某個特定概念且不只一個職業能使用它的話（比如說只有曾經親眼見過死國黑門彼端的角色），則你可以為這些動作創造一個「概略職業」。概略職業就像是一個縮小版的職業模板，並涵蓋了數個圍繞相同故事主題的動作。我們會在稍後的章節再解釋。
+如果你創造的動作是某個玩家們會去做，但與任何特定主題或職業無關的話，那它可能會是一個基本動作、也可能會是個特殊動作。若它它經常發生，那它就是基本動作。若它發生的頻率不高，那麼它就是個特殊動作。
+那些玩家們採取以回應怪物的動作，像是對抗疾病的效果、或是不顧氣元素帶起的洶湧風壓而往前推進等等，都是與該怪物相關的玩家動作。關聯於特定怪物的玩家動作相當罕見，因為大部分玩家們與怪物互動的行為都已經被既有的基本動作和職業動作所概括。
+至於那些怪物用以對抗玩家們而進行的動作則根本不是玩家動作。它們是怪物動作，用簡短的句子描述了怪物會採取的行動。不要嘗試把怪物動作寫成玩家動作的格式，這會大大阻礙你使用它們的創造力。
+世界動作 (World Moves)你的地城世界到處都充滿著美妙的奇幻事物，對吧？有時候，你可能會發現其中的某些事物需要或值得你為其設計一個自訂動作，來反映出它們的實際功能。參考克里斯．班奈特(Chris Bennet) 撰寫的這個動作：
+當你從開啟下水道的人孔蓋時，擲+力量。✴擲出10+時，選擇 2 項。✴擲出7-9時，選擇 1 項。
+你免於被下水道上方的汙糞和腐爛動物內臟所掩蓋。你避開了被埋伏的凝膠方塊落到身上的命運﹐你發現了一條秘密後門，通往商人愛女被囚禁的地方。This move is strong because it is tied strongly to a particular place at a particular time. This move was written by request for Jason Morningstar’s Dungeon World game as the players entered some particularly horrible sewers to find a powerful merchant’s daughter.</description>
     </item>
     
     <item>
