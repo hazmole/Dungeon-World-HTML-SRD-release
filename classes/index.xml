@@ -71,9 +71,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</guid>
-      <description>法師Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?
-Oh, the things we tell ourselves to feel better about the long, dark nights.
-You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul.</description>
+      <description>法師地城世界自有規則。並非人類的律法或那些卑劣暴君所制定的規矩，而是更偉大、更重要的定理。放開手──然後物體就會落下。你不能無中生有，死者不能復生，對吧？
+噢，這不過是我們說給自己聽，在漫漫長夜中讓自己好過一點的藉口罷了。
+你竭盡歲月鑽研那些厚重典籍，重複那些幾乎要讓你瘋狂的實驗，召喚那些能危害你性命的存在。為了什麼？當然是為了力量，除此之外還能有什麼？你要的並不是王室或國家的權力，而是那能夠使人們體內血液沸騰的力量。它讓你能呼喚蒼穹中的霹靂，使大地忿怒震動，摒棄這世界如此珍視的無聊定理。
+放他們側目的視線去吧，儘管讓他們稱你為「魔導師」或「惡魔信徒」。他們之中又有誰能夠消除那映入他們眼中的火球呢？
+是啊，可不這麼想。
+名稱精靈: 格拉狄爾(Galadiir), 芬法里爾(Fenfaril), 莉莉雅斯翠(Lilliastre), 菲羅薩雷(Phirosalle), 安奇拉許(Enkirash), 哈維爾(Halwyr)
+人類: 亞文(Avon), 摩根(Morgan), 拉瑟(Rath), 伊索德(Ysolde), 奧維德(Ovid), 維特(Vitus), 愛爾達拉(Aldara), 席諾(Xeno), 烏里(Uri)
+外觀從每列中各自選擇一項：
+著魔的眼神, 銳利的眼神, 或 瘋狂的眼神時尚的髮型, 狂亂的髮型, 或 巫師尖帽老舊長袍, 漂亮長袍, 或 古怪長袍矮胖的體型, 詭異的體型, 或 消瘦的體型屬性數值你的最大生命值為 4+體質值。
+你的基礎傷害骰為 d4。
+將以下數值分配到你的屬性上: 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+起始動作選擇一個種族並獲得相應的動作：
+精靈魔法對你而言就如呼吸般自然。對你而言，偵測魔法法術將被視作戲法。</description>
     </item>
     
     <item>
@@ -152,8 +162,17 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</guid>
-      <description>盜賊You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.
-Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap?</description>
+      <description>盜賊你曾聽著他們圍坐營火，吹噓著他們在這裡那裡的英勇戰鬥、訴說著他們的神是如何眷顧你們這愉快和諧的團隊。你獨自點著你的金幣，對著自己微笑──這才是最令人興奮的。只有你知道地城世界的秘密：那些骯髒、醜陋的不義之財。
+當然，他們會對你每次獨自偷溜的行為頗有微詞。但沒有你，他們每個人要不早就被那飛舞的斷頭刀切成碎片、或早已因那古老的毒針陷阱而死。所以，就放任他們抱怨吧，當你終於搞定這些狗屁之後，你將在他們的英雄墓旁舉杯。
+在你的城堡，黃金滿載。這就是你。
+名稱半身人: 菲力克斯(Felix), 盧克(Rook), 小鼠(Mouse), 斯凱奇(Sketch), 崔西(Trixie), 羅賓(Robin), 歐瑪爾(Omar), 布琳(Brynn), 小蟲(Bug)
+人類: 雀兒(Sparrow), 尚克(Shank), 傑克(Jack), 瑪洛(Marlow), 道奇(Dodge), 萊特(Rat), 帕克斯(Pox), 漢柏(Humble), 法利(Farley)
+外觀從每列中各自選擇一項：
+詭詐的眼神 或 罪犯的眼神兜帽, 雜亂的髮型, 或 裁短的髮型暗色衣裝, 華美衣裝, 或 尋常衣裝輕盈的體型, 圓潤的體型, 或 鬆弛的體型屬性數值你的最大生命值為 6+體質值。
+你的基礎傷害骰為 d8。
+將以下數值分配到你的屬性上: 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+起始動作選擇一個種族並獲得相應的動作：
+半身人當你以遠程武器進行攻擊時，你額外造成 +2 傷害。</description>
     </item>
     
     <item>

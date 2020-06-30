@@ -81,9 +81,9 @@ Corpses sewn onto corpses make up the bulk of these shambling masses of dark mag
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes/</guid>
-      <description>位面勢力天使 (Angel)	單獨, 駭人, 神聖, 聰穎, 組織Sword of Flames (b[2d10]+4 傷害, 無視護甲), 18 HP, 4 護甲
+      <description>位面勢力天使 (Angel)	單獨, 駭人, 神聖, 聰穎, 組織烈焰寶劍 (b[2d10]+4 傷害, 無視護甲), 18 HP, 4 護甲
 近身, 強力
-特性: Wings
+特性: 羽翼
 “So was it written that the heavens opened up to Avra’hal and did an angel from the clouds emerge to speak unto her and so did it appear to her as her firstborn daughter—beautiful, of ebon skin and golden eyes—and did Avra’hal weep to see it. ‘Be not afraid,’ it commanded her.</description>
     </item>
     
@@ -368,9 +368,19 @@ Dragon-Turtle’s sister is a mighty serpent queen. Ten yards of scales and musc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/</guid>
-      <description>法師Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?
-Oh, the things we tell ourselves to feel better about the long, dark nights.
-You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul.</description>
+      <description>法師地城世界自有規則。並非人類的律法或那些卑劣暴君所制定的規矩，而是更偉大、更重要的定理。放開手──然後物體就會落下。你不能無中生有，死者不能復生，對吧？
+噢，這不過是我們說給自己聽，在漫漫長夜中讓自己好過一點的藉口罷了。
+你竭盡歲月鑽研那些厚重典籍，重複那些幾乎要讓你瘋狂的實驗，召喚那些能危害你性命的存在。為了什麼？當然是為了力量，除此之外還能有什麼？你要的並不是王室或國家的權力，而是那能夠使人們體內血液沸騰的力量。它讓你能呼喚蒼穹中的霹靂，使大地忿怒震動，摒棄這世界如此珍視的無聊定理。
+放他們側目的視線去吧，儘管讓他們稱你為「魔導師」或「惡魔信徒」。他們之中又有誰能夠消除那映入他們眼中的火球呢？
+是啊，可不這麼想。
+名稱精靈: 格拉狄爾(Galadiir), 芬法里爾(Fenfaril), 莉莉雅斯翠(Lilliastre), 菲羅薩雷(Phirosalle), 安奇拉許(Enkirash), 哈維爾(Halwyr)
+人類: 亞文(Avon), 摩根(Morgan), 拉瑟(Rath), 伊索德(Ysolde), 奧維德(Ovid), 維特(Vitus), 愛爾達拉(Aldara), 席諾(Xeno), 烏里(Uri)
+外觀從每列中各自選擇一項：
+著魔的眼神, 銳利的眼神, 或 瘋狂的眼神時尚的髮型, 狂亂的髮型, 或 巫師尖帽老舊長袍, 漂亮長袍, 或 古怪長袍矮胖的體型, 詭異的體型, 或 消瘦的體型屬性數值你的最大生命值為 4+體質值。
+你的基礎傷害骰為 d4。
+將以下數值分配到你的屬性上: 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+起始動作選擇一個種族並獲得相應的動作：
+精靈魔法對你而言就如呼吸般自然。對你而言，偵測魔法法術將被視作戲法。</description>
     </item>
     
     <item>
@@ -521,8 +531,17 @@ You’ve spent so very long poring over those tomes of yours. The experiments th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief/</guid>
-      <description>盜賊You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of Dungeon World—filthy filthy lucre.
-Sure, they give you lip for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap?</description>
+      <description>盜賊你曾聽著他們圍坐營火，吹噓著他們在這裡那裡的英勇戰鬥、訴說著他們的神是如何眷顧你們這愉快和諧的團隊。你獨自點著你的金幣，對著自己微笑──這才是最令人興奮的。只有你知道地城世界的秘密：那些骯髒、醜陋的不義之財。
+當然，他們會對你每次獨自偷溜的行為頗有微詞。但沒有你，他們每個人要不早就被那飛舞的斷頭刀切成碎片、或早已因那古老的毒針陷阱而死。所以，就放任他們抱怨吧，當你終於搞定這些狗屁之後，你將在他們的英雄墓旁舉杯。
+在你的城堡，黃金滿載。這就是你。
+名稱半身人: 菲力克斯(Felix), 盧克(Rook), 小鼠(Mouse), 斯凱奇(Sketch), 崔西(Trixie), 羅賓(Robin), 歐瑪爾(Omar), 布琳(Brynn), 小蟲(Bug)
+人類: 雀兒(Sparrow), 尚克(Shank), 傑克(Jack), 瑪洛(Marlow), 道奇(Dodge), 萊特(Rat), 帕克斯(Pox), 漢柏(Humble), 法利(Farley)
+外觀從每列中各自選擇一項：
+詭詐的眼神 或 罪犯的眼神兜帽, 雜亂的髮型, 或 裁短的髮型暗色衣裝, 華美衣裝, 或 尋常衣裝輕盈的體型, 圓潤的體型, 或 鬆弛的體型屬性數值你的最大生命值為 6+體質值。
+你的基礎傷害骰為 d8。
+將以下數值分配到你的屬性上: 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+起始動作選擇一個種族並獲得相應的動作：
+半身人當你以遠程武器進行攻擊時，你額外造成 +2 傷害。</description>
     </item>
     
     <item>
@@ -589,7 +608,23 @@ Sure, they give you lip for all the times you’ve snuck off alone but without y
 遊俠與你同行的這些都市兒童。他們可曾聽見孤狼的吠叫？可曾感受過東方荒蕪沙漠的狂風呼嘯？可曾如你那樣以弓刃狩獵？當然他媽的沒有。那就是為什麼他們需要你。
 嚮導、獵手、荒野的造物。你遠遠不只如此。你在荒野中一向孤獨，但那偉大之物的呼喚－－或許可以稱之為命運－－將你與這些都市人的命連繫在了一起。他們或許勇敢。或許強大健壯。但只有你通曉這兩者間的秘密。
 沒有你，他們就會迷失。在鮮血與黑暗之中燒出通往前方的道路吧，神行客。
-盜賊You’ve heard them, sitting around the campfire. Bragging about this battle or that, or about how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all.</description>
+盜賊你曾聽著他們圍坐營火，吹噓著他們在這裡那裡的英勇戰鬥、訴說著他們的神是如何眷顧你們這愉快和諧的團隊。你獨自點著你的金幣，對著自己微笑──這才是最令人興奮的。只有你知道地城世界的秘密：那些骯髒、醜陋的不義之財。
+當然，他們會對你每次獨自偷溜的行為頗有微詞。但沒有你，他們每個人要不早就被那飛舞的斷頭刀切成碎片、或早已因那古老的毒針陷阱而死。所以，就放任他們抱怨吧，當你終於搞定這些狗屁之後，你將在他們的英雄墓旁舉杯。
+在你的城堡，黃金滿載。這就是你。
+法師地城世界自有規則。並非人類的律法或那些卑劣暴君所制定的規矩，而是更偉大、更重要的定理。放開手──然後物體就會落下。你不能無中生有，死者不能復生，對吧？
+噢，這不過是我們說給自己聽，在漫漫長夜中讓自己好過一點的藉口罷了。
+你竭盡歲月鑽研那些厚重典籍，重複那些幾乎要讓你瘋狂的實驗，召喚那些能危害你性命的存在。為了什麼？當然是為了力量，除此之外還能有什麼？你要的並不是王室或國家的權力，而是那能夠使人們體內血液沸騰的力量。它讓你能呼喚蒼穹中的霹靂，使大地忿怒震動，摒棄這世界如此珍視的無聊定理。
+放他們側目的視線去吧，儘管讓他們稱你為「魔導師」或「惡魔信徒」。他們之中又有誰能夠消除那映入他們眼中的火球呢？
+是啊，可不這麼想。
+為什麼？為什麼要玩地城世界？
+首先，是為了見證角色們做出令人驚嘆的壯舉；為了看著他們探索未知的世界、消滅不死邪物，上窮碧落下黃泉；也為了見證他們參與歷史性的時刻或宏大悲劇之中。
+其次，是為了看他們共同奮鬥。即便彼此有許多不同，但角色們依然組成了隊伍．團結一心對抗敵人，他們或為了寶藏而爭吵、為了擬定作戰計畫而爭論，但也會在歷經艱困勝利後共同舉杯慶祝。
+最後，是因為這個世界仍有許多地方等待著被一探究竟。人跡罕至的古墓與巨龍的財寶沉睡在偏遠之地，等待眼明手快、身強體壯的冒險者讓它們重見天日。這個尚未被探索的世界有著它自己的計畫，而你必須實際玩下去才能知道它的樣貌，以及它會如何改變我們角色們的生活。
+如何使用本站？本站將會教導你如何遊玩地城世界。如果你要擔任GM，那麼你需要完整閱讀過全部的章節，但你可以暫時先簡單瀏覽怪物數據的部分，並之後再深入閱讀「深入鑽研」章節的內容。也試著把遊戲輔助紙列印出來，這可以幫助你確認遊戲中最重要的要素是什麼。如果你是擔任玩家，那麼也許你只需要讀到「遊玩遊戲」章節就好──地城世界中的許多規則都已經被包含在你所使用的角色卡當中。你只會偶爾需要為了確認某個規則，而回過頭來查閱這些篇章。
+事前準備在遊玩地城世界之前，你會需要先集結你和2-5位朋友。包含你在內，4到6人的團體會是最理想的人數。其中一個人將擔任遊戲主持人（GM）。其他人則做為玩家，各自扮演遊戲中的一名角色（我們把這些玩家角色稱為PC）。當你們進行遊戲，玩家們將描述自己角色口中所言、心中所想、以及實際做出的行為舉動，而GM則負責描述整個世界的一切其他事物。
+你們可以只進行一次聚會、或將多次聚會的內容串連成一場戰役。如果你們打算進行一場戰役，那麼你們也需要做好相應的準備，像是在每週空出固定一晚的時間來參與遊戲。每次聚會通常都會花上數小時的時間，而你們在第一次聚會時就能馬上開始進行遊戲。
+你會需要列印一些東西。在你們開始新遊戲之前，至少準備或列印好以下的東西：
+基本動作和特殊動作的影印本數份每個職業的角色卡各一份牧師和法師的法術列表各一份冒險紀錄紙和GM動作的影印本各一份其他雜物，像是：鋼筆和鉛筆、用來畫地圖或筆記的廢紙、也許再準備幾張索引卡每個參與遊戲的玩家都會需要一些用來書寫的紙筆、以及幾顆六面骰。你們至少要準備兩顆六面骰，而理想狀況會是每位玩家都擁有兩顆六面骰。</description>
     </item>
     
     <item>
