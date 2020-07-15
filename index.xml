@@ -25,10 +25,14 @@ DESIGNATION OF OPEN GAME CONTENT The following monsters are open game content: A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths/</guid>
-      <description>下界深淵底棲魔魚 (Aboleth)	集團, 巨型, 聰穎Tentacle (d10+3 傷害), 18 HP, 0 護甲
+      <description>下界深淵底棲魔魚 (Aboleth)	集團, 巨型, 聰穎觸手 (d10+3 傷害), 18 HP, 0 護甲
 及遠
-特性: Telepathy
-Deep below the surface of the world, in freshwater seas untouched by the sun, dwell the aboleth. Fish the size of whales, with strange growths of gelatinous feelers used to probe the lightless shores. They’re served by slaves: blind albino victims of any race unfortunate enough to stumble on them, drained of thought and life by the powers of the aboleth’s alien mind.</description>
+特性: 心靈感應
+在世界表面的深處，在那陽光照射不到的淡水湖中，底棲魔魚潛居著。身形大如巨鯨，長著用以探索無光海岸的怪異膠狀觸鬚。牠們被眾多奴隸所服侍：這些來自各個種族，不幸遭遇底棲魔魚的盲眼白化症受害者，他們的思想與生命全都已被牠那異怪心靈的力量給榨取殆盡。在深淵之底，牠們謀劃著對付彼此，而那些散發著魚腥味的邪教徒也正一步步建築，向著地表向上挖掘；直到某一天，他們終將挖穿那最後的阻隔。但至少現在……牠們沉睡、發夢、並引領牠們蒼白的奴僕遵行牠們的命令。 本能: 命令
+入侵思想讓爪牙們襲擊他們讓計畫付諸實行啟示錄巨龍 (Apocalypse Dragon)	單獨, 巨型, 魔法, 神聖噬咬 (高[2d12]+9 傷害, 4 穿透), 26 HP, 5 護甲
+及遠, 強力, 毀亂
+特性: 吋厚的金屬皮革, 超自然知識, 翅膀
+The end of all things shall be a burning—of tree and earth and of the air itself. It shall come upon the plains and mountains not from beyond this world but from within it.</description>
     </item>
     
     <item>
@@ -92,7 +96,13 @@ Deep below the surface of the world, in freshwater seas untouched by the sun, dw
       <description>位面勢力天使 (Angel)	單獨, 駭人, 神聖, 聰穎, 組織烈焰寶劍 (b[2d10]+4 傷害, 無視護甲), 18 HP, 4 護甲
 近身, 強力
 特性: 羽翼
-“So was it written that the heavens opened up to Avra’hal and did an angel from the clouds emerge to speak unto her and so did it appear to her as her firstborn daughter—beautiful, of ebon skin and golden eyes—and did Avra’hal weep to see it. ‘Be not afraid,’ it commanded her.</description>
+「經上這麼記載：天開了，一位天使從雲中出現，用阿芙拉瓦爾第一個女兒的樣貌對她說話──她是如此美麗，烏木般的肌膚，和黃金般的眼眸──當看見，阿芙拉瓦爾就流淚哭泣。『不要懼怕』，天使命令她：『妳要去我在夢中向妳顯現的村莊，向他們展現我在妳靈魂中寫下的字句。』阿芙拉瓦爾就再次哭泣，答應了祂，她拿起了她的寶劍和經書，往村莊那裡去。她的嘴唇有對鮮血的渴望，因為天使在阿芙拉瓦爾的靈魂中寫下的字句是『殺戮』。」 本能: 分享神的旨意
+傳達異象和預言激發凡人們的行動揭露罪惡與不公義猬魔 (Barbed Devil)	單獨, 大型, 異位面, 駭人棘刺 (d10+3 傷害, 3 穿透), 16 HP, 3 護甲
+近身, 及遠, 毀亂
+特性: 棘刺
+魔鬼的型態多達千種，或許更多。有些尋常可見、有些獨一無二。每當審判官們發現了新的品種，他們就會把牠寫進《折磨者法典》之中。這些知識只在修道院中彼此傳遞，並祈禱這類特殊的殘暴罪行不會再一次出現在這個世界上。其中，猬魔的存在早已被宗教審判庭的兄弟姐妹們知曉。牠只會現身在發生嚴重暴力事件的場所、或當被任性反覆的召喚者所呼喚時。渾身披覆著鋒利的棘刺，這種惡魔特別沉迷於讓鮮血噴濺，尤其偏好將受害者的屍塊一塊塊或整個刺穿在自己的尖針上，讓他們無助地死在那裡。儘管殘忍，但屠殺效率並不特別高。審判優先度低。 本能: 撕裂血肉並噴濺鮮血
+刺穿某人不加區別地殺戮鏈魔 (Chain Devil)	單獨, 異位面碾碎 (d10 傷害, 無視護甲), 12 HP, 3 護甲
+近身, 及遠</description>
     </item>
     
     <item>
