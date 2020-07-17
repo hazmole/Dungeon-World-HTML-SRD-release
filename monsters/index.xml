@@ -22,7 +22,10 @@
 入侵思想讓爪牙們襲擊他們讓計畫付諸實行啟示錄巨龍 (Apocalypse Dragon)	單獨, 巨型, 魔法, 神聖噬咬 (高[2d12]+9 傷害, 4 穿透), 26 HP, 5 護甲
 及遠, 強力, 毀亂
 特性: 吋厚的金屬皮革, 超自然知識, 翅膀
-The end of all things shall be a burning—of tree and earth and of the air itself. It shall come upon the plains and mountains not from beyond this world but from within it.</description>
+萬物應以燃燒之姿終結──樹木、大地與空氣皆然。終末將降臨於平原與山脈上，非來自世界之外，而是來自其內。從大地深處孕育出的巨龍將終結這個世界，祂所經之處只會留下怒火與餘燼，而瀕死的地城世界也終將在毫無生命的空虛中漂流……有人說，崇拜啟示錄巨龍是瘋狂之舉，而傾慕祂也將意味理解毀滅的真正意義。聽，祂的甦醒之時將至。 本能: 終結世界
+掀起一場災難元素吐息在完美預見未來的情況下採取行動混沌眷族 (Chaos Spawn)	單獨, 不定型混亂之觸 (d10 傷害), 19 HP, 1 護甲
+近身, 及遠
+特性: 混沌型態</description>
     </item>
     
     <item>
@@ -204,10 +207,10 @@ The end of all things shall be a burning—of tree and earth and of the air itse
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes/</guid>
-      <description>貪掠團夥弗米蟻工兵 (Formian Drone)	成群, 組織, 謹慎Bite (d6 傷害), 7 HP, 4 護甲
+      <description>貪掠團夥弗米蟻工兵 (Formian Drone)	成群, 組織, 謹慎啃咬 (d6 傷害), 7 HP, 4 護甲
 近身
-特性: Hive connection, Insectoid
-With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants.</description>
+特性: 蟲巢聯繫, 類昆蟲
+With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants. (Though there are winged tribes that look like wasps out in the Western Desert, I’ve heard.</description>
     </item>
     
   </channel>
