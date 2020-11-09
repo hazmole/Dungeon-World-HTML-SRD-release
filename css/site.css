@@ -197,7 +197,7 @@ tag.line { background: #fff; border: 1px solid #000; }
 .Spell h3 {
   color: #000;
 }
-.Move h3, .Hireling h4, .Block h4 {
+.Move h3, .Move h4, .Hireling h4, .Block h4 {
   color: #000;
   margin-top: 0.2em;
 }
@@ -243,6 +243,25 @@ tag.line { background: #fff; border: 1px solid #000; }
 
 .Inner {
   padding-left: 15px;
+}
+
+sub{
+  color: #00F;
+}
+.Dialogue {
+  margin: 0 .2em .5em .8em;
+  text-indent: -.5em;
+}
+.Comment {
+  padding: 5px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 1px solid black;
+
+  font-size: 0.8em;
+  color: #666;
+  line-height: 1.3em;
 }
 
 

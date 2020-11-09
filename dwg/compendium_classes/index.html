@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="tw">
+  <head>
+  <title>範例概略職業 | 地城世界 HTML SRD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/css/sticky-footer.css" rel="stylesheet">
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/css/site.css" rel="stylesheet">
+
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#sidemenu">
+  
+<nav id="site-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ 
+<div class="navbar-header">
+ <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+   <span class="sr-only">Toggle navigation</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+ </button>
+ <a class="navbar-brand" href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release">地城世界 HTML SRD</a>
+</div>
+
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ <ul class="nav navbar-nav">
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">本遊戲 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+       <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/introduction">簡介</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/playing_the_game">進行遊戲</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/example">遊玩範例</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation">角色創造</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves">動作</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment">裝備與服務</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves_discussion">討論 - 動作</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">職業 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian">野蠻人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">吟遊詩人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">牧師</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">德魯伊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">戰士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator">燔祭者</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">聖武士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">遊俠</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">盜賊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard">法師</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells">牧師法術</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells">法師法術</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion">討論 - 職業動作</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">GM章節 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics">基本</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session">第一次聚會</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts">前置</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world">世界</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving">深入鑽研</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">怪物 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview">總覽</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns">洞穴居族</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk">王國住民</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods">幽暗森林</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead">不死軍團</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths">下界深淵</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes">位面勢力</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes">貪掠團夥</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp">沼澤棲物</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments">扭曲實驗體</a> </li>
+     </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">附錄 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion">冒險模組轉換</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/teaching">遊戲教學</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs">速成NPC</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">地城世界帶團指南 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/dungeonworldguide">地城世界帶團指南</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/sample_campaign_front">範例戰役前置</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/compendium_classes">範例概略職業</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/example_of_play">遊玩範例</a></li>
+      </ul>
+    </li>
+  </ul>
+ 
+</div>
+</nav>
+
+  <nav id="sidemenu" class="col-md-2">
+   <ul id="sidemenu-topnav" class="nav">
+   </ul>
+</nav>
+
+  <div id="wrap">
+    <div class="container">
+      <div class="col-md-8 inner-container">
+        
+<h1>範例概略職業</h1>
+<p class="NoIndent">概略職業被涵蓋在規則書「深入鑽研」的章節之中。它們並不像普通職業那樣可以在遊戲開始時被選擇；相反的，它們只有在你升級時才能被取得，且它們大部分都會要求某些先決條件。這些先決條件通常會是角色們在遊戲中所達成或經歷的事蹟。Something Awful論壇的用戶Emong撰寫了許多的概略職業。下面是他發布的內容中我最喜歡的幾個概略職業；或許它們能啟發你使用它們、或創造出你自己獨一無二的概略職業。</p>
+
+<hr/>
+<h2>概略職業：深淵行者 (Abysswalker)</h2>
+<p class="Instructions">當你旅經深淵且永久受其影響時，則在你下次升級時，你可以改為選擇獲得這個動作：</p>
+<div class="Move"><h4 class="BasicMoveName">深淵的烙印 (Marked By the Abyss)</h4>
+<p class="NoIndent">
+	深淵在你身上留下了印記，且你將因此承受某種型式的身體衰缺，GM會告訴你具體細節。做為交換，你可以運用深淵的力量來使一個敵人措手不及，<b>每場戰鬥一次，直接對一個目標造成你的傷害</b>。</p></div>
+
+<p class="Instructions">一旦你獲得〈深淵的烙印〉，則下列動作將被視為你的職業進階動作。每當你升級時，你可以改為從這張列表中選擇：</p>
+<div class="Move"><h4 class="BasicMoveName">深淵行 (Abysswalk)</h4>
+<p class="NoIndent">
+	當你<b>帶領某人穿越深淵</b>時，擲+睿知。<br/>
+	✴擲出10+時，你安全地離開深淵並抵達你預定的目的地。<br/>
+	✴擲出7-9時，你離開了深淵，但ＧＭ將選擇一項：<br/>
+<ul>
+	<li>…你們抵達了一個你們從未去過的場所。</li>
+	<li>…某個東西跟著你們離開了深淵。</li>
+</ul>
+</p></div>
+<div class="Move"><h4 class="BasicMoveName">虛無存續 (By Absence Sustained)</h4>
+<p class="NoIndent">
+	當某個動作要求你消耗 1 份口糧，直接忽略它。如今深淵將直接供養你的存續。</p></div>
+<div class="Move"><h4 class="BasicMoveName">深淵也在凝視 (The Abyss Gazes Also)</h4>
+<p class="NoIndent">
+	當某人試圖對你〈審視現狀〉或以其他方式仔細地研究或觀察你時，你可以從〈審視現狀〉的問題列表中選擇一個來反過來問他。</p></div>
+
+<hr/>
+<h2>新種族：機關人 (Automaton)</h2>
+<p class="NoIndent">
+	很多玩家都為戰俑── 一個在D&D很受歡迎的種族 ──制定了相應的房規。這個新種族旨在模擬出一些活體機械的特徵，可以在角色創建時供玩家選擇，且能適用於任何職業。</p>
+
+<h4>機關人 的起始種族動作（適用任意職業）</h4>
+<div class="Move"><h4 class="BasicMoveName">鋼鐵存續 (By Iron Sustained)</h4>
+<p class="NoIndent">
+	當某個動作要求你消耗 1 份口糧，直接忽略它。你可是個機器人，你怎麼會需要進食？</p></div>
+<div class="Move"><h4 class="BasicMoveName">鐵造之人 (Metal Man)</h4>
+<p class="NoIndent">
+	你無法透過任何魔法或尋常手段被治癒；取而代之的是，每當你〈紮營〉或〈恢復〉時，你或其他人可以對你進行維修，讓你如常治癒傷勢。此外，當你在〈臨死一息〉時擲出7-9的結果時，你將停止運作並進入待機模式直到某人把你修好，ＧＭ會告訴你這個維修過程需要什麼。</p></div>
+
+<h4>可替換的羈絆：</h4>
+<ul>
+	<li>________ 幫助我維持良好的維修狀況。</li>
+	<li>________ 認識我的創造者。</li>
+	<li>我已經做為 ________ 家族的老朋友很長一段時間了。</li>
+	<li>________ 表現出的人性軟弱與慾望讓我感到困惑。</li>
+</ul>
+
+<hr/>
+<h2>概略職業：機關人修補匠 (Automaton Tinkerer)</h2>
+<p class="Instructions">如果你身為<b>機關人</b>，且當你花費時間嘗試於升級自己時，你可以在你下次升級時改為選擇獲得這個動作：</p>
+<div class="Move"><h4 class="BasicMoveName">模組化機殼 (Modular Chassis)</h4>
+<p class="NoIndent">
+	當你〈紮營〉並花費數小時的時間改造你自己時，選擇二個屬性。你在使用這兩個屬性的所有擲骰中獲得持續+1，但除此之外其他屬性的所有擲骰承受持續-1。這個影響將持續直到你再次花費時間改造自己為止。</p></div>
+
+<p class="Instructions">一旦你獲得〈模組化機殼〉，則下列動作將被視為你的職業進階動作。每當你升級時，你可以改為從這張列表中選擇：</p>
+<div class="Move"><h4 class="BasicMoveName">集成武裝 (Integrated Weaponry)</h4>
+<p class="NoIndent">
+	當你將一件武器整合進你的身體之中時，從下列選項中擇一。這個動作可以被重複獲得；每次獲得時都可以選擇另一個選項或新武器。<br/>
+<ul>
+	<li>…這把武器可以隨意伸縮，賦予它一個額外的作用範圍標籤。</li>
+	<li>…這把武器可以被摺疊收納進體內，完全隱藏起來。</li>
+	<li>…你設計出一個系統讓這把武器可以更猛力地命中目標。賦予它［強力］標籤。</li>
+</ul>
+</p></div>
+<div class="Move"><h4 class="BasicMoveName">發條修理師 (Clockwork Repairman)</h4>
+<p class="NoIndent">
+	當你<b>嘗試修理一個複雜的機械</b>時，擲+智力。<br/>
+	✴擲出10+時，你把它修到了完美的狀態。<br/>
+	✴擲出7-9時，它能夠運轉，但仍有一些問題，ＧＭ會讓你看出這些問題是什麼。<br/>
+	✴擲出失敗時，你讓它惡化到了比開始時還要糟糕的狀態，ＧＭ會告訴你細節。</p></div>
+<div class="Move"><h4 class="BasicMoveName">完美機械 (Mechanical Perfection)</h4>
+<p class="NoIndent">
+	在聚會開始時，擲+什麼都不加。<br/>
+	✴擲出10+時，獲得 3掌握。<br/>
+	✴擲出7-9時，獲得 1掌握。<br/>
+	在你擲骰之前，你可以消耗一個掌握一次，來使你在該次擲骰中獲得+1加值，利用冷酷的機械邏輯和精準來幫助你邁向成功。</p></div>
+<div class="Move"><h4 class="BasicMoveName">取得裝備 (Get Equipped With)</h4>
+<p class="NoIndent">
+	當你<b>收獲敵人的身體部件</b>時，擲+體質。<br/>
+	✴擲出10+時，獲得 3掌握。<br/>
+	✴擲出7-9時，獲得 1掌握。<br/>
+	你可以消耗掌握，每消耗 1掌握來讓你進行其中一個該敵人動作列表的動作；ＧＭ會告訴你可以使用哪一個動作。你同時只能擁有一個這樣的動作，且一旦你的掌握被消耗殆盡，你將失去該動作──你會需要從新的敵人身上收獲新的身體部件。</p></div>
+
+<hr/>
+<h2>新種族：龍族 (Dragon)</h2>
+<p class="NoIndent">
+	沒錯，龍；那囤積金銀財寶，貪婪狡詐的經典惡獸。為什麼不呢？為了回應某個玩家的要求，Emong在SA論壇的幫助下把它寫了出來。</p>
+
+<h4>龍族 的起始種族動作（適用任意職業）</h4>
+<div class="Move"><h4 class="BasicMoveName">無底大胃 (Bottomless Stomach)</h4>
+<p class="NoIndent">
+	當某個動作要求你消耗 1 份口糧，額外消耗 1份。</p></div>
+<div class="Move"><h4 class="BasicMoveName">龍形變換 (Dragonic Transformation)</h4>
+<p class="NoIndent">
+	身為龍族，你的尖牙、利爪、和噴吐武器都能夠造成你職業的傷害，且你能夠飛行（若你是那種類型的龍族）。當你處於龍型態時，你能夠使用你所有的職業動作，只要你能夠在沒有雙手的情況下合理地執行該動作。你也可以化身為人型型態。<b>告訴ＧＭ你的人型型態有一個什麼樣的缺陷；一個彰顯出你是偽裝成人型的龍族的特徵：</b>像爬蟲類的雙眼、蜥蜴般的舌頭等等。讓這個特徵難以隱藏，但並非不可能藏起來。</p></div>
+
+<h4>可替換的羈絆：</h4>
+<ul>
+	<li>我確定 ________ 從我的財寶中偷走了一件小飾品。</li>
+	<li>________ 跟我締下契約以交換失傳已久的知識。</li>
+	<li>對一個如此渺小的存在而言， ________ 太過自視甚高。</li>
+</ul>
+
+<hr/>
+<h2>概略職業：巨龍 (Great Wyrm)</h2>
+<p class="Instructions">如果你身為<b>龍族</b>，且你在明知故犯的情況下因貪婪慾望而讓對你重要的事物或人物造成重大傷害時，你可以在你下次升級時改為選擇獲得這個動作：</p>
+<div class="Move"><h4 class="BasicMoveName">臥榻於金銀寶山 (Sleep On A Pile Of Gold)</h4>
+<p class="NoIndent">
+	你每把100金幣加到你的財寶中，你就獲得+1掌握。你可以消耗這些掌握（也同時消耗你財寶中的金幣）來讓你在〈談判〉獲得+等同消耗掌握 的加值，好讓你達成你的目的。</p></div>
+
+<p class="Instructions">一旦你獲得〈臥榻於金銀寶山〉，則下列動作將被視為你的職業進階動作。每當你升級時，你可以改為從這張列表中選擇：</p>
+<div class="Move"><h4 class="BasicMoveName">龍族魔法 (Dragon Magic)</h4>
+<p class="NoIndent">
+	你獲得法師職業的〈儀式〉動作，只不過你在使用該動作時可以選擇要+智力或+魅力。若你已經擁有〈儀式〉動作，則你改為獲得法師職業的〈奇才〉進階動作，且甚至可以在沒有法術書的情況下記住你所選擇的法術。</p></div>
+<div class="Move"><h4 class="BasicMoveName">毀滅龍火 (Burninating the Countryside)</h4>
+<p class="NoIndent">
+	你的噴吐武器將使用比你職業傷害骰還要高一階的傷害骰。（1d4 → 1d6 → 1d8 → 1d10 → 2d6）</p></div>
+<div class="Move"><h4 class="BasicMoveName">魔蛇之舌 (Serpentine Tongue)</h4>
+<p class="NoIndent">
+	當你對某個人物進行〈審視現狀〉時，你也可以問「他最渴望的事物是什麼？」。</p></div>
+<div class="Move"><h4 class="BasicMoveName">優越物種 (The Superior Species)</h4>
+<p class="NoIndent">
+	當你〈憶述見聞〉的同時誇大或過分強調龍族及其歷史在這份見聞中的重要性時，你自動成功，如同你骰出了10+的結果。</p></div>
+
+<hr/>
+<h2>概略職業：醉仙 (Drunken Master)</h2>
+<p class="Instructions">當你<b>經歷三天酩酊大醉的痛飲狂歡並處理了其後果</b>時，則在你下次升級時，你可以改為選擇獲得這個動作：</p>
+<div class="Move"><h4 class="BasicMoveName">豪飲如龍 (Drink Like A Demon)</h4>
+<p class="NoIndent">
+	當你大口猛喝酒精飲料時，擲+體質。<br/>
+	✴擲出10+時，你現在擁有３醉意。<br/>
+	✴擲出7-9時，你擁有２醉意。<br/>
+	你可以在任何時候減少１醉意來治療你自己 1d4 傷害。</p></div>
+
+<p class="Instructions">一旦你獲得〈豪飲如龍〉，則下列動作將被視為你的職業進階動作。每當你升級時，你可以改為從這張列表中選擇：</p>
+<div class="Move"><h4 class="BasicMoveName">乙醇之力 (Ethanol Powered)</h4>
+<p class="NoIndent">
+	選擇〈砍劈〉或〈施放法術〉動作（若有）。從現在起，每當你使用你所選擇的動作時，你改為擲+醉意來取代該動作原本使用的屬性。</p></div>
+<div class="Move"><h4 class="BasicMoveName">輕量級 (Lightweight)</h4>
+<p class="NoIndent">
+	當你使用〈豪飲如龍〉時，你額外獲得+1 醉意。</p></div>
+<div class="Move"><h4 class="BasicMoveName">酩酊翻身 (Seeing Double)</h4>
+<p class="NoIndent">
+	當你透過搖晃跌撞的步法躲避來〈面對危險〉時，你擲+醉意。</p></div>
+<div class="Move"><h4 class="BasicMoveName">鐵打的肝臟 (Iron Liver)</h4>
+<p class="NoIndent">
+	你可以忽略毒素的效果。你的身體在經歷了酒精沒日沒月的摧殘鍛鍊之後，毒素什麼的根本就微不足道。</p></div>
+
+
+<hr/>
+<h2>概略職業：獸皮行者 (Skinwalker)</h2>
+<p class="Instructions">當你<b>在戰鬥中穿著野獸的毛皮以做為一種威嚇性戰術</b>時，則在你下次升級時，你可以改為選擇獲得這個動作：</p>
+<div class="Move"><h4 class="BasicMoveName">行走如獸 (Walk Like the Animals)</h4>
+<p class="NoIndent">
+	當你在身披一種危險野獸的毛皮時投入戰鬥，它將授予你牠一部分的野蠻獸性，<b>賦予你的攻擊<tag>+1 穿透</tag></b>。</p></div>
+
+<p class="Instructions">一旦你獲得〈行走如獸〉，則下列動作將被視為你的職業進階動作。每當你升級時，你可以改為從這張列表中選擇：</p>
+<div class="Move"><h4 class="BasicMoveName">言語如獸 (Talk Like the Animals)</h4>
+<p class="NoIndent">
+	當你身披一種野獸的毛皮時，你將獲得能像和人類說話一樣輕易地與動物溝通的能力。動物們將把你視作你身上獸皮所代表的野獸。</p></div>
+<div class="Move"><h4 class="BasicMoveName">憑依野性 (Borrowed Savagery)</h4>
+<p class="NoIndent">
+	當你在身披一種危險野獸的毛皮時發動攻擊，隨著野獸的獸性在你的血液流竄，你將造成<b>+1d4 傷害</b>。</p></div>
+<div class="Move"><h4 class="BasicMoveName">身化猛獸 (Become the Beast)</h4>
+<p class="NoIndent">
+	你獲得德魯伊職業的〈化形者〉動作，只不過這個動作只能用來讓你變成你身上獸皮所代表的野獸。</p></div>
+
+<hr/>
+<div class="Move" style="font-size: 0.9em;">
+<p class="NoIndent"><b>對撰寫概略職業，Emong提供了這些建議：</b></p>
+<p class="NoIndent">
+	「職業的核心概念是最簡單的部分，它是個可以透過一兩句話來概括定義這個職業的描述。像是『一個被深淵腐化並轉變的人』或『一個喝太多酒，甚至把它變成了自己的戰鬥方式的人』。它應該是一種在主要規則下有可能出現的角色類型，但卻沒有任何機制能夠輔助呈現其特定主題。舉例來說，你可以輕易扮演一名酩酊大醉的戰士或被腐化的遊盪者，但規則並沒有提供任何特殊動作能夠強化你的選擇。因此，你才會想自己動手撰寫它們。</p>
+<p>
+	概略職業擁有一些角色必須滿足的條件。這並不總是如看上去的那樣容易，有些職業，像是我寫的深淵行者，它的條件需求就很明顯。至於其他時候，倘若想不到可能觸發它的明顯事件，我就會轉而往主題性的方向去思考，像是龍族種族的巨龍：巨龍的重點就是在讓龍族角色變得更像龍，因此角色需要變得更加貪婪，變得更加熱愛黃金，以至於為了金銀財寶，他甚至放棄某個他重視的事物。這正是一個很好的主題契合點。</p>
+<p>
+	起始動作大概是這之中最重要的一個動作了，而這不僅僅是因為它必須第一個被獲得而已。起始動作同時也應該要能奠定整個概略職業的基調。讓人就算只拿這一個動作，也能感覺自己已經得到了這整個職業。醉仙的起始動作給了玩家一個常常飲酒大醉的理由，巨龍的起始動作則給了他們變得更加貪婪的理由，類似這樣，為這個職業的其餘能力奠定了基礎。</p>
+<p>
+	在角色取得起始動作之後，他們將能夠其他的次要動作。這些動作應該要能讓角色們在行為上更符合職業的主題。巨龍是我寫過的職業中最能體現這一點的。這個職業的主題在於讓角色變得更像龍，那麼，龍應該是什麼樣子的呢？龍應該要貪婪（臥榻於金銀寶山）、強大（毀滅龍火）、有魔法（龍族魔法）、狡猾（魔蛇之舌）、且驕傲（優越物種）。所以，角色取得的每個動作都會讓他們越來越向這個職業所呈現的主題靠攏，在這個例子中，就是那極具代表性的龍族特色。</p>
+<p>
+	規則書針對如何撰寫自訂動作提供了許多很棒的建議，而這些建議也同樣適用於這裡。當撰寫概略職業的動作時，把它們跟官方動作的功能和強項做比較。一個不太容易經常出現的動作或許應該要比那些經常被使用的動作要來的更強大一些。不要讓動作與官方動作重複，或是完全取代它的功能。如果你想要讓你的職業在近身肉搏有更好的表現，不要直接讓它取代〈砍劈〉動作，相反的，給這個動作一些額外的好處：「當你在狼人形態進行〈砍劈〉動作時……」除此之外，善加利用每個職業的成員都會得到相同的起始動作的這個事實。概略職業的其餘動作都應該要衍生自第一個動作，無論是從主題的層面、或是機制的層面。」</p>
+
+<div style="text-align: right; font-size: 0.8em;">-原文張貼於 Something Awful 論壇</div></right>
+</div>
+
+      </div>
+    </div>
+ </div>
+      
+<div id="footer">
+<div class="container">
+   <p class="NoIndent"><a href="http://deepeningdays.com/dungeon-world-html-srd/">地城世界 Dungeon World HTML SRD</a> &copy; 2013，Andrew Codispoti。 <a href="http://dungeon-world.com">Dungeon World</a> 的版權由 Sage Kobold Productions 所有，
+   <br><a href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>保留部分權利，詳見<a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/license/">版權頁</a>。</p>
+</div>
+</div>
+
+
+
+    
+    <script src="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/jquery.js"></script>
+    
+    <script src="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $("#sidemenu-topnav").addClass('currentul');
+      $("#sidemenu").prepend("<h3>目錄</h3>");
+      $("h2, h1, .MonsterName, .SpellName, .MagicItem, .ExtraLayer").each(function(i) {
+          var current = $(this);
+          current.attr("id", "title" + i);
+          var tag = current.prop("tagName");
+          
+          var link_text = current.html();
+          if(current.context.className=="MonsterName" || current.context.className=="SpellName"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+          }
+          if(current.context.className=="MagicItem"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+            link_text = " - "+link_text;
+          }
+
+          
+          const eng_text = link_text.match(/\((.*)\)/)? link_text.match(/\((.*)\)/)[1]: link_text;
+          link_text = link_text.replace(/\(.*\)/, "");
+
+          if(current.context.className=="ExtraLayer"){
+            link_text = " - - "+link_text;
+          }
+          else if(tag=="H2" || tag=="H3"){
+            link_text = " - "+link_text;
+          }
+          
+
+
+          
+
+          current.addClass('anchor');
+
+          var link_html = `<li class='currentli ${tag=="H1"? "headli": ""}'><a id='link${i}' href='#title${i}' title='${eng_text}'>${link_text}</a></li>`;
+          $("ul.currentul").append( link_html );
+      });
+      $(".Tags").each(function(i) {
+        var current = $(this);
+        var tags_arr = current.html().split(", ");
+        current.html(""+tags_arr.map(function(tag){
+            var className = "";
+            tag = tag.trim();
+            if(isRangeTag(tag))         className = "red";
+            if(isSizeTag(tag))          className = "green";
+            if(isOrganizationTag(tag))  className = "blue";
+            if(isSpellLevelTag(tag))    className = "purple";
+            return `<tag class="${className}">${tag}</tag>`;
+          }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )?(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1]? names_match[1]: "";
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\(([\w-’ ]+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
+      });
+
+      function isSpellLevelTag(tag){
+        return (tag.match(/等級 \d+|禱念|戲法|Level \d+|Rote|Cantrip/))? true: false;
+      }
+      function isRangeTag(tag){
+        return (tag.match(/觸及|近身|及遠|短程|遠程|Hand|Close|Reach|Near|Far/))? true: false;
+      }
+      function isSizeTag(tag){
+        return (tag.match(/微型|小型|大型|巨型|Tiny|Small|Large|Huge/))? true: false;
+      }
+      function isOrganizationTag(tag){
+        return (tag.match(/成群|集團|單獨|Horde|Group|Solitary/))? true: false;
+      }
+    </script>
+  </body>
+</html>

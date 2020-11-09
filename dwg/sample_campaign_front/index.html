@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="tw">
+  <head>
+  <title>範例戰役前置 | 地城世界 HTML SRD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/css/sticky-footer.css" rel="stylesheet">
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/css/site.css" rel="stylesheet">
+
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#sidemenu">
+  
+<nav id="site-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ 
+<div class="navbar-header">
+ <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+   <span class="sr-only">Toggle navigation</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+ </button>
+ <a class="navbar-brand" href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release">地城世界 HTML SRD</a>
+</div>
+
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ <ul class="nav navbar-nav">
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">本遊戲 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+       <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/introduction">簡介</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/playing_the_game">進行遊戲</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/example">遊玩範例</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation">角色創造</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves">動作</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment">裝備與服務</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves_discussion">討論 - 動作</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">職業 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian">野蠻人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">吟遊詩人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">牧師</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">德魯伊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">戰士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator">燔祭者</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">聖武士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">遊俠</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">盜賊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard">法師</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells">牧師法術</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells">法師法術</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion">討論 - 職業動作</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">GM章節 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics">基本</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session">第一次聚會</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts">前置</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world">世界</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving">深入鑽研</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">怪物 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview">總覽</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns">洞穴居族</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk">王國住民</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods">幽暗森林</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead">不死軍團</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths">下界深淵</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes">位面勢力</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes">貪掠團夥</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp">沼澤棲物</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments">扭曲實驗體</a> </li>
+     </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">附錄 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion">冒險模組轉換</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/teaching">遊戲教學</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs">速成NPC</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">地城世界帶團指南 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/dungeonworldguide">地城世界帶團指南</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/sample_campaign_front">範例戰役前置</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/compendium_classes">範例概略職業</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/example_of_play">遊玩範例</a></li>
+      </ul>
+    </li>
+  </ul>
+ 
+</div>
+</nav>
+
+  <nav id="sidemenu" class="col-md-2">
+   <ul id="sidemenu-topnav" class="nav">
+   </ul>
+</nav>
+
+  <div id="wrap">
+    <div class="container">
+      <div class="col-md-8 inner-container">
+        
+<p class="NoIndent">讓我們來看下面這個戰役設定，萬事俱備且隨時可以上場。看看他的描述和設置，以及他是如何把這些內容轉換成《地城世界》所使用的前置、危害、以及懸念問題。</p>
+
+<hr/>
+<h1>巨龍 阿克斯塔拉特<br>（The Great Wyrm Axstalrath）</h1>
+<p style="font-size: 0.6em;text-align: right;">by Sean M. Dunstan</p>
+
+<p class="NoIndent">
+	<b>新月島</b>是一個最近正處於可怕威脅的小島。這座小島自五年前起被人類殖民，並讓<b>當地的蜥蜴人族群</b>感到相當煩擾。幸好，這些蜥蜴人對發生在他們沼澤之外的瑣事並沒有什麼太大的興趣，因此他們很快就達成了一個「寬以待人如待己」性質的<b>鬆散和平協議</b>。</p>
+<p>
+	小小的<b>塔拉莫斯港</b>建立在了小島東岸，沒過多久，在南方的森林附近<b>發現了鐵礦</b>。很快地，礦場被建了起來，為了支援採礦的工作，也為了砍伐開發周遭的森林資源，<b>破岩鎮</b>因此發展成形。同時，在遍布著大量耕地的小島北部，<b>迎風鎮</b>也就此成立。儘管仍然需要每個月一次來自大陸的補給以填補殖民地無法自給的空缺，但新月島大致上來說是自給自足的。</p>
+<p>然而，三個禮拜前，<b>巨龍出現了</b>。</p>
+
+<p>
+	<b>毫無前兆，牠就這麼忽然降臨，夷平了塔拉莫斯港灣中所有船隻</b>、撕裂了主要幹道、並在新月島中央的一個<b>特定區域炸出了一個大坑</b>。肆虐過後，牠在<b>附近的海洋火山上定居下來</b>。只有在為了摧毀出航的船隻時，巨龍才會離開牠的巢穴，無論是嘗試尋求大陸支援、還是島嶼聚落互相交流用的船隻都不能倖免。儘管海軍們嘗試攻打巨龍棲息的火山，但那些可憐的士兵甚至還沒踏上小島就被全數殲滅。</p>
+<p>
+	在巨龍侵襲之後的數周，一部分人們開始崇拜牠，試圖安撫這頭巨獸。儘管塔拉莫斯港的政府已經宣布這個崇拜巨龍的邪教為違法組織，但這只不過迫使他們轉移到了地下，在那裏肆無忌憚地發展茁壯。</p>
+<p>
+	大陸上的人們可能還需要數周的時間才會意識到這裡出了問題，甚至需要更久的時間才會派人來幫忙，也因此這座島基本上只能靠自己了。人們開始呼求，希望有勇士們願意挺身而出，去和那些被斷絕往來的村莊取得聯絡、去搞清楚為什麼島上的那塊特定區域會被巨龍破壞，以及慘遭夷平的區域底下的地底遺跡有隱藏著什麼事物，也許……只是也許……擊敗巨龍，並拯救整個小島。</p>
+<p>
+	……你們打算怎麼做？</p>
+<p style="text-align: center;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_1.png"></p>
+
+<hr/>
+<h2>有趣的地點</h2>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_2.png" style="margin:5px; border:2px solid black;width:130px;"></div>
+	<div style="flex:5;">
+		<b>塔拉莫斯港(Port Taramos)</b> 是新月島的首都，也是唯一與外界聯繫的地方。儘管被暗礁包圍，但港口反過把這些危險的暗礁當作了交通運輸以及阻止海盜入侵的簡單手段。塔拉莫斯領主的宅邸連著一個座偌大的燈塔，俯瞰著整個海灣。</div>
+</div>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_3.png" style="margin:5px; border:2px solid black;width:130px;"></div>
+	<div style="flex:5;">
+		這座島南端的城鎮名為<b>破岩鎮(Rockbreak)</b>。這個專職採礦和伐木的小鎮擔當著整座島的主要貿易來源。由於巨龍的現身，破岩鎮與塔拉莫斯港之間的聯繫已經被中斷。</div>
+</div>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:5;">
+		<b>海神之矛(The Sea God's Spear)</b> 是一座火山島，巨龍如今正是在此築巢。新月島最後三艘戰艦那悽慘無比的燒焦殘骸就躺臥在島嶼南部海岸的附近。</div>
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_4.png" style="margin:5px; border:2px solid black;width:100px;"></div>
+</div>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_5.png" style="margin:5px; border:2px solid black;width:130px;"></div>
+	<div style="flex:5;">
+		<b>嘶茲克斯特(Ss't'k'llst)</b> 是島上最大的蜥蜴人聚落，也是這些生物默認的「首都」。除了嘶茲克斯特之外，蜥蜴人們還占據了<b>綠鱗沼澤(Greenscale swamp)</b> 的大部分區域，因此村民們對其總是敬而遠之。</div>
+</div>
+
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:5;">
+		對新月島的住民來說，<b>海草森林(The Kelp Forest)</b> 只不過是一片長滿厚厚海帶和海草的地帶。但事實上，這塊堪堪與島嶼接壤的區域是海精靈們殖民地的一部分。一直到最近，海精靈們的存在才被島上的居民給認知。</div>
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_6.png" style="margin:5px; border:2px solid black;width:130px;"></div>
+</div>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_7.png" style="margin:5px; border:2px solid black;width:80px;"></div>
+	<div style="flex:5;">
+		<b>迎風鎮(Windward)</b> 是一座位於北方的農業小鎮。在塔拉莫斯港和迎風鎮之間有一個小小的休息和補給站，當地人稱之為歇腳處(Waypoint)。</div>
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_8.png" style="margin:5px; border:2px solid black;width:120px;"></div>
+</div>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_9.png" style="margin:5px; border:2px solid black;width:80px;"></div>
+	<div style="flex:5;">
+		這座島上其中一個最奇怪的謎團就是<b>巨石柱(The Monolith)</b>，一個六呎直徑、十五呎高的巨大柱狀體，表面覆滿了難以解讀的符文。在半月高掛的夜晚，這些符文會發光，且整個柱狀體將往天空直直投射出一道光束。這個現象至今沒有得到解釋。</div>
+</div>
+<div style="display:flex; flex-direction:row;justify-content:flex-start">
+	<div style="flex:5;">
+		在巨石柱旁邊的巨大漩渦被稱作<b>「海神之眼(The Sea God’s Eye)」</b>，不斷迴旋著將周遭的事物拖進未知深度的深淵。這兩個奇怪的地點之間似乎有著某種聯繫，但目前為止，學者們仍對此一籌莫展。</div>
+	<div style="flex:1;"><img src="/Dungeon-World-HTML-SRD-release/images/sample01_10.png" style="margin:5px; border:2px solid black;width:120px;"></div>
+</div>
+
+<hr/>
+<h2>給玩家們的問題</h2>
+<ul>
+	<li>你們之中的誰是被困在這裡的外地人？</li>
+	<li>你們之中的誰生於此島，長於此島，並對這座島瞭若指掌？</li>
+	<li>你認識一個拜龍教的人物。他是誰？為什麼他們沒有聽從你的建議遠離這個邪教組織？</li>
+	<li>關於東南邊小島上的那座神秘寺廟，你有聽說過些什麼傳聞？</li>
+	<li>關於巨石柱，你知道些什麼其他人所不知道的事？</li>
+	<li>若你是海精靈，為什麼你會現身在這些地表居民們面前？你的同胞們對此有何感想？</li>
+	<li>若你是蜥蜴人，為什麼你要離開樹林沼地？為什麼你要跟這些哺乳類廝混在一塊？</li>
+</ul>
+
+<hr/>
+<h2>新種族</h2>
+<div class="Move"><h3 class="MoveName">蜥蜴人種族動作</h3>
+	<p class="NoIndent"><b>戰士</b>： 你的利爪讓你得以不使用武器就造成你職業的傷害骰。</p>
+	<p class="NoIndent"><b>德魯伊</b>： 你獲得一個新的歸屬地：惡臭的沼澤濕地。</p>
+	<p class="NoIndent"><b>盜賊</b>： 當你為了躲藏在樹林沼澤或厚實的灌木叢中而進行〈面對危險〉時，你可以直接成功，並視為你擲出了10+。</p>
+	<p class="NoIndent"><b>遊俠</b>： 你的動物夥伴可以選擇「伏擊」做為牠的機巧訓練項。</p>
+</div>
+<div class="Move"><h3 class="MoveName">海精靈種族動作</h3>
+	<p class="NoIndent"><b>吟遊詩人</b>： 多虧你那賽壬海妖般的嗓音，當你〈談判〉時，你可以把你的長久逗留或提供幸福喜悅這件事當作籌碼。</p>
+	<p class="NoIndent"><b>戰士</b>： 任何你所使用的武器都被視為帶有「靈巧」標籤。</p>
+	<p class="NoIndent"><b>法師</b>： 你可以額外準備一個等級的法術。</p>
+	<p class="NoIndent"><b>牧師</b>： 你諧律於海洋之神。你的宗教信仰可以選擇這個領域「海洋以及其中的秘密」。</p>
+</div>
+<hr/>
+<h2>危害</h2>
+<div class="Move"><h4 style="margin-top: 0;">危害：巨龍 (奧法魔敵)</h4>
+<p>
+	巨龍，阿克斯塔拉特，出於許多理由挑選了新月島作為牠的巢穴：這裡地處偏僻，與世隔絕；那佇立在沙漠中的巨石柱吸引了牠的注意；火山是牠產卵的完美場所；且這座島上充滿了許多無法可逃的無助食物，剛好能在龍蛋孵化時提供幼仔們飽餐一頓。</p>
+<p class="NoIndent"><strong>動力:</strong> 保護並照顧牠的孩子</p>
+<p class="NoIndent"><strong>惡兆:</strong></p>
+<ul>
+	<li>巨龍聯繫了居住在火山深處的火矮人</li>
+	<li>巨龍謀劃著煽動蜥蜴人對抗人類</li>
+	<li>巨龍摧毀了一支來自大陸的海軍巡邏艦</li>
+	<li>巨龍孵出的雛龍們降落到島上覓食</li></ul>
+<p class="NoIndent"><strong>臨頭大難:</strong> 毀滅</p></div>
+
+<div class="Move"><h4 style="margin-top: 0;">危害：拜龍教 (野心黨眾)</h4>
+<p>
+	拜龍教深信他們可以透過祭拜儀式來安撫巨龍。</p>
+<p class="NoIndent"><strong>動力:</strong> 把巨龍當作神明一樣崇拜</p>
+<p class="NoIndent"><strong>惡兆:</strong></p>
+<ul>
+	<li>塔拉莫斯港的居民們開始焦躁不安，拜龍教的成員逐漸增加</li>
+	<li>戒嚴令被頒布</li>
+	<li>拜龍教嘗試佔領塔拉莫斯港</li>
+	<li>巨龍襲擊了塔拉莫斯領主宅邸附近的燈塔</li>
+	<li>拜龍教接管了城鎮，並將之獻給了巨龍</li></ul>
+<p class="NoIndent"><strong>臨頭大難:</strong> 奪取</p></div>
+
+<div class="Move"><h4 style="margin-top: 0;">危害：火矮人 (成群部族)</h4>
+<p class="NoIndent"><strong>動力:</strong> 成長茁壯，驅趕他們面前的敵人</p>
+<p class="NoIndent"><strong>惡兆:</strong></p>
+<ul>
+	<li>火矮人們現身在西岸</li>
+	<li>他們從礦場掘穿出來，並佔領了破岩鎮</li>
+	<li>他們與拜龍教達成了一筆奸邪的交易</li>
+	<li>他們提供拜龍教的邪教徒給雛龍做為食物</li></ul>
+<p class="NoIndent"><strong>臨頭大難:</strong> 暴政</p></div>
+
+<hr/>
+<h2>懸念</h2>
+<ul>
+	<li>巨石柱會在這座島的命運中扮演什麼樣的角色？</li>
+	<li>沼澤中的蜥蜴人會打破牠們與人類之間那脆弱的停戰協議，並站在巨龍那一邊嗎？</li>
+	<li>為什麼來自海草森林的海精靈決定現身讓自己為島上的居民所知？</li>
+	<li>新月島中央那在巨龍襲擊事件中被發現的洞穴內有什麼？裡面有什麼東西讓巨龍如此渴望？</li>
+	<li>如今與世隔絕的破岩鎮，之後又會變成什麼樣子？</li>
+</ul>
+
+<hr/>
+<h2>登場人物</h2>
+<div class="Move"><b>領主 威廉．塔拉莫斯 （Lord Willam Taramos）</b><br/>
+是塔拉莫斯港的市長；塔拉莫斯家族建立了新月島上的第一個聚落，且至今仍保有相當的影響力。</div>
+
+<div class="Move"><b>琳薩．克蘭 （Linsa Crane）</b><br/>
+是破岩礦區的工頭，而這也反過來讓她成為了破岩鎮的鎮長。鎮民們相當敬重她，且會毫不猶豫地支持她的決定。</div>
+
+<div class="Move"><b>卡爾洛夫，格雷 （Karlov Grey）</b><br/>
+已經被確定是拜龍教的可能創始者以及現任教主，儘管他日常行蹤有時仍然是個秘密。沒有人知道他在拜龍教成立之前到底是什麼人。</div>
+
+<div class="Move"><b>李嘶特 （Lsst’l）</b><br/>
+代表蜥蜴人們在塔拉莫斯港的利益，從貿易、政治、到邊界問題等等，確保著兩族之間的和平。儘管他總是宣稱為和平和共存而戰，但牠究竟有多值得信賴呢？</div>
+
+<div class="Move"><b>拉傑克．赤鋼 （Rajak Redsteel）</b><br/>
+鮮有人知道關於火矮人之王的事蹟、也鮮有人知道他驅使人民們四處征戰的目的。這仍是個待解之謎。</div>
+
+
+      </div>
+    </div>
+ </div>
+      
+<div id="footer">
+<div class="container">
+   <p class="NoIndent"><a href="http://deepeningdays.com/dungeon-world-html-srd/">地城世界 Dungeon World HTML SRD</a> &copy; 2013，Andrew Codispoti。 <a href="http://dungeon-world.com">Dungeon World</a> 的版權由 Sage Kobold Productions 所有，
+   <br><a href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>保留部分權利，詳見<a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/license/">版權頁</a>。</p>
+</div>
+</div>
+
+
+
+    
+    <script src="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/jquery.js"></script>
+    
+    <script src="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $("#sidemenu-topnav").addClass('currentul');
+      $("#sidemenu").prepend("<h3>目錄</h3>");
+      $("h2, h1, .MonsterName, .SpellName, .MagicItem, .ExtraLayer").each(function(i) {
+          var current = $(this);
+          current.attr("id", "title" + i);
+          var tag = current.prop("tagName");
+          
+          var link_text = current.html();
+          if(current.context.className=="MonsterName" || current.context.className=="SpellName"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+          }
+          if(current.context.className=="MagicItem"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+            link_text = " - "+link_text;
+          }
+
+          
+          const eng_text = link_text.match(/\((.*)\)/)? link_text.match(/\((.*)\)/)[1]: link_text;
+          link_text = link_text.replace(/\(.*\)/, "");
+
+          if(current.context.className=="ExtraLayer"){
+            link_text = " - - "+link_text;
+          }
+          else if(tag=="H2" || tag=="H3"){
+            link_text = " - "+link_text;
+          }
+          
+
+
+          
+
+          current.addClass('anchor');
+
+          var link_html = `<li class='currentli ${tag=="H1"? "headli": ""}'><a id='link${i}' href='#title${i}' title='${eng_text}'>${link_text}</a></li>`;
+          $("ul.currentul").append( link_html );
+      });
+      $(".Tags").each(function(i) {
+        var current = $(this);
+        var tags_arr = current.html().split(", ");
+        current.html(""+tags_arr.map(function(tag){
+            var className = "";
+            tag = tag.trim();
+            if(isRangeTag(tag))         className = "red";
+            if(isSizeTag(tag))          className = "green";
+            if(isOrganizationTag(tag))  className = "blue";
+            if(isSpellLevelTag(tag))    className = "purple";
+            return `<tag class="${className}">${tag}</tag>`;
+          }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )?(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1]? names_match[1]: "";
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\(([\w-’ ]+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
+      });
+
+      function isSpellLevelTag(tag){
+        return (tag.match(/等級 \d+|禱念|戲法|Level \d+|Rote|Cantrip/))? true: false;
+      }
+      function isRangeTag(tag){
+        return (tag.match(/觸及|近身|及遠|短程|遠程|Hand|Close|Reach|Near|Far/))? true: false;
+      }
+      function isSizeTag(tag){
+        return (tag.match(/微型|小型|大型|巨型|Tiny|Small|Large|Huge/))? true: false;
+      }
+      function isOrganizationTag(tag){
+        return (tag.match(/成群|集團|單獨|Horde|Group|Solitary/))? true: false;
+      }
+    </script>
+  </body>
+</html>

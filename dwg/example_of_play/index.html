@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="tw">
+  <head>
+  <title>地城世界帶團指南-遊玩範例 | 地城世界 HTML SRD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/css/sticky-footer.css" rel="stylesheet">
+    <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/css/site.css" rel="stylesheet">
+
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#sidemenu">
+  
+<nav id="site-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+ 
+<div class="navbar-header">
+ <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+   <span class="sr-only">Toggle navigation</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+ </button>
+ <a class="navbar-brand" href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release">地城世界 HTML SRD</a>
+</div>
+
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ <ul class="nav navbar-nav">
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">本遊戲 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+       <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/introduction">簡介</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/playing_the_game">進行遊戲</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/example">遊玩範例</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/character_creation">角色創造</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves">動作</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/equipment">裝備與服務</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/moves_discussion">討論 - 動作</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">職業 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/barbarian">野蠻人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/bard">吟遊詩人</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric">牧師</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/druid">德魯伊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/fighter">戰士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/immolator">燔祭者</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/paladin">聖武士</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/ranger">遊俠</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/thief">盜賊</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard">法師</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/cleric/spells">牧師法術</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/wizard/spells">法師法術</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/classes/class_moves_discussion">討論 - 職業動作</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">GM章節 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/basics">基本</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/first_session">第一次聚會</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/fronts">前置</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/the_world">世界</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/gm/advanced_delving">深入鑽研</a></li>
+     </ul>
+   </li>
+   <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown">怪物 <b class="caret"></b></a>
+     <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/overview">總覽</a></li>
+       <li class="divider"></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/caverns">洞穴居族</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/folk">王國住民</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/woods">幽暗森林</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/undead">不死軍團</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/depths">下界深淵</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/planes">位面勢力</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/hordes">貪掠團夥</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/swamp">沼澤棲物</a> </li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/monsters/experiments">扭曲實驗體</a> </li>
+     </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">附錄 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/conversion">冒險模組轉換</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/teaching">遊戲教學</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/appendices/npcs">速成NPC</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">地城世界帶團指南 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/dungeonworldguide">地城世界帶團指南</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/sample_campaign_front">範例戰役前置</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/compendium_classes">範例概略職業</a></li>
+        <li><a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/dwg/example_of_play">遊玩範例</a></li>
+      </ul>
+    </li>
+  </ul>
+ 
+</div>
+</nav>
+
+  <nav id="sidemenu" class="col-md-2">
+   <ul id="sidemenu-topnav" class="nav">
+   </ul>
+</nav>
+
+  <div id="wrap">
+    <div class="container">
+      <div class="col-md-8 inner-container">
+        
+<p class="NoIndent" style="color:#777; font-size: 0.8em;margin:1em 0 2.5em 0;border:1px solid black;padding:5px;">此文件為粉絲撰寫的帶團指南，並不屬於原本SRD的一部份。這份翻譯已經徵得第二作者Sean M. Dunstan的同意，並可以隨意散播。其觀念亦適用於其他pbtA遊戲，相當推薦新接觸的ＧＭ閱讀。<br/>
+<a href="https://drive.google.com/file/d/0B8_Fz4m5hcoiTXpTbklDOF9iUHc/view">原文連結</a></p>
+
+<h1>遊玩範例</h1>
+<p class="NoIndent">
+	以下的內容摘錄自我主持的一場戰役，都是些真實經歷，因此你可以看到這些規則和原則是如何在現實團務中運作的。你會看到許多積極起效的動作以及這份文件中提供的建議被運用在實際的遊戲中。在邊欄也會有大量的解釋和註記，能夠幫助你在不打斷文字閱讀的情況下理解其中的涵義。順便一提，在現實的遊戲中這些角色當然都有著各自的名字，但為了方便這個例子的閱讀，我們就只使用他們的職業來識別他們。</p>
+
+<hr/>
+	<div class="Comment">
+		我會在像這樣的邊欄中寫下註解來說明發生了什麼事：解釋我這麼做的理由、幕後的思考；之類之類的玩意兒。
+	</div>
+
+<p class="Dialogue">ＧＭ：「好的，所以遠古高塔那座宏偉大門上的鉸鏈已經被掛開，你們也決定推門而入。石製的前廳到處都佈滿了岩石粉塵和碎石殘骸，但有些地方留下了被打亂的痕跡，就好像有什麼東西曾在這裡四處走動。在你們面前聳立著一組花崗岩雕製而成的厚重雙扇門，牆壁上滿布著精美的雕刻壁畫，描繪著遠古矮人戰爭的場景。這裡還有幾樣值得注意的地方：一個小小的類人生物骸骨倒在角落，看起來在很久以前就被輾碎到難以辨識的程度。此外，在石製地板上有好幾道深刻的刮痕，像是被金屬拖過留下來的痕跡。 <sub>1</sub>」</p>
+
+	<div class="Comment">
+		1.<br/>永遠說冒險所要求的，對吧？不要保留細節或叫玩家為每一個細節骰〈審視現狀〉。</div>
+
+<p class="Dialogue">遊俠：「那組雙扇門是鎖著的嗎？我想試著打開它們。」</p>
+<p class="Dialogue">盜賊：「等等！你剛才說角落有堆骸骨？還有地板上的刮痕，是吧？這兒肯定藏著刀片陷阱。所有人後退，讓我做我的工作，我要使用〈陷阱專家〉……<sub>2</sub>」</p>
+
+	<div class="Comment">
+		2.<br/>這是一個〈給他們展現職業能力的機會〉的絕佳例子。</div>
+
+<center><p><b>*他拿起骰子並開始擲骰。*</b></p></center>
+
+<p class="Dialogue">ＧＭ：「聽起來不錯，你是怎麼做的？你實際上是怎麼檢查這些陷阱的？你做了什麼？你是搜索整個房間，用棍子到處戳探之類的嗎？ <sub>3</sub>」</p>
+
+	<div class="Comment">
+		3.<br/>永遠記得問他們問題！他們是如何做這件事的？這看起來是什麼樣子？帶出這些遊戲敘實的細節。</div>
+
+<p class="Dialogue">盜賊：「好問題。我要先調查地板上的這道刮痕，看看它是從哪個角度來的，接著我會往那個方向調查並檢查刀刃會從哪裡出來。我想我會小心翼翼地踏出每一步，注意有沒有壓力板或是絆繩。睜大雙眼審視著這整個地方。這樣聽起來還行吧？好……我骰出了１１！所以我可以問三個問題，對吧？這裡是否有任何陷阱？如果有，什麼會觸發它？這個陷阱在被觸發時會做什麼？還有什麼藏在此處？ <sub>4</sub>」</p>
+
+	<div class="Comment">
+		4.<br/>注意看我是怎麼回答這些問題的。我並沒有告訴他所有一切，你總是得保留點神秘感，不然事情就會沒那麼有趣了。當然，我必須要回答他的問題，這是他應得的，但這並不代表我們不能在說明情境的同時營造出緊張感。</div>
+
+<p class="Dialogue">ＧＭ：「好的，哇，好樣的。這裡確實有一個陷阱，當然。它的觸發條件就是轉動雙扇門的門把。」</p>
+
+<center><p><b>*遊俠突然默默地鬆手放開了門把*</b></p></center>
+
+<p class="Dialogue">ＧＭ：「這似乎並不是你所懷疑的那種刀刃陷阱，你找不到任何用來發射刀刃的孔槽。事實上，這真的很奇怪。門框上嵌著肉眼可見的線路，連接著左右兩側的石雕壁畫，看起來像當門把被轉動時，這兩側的壁畫就會滑開。然而最奇怪的是堆在角落的那團骨骸：那曾是一隻狗頭人，但牠並不是死於刀刃：你可以肯定牠是被某個龐大的玩意兒給砸死。」</p>
+
+<p class="Dialogue">遊俠：「這整個情況看起來確實很奇怪。我要在附近徘徊，〈審視現狀〉以搞清楚到底發生了什麼事。我骰出了８，所以只能問一個問題：這裡最近發生了什麼事？ <sub>5</sub>」</p>
+
+	<div class="Comment">
+		5.<br/>好的，很明顯這個陷阱的上一個犧牲者現在已經腐朽成一具骸骨了，所以這並不能算是最近發生的事情，不過我不想當個斤斤計較的人。再怎麼說，我都欠他一個解釋。</div>
+
+<p class="Dialogue">ＧＭ：「你彎下身子，仔細檢視塵土中留下的痕跡。有許多小體型的生物穿過了這裡，很有可能是更多的狗頭人。此外，很明顯那兩側的壁畫曾經滑開，而某個非常龐大的東西從裡面跑了出來。無論那是什麼，起碼你能確定它是用雙足步行，而那隻狗頭人也正是被它給砸死的。至於剩下的狗頭人們看起來已經穿過了那扇門，並把它從後面緊緊關上。」</p>
+<p class="Dialogue">盜賊：「ＯＫ，我要解除陷阱，使用我的〈專業訣竅〉。我拿出一些鉗子、小段金屬絲、和一把小刀並開始處理門上的機械結構。<sub>6</sub> 我骰出了７，這代表什麼？」</p>
+
+	<div class="Comment">
+		6.<br/>一段時間之後，玩家們將會開始自發地告訴他們在使用動作時實際做了什麼，你甚至問都不用問。</div>
+
+<p class="Dialogue">ＧＭ：「這代表一個抉擇。<sub>7</sub> 在你搗鼓著內部的機構時，你發現了兩組線路。儘管這矮人工藝的結晶相當複雜，但你仍然理解了其中一組線路會開啟壁畫，而另一組則會觸發某個裝置。解除其中一個將會觸發另一個，因此你得選擇要觸發哪一個機關了。」</p>
+
+	<div class="Comment">
+		7.<br/>這很困難；有時候你就是想不到到底該給7-9的結果什麼樣的兩難選項，尤其是像這種單純直接的陷阱。在這裡，我思考了關於這個陷阱的作用，並把它拆成了兩個部分。牆裡藏著兩個機械人，而這個陷阱會啟動它們並把它們放出來。在這裡，我〈告知了後果，並向他們確認〉。</div>
+
+<p class="Dialogue">盜賊：「所以我要嘛選擇觸發某個未知的機關、要嘛選擇把壁畫打開？呃……我讓壁畫打開好了。所有人到房間裡，做好準備。」</p>
+<p class="Dialogue">ＧＭ：「受到液壓或之類的動力裝置影響，雕刻著壁畫的壁板猛然打開，並接著往後縮進牆壁，暴露出這幾個不怎麼大的壁龕，空間勉強能夠容納裡頭的那兩個黃銅巨人。它們是古老的矮人機械守衛，身披著厚重黃銅盔甲，為了戰爭而打造的發條裝置。然而它們並沒有被啟動。盜賊在這裡確實做了一個明智的決定。它們佇立在原地，一動也不動。它們的眼中鑲著漂亮的紅寶石，直直盯著前方。」<sub>8</sub></p>
+
+	<div class="Comment">
+		8.<br/>這絕對是個〈提供發財的機會，但可能伴隨代價〉。你就是知道這裡將會有什麼危險的事情發生。</div>
+
+<p class="Dialogue">法師：「這些紅寶石有多大？」</p>
+
+<center><p><b>*所有人都露出了微笑*</b></p></center>
+
+<p class="Dialogue">戰士：「別再幹這種事了，就讓它們待在那裡吧。你這人簡直比盜賊還糟糕，他不是才應該是那個最貪婪的傢伙嗎？」</p>
+<p class="Dialogue">法師：「我的實驗需要它們……它們是很好的魔術材料。<sub>9</sub>」</p>
+
+	<div class="Comment">
+		9.<br/>我很確定他只是在找藉口，但我想這是個很酷的細節，所以我準備要追問他這件事。</div>
+
+<p class="Dialogue">ＧＭ：「喔，是嗎？你是說像，你的所有法術都需要使用寶石來發動？我不知道這件事耶。」</p>
+<p class="Dialogue">法師：「沒啦，只有某些儀式需要。我，呃……會把它們磨成粉末，並拿它們來繪製魔法陣。<sub>10</sub>」</p>
+
+	<div class="Comment">
+		10.<br/>這棒透了！我熱愛《地城世界》的其中一個原因就是這種事經常會發生，一句不經意的閒談會轉變成某個重要的設定。留意這一類的細節！理所當然的，我在這裡打算用這些取得了嶄新意義的紅寶石來誘惑他。</div>
+
+<p class="Dialogue">ＧＭ：「它們挺大的，大概有半身人的拳頭那麼大。非常適合放進你的法術材料包裡。」</p>
+
+<center><p><b>*所有人再次露出了微笑*</b></p></center>
+
+<p class="Dialogue">盜賊：「另一顆紅寶石是我的！你不能把它們全部占為己有！」</p>
+<p class="Dialogue">戰士：「不要做傻事。它們恐怕會活過來然後把我們通通殺掉。別管它們了！」</p>
+<p class="Dialogue">法師：「我要出手啦。我要走道這個發條機器面前，用我的小刀把紅寶石撬開。我需要骰什麼？」</p>
+<p class="Dialogue">ＧＭ：「不用擲骰，你可以直接做到。<sub>11</sub> 你在金屬眼眶附近挖了挖，把鑲在裡頭的紅寶石撬開，滾到了你的手中。然而，就在這個瞬間，這個人型的發條機械以驚人的速度活了過來，它的手對準你的脖子疾馳而至，看起來打算要把你給一把抓起來。你打算做什麼？ <sub>12</sub>」</p>
+
+	<div class="Comment">
+		11.<br/>撬開寶石在這裡並不需要力量檢定或什麼的。記住，《地城世界》的重點並不在難度，而在於後果。我看不出來法師有什麼理由做不到這件事。</div>
+
+	<div class="Comment">
+		12.<br/>這就是了，這就是戰鬥的開始。然而我們並沒有決定先攻，而是直接跳到情境中。我描述了怪物攻擊的開始，然後等待玩家做出回應。在這個例子中，他決定跳開閃躲，所以我要求他進行一個〈面對危險〉的動作。顯而易見，這裡的危險就是被機械人給抓住脖子。</div>
+
+<p class="Dialogue">法師：「啊啊啊！我要跳開並嘗試躲到戰士身後！」</p>
+<p class="Dialogue">ＧＭ：「聽起來你試圖藉著迅速行動來〈面對危險〉，請擲+敏捷。」</p>
+<p class="Dialogue">法師：「……骰出了５。徹底的失敗？」</p>
+<p class="Dialogue">ＧＭ：「肯定的，這個發條機械的速度要比你快上太多。它巨大的黃銅手掌猛然擊出並抓住了你的脖子，把你掐住並從地面上提了起來，你的雙腳在離地數呎的地方懸空掙扎。其他人有什麼反應？ <sub>13</sub>」</p>
+
+	<div class="Comment">
+		13.<br/>在當前角色仍處於危險狀態的情況下切換到下一個角色的行動是一個不錯的做法。這能給他們帶來懸念，而這也正是一場緊張刺激的戰鬥所必須的元素。</div>
+
+<p class="Dialogue">盜賊：「我要躲到角落，直到我搞清楚到底發生了什麼事。」</p>
+<p class="Dialogue">戰士：「我可以跑過去然後嘗試打斷發條機械的抓握嗎？像是，用我的戰錘猛砸它的手臂？」</p>
+<p class="Dialogue">ＧＭ：「當然可以。所以你衝向這頭黃銅製成的猛獸，它舉起了另一隻手臂，它的手旋轉了起來，變成一組高速迴轉的刀刃。隨著你逼近，它開始揮舞那把凶器。」</p>
+<p class="Dialogue">戰士：「所以，這是個〈砍劈〉嗎？」<sub>14</sub></p>
+
+	<div class="Comment">
+		14.<br/>你可以為這邊要進行〈砍劈〉還是〈面對危險〉來一場論證。如果他的目標只是讓發條機械鬆手放開法師，那麼也許他得在把朋友釋放出來的同時進行〈面對危險〉來應付那些刀刃。但玩家在這裡提議了〈砍劈〉動作，這對我來說意味著他打算嘗試對敵人造成傷害。為了確認這一點，我向他澄清。</div>
+
+<p class="Dialogue">ＧＭ：「所以你是要嘗試傷害這個機械、還是只打算讓它鬆手？」</p>
+<p class="Dialogue">戰士：「我要傷害它，當然，反正它之後還是會繼續攻擊我們。我要砸碎它的手臂。」</p>
+<p class="Dialogue">ＧＭ：「那麼，當然，這是個〈砍劈〉動作。擲+力量。」</p>
+<p class="Dialogue">戰士：「結果是９，還不壞。」</p>
+<p class="Dialogue">ＧＭ：「你衝進去，但這東西的速度卻遠超乎你預期的快。它的手臂如閃電般擊出，而那高速迴旋的刀刃也撕開了你的護甲……造成５點傷害，鮮血從你的胸甲滲出。但這陣攻勢也同時給了你一個機會，就在它朝你伸出手臂的瞬間，你帶著你的戰錘承受了這一擊，並狠狠地砸在了它那黃銅裝甲上。」</p>
+<p class="Dialogue">戰士：「哈！我造成９點傷害。」</p>
+<p class="Dialogue">ＧＭ：「哇，好的，厚重的黃銅裝甲吸收了你這一擊大部分的衝擊，但這傷害實在太大了，它也因此凹陷破損。它的機械手臂被你硬生生斷成兩截，法師跌落在地，大口喘著氣。<sub>15</sub> 遊俠，你打算做什麼，在只是在一旁看著嗎？ <sub>16</sub>」</p>
+
+	<div class="Comment">
+		15.<br/>這是我主觀的判斷。９點是個相當可觀的傷害，加上戰士明確表示了它的目標是迫使機械人放開法師，我認為這是個相當合理的結果。</div>
+	<div class="Comment">
+		16.<br/>其他玩家都已經採取過一些行動，但遊俠還什麼都沒做，因此我接著轉向他。</div>
+
+<p class="Dialogue">遊俠：「怎麼可能，我已經清楚看到法師落地了，我要抽出我的弓並射向那個發條機器人。事實上，我要用我的〈瞄準射擊〉來正中它的眼眶！」</p>
+<p class="Dialogue">ＧＭ：「等等，那它得要是毫無防備或被突襲才型。你就站在那，它肯定看得見你。」<sub>17</sub></p>
+
+	<div class="Comment">
+		17.<br/>儘管這個動作會很酷炫，但有時候規則就是規則，你懂吧？</div>
+
+
+<p class="Dialogue">遊俠：「好吧，那就〈射擊〉吧。我骰出了７，勉強成功。我想我會選擇……減少１發彈藥，我必須射好幾箭。」</p>
+<p class="Dialogue">ＧＭ：「合理，這玩意兒全身包覆著厚重的黃銅板甲。你的前幾箭就這麼直接彈開了。<sub>18</sub>」</p>
+
+	<div class="Comment">
+		18.<br/>每當某個動作要求玩家從選項中選擇時，它必須要是某個在敘事上合理的選項。所以我喜歡為像這樣的小事想出它在遊戲敘實中的理由；這讓這個世界顯得更加真實。</div>
+
+<p class="Dialogue">遊俠：「完全正確！對，前幾發箭矢打偏了，但我最終還是一箭射中了兩片板甲之間的空隙，深深埋進了它的機械結構內。造成６點傷害。噢，還有，這裡寫說如果我讓我的老鷹同伴攻擊同一個目標，我可以額外把牠的兇猛值加到我的傷害上。」</p>
+<p class="Dialogue">ＧＭ：「ＯＫ，但是你的老鷹同伴要怎麼傷害這個全副裝甲的傢伙？我覺得牠的利爪可能甚至沒辦法在它身上留下刮痕。<sub>19</sub>」</p>
+
+	<div class="Comment">
+		19.<br/>再一次的，我對玩家提問。永遠記得確保這些動作在敘事中能夠合理。如果你沒辦法立刻明白某個動作是如何在故事中運作的，詢問玩家他們是怎麼想的，而很多時候，你都能從他們那裏得到一個酷炫的回答，讓場景增色許多。</div>
+
+<p class="Dialogue">遊俠：「嗯……這樣怎麼樣，我的箭矢最後終於射中，接著老鷹疾飛過去把它插了進去？像是，牠抓住了箭矢，並把箭矢推進了機械結構的更深處？」</p>
+<p class="Dialogue">ＧＭ：「這聽起來棒極了！是的，牠把箭猛烈地插進了那東西裏頭，火花開始從它身上四濺；它的動作開始抽搐，但仍然在活動。你感覺到自豪感從胸中閃過，但隨即一陣劇痛從你的肋骨傳來，有什麼東西狠狠地從後面捅了你一刀──那是第二個發條機械人！你們在專注對付第一個傢伙的同時完全把它給忘了。隨著它俐落地捅穿了你身上的皮甲，你受到了６點傷害。」</p>
+<p class="Dialogue">遊俠：「什麼！？我完全不知道它也被啟動了！」</p>
+<p class="Dialogue">ＧＭ：「是啊，你們完全把注意力放到了法師捲入的麻煩上了。 <sub>20</sub>」</p>
+
+	<div class="Comment">
+		20.<br/>這看起來或許有點殘酷，但卻是事實。他們從來沒有提及過看向第二個壁龕。我把這當作是一個黃金時機來〈揭露一個討厭的真相〉，並暴露出這個敵人的存在。</div>
+
+<p class="Dialogue">盜賊：「ＯＫ，我的機會來了。我正蜷縮在角落，對吧？現在這兩個發條機械都沒有注意到我吧？我想要偷偷溜過去並使用〈背刺〉。」</p>
+<p class="Dialogue">ＧＭ：「你很難判斷他們的注意力放在哪裡，他們並不會像普通人類那樣移動或四處張望。你要不要試著潛行接近它們其中之一？ <sub>21</sub>」</p>
+
+	<div class="Comment">
+		21.<br/>有時候，你可以很明顯就判斷敵人是否被突襲或毫無防備。但有時則不然。在這些情況下，你可以要求他們進行一個〈面對危險〉（被注意到的危險），就像是某種「隱匿檢定」那樣。而這裡所謂的危險，當然，就是被敵人看見。</div>
+
+<p class="Dialogue">盜賊：「〈面對危險〉是嗎？用敏捷？我骰出了１２，一點問題都沒有，我就像是黑暗中的陰影。」</p>
+<p class="Dialogue">ＧＭ：「很好，就在第二個發條機械人捅穿你的遊俠朋友時，你輕易地潛到了它身後。」</p>
+<p class="Dialogue">盜賊：「所以，〈背刺〉說我可以直接造成我的傷害，或者我可以擲+敏捷來取得額外的好處。我是個賭徒，我要賭一把……９！我選擇讓它的護甲值減少１點。」</p>
+<p class="Dialogue">ＧＭ：「酷，你實際上是怎麼做的？ <sub>22</sub>」</p>
+
+	<div class="Comment">
+		22.<br/>這就是那些機制和敘事咬合在一起的地方之一，也是另一個我喜歡《地城世界》的原因。如果你打算減少某人的護甲值，你就必須告訴我你是怎麼做。我們全都聚集在這裡想像著在另一個世界發生的種種，所以讓我們一起談談那些具體的細節。動作跟遊戲敘實應該要是密不可分的；你不能在遊戲中不解釋它們就採取動作。</div>
+
+<p class="Dialogue">盜賊：「我撬鬆了它的黃銅板，像是，我的刺劍插進它暴露在外的關節，並接著使用我另一隻手握著的匕首卸下一大塊厚殼。」</p>
+<p class="Dialogue">ＧＭ：「聽起來很棒，這一大塊生鏽的黃銅厚殼隨著你俐落的動作脫落，撞在地上發出了一聲響亮的鏗鏘聲。機械人轉過來看向你，它的頭轉了180度，手臂也跟著轉了一圈，因此它正面著你，甚至不需要轉動它的身體。」</p>
+<p class="Dialogue">盜賊：「我知道這情況對我來說很糟糕，但這確實挺酷的。」<p class="Dialogue">
+<p class="Dialogue">ＧＭ：「是啊！它高舉雙臂，上頭還滴著遊俠的鮮血，正準備要狠狠地往你的位置揮下──在此同時，在房間的另一端，那痙攣、幾乎要壞掉的發條機械仍在運作著。它抬起其中一條粗重的腿，瞄準著地上的法師準備用力踩下。」</p>
+<p class="Dialogue">法師：「我要用魔法飛彈轟它！」</p>
+<p class="Dialogue">ＧＭ：「而不是躲開它的踐踏攻擊？」</p>
+<p class="Dialogue">戰士：「我可以〈保衛〉他嗎？這樣他在施法的時候就不會被踩中了？ 」<sub>23</sub></p>
+
+	<div class="Comment">
+		23,<br/>這種狀況經常發生在沒有先攻順序的戰鬥中：玩家的行動會彼此堆疊；它們有時會同時發生、也可能會打斷原本的行動。如果你能駕馭好它們，那就很酷了。對我而言，讓玩家們全都喊出自己採取的行動能讓戰鬥變得更加刺激，就彷彿這是真正的大混戰一樣。你只需要確立它們彼此的優先級，並按照合理的順序依序處理它們就好。</div>
+
+<p class="Dialogue">ＧＭ：「當然可以。擲+體質來〈保衛〉他吧。」</p>
+<p class="Dialogue">戰士：「該死，只有８。我獲得１掌握，然後我要消耗它來減半攻擊造成的傷害。我朝著發條機械踢腳的途徑揮下戰錘，將一部分的衝擊打到一邊。」</p>
+<p class="Dialogue">ＧＭ：「ＯＫ，很好，只有其中的幾下真的踢中了法師，你只因此受到３點傷害。繼續接著施展你的魔法飛彈吧。」</p>
+<p class="Dialogue">法師：「……我骰出了９。法術被成功施放，但我得決定什麼東西出了什麼錯。我要『引來了不必要的注意、或將自己置身危險當中』，魔法飛彈造成了５點傷害，無視護甲。」</p>
+<p class="Dialogue">ＧＭ：「它看起來怎麼樣？這個法術，我是說，它實際上究竟是什麼樣子？」<sub>24</sub></p>
+
+	<div class="Comment">
+		24.<br/>詢問並利用得到的答案！當你描繪場景時，儘管開口詢問任何你想到的小問題，就算是在戰鬥中也一樣──為什麼不呢？</div>
+
+<p class="Dialogue">法師：「它只有寫『純粹的魔法能量』，但我有點把它想像成閃電束那樣的攻擊。」</p>
+<p class="Dialogue">ＧＭ：「太棒了！所以，這台笨重的機械用它那沉重的金屬大腳踐踏著你的身體，你被打得遍體鱗傷，並同時全神貫注在釋放這些閃電激流上。它們成功貫穿了這台發條機械，並把它給徹底炸焦，讓這玩意兒短路，再也無法運作。」</p>
+<p class="Dialogue">法師：「那關於『引來了不必要的注意、或將自己置身危險當中』會是怎麼一回事？」</p>
+<p class="Dialogue">ＧＭ：「對，我差點給忘了。嗯，就在這玩意兒被癱瘓的同時，被方才攻擊勢頭的動能所帶動，它突然開始傾斜，巨大的身體往你的方向轟然倒下。你在被壓扁之前只有數秒的時間可以反應。 <sub>25</sub> 不過現在讓我們把鏡頭再轉回遊俠和盜賊身上，他們包圍夾擊了他們的敵人，但這個機械怪物看起來能夠隨意面向任何方向，且正用帶刃的雙手朝著盜賊砍下。」</p>
+
+	<div class="Comment">
+		25.<br/>當你讀到「引來了不必要的注意、或將自己置身危險當中」時，你第一個想到的情境可能會是角色將要遭受攻擊，但事實並非總是如此。這段文字僅僅意味著某個壞事發生，並導致他們陷入了危險之中。這可以是任何事！</div>
+
+<p class="Dialogue">盜賊：「我要用我的刺劍彈開這個攻擊，然後嘗試把我的匕首插進它暴露在外的機構，就是我剛才把板殼拆掉的那個地方。」</p>
+<p class="Dialogue">ＧＭ：「在我聽起來這是個〈砍劈〉動作，對吧？」</p>
+<p class="Dialogue">盜賊：「……噢不！我骰出４，完全失敗！」</p>
+<p class="Dialogue">ＧＭ：「噢，天啊，看來這玩意兒要比你強多了．你完全沒有辦法擋住它的攻勢。它撞開了你反擊的嘗試，並把雙手的刀刃深深埋入你的手臂……造成７點傷害，且你被釘在了牆壁上。它的刀刃貫穿了你的肩膀，插進牆壁，你哪兒都去不了了。接著，它的頭又轉了過來，面對遊俠。 <sub>26</sub>」</p>
+
+	<div class="Comment">
+		26.<br/>說實話，這整個「機械人的頭部可以迴轉」的設定都是我當場臨時想出來的，就只因為它聽起來很酷。不過，這一切都很公平，因為我在撰寫這個怪物時給了它一個動作：「揭露一個隱藏的功能」。在我使用了這個動作的同時，我也在一邊編造事實！而正因為這個細節，我們也得以在敘事上實現「發條機械人能夠輕鬆地同時面對兩側夾擊的敵人」這件事。</div>
+
+<p class="Dialogue">遊俠：「在它能做任何事情之前，我要放開我的弓，拿出長矛插進它的身體！」</p>
+<p class="Dialogue">ＧＭ：「ＯＫ，這同樣會是個〈砍劈〉動作。這個機械人肯定有能力同時對付你們兩個。」</p>
+<p class="Dialogue">遊俠：「我〈砍劈〉骰出了８，所以我想這代表我們對彼此造成了傷害，對吧？」</p>
+<p class="Dialogue">ＧＭ：「呣呣，要不改成一個艱難抉擇如何？這樣吧；盜賊現在被釘在發條機械人的身後，而你正打算用長矛刺穿它。這台機械的動作很大，但在這麼一瞬間，你抓到了一個能夠看見它內部構造的角度，讓你能夠完全繞開它的裝甲而直接把長矛插進去，但如果你這麼做，你很有可能會讓長矛穿透機械人的身體，並連帶傷害到盜賊。所以你不會受到傷害，但盜賊會。這樣行嗎？」 <sub>27</sub></p>
+
+	<div class="Comment">
+		27.<br/>這個判例是我自己編的，它並沒有被寫在規則上。但這毫無疑問符合整個規則的精神；一個7-9的結果代表著伴隨著代價的成功。我喜歡在這麼做時和玩家們商量，好讓他們有機會拒絕這個不在規則上的判法。確保所有人都達成共識是很重要的。在這個例子中，大家都覺得這樣沒問題，所以我們就這麼做了。</div>
+
+<p class="Dialogue">盜賊：「這樣可以。」</p>
+<p class="Dialogue">遊俠：「好耶，這太棒了。我要上了，７點傷害。」</p>
+<p class="Dialogue">ＧＭ：「ＯＫ，那麼盜賊受到５點傷害。這足夠讓發條機械失去行動能力了。隨著你的長矛貫穿了它，它也終於嘎然而止。現在，這兩台發條機械都報廢了。你們深呼吸，撣去身上的塵土。然而就在這時候，你們聽到了一陣有節奏的碰碰聲。你們意識到這個聲音是來自雙扇門之後。有某個東西正從另一側推撞著大門，嘗試將它們打開……」 <sub>28</sub></p>
+
+	<div class="Comment">
+		28.<br/>我在這裡〈顯現出一個迫近威脅的跡象〉，把冒險推進到下一個事件。</div>
+
+      </div>
+    </div>
+ </div>
+      
+<div id="footer">
+<div class="container">
+   <p class="NoIndent"><a href="http://deepeningdays.com/dungeon-world-html-srd/">地城世界 Dungeon World HTML SRD</a> &copy; 2013，Andrew Codispoti。 <a href="http://dungeon-world.com">Dungeon World</a> 的版權由 Sage Kobold Productions 所有，
+   <br><a href="http://creativecommons.org/licenses/by/3.0/">CC-BY</a>保留部分權利，詳見<a href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/license/">版權頁</a>。</p>
+</div>
+</div>
+
+
+
+    
+    <script src="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/jquery.js"></script>
+    
+    <script src="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $("#sidemenu-topnav").addClass('currentul');
+      $("#sidemenu").prepend("<h3>目錄</h3>");
+      $("h2, h1, .MonsterName, .SpellName, .MagicItem, .ExtraLayer").each(function(i) {
+          var current = $(this);
+          current.attr("id", "title" + i);
+          var tag = current.prop("tagName");
+          
+          var link_text = current.html();
+          if(current.context.className=="MonsterName" || current.context.className=="SpellName"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+          }
+          if(current.context.className=="MagicItem"){
+            link_text = link_text.replace(/\<span class=\"Tags\"\>.*\<\/span\>/g, "");
+            link_text = " - "+link_text;
+          }
+
+          
+          const eng_text = link_text.match(/\((.*)\)/)? link_text.match(/\((.*)\)/)[1]: link_text;
+          link_text = link_text.replace(/\(.*\)/, "");
+
+          if(current.context.className=="ExtraLayer"){
+            link_text = " - - "+link_text;
+          }
+          else if(tag=="H2" || tag=="H3"){
+            link_text = " - "+link_text;
+          }
+          
+
+
+          
+
+          current.addClass('anchor');
+
+          var link_html = `<li class='currentli ${tag=="H1"? "headli": ""}'><a id='link${i}' href='#title${i}' title='${eng_text}'>${link_text}</a></li>`;
+          $("ul.currentul").append( link_html );
+      });
+      $(".Tags").each(function(i) {
+        var current = $(this);
+        var tags_arr = current.html().split(", ");
+        current.html(""+tags_arr.map(function(tag){
+            var className = "";
+            tag = tag.trim();
+            if(isRangeTag(tag))         className = "red";
+            if(isSizeTag(tag))          className = "green";
+            if(isOrganizationTag(tag))  className = "blue";
+            if(isSpellLevelTag(tag))    className = "purple";
+            return `<tag class="${className}">${tag}</tag>`;
+          }).join(" "));
+      });
+      $("#names p").each(function(i) {
+        var names_match = $(this).html().match(/(.+\: )?(.+)/);
+        if( names_match == null || names_match.length<3 ) return ;
+        
+        var names_head = names_match[1]? names_match[1]: "";
+        var names_arr = names_match[2].split(", ").map(context => {
+          const name_match = context.match(/(.+)\(([\w-’ ]+)\)/);
+          return name_match? `<n title="${name_match[2]}">${name_match[1]}</n>`: context;
+        });
+
+        $(this).html(names_head + names_arr.join(", "));
+      });
+
+      function isSpellLevelTag(tag){
+        return (tag.match(/等級 \d+|禱念|戲法|Level \d+|Rote|Cantrip/))? true: false;
+      }
+      function isRangeTag(tag){
+        return (tag.match(/觸及|近身|及遠|短程|遠程|Hand|Close|Reach|Near|Far/))? true: false;
+      }
+      function isSizeTag(tag){
+        return (tag.match(/微型|小型|大型|巨型|Tiny|Small|Large|Huge/))? true: false;
+      }
+      function isOrganizationTag(tag){
+        return (tag.match(/成群|集團|單獨|Horde|Group|Solitary/))? true: false;
+      }
+    </script>
+  </body>
+</html>
