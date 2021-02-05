@@ -264,6 +264,12 @@ sub{
   line-height: 1.3em;
 }
 
+.customNavItem.dwg {
+  background-color: #d2e2fb;
+}
+.customNavItem.otherclass {
+  background-color: #c4ead1;
+}
 
 @media only screen and (max-width: 600px) {
   nav#sidemenu {

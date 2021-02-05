@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="tw">
   <head>
-  <title>燔祭者 | 地城世界 HTML SRD</title>
+  <title>烙印者 | 地城世界 HTML SRD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://hazmole.github.io/Dungeon-World-HTML-SRD-release/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -126,12 +126,24 @@
     <div class="container">
       <div class="col-md-8 inner-container">
         
-<h1>燔祭者</h1>
-<div id="intro"></div>
+<p class="NoIndent" style="color:#777; font-size: 0.8em;margin:1em 0 2.5em 0;border:1px solid black;padding:5px;">
+	本職業為玩家社群為優化SRD「燔祭者」而撰寫的職業，並不屬於原本SRD的一部份。使用前請先徵得ＧＭ的同意。<br/>
+	本文件的內容採用 創用CC BY 3.0 授權條款。作者為 C.Burns (Muggins, CptMuddles)<br/>
+<a href="https://drive.google.com/file/d/0B5QwSWtVJRKsY3MzTmV0Q180ams/view">原文連結</a></p>
+
+<h1>烙印者</h1>
+<div id="intro"><p class="NoIndent">有些人同愚者一樣向諸神祈求力量；有些人被聰明所誤，尋求書本的知識；有些人，則仍兀自鍛鍊著他們的口舌或刀劍。但你並非如此。你透過另一種方式發掘了力量，一股帶著烈火與苦痛的力量。你做出了犧牲，就在該時，該地，你無償的付出，並換取了那超越凡人的力量。</p>
+<p>而那感覺是如此，如此美妙。</p>
+<p>如今，你是不可預測。你是那不受拘束的狂火，燃燒激情，並在你身後留下毀滅。每個人都能感受到這股烈火，你的火焰也點燃了他們心中的熾焰。你使新結交的冒險夥伴們充滿狂熱，也燦爛了每個有幸與你相遇的鄉佬或少女的人生。你從未感覺自己如此鮮明地活著！就算麻煩動亂緊隨著你又如何？正因如此，才更應該活得充實，不是嗎？
+</p>
+<p>活得快，死得早，確保你不是那個要留下來收拾殘局的傢伙。</p></div>
 <hr/>
 <h2>名稱</h2>
-<div id="names"><p class="NoIndent"><b>人類</b>: 所羅門(Solomon), 提摩太(Timothy), 卡利爾(Kalil), 歐夢(Omen), 約翰(Yohn), 彥(Hiko), 阿伽什(Agasha), 伊莉莎白(Elizabeth), 哈拉爾(Harald), 法蒂雅(Fatia), 卡爾瓦(Khalwa), 埃德(Adur), 伊格尼斯(Ignis), 雅吉納(Yajna), 烏姆利洛(Umlilo)</p>
-<p class="NoIndent"><b>沙拉曼達</b>: 硫心(Sulfurheart), 焰行者(Flamewalker), 燼睫(Emberlash), 煤灰爪(Cinderclaw), 炭焦魔(Charfiend), 忿脂蠟(Bittertallow), 塚熾燦(Barrowblaze), 灼焦刻(Singescale), 燭芯(Candlewick), 炭牙(Coalfang)</p></div>
+<div id="names">
+	<p class="NoIndent"><b>人類</b>: 所羅門(Solomon), 法蒂雅(Fatia), 卡利爾(Kalil), 歐夢(Omen), 彥(Hiko), 阿伽什(Agasha), 伊莉莎白(Elizabeth), 埃德(Adur), 伊格尼斯(Ignis), 雅吉納(Yajna), 烏姆利洛(Umlilo)</p>
+	<p class="NoIndent"><b>矮人</b>: Higar, Egdorn, Faldin, Breski, Niona, Odenil, Agar, Kilkarn, Gremma</p></div>
+	<p class="NoIndent"><b>半身人</b>: Leoric, Barlow, Finley, Hart, Weasley, Mallory, Kellen, Clement, Prynne</p>
+	<p class="NoIndent"><b>精靈</b>: Beldaril, Elsenwyn, Kithduin, Isilmwe, Haeralos, Ostranor, Gemenalle, Sorosthrine, Pelenash</p>
 <hr/>
 <h2>外觀</h2>
 <div id="look"><p class="InstructionsAfterHeader">從每列中各自選擇一項：</p>
@@ -146,56 +158,61 @@
 <p class="NoIndent">將以下數值分配到你的屬性上: 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)</p>
 <hr/>
 <h2>起始動作</h2>
-<div id="startingmoves"><p class="InstructionsAfterHeader">選擇一個種族並獲得相應的動作：</p>
+<div id="startingmoves"><p class="InstructionsAfterHeader">選擇一個種族：</p>
 <div id="racialmoves">
-<div class="Move"><h3 class="MoveName">人類</h3>
+<div class="Move"><h3 class="MoveName">沐浴烈火 (Touched by Flame)</h3>
 <p class="NoIndent">
-	當你在一團巨大無遮蓋的火焰旁進行紮營動作時，恢復你全部的生命值。</p></div>
-<div class="Move"><h3 class="MoveName">沙拉曼達</h3>
-<p class="NoIndent">
-	非魔法的高熱和火焰無法傷害你。</p></div></div>
+	你可能是精靈、矮人、半身人或人類，但你的靈魂早已被火焰所浸沒。告訴ＧＭ你向火焰犧牲了什麼，而作為回報，非魔法的高熱和火焰無法傷害你。</p></div></div>
 
 <div id="classmoves"><p class="Instructions">你起始還擁有以下動作：</p>
-<div class="Move"><div id="BornoftheSoil"><h3 class="BasicMoveName">燃燒之劍 (Burning Brand)</h3>
+<div class="Move"><h3 class="BasicMoveName">熾焰之劍 (Firebrand)</h3>
 <p class="NoIndent">
 	當你<strong>召喚出一把由純粹火焰構成的武器</strong>時，擲+體質：<br/>
 	✴擲出10+時，從下列標籤中選擇二項。<br/>
 	✴擲出7-9時，從中選擇一項。<br/>
-	你在使用這把武器進行攻擊時，可以使用你的智力來取代你的力量或敏捷。這把武器起始帶有<tag>烈焰</tag><tag>接觸</tag><tag>危險</tag>和<tag>3 使用次數</tag>標籤。每次你使用這把武器攻擊時，它都會消耗一次使用次數。</p>
+	✴擲出失敗時，你無法選擇額外的標籤，且ＧＭ會告訴你一個因你魯莽行為而導致的後果。</p>
+<p class="NoIndent">你在使用這把武器進行攻擊時，可以使用你的敏捷來取代你的力量。
+這把武器起始帶有<tag>烈焰</tag><tag class="red">觸及</tag><tag>危險</tag>標籤，且會持續存在直到你不再需要它。</p>
 <ul>
-<li style="margin:5px 0;"><tag class="red">觸及</tag></li>
+<li style="margin:5px 0;"><tag class="red">近身</tag></li>
 <li style="margin:5px 0;"><tag>投擲</tag> <tag class="red">短程</tag></li>
 <li style="margin:5px 0;"><tag>+1 傷害</tag></li>
-<li style="margin:5px 0;">移除 <tag>危險</tag> 標籤</li></ul></div></div>
+<li style="margin:5px 0;">移除 <tag>危險</tag> 標籤</li></ul></div>
 
-<div class="Move"><div id="ByNatureSustained"><h3 class="BasicMoveName">以火攻火 (Fighting Fire With Fire)</h3>
+<div class="Move"><h3 class="BasicMoveName">火葬燃油 (Fuel for the Pyre)</h3>
 <p class="NoIndent">
-	當你受到傷害時，且該傷害為奇數（在扣除護甲值後），則你體內的烈焰將湧現並助你一臂之力。擲 1d4，將其擲骰結果加到你燃燒之劍的使用次數上（若有）、讓你在下次召喚燃燒之劍時的擲骰獲得等量的加值、或減少等同該數值的傷害，由你決定。</p></div></div>
+	當你<strong>在未穿戴任何防具或盾牌的情況下受到傷害</strong>時，你體內的烈焰將湧現並助你一臂之力。你獲得１燃油。你可以在任何時候消耗１燃油以：</p>
+<ul>
+<li>回復 1d4 生命值</li>
+<li>獲得下次召喚熾焰之劍時+1</li>
+<li>獲得下次你的傷害骰+1d4</li></ul>
+<p class="NoIndent">你所擁有的燃油將在你接受任何燃油以外的治療時被歸零。</p></div>
 
-<div class="Move"><div id="SpiritTongue"><h3 class="BasicMoveName">振火神通 (Zuko Style)</h3>
+<div class="Move"><h3 class="BasicMoveName">振火神通 (Zuko Style)</h3>
 <p class="NoIndent">
 	當你<strong>讓烈焰屈服於你的意志</strong>時，擲+睿知：<br/>
 	✴擲出10+時，只要仍有足夠的燃料讓火焰燃燒，它就會照你的命令行事，按你所想的變化外型和移動。<br/>
-	✴擲出7-9時，這個效果相當短暫，只會持續片刻。</p></div></div>
+	✴擲出7-9時，這個效果相當短暫，只會持續片刻。<br/>
+	✴擲出失敗時，它將按它自己的意志肆虐失控。</p></div>
 
-<div class="Move"><div id="Shapeshifter"><h3 class="BasicMoveName">予我燃油，予我烈火 (Give Me Fuel, Give me Fire)</h3>
+<div class="Move"><h3 class="BasicMoveName">予我燃油，予我烈火 (Give Me Fuel, Give me Fire)</h3>
 <p class="NoIndent">
 	當你<strong>緊緊凝視著某人的雙眼</strong>時，你可以向他的玩家詢問：「什麼是你慾望之炎的燃料？」。他們將會回答你事實，就算該角色不知道或打算將其隱藏起來也一樣。</p></div></div>
 
-<div class="Move"><div id="StudiedEssence"><h3 class="BasicMoveName">徒手鎔鑄 (Hand Crafted)</h3>
-<p class="NoIndent">
-	你可以使用你的雙手取代工具和火焰來鍛造金屬物品。所有平凡的武器、防具、和金屬首飾都能透過這個方式從其原料鍛造而成。你也可以用同樣的方式使它們毀壞還原，但若你沒有足夠的時間或不在安全場所，則你可能會需要先進行面對危險的動作。</p></div></div></div></div>
-<hr/>
 
 <h2>陣營</h2>
 <p class="InstructionsAfterHeader">選擇一個陣營：</p>
 <div id="alignment">
 <div class="Move"><h3 class="MoveName">邪惡</h3>
-<p class="NoIndent">將非自願的犧牲者獻祭給火焰。</p></div>
+<p class="NoIndent">把一個無辜的犧牲者獻祭給火焰。</p></div>
 <div class="Move"><h3 class="MoveName">混亂</h3>
 <p class="NoIndent">散佈危險的新思想。</p></div>
 <div class="Move"><h3 class="MoveName">中立</h3>
-<p class="NoIndent">以無償的犧牲換取一項服務。</p></div></div>
+<p class="NoIndent">為了自己的利益不顧風險魯莽行事。</p></div>
+<div class="Move"><h3 class="MoveName">守序</h3>
+<p class="NoIndent">透過無償的犧牲奉獻來換取一項服務。</p></div>
+<div class="Move"><h3 class="MoveName">善良</h3>
+<p class="NoIndent">為了幫助有需要的人而做出犧牲或冒險。</p></div></div>
 <hr/>
 
 <h2>裝備</h2>
@@ -212,9 +229,10 @@
 
 <h2>羈絆</h2>
 <div id="bonds"><p class="NoIndent">在至少一個欄位中填入你其中一名同伴的名字：</p>
-<p>____________________ 曾感受過地獄烈火，現在他知道了我所擁有的力量。</p>
-<p>我會教導 ______________ 關於犧牲的真正含意。</p>
-<p>我曾為了 ______________ 將某些東西扔進火中，且仍然欠他他所應得的事物。</p></div>
+<p>______________ 曾感受過我體內烈火的煉獄之觸，現在他知道了我所擁有的力量。</p>
+<p>我會教導 ______________ 關於犧牲的真正意含。他什麼都不懂。</p>
+<p>我曾為了 ______________ 將某些東西扔進火中，我將取回我所應得的。</p>
+<p>______________ 真是個守舊的老古板；該由我來教導他如何享樂了。</p></div>
 <hr/>
 
 <h2>進階動作</h2>
@@ -228,75 +246,89 @@
 	✴擲出7-9時，GM只會告訴你大致的印象。</p>
 <p class="NoIndent">如果你已經知道了所有該知道的情報，GM也會把這件事告訴你。</p></div>
 
-<div class="Move"><h3 class="MoveName">熾焰加倍燦爛 (Burns Twice as Bright)</h3>
+<div class="Move"><h3 class="MoveName">加倍燦爛，半減長息 (Twice as Bright, Half as Long)</h3>
 <p class="NoIndent">
-	當你引導命運之火時，你可以將一次失敗的擲骰結果視作7-9的結果、或將一次7-9的擲骰結果視作10+。這個效果可以用在你或其他角色進行的擲骰上。告訴GM你將因此失去什麼：一種情感、一段記憶、或某個你天生就擁有的事物。直到你進行 灼燃半減長息 動作之前，你都不能再次使用這個動作。</p></div>
+	當你<strong>引導命運之火</strong>時，你可以將自己失敗的擲骰結果視作7-9的結果、或將一次7-9的擲骰結果視作10+。告訴GM你將因此失去什麼：一種情感、一段記憶、或某個你與生俱來的事物。它將在當下立刻永遠的失去。命運之火同時也將向你提出一項要求，或大或小（ＧＭ會告訴你那是什麼）。直到你滿足命運之火的願望之前，你都不能再使用這個能力，且沒能滿足這個願望將會導致可怕的後果。</p></div>
 
-<div class="Move"><h3 class="MoveName">灼燃半減長息 (Burns Half as Long)</h3>
-<p>
-	你在獲得 熾焰加倍燦爛 動作的同時也一併獲得這個動作。</p>
+<div class="Move"><h3 class="MoveName">永不止熄 (Inextinguishable)</h3>
 <p class="NoIndent">
-	當你將勝利奉獻給命運之炎時，將任何10+的擲骰結果視作失敗。</p></div>
+	當你使用 熾焰之劍 召喚由純粹火焰構成的武器時，你可以額外選擇一個標籤。即使你擲出 6- 也一樣。</p></div>
 
 <div class="Move"><h3 class="MoveName">殺戮之火 (This Killing Fire)</h3>
 <p class="NoIndent">
-	將下列標籤添加到你 燃燒之劍 動作的選項中：<tag>毀亂</tag>、<tag>強力</tag>、<tag class="red">及遠</tag>、<tag class="red">短程</tag>、<tag class="red">遠程</tag>。</p></div>
-
-<div class="Move"><h3 class="MoveName">煽動者 (Firebrand)</h3>
-<p class="NoIndent">
-	當你<strong>對一個NPC說明一個嶄新的想法</strong>時，擲+魅力：<br/>
-	✴擲出10+時，他將相信這是他自己的想法，並對它充滿熱情。<br/>
-	✴擲出7-9時，他的激情只會持續一到二天。<br/>
-	✴擲出失敗時，他將表現出消極的反應，並公然反對這個想法。</p></div>
+	當你使用 熾焰之劍 召喚由純粹火焰構成的武器時，將下列標籤加入你的選項中：<br/>
+	<tag>毀亂</tag>、<tag>強力</tag>、<tag class="red">及遠</tag>、<tag class="red">短程</tag>、<tag class="red">遠程</tag>。</p></div>
 
 <div class="Move"><h3 class="MoveName">奥古·桀哈 (Ogdru Jahad)</h3>
 <p class="NoIndent">
-	獲得法師職業動作中的儀式動作。GM永遠會告知你需要犧牲什麼東西才能獲得你想要的效果。</p></div>
+	當你<strong>在一處充滿高熱和烈火之地繪製法陣</strong>時，告訴GM你想要達成什麼樣的效果。所有效果都是有可能實現的，但GM會告訴你必須先犧牲獻祭什麼東西才能獲得你所期望的效果，並告訴你下列一到四項：</p>
+<ul>
+	<li>這將需要花上數天／數周／數月的時間</li>
+	<li>首先你必須要 ____</li>
+	<li>你需要得到來自 ____ 的幫助</li>
+	<li>這將需要大量的金錢</li>
+	<li>你最多只能達成一個較差的版本，不可靠且效果有限</li>
+	<li>你和你的同伴將需要冒著 ____ 的風險</li>
+	<li>你需要驅除 ____ 的魔法效果才能做到。</li></ul></div>
 
 <div class="Move"><h3 class="MoveName">飛蛾撲火 (Moth to the Flame)</h3>
 <p class="NoIndent">
-	當你<strong>利用你心中的火焰誘惑軟弱的心靈</strong>時，擲+睿知：<br/>
-	✴擲出10+時，他們的自我意志將被抑制。只要他們沒有受到驚嚇或吃驚，他們就會持續跟隨你，並按照你所希望的去做。<br/>
-	✴擲出7-9時，這個效果的強度只剛好足夠讓他們分神或被迷惑。<br/>
-	✴擲出失敗時，他們將變得焦躁心煩。你的火焰點燃了他們內心隱藏的渴望。</p></div>
+	當你<strong>誘惑一個軟弱的心靈</strong>時，擲+魅力：<br/>
+	✴擲出10+時，他的自我意志被抑制。只要他沒有受到驚嚇或吃驚，他就會並按照你的命令行事。<br/>
+	✴擲出7-9時，這個效果的強度只剛好足夠讓他分神或被迷惑。<br/>
+	✴擲出失敗時，你的引誘造成了相反的效果，他將變得焦躁心煩、警惕、或不信任你。</p></div>
 
-<div class="Move"><h3 class="MoveName">自斷後路 (Burning Bridges)</h3>
+<div class="Move"><h3 class="MoveName">自焚後路 (Burning Bridges)</h3>
 <p class="NoIndent">
-	當你將要進行臨死一息時，你可以改為消除你的其中一個羈絆。這將使其被永遠消除，並永久減少你總共所能擁有的羈絆數量。你將活過來並恢復 1d6 生命值。若你沒有任何的羈絆，則你如常進行臨死一息的擲骰。</p></div>
+	你在〈臨死一息〉的擲骰中獲得持續+1。當你在進行〈臨死一息〉動作時擲出7-9，你可以向死神犧牲獻祭某個你與生俱來且相當重要的東西，而不是你永恆的靈魂。若死神接受了，則祂將會讓你復活。若否，則你就此死亡。</p></div>
 
-<div class="Move"><h3 class="MoveName">啟燃者 (The Enkindler)</h3>
+<div class="Move"><h3 class="MoveName">啟燃者 (Firestarter)</h3>
 <p class="NoIndent">
-	當你<strong>鼓舞激起他人心中的勇氣</strong>時，擲+魅力：<br/>
-	✴擲出10+時，他們擺脫了心中所有的恐懼和疑慮，瞬間變得英勇無比。<br/>
-	✴擲出7-9時，這個效果轉瞬即逝，他們將意識到它的膚淺，並在一兩分鐘後退縮。<br/>
-	✴擲出失敗時，他們將因你的存在而感到威脅或懼怕。</p></div>
+	當你<strong>鼓舞激起他人心中的熱忱</strong>時，擲+魅力：<br/>
+	✴擲出10+時，他們擺脫了心中所有的恐懼和疑慮，並帶著熱情去追求他們的目標。<br/>
+	✴擲出7-9時，這個效果轉瞬即逝。<br/>
+	✴擲出失敗時，向ＧＭ詢問你究竟喚醒了他們心中什麼樣的毀滅慾望。</p></div>
 
-<div class="Move"><h3 class="MoveName">炎上嘲弄 (Sick Burn)</h3>
+<div class="Move"><h3 class="MoveName">燒毀房舍 (Burn Down the House)</h3>
 <p class="NoIndent">
-	當你<strong>侮辱一名NPC</strong>時，擲+魅力：<br/>
-	✴擲出10+時，你完全沒給他們任何反應的空間，他們將承受你的侮辱和所有聽眾的輕蔑嘲笑。<br/>
-	✴擲出7-9時，你越過了界限。他們總有一天會展開報復。<br/>
-	✴擲出失敗時，你太超過了，且他們將當場發飆。</p></div>
+	當你進行 歡宴暢飲 動作時，你擲+魅力來取代花費任何金幣。若當地已經有正在舉辦的集會，則你可以在沒有凱旋而歸的情況下進行 歡宴暢飲 動作。</p></div>
+
+<div class="Move"><h3 class="MoveName">莽勇戰士 (Reckless Fighter)</h3>
+<p class="NoIndent">
+	當你在 砍劈 動作中擲出10+，並選擇將自己暴露在敵人的攻擊之下，你造成+2d4傷害而非原本的+1d6。</p></div>
 
 <p class="Instructions">當你的等級升至6~10，從下列動作或等級2~5的動作中選擇：</p>
+
+<div class="Move"><h3 class="MoveName">搧風點火 (Fanning the Flames)</h3>
+<p class="NoIndent">
+	當你煽動一群暴民陷入狂熱時，擲+魅力：<br/>
+	✴擲出10+時，獲得 3掌握。<br/>
+	✴擲出7-9時，獲得 1掌握。</p>
+<p class="NoIndent">你可以消耗每掌握 1掌握以從下列選擇一項，使這群暴民：</p><ul>
+<li>將某人或某物帶來給你。</li>
+<li>團結起來為你而戰。</li>
+<li>被你所選擇的一種感情或慾望所充斥；恐懼、情慾、憤怒、後悔、或諸如此類。</li>
+<li>安靜地回到他們原本的生活中。</li></ul>
+
+✴擲出失敗時，這群暴民將把矛頭轉向你。
+</p></div>
 
 <div class="Move"><h3 class="MoveName">源自地獄之心 (From Hell’s Heart)</h3>
 <p class="NoIndent">
 	每當你使用你的任何一個動作召喚出火焰時，你可以用來自地獄本身的黑色火焰來代替它。這種火焰並不會釋放出熱量，它<tag>無視護甲</tag>，且會灼燒靈魂本身。那些沒有靈魂的生物並不會受到這種火焰的傷害。</p></div>
 
-<div class="Move"><h3 class="MoveName">燃焰之環 (Burning Ring of Fire)</h3>
+<div class="Move"><h3 class="MoveName">以火攻火 (Fighting Fire with Fire)</h3>
 <p class="NoIndent">
-	當你<strong>將一名自願者的靈魂與你融為一體</strong>時，擲+魅力：<br/>
-	✴擲出成功時，你們的靈魂聯繫在一起，無論相隔多遠都能感應到彼此，並能分享彼此的情緒狀態。<br/>
-	✴擲出7-9時，這道聯繫不穩定且危險，當你承受異常狀態時，對方也將承受該異常狀態（反之亦然）。<br/>
-	✴擲出失敗時，這道烙印在靈魂的連繫將被拒絕，且你們都必須消除所有對彼此的羈絆。你仍然可以在聚會結束時如常寫下對彼此的新羈絆。</p>
-<p class="NoIndent">
-	這個融合狀態一旦被完成，就無法再透過任何凡俗手段被解除。</p></div>
+	當你消耗 火葬燃油 動作的燃油時，你使用 1d6 來取代原本的1d4，使用 +2 取代原本的 +1。</p></div>
 
-<div class="Move"><h3 class="MoveName">搧風點火 (Fanning the Flames)</h3>
-<p class="Requirement">需求: 煽動者</p>
+<div class="Move"><h3 class="MoveName">沙羅曼蛇 (Salamander)</h3>
 <p class="NoIndent">
-	你可以將你 煽動者 動作的效果同時運用在一群人（十數人左右）身上。</p></div>
+	當你在一團巨大無遮蓋的火焰旁進行 紮營 動作時，你可以選擇恢復你全部的生命值、或是移除一項你所選擇的異常狀態。</p></div>
+
+<div class="Move"><h3 class="MoveName">不屈戰士 (Relentless Fighter)</h3>
+<p class="Requirement">取代: 莽勇戰士</p>
+<p class="NoIndent">
+	當你在 砍劈 動作中擲出10+，並選擇將自己暴露在敵人的攻擊之下，你造成+2d4傷害而非原本的+1d6，且你凌厲的攻擊使他們措手不及；告訴ＧＭ你是怎麼做的，以及他們為何措手不及。</p></div>
 
 <div class="Move"><h3 class="MoveName">看這世界陷入火海 (Watch the World Burn)</h3>
 <p class="NoIndent">
@@ -305,6 +337,23 @@
 	✴擲出7-9時，大火肆虐，脫離了你的控制，並藉著狂風和天候向四處蔓延擴散。<br/>
 	✴擲出失敗時，某個殘虐、有智慧能力、且飢餓的存在從烈焰風暴中降臨。</p></div></div>
 
+<div class="Move"><h3 class="MoveName">派對狂魔 (Party Fiend)</h3>
+<p class="Requirement">需求: 燒毀房舍</p>
+<p class="NoIndent">
+	當你 歡宴暢飲 時，從列表中額外選擇一項，即使你骰出6-也一樣。此外，將下列選項加入列表中：</p><ul>
+	<li>某個重要人士現在欠了你一份人情。</li></ul>
+</div>
+
+<div class="Move"><h3 class="MoveName">看見真心 (See the Heart)</h3>
+<p class="NoIndent">
+	當你<strong>凝視火源，追尋關於你所知道的某人的真實</strong>時，擲+睿知：<br/>
+	✴擲出10+時，詢問 3項。<br/>
+	✴擲出7-9時，詢問 1項。<br/>
+	✴擲出失敗時，你仍然可以詢問 1項，但你不會喜歡這個問題的答案。</p><ul>
+<li>他過得如何？他最近怎麼樣？</li>
+<li>他最熟知、喜愛、和／或信任的人是誰？</li>
+<li>我可以預期下次什麼時候見到他？</li>
+<li>我要如何使他難受，肉體上或情緒上的？</li></ul></div>
       </div>
     </div>
  </div>
